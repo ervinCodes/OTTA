@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OTTA</title>
+    <!-- Core theme TailwindCSS-->
+    <link rel="stylesheet" href="./css/output.css" />
+    <!-- Core theme CSS-->
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+
+  <!-- If you want to change the primary color from green to something else. Change it with the tailwind.config.js in the Project Root Folder -->
+
+  <body class="">
+    <!-- Responsive navbar-->
+    <nav
+      class="flex flex-col bg-white sm:flex-row flex-wrap md:items-center fixed top-0 z-20 w-full px-4 md:px-5 lg:px-16 py-2 justify-between"
+    >
+      <div
+        class="flex justify-between sm:justify-around gap-x-2 items-center"
+      >
+        <!-- Link To Direct to Home Page -->
+        <!-- This can be a logo or a simple text (or both). Just write it in-between the anchor tag below-->
+        <a href="#!" class="text-2xl py-1 flex items-center">
+          One Team Talent Agency
+        </a>
+
+        <!-- Hamburger -->
+        <button
+          class="sm:hidden cursor-pointer flex flex-col justify-center gap-y-1"
+          id="hamburger"
+          aria-label="menu"
+        >
+          <div class="w-6 h-1 bar bg-white rounded-lg duration-500"></div>
+          <div class="w-6 h-1 bar bg-white rounded-lg duration-500"></div>
+          <div class="w-6 h-1 bar bg-white rounded-lg duration-500"></div>
+        </button>
+      </div>
+
+      <ul
+        class="hidden sm:flex justify-end items-center gap-x-7 gap-y-5 mt-5 sm:mt-0"
+        id="links"
+      >
+        <li class="">
+          <a href="#!" class="hover:text-gray-300">Home</a>
+        </li>
+        <li class="">
+          <a href="" class="hover:text-gray-300">Link</a>
+        </li>
+        <li class="">
+          <a href="" class="hover:text-gray-300">Link</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Page Content -->
+    <main class="bg-black">
+      <!-- Header -->
+      <section
+        class="h-[650px] bg-[url('/public/images/HEADER.png')] bg-cover bg-center header"
+      >
+        <!-- Flex Container -->
+        <div class="flex items-end h-full lg:justify-start xs:justify-center lg:w-5/6 pl-5">
+          <h1
+          class="text-3xl md:text-4xl lg:text-5xl pb-7 text-white font-bold text-center lg:text-left drop-shadow-lg"
+          >
+          Designed to streamline,
+          <p>simplify & support the</p>
+          <p>hiring of Production Accounting </p>
+          <p>Teams in Film & Television!</p>
+        </h1>
+        </div>
+      </section>
+
+      <!-- Section 2 -->
+      <section class="bg-neutral-900">
+        <div class="mx-10 lg:mx-16 py-16 gap-6">
+          <!-- Flex Container -->
+          <ul class="flex flex-row flex-wrap text-center text-white justify-around">
+            <li class="uppercase"><span class="text-2xl font-bold">Locate</span> qualified & available talent</li>
+            <li class="uppercase"><span class="text-2xl font-bold">Streamline</span> hiring process</li>
+            <li class="uppercase"><span class="text-2xl font-bold">Recognize</span> a job well done</li>
+            <li class="uppercase"><span class="text-2xl font-bold">Advocate</span> for competitive rates</li>
+          </ul>
+          <ul class="flex flex-row flex-wrap text-center text-white justify-around">
+            <li class="uppercase"><span class="text-2xl font-bold">Foster</span> equity, diversity & inclusion</li>
+            <li class="uppercase"><span class="text-2xl font-bold">Demonstrate</span> respect</li>
+            <li class="uppercase"><span class="text-2xl font-bold">Encourage</span> progression</li>
+            <li class="uppercase"><span class="text-2xl font-bold">Promote</span> teamwork</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Text Box #1-->
+      <section class="bg-neutral-900 text-white pt-10 pb-3 lg:pt-20">
+        <!-- Flex Container -->
+        <div
+          class="lg:grid lg:grid-cols-2 flex flex-row flex-wrap items-center justify-between gap-y-8 gap-x-7 mx-10"
+        >
+          <!-- Image -->
+          <div class="flex-auto sm:col-span-2 lg:col-span-1">
+            <img class="object-scale-down" src="/public/images/lights.jpg" />
+          </div>
+          <!-- Text Container -->
+          <div
+            class="flex flex-col text-center flex-auto sm:col-span-2 lg:col-span-1 gap-4"
+          >
+            <!-- Header -->
+            <h2 class="text-3xl font-bold"></h2>
+            <!-- Text -->
+            <p class="text-2xl">
+              We've designed a system that automates the search for qualified
+              and available members... and a process that leads to accumulating
+              verified, reliable, and measurable data that can be used to link
+              compensation to performance!
+            </p>
+            <!-- Button -->
+            <div class="my-16">
+              <a
+                href="#"
+                class="p-3 px-6 pt-2 bg-white text-black rounded-full baseline hover:bg-zinc-400"
+              >
+                Learn More
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Text Box #2 -->
+      <section class="bg-neutral-900 text-white pt-10 lg:pt-20">
+        <!-- Flex Container -->
+        <div
+          class="lg:grid lg:grid-cols-2 flex flex-row flex-wrap xs:flex-col-reverse items-center justify-between gap-y-8 gap-x-7 mx-10"
+        >
+          <!-- Text Container -->
+          <div
+            class="flex flex-col text-center flex-auto sm:col-span-2 lg:col-span-1 gap-4"
+          >
+            <!-- Header -->
+            <h2 class="text-4xl font-bold">
+              We didn't ask ourselves
+              <span class="font-bold italic"
+                >"how can the hiring process be improved?"</span
+              >
+            </h2>
+            <!-- Text -->
+            <p class="text-2xl">
+              We looked at some of the most challenging issues we are
+              experiencing in Production Accounting. Like locating, hiring,
+              managing and retaining our Production Accounting Teams and asked
+              instead,
+              <span class="font-bold italic"
+                >"how can this be SOLVED?"</span
+              >
+            </p>
+            <!-- Button -->
+            <div class="my-16">
+              <a
+                href="#"
+                class="p-3 px-6 pt-2 bg-white text-black rounded-full baseline hover:bg-zinc-400"
+              >
+                Learn More
+              </a>
+            </div>
+          </div>
+          <!-- Image -->
+          <div class="flex-auto sm:col-span-2 lg:col-span-1">
+            <img class="object-scale-down" src="/public/images/set.jpg" />
+          </div>
+        </div>
+      </section>
+
+      <!-- Logo -->
+      <!-- <section
+        class="bg-white text-white pt-10 pb-3 lg:pt-20 h-48 bg-[url('/public/images/logo.png')] bg-contain bg-repeat pt-10 lg:pt-20"
+      ></section> -->
+
+      <!-- Quote -->
+      <section
+        class="bg-neutral-900 text-white lg:pt-20 h-[300px]"
+      >
+      <!-- Flex Container -->
+      <div class="flex flex-col items-center text-center mx-auto w-1/2 justify-center">
+        <h1 class="text-3xl italic">
+          "OTTA offers ONE PLACE for ALL of Production Accounting: Union,
+          Non-Affiliates, Non-Union or Entry-Level...WE NEED YOU ALL!!!"
+        </h1>
+        <p class="pt-5">-Kathy F.</p>
+      </div>
+      </section>
+
+      <!-- Video -->
+      <section class="grid grid-cols-1 bg-white py-10">
+        <div class="flex flex-col justify-center text-center gap-4 lg:mx-60 sm:mx-10">
+          <h2 class="text-3xl font-bold">Video</h2>
+          <img class="object-scale-down" src="/public/images/video.jpg" />
+
+      </section>
+
+      <!-- Text Box #3 -->
+      <section class="bg-neutral-900 text-white pt-10 pb-3 lg:pt-20">
+        <!-- Flex Container -->
+        <div
+          class="lg:grid lg:grid-cols-2 flex flex-row flex-wrap items-center justify-between gap-y-8 gap-x-7 mx-10"
+        >
+          <!-- Image -->
+          <div class="flex-auto sm:col-span-2 lg:col-span-1">
+            <img class="object-scale-down" src="/public/images/production1.jpg" />
+          </div>
+          <!-- Text Container -->
+          <div
+            class="flex flex-col text-center flex-auto sm:col-span-2 lg:col-span-1 gap-4"
+          >
+            <!-- Header -->
+            <h2 class="text-3xl font-bold"></h2>
+            <!-- Text -->
+            <p class="text-2xl">
+              <span class="font-bold">To our Employers:</span> once you've decided to to utilize our services... your credentials will grant you access to our system where you submit your 'Job Requests'.
+              
+              This is when OTTA's system goes to work for you - automatically pulling BETTER resumes for qualified and available Production Accountants and Assistants that match your specifications.  Then our system automatically forwards emails containing your resumes.
+            </p>
+            <!-- Button -->
+            <div class="my-16">
+              <a
+                href="#"
+                class="p-3 px-6 pt-2 bg-white text-black rounded-full baseline hover:bg-zinc-400"
+              >
+                Learn More
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Text Box #4 -->
+      <section class="bg-neutral-900 text-white pt-10 pb-10 lg:pt-20">
+        <!-- Flex Container -->
+        <div
+          class="lg:grid lg:grid-cols-2 flex flex-row flex-wrap xs:flex-col-reverse items-center justify-between gap-y-8 gap-x-7 mx-10"
+        >
+          <!-- Text Container -->
+          <div
+            class="flex flex-col text-center flex-auto sm:col-span-2 lg:col-span-1 gap-4"
+          >
+            <!-- Header -->
+            <h2 class="text-4xl font-bold">
+              We didn't ask ourselves,
+              <span class="font-bold italic"
+                >"how can the hiring process be improved?</span
+              >
+            </h2>
+            <!-- Text -->
+            <p class="text-2xl">
+              We looked at some of the most challenging issues we are
+              experiencing in Production Accounting. Like locating, hiring,
+              managing and retaining our Production Accounting Teams and asked
+              instead,
+              <span class="font-bold italic"
+                >"how can this be SOLVED?"</span
+              >
+            </p>
+            <!-- Button -->
+            <div class="my-16">
+              <a
+                href="#"
+                class="p-3 px-6 pt-2 bg-white text-black rounded-full baseline hover:bg-zinc-400"
+              >
+                Learn More
+              </a>
+            </div>
+          </div>
+          <div class="flex-auto sm:col-span-2 lg:col-span-1">
+            <img class="object-scale-down" src="/public/images/film-crew.jpg" />
+          </div>
+        </div>
+      </section>
+
+    <!-- Footer -->
+    <footer class="bg-neutral-900">
+      <!-- Flex Container -->
+      <div
+        class="flex flex-col justify-center items-center px-6 py-10 mx-auto gap-4"
+      >
+        <!-- Logo -->
+        <div>
+          <img src="images/big-logo.png" class="h-8 object-fill" alt="" />
+        </div>
+        <!-- Copyright -->
+        <div class="text-white text-1xl">
+            Copyright &copy; 2022, All Rights Reserved
+        </div>
+
+      </div>
+    </footer>
+    </main>
+
+    <!-- Core Navbar JS-->
+    <script src="./js/navbar.js"></script>
+  </body>
+</html>
