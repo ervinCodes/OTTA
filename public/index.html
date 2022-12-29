@@ -5,6 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>OTTA</title>
+    <!-- Fonts -->
+    <!-- Catamaran -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Catamaran&family=Space+Grotesk&display=swap" rel="stylesheet">
+    <!-- Prompt -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt&display=swap" rel="stylesheet">
+    <!-- Lato -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <!-- Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <!-- Core theme TailwindCSS-->
     <link rel="stylesheet" href="./css/output.css" />
     <!-- Core theme CSS-->
@@ -47,10 +64,13 @@
           <a href="#!" class="hover:text-gray-300">Home</a>
         </li>
         <li class="">
-          <a href="" class="hover:text-gray-300">Link</a>
+          <a href="about.html" class="hover:text-gray-300">About Us</a>
         </li>
         <li class="">
-          <a href="" class="hover:text-gray-300">Link</a>
+          <a href="memoriam.html" class="hover:text-gray-300">In Memorium</a>
+        </li>
+        <li class="">
+          <a href="privacy.html" class="hover:text-gray-300">Privacy Policy</a>
         </li>
       </ul>
     </nav>
@@ -64,18 +84,19 @@
         <!-- Flex Container -->
         <div class="flex items-end h-full lg:justify-start xs:justify-center lg:w-5/6 pl-5">
           <h1
-          class="text-3xl md:text-4xl lg:text-5xl pb-7 text-white font-bold text-center lg:text-left drop-shadow-lg"
+          class="text-3xl md:text-4xl lg:text-5xl pb-7 text-white font-bold text-center lg:text-left drop-shadow-lg italic"
           >
           Designed to streamline,
-          <p>simplify & support the</p>
-          <p>hiring of Production Accounting </p>
-          <p>Teams in Film & Television!</p>
+          <p>simplify & support</p>
+          <p>the hiring of </p>
+          <p>Production Accounting Teams</p>
+          <p>in Film & Television</p>
         </h1>
         </div>
       </section>
 
       <!-- Section 2 -->
-      <section class="bg-neutral-900">
+      <section class="bg-neutral-900 font-lato">
         <div class="mx-10 lg:mx-16 py-16 gap-6">
           <!-- Flex Container -->
           <ul class="flex flex-row flex-wrap text-center text-white justify-around">
@@ -94,28 +115,36 @@
       </section>
 
       <!-- Text Box #1-->
-      <section class="bg-neutral-900 text-white pt-10 pb-3 lg:pt-20">
+      <section class="bg-neutral-900 text-white pt-10 pb-3 lg:pt-20 font-lato">
         <!-- Flex Container -->
         <div
           class="lg:grid lg:grid-cols-2 flex flex-row flex-wrap items-center justify-between gap-y-8 gap-x-7 mx-10"
         >
           <!-- Image -->
           <div class="flex-auto sm:col-span-2 lg:col-span-1">
-            <img class="object-scale-down" src="/public/images/lights.jpg" />
+            <img class="object-scale-down" src="/public/images/office.jpg" />
           </div>
           <!-- Text Container -->
           <div
             class="flex flex-col text-center flex-auto sm:col-span-2 lg:col-span-1 gap-4"
           >
             <!-- Header -->
-            <h2 class="text-3xl font-bold"></h2>
+            <!-- <h2 class="text-2xl font-bold">
+                We didn't ask
+              <span class="font-bold italic"
+                >"how can the hiring process be improved?"</span
+              >
+            </h2> -->
             <!-- Text -->
             <p class="text-2xl">
-              We've designed a system that automates the search for qualified
-              and available members... and a process that leads to accumulating
-              verified, reliable, and measurable data that can be used to link
-              compensation to performance!
+              We looked at some of the most challenging issues
+              experienced in staffing such as locating, hiring,
+              managing and retaining our Production Accounting Teams and said,
+              <!-- <span class="font-bold italic"
+                >"how can this be IMPROVED?"</span
+              > -->
             </p>
+            <p class="font-bold italic text-4xl">"there's gotta be a better way"</p>
             <!-- Button -->
             <div class="my-16">
               <a
@@ -130,7 +159,7 @@
       </section>
 
       <!-- Text Box #2 -->
-      <section class="bg-neutral-900 text-white pt-10 lg:pt-20">
+      <section class="bg-neutral-900 text-white pt-10 lg:pt-20 font-lato">
         <!-- Flex Container -->
         <div
           class="lg:grid lg:grid-cols-2 flex flex-row flex-wrap xs:flex-col-reverse items-center justify-between gap-y-8 gap-x-7 mx-10"
@@ -141,20 +170,14 @@
           >
             <!-- Header -->
             <h2 class="text-4xl font-bold">
-              We didn't ask ourselves
-              <span class="font-bold italic"
-                >"how can the hiring process be improved?"</span
-              >
+              Introducing the OTTA way
             </h2>
             <!-- Text -->
             <p class="text-2xl">
-              We looked at some of the most challenging issues we are
-              experiencing in Production Accounting. Like locating, hiring,
-              managing and retaining our Production Accounting Teams and asked
-              instead,
-              <span class="font-bold italic"
-                >"how can this be SOLVED?"</span
-              >
+                We've designed a system that automates the search for qualified
+                and available members, and a process that leads to accumulating
+                verified, reliable, and measurable data that can be used to link
+                compensation to performance
             </p>
             <!-- Button -->
             <div class="my-16">
@@ -168,47 +191,100 @@
           </div>
           <!-- Image -->
           <div class="flex-auto sm:col-span-2 lg:col-span-1">
-            <img class="object-scale-down" src="/public/images/set.jpg" />
+            <img class="object-scale-down" src="/public/images/desktop.jpg" />
           </div>
         </div>
       </section>
 
-      <!-- Logo -->
-      <!-- <section
-        class="bg-white text-white pt-10 pb-3 lg:pt-20 h-48 bg-[url('/public/images/logo.png')] bg-contain bg-repeat pt-10 lg:pt-20"
-      ></section> -->
-
-      <!-- Quote -->
-      <section
-        class="bg-neutral-900 text-white lg:pt-20 h-[300px]"
+      <!-- Quotes Carousel -->
+      <blockquote
+        class="font-lato bg-neutral-900 text-white py-20 "
       >
       <!-- Flex Container -->
-      <div class="flex flex-col items-center text-center mx-auto w-1/2 justify-center">
-        <h1 class="text-3xl italic">
-          "OTTA offers ONE PLACE for ALL of Production Accounting: Union,
-          Non-Affiliates, Non-Union or Entry-Level...WE NEED YOU ALL!!!"
-        </h1>
-        <p class="pt-5">-Kathy F.</p>
+      <div class="relative">
+        <!-- Horizontal Line -->
+        <div class="flex px-10 lg:px-56">
+          <div class="flex-grow border-t border-white"></div>
+        </div>
+        <!-- Quotes List -->
+        <ul class="py-20 px-10">
+          <!-- Quote 1 -->
+          <li id="" class="slides quotes">
+            <div class=" flex flex-col text-center">
+              <p class="text-2xl italic">
+                <span class="text-3xl font-catamaran">"</span>
+              OTTA offers ONE PLACE for ALL of Production Accounting:
+              </p>
+              <p class="text-2xl italic">Union,
+              Non-Affiliates, Non-Union or Entry-Level..</p>
+              <p class="text-2xl italic">WE NEED YOU ALL!!!
+                <span class="text-3xl font-catamaran">"</span>
+              </p>
+              <p class="pt-5">-Kathy Riley</p>
+            </div>
+          </li>
+          <!-- Quote 2 -->
+          <li id="" class="slides hidden quotes">
+            <div class=" flex flex-col text-center">
+              <p class="text-2xl italic">
+                <span class="text-3xl font-catamaran">"</span>
+              Here is the second quote:
+              </p>
+              <p class="text-2xl italic">Second quote goes here</p>
+              <p class="text-2xl italic">Second quote goes here
+                <span class="text-3xl font-catamaran">"</span>
+              </p>
+              <p class="pt-5">-Kathy Riley</p>
+            </div>
+          </li>
+          <!-- Quote 3 -->
+          <li id="" class="slides hidden quotes">
+            <div class=" flex flex-col text-center">
+              <p class="text-2xl italic">
+                <span class="text-3xl font-catamaran">"</span>
+              Here is the third quote:
+              </p>
+              <p class="text-2xl italic">Third quote goes here</p>
+              <p class="text-2xl italic">Third quote goes here
+                <span class="text-3xl font-catamaran">"</span>
+              </p>
+              <p class="pt-5">-Kathy Riley</p>
+            </div>
+          </li>
+        </ul>
+        <!-- Dots/bullets/indicators -->
+        <div class="absolute px-5 flex top-0 left-0 h-full w-full items-end justify-center pb-10 gap-1">
+            <button id="dot" onclick="currentSlide(1)" class="bg-white p-2 rounded-full bg-opacity-25 shadow-lg hover:bg-neutral-800 active">
+            </button>
+            <button id="dot" onclick="currentSlide(2)" class="bg-white p-2 rounded-full bg-opacity-25 shadow-lg hover:bg-neutral-800">
+            </button>
+            <button id="dot" onclick="currentSlide(3)" class="bg-white p-2 rounded-full bg-opacity-25 shadow-lg hover:bg-neutral-800">
+            </button>
+        </div>
+        <!-- Horizontal Line -->
+        <div class="flex px-10 lg:px-56">
+          <div class="flex-grow border-t border-white"></div>
+        </div>
       </div>
-      </section>
+    </blockquote>
 
       <!-- Video -->
-      <section class="grid grid-cols-1 bg-white py-10">
+      <section class="font-lato grid grid-cols-1 bg-neutral-900 py-10">
         <div class="flex flex-col justify-center text-center gap-4 lg:mx-60 sm:mx-10">
-          <h2 class="text-3xl font-bold">Video</h2>
+          <h2 class="text-3xl font-bold text-white">Title goes here</h2>
           <img class="object-scale-down" src="/public/images/video.jpg" />
 
       </section>
 
       <!-- Text Box #3 -->
-      <section class="bg-neutral-900 text-white pt-10 pb-3 lg:pt-20">
+      <section class="bg-neutral-900 text-white pt-10 pb-3 lg:pt-20 font-lato">
         <!-- Flex Container -->
         <div
           class="lg:grid lg:grid-cols-2 flex flex-row flex-wrap items-center justify-between gap-y-8 gap-x-7 mx-10"
         >
           <!-- Image -->
           <div class="flex-auto sm:col-span-2 lg:col-span-1">
-            <img class="object-scale-down" src="/public/images/production1.jpg" />
+            <img class="object-scale-down" src="/public/images/set1.jpg" />
           </div>
           <!-- Text Container -->
           <div
@@ -218,9 +294,9 @@
             <h2 class="text-3xl font-bold"></h2>
             <!-- Text -->
             <p class="text-2xl">
-              <span class="font-bold">To our Employers:</span> once you've decided to to utilize our services... your credentials will grant you access to our system where you submit your 'Job Requests'.
+              <span class="font-bold">To our Employers:</span> once you've decided to utilize our services, your credentials will grant you access to our system where you submit 'Job Requests'.
               
-              This is when OTTA's system goes to work for you - automatically pulling BETTER resumes for qualified and available Production Accountants and Assistants that match your specifications.  Then our system automatically forwards emails containing your resumes.
+              This is when OTTA's system goes to work for you - automatically pulling resumes from our proprietary software for qualified Production Accountants and Assistants that are available and match your specifications.  Then our system automatically forwards emails containing your resumes.
             </p>
             <!-- Button -->
             <div class="my-16">
@@ -236,7 +312,7 @@
       </section>
 
       <!-- Text Box #4 -->
-      <section class="bg-neutral-900 text-white pt-10 pb-10 lg:pt-20">
+      <section class="bg-neutral-900 text-white pt-10 pb-10 lg:pt-20 font-lato">
         <!-- Flex Container -->
         <div
           class="lg:grid lg:grid-cols-2 flex flex-row flex-wrap xs:flex-col-reverse items-center justify-between gap-y-8 gap-x-7 mx-10"
@@ -273,13 +349,13 @@
             </div>
           </div>
           <div class="flex-auto sm:col-span-2 lg:col-span-1">
-            <img class="object-scale-down" src="/public/images/film-crew.jpg" />
+            <img class="object-scale-down" src="/public/images/action.jpg" />
           </div>
         </div>
       </section>
 
     <!-- Footer -->
-    <footer class="bg-neutral-900">
+    <footer class="bg-neutral-900 font-lato">
       <!-- Flex Container -->
       <div
         class="flex flex-col justify-center items-center px-6 py-10 mx-auto gap-4"
@@ -299,5 +375,7 @@
 
     <!-- Core Navbar JS-->
     <script src="./js/navbar.js"></script>
+    <!-- Javascript -->
+    <script src="./js/main.js"></script>
   </body>
 </html>
