@@ -9,8 +9,11 @@ module.exports = {
     },
     extend: {
       colors: {
-        "primary-color": "#0fa",
-        "250": "inset 0 0 0 1000px rgba(0, 0, 0, 0.7)",
+        "davys-grey": "#4A4E59",
+        "eerie-black": "#181517",
+        "silver": "#C1BFBE",
+        "silver-metallic": "#A9ACB0",
+        "metallic-sunburst": "#A38041"
       },
       spacing: {
         '128': '40rem',
