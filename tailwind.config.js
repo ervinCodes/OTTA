@@ -19,9 +19,7 @@ module.exports = {
         '128': '40rem',
       },
       fontFamily: {
-        'roboto': [`'Roboto', sans-serif`],
         'lato': [`'Lato', sans-serif`],
-        'prompt': [`'Prompt', sans-serif`],
         'catamaran': [`'Catamaran', sans-serif`]
       }
     },
