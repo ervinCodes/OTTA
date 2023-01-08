@@ -975,6 +975,10 @@ body::before {
   background-image: url('/images/film-crew-min.jpg');
 }
 
+.bg-\[url\(\'\/images\/crew-min\.jpg\'\)\] {
+  background-image: url('/images/crew-min.jpg');
+}
+
 .bg-cover {
   background-size: cover;
 }
