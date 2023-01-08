@@ -919,8 +919,8 @@ body::before {
   --tw-bg-opacity: 0.25;
 }
 
-.bg-\[url\(\'\/public\/images\/movies2\.jpg\'\)\] {
-  background-image: url('/public/images/movies2.jpg');
+.bg-\[url\(\'\/images\/movies2\.jpg\'\)\] {
+  background-image: url('/images/movies2.jpg');
 }
 
 .bg-\[url\(\'\/public\/images\/set2\.jpg\'\)\] {
@@ -941,6 +941,34 @@ body::before {
 
 .bg-\[url\(\'\/public\/images\/logo2\.png\'\)\] {
   background-image: url('/public/images/logo2.png');
+}
+
+.bg-\[url\(\'\.\/images\/movies2\.jpg\'\)\] {
+  background-image: url('./images/movies2.jpg');
+}
+
+.bg-\[url\(\'\/\/images\/set2\.jpg\'\)\] {
+  background-image: url('//images/set2.jpg');
+}
+
+.bg-\[url\(\'\/images\/set2\.jpg\'\)\] {
+  background-image: url('/images/set2.jpg');
+}
+
+.bg-\[url\(\'\/images\/HEADER\.png\'\)\] {
+  background-image: url('/images/HEADER.png');
+}
+
+.bg-\[url\(\'\/images\/clock-gray\.jpg\'\)\] {
+  background-image: url('/images/clock-gray.jpg');
+}
+
+.bg-\[url\(\'\/images\/memorium\.png\'\)\] {
+  background-image: url('/images/memorium.png');
+}
+
+.bg-\[url\(\'\/images\/logo2\.png\'\)\] {
+  background-image: url('/images/logo2.png');
 }
 
 .bg-cover {
