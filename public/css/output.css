@@ -971,6 +971,34 @@ body::before {
   background-image: url('/images/logo2.png');
 }
 
+.bg-\[url\(\'images\/movies2\.jpg\'\)\] {
+  background-image: url('images/movies2.jpg');
+}
+
+.bg-\[url\(\'public\/images\/movies2\.jpg\'\)\] {
+  background-image: url('public/images/movies2.jpg');
+}
+
+.bg-\[url\(\'\/public\/images\/movies2\.jpg\'\)\] {
+  background-image: url('/public/images/movies2.jpg');
+}
+
+.bg-\[url\(\'\.\/public\/images\/movies2\.jpg\'\)\] {
+  background-image: url('./public/images/movies2.jpg');
+}
+
+.bg-\[url\(\'\.public\/\/images\/movies2\.jpg\'\)\] {
+  background-image: url('.public//images/movies2.jpg');
+}
+
+.bg-\[url\(\'\.public\/images\/movies2\.jpg\'\)\] {
+  background-image: url('.public/images/movies2.jpg');
+}
+
+.bg-\[url\(\'images\/\'\)\] {
+  background-image: url('images/');
+}
+
 .bg-cover {
   background-size: cover;
 }
