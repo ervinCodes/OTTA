@@ -675,6 +675,10 @@ body::before {
   height: 300px;
 }
 
+.h-48 {
+  height: 12rem;
+}
+
 .min-h-screen {
   min-height: 100vh;
 }
@@ -999,6 +1003,18 @@ body::before {
   background-image: url('images/');
 }
 
+.bg-\[url\(\'images\/set2\.jpg\'\)\] {
+  background-image: url('images/set2.jpg');
+}
+
+.bg-\[url\(\'images\/HEADER\.png\'\)\] {
+  background-image: url('images/HEADER.png');
+}
+
+.bg-\[url\(\'images\/clock-gray\.jpg\'\)\] {
+  background-image: url('images/clock-gray.jpg');
+}
+
 .bg-cover {
   background-size: cover;
 }
@@ -1013,6 +1029,11 @@ body::before {
 
 .bg-no-repeat {
   background-repeat: no-repeat;
+}
+
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .object-fill {
