@@ -27,10 +27,10 @@
   <body class="">
     <!-- Responsive navbar-->
     <nav
-      class="flex flex-col bg-white sm:flex-row flex-wrap md:items-center fixed top-0 z-20 w-full px-4 md:px-5 lg:px-16 py-2 justify-between"
+      class="flex flex-col bg-white xs:flex-row flex-wrap md:items-center fixed top-0 z-20 w-full px-4 md:px-5 lg:px-16 py-2 justify-between"
     >
       <div
-        class="flex justify-between sm:justify-around gap-x-2 items-center"
+        class="flex justify-between xs:justify-around gap-x-2 items-center"
       >
         <!-- Link To Direct to Home Page -->
         <!-- This can be a logo or a simple text (or both). Just write it in-between the anchor tag below-->
@@ -40,7 +40,7 @@
 
         <!-- Hamburger -->
         <button
-          class="sm:hidden cursor-pointer flex flex-col justify-center gap-y-1"
+          class="xs:hidden cursor-pointer flex flex-col justify-center gap-y-1"
           id="hamburger"
           aria-label="menu"
         >
@@ -51,7 +51,7 @@
       </div>
 
       <ul
-        class="hidden sm:flex justify-end items-center gap-x-7 gap-y-5 mt-5 sm:mt-0"
+        class="hidden xs:flex justify-end items-center gap-x-7 gap-y-5 mt-5 xs:mt-0"
         id="links"
       >
         <li class="">
@@ -111,28 +111,31 @@
         </div>
       </section>
 
-      
-
-      <!-- Mission Statement -->
-      <section class="bg-eerie-black text-silver pt-10 pb-3 lg:pt-20 font-lato">
-        <!-- Text Container -->
-        <div
-          class="flex flex-col text-center flex-auto sm:col-span-2 lg:col-span-1 gap-4 lg:px-80 px-14"
+        <!-- Mission Statement -->
+        <section
+        class="font-lato bg-eerie-black text-white py-20 "
         >
+        <!-- Flex Container -->
+        <div class="relative">
           <!-- Horizontal Line -->
-          <div class="flex px-10 md:px-96 pb-16">
+          <div class="flex px-10 lg:px-56">
             <div class="flex-grow border-t border-white"></div>
           </div>
-          <!-- Text -->
-          <p class="text-2xl italic">
-            OTTA connects production accounting professionals with productions in need of their expertise and supports the production accounting community with their cutting-edge platform that tracks availability, performance, and celebrates success
-          </p>
+          <ul class="py-20 px-10 lg:px-80">
+            <li>
+              <div class=" flex flex-col text-center ">
+                <p class="text-2xl italic text-silver">
+                  OTTA connects production accounting professionals with productions in need of their expertise and supports the production accounting community with their cutting-edge platform that tracks availability, performance, and celebrates success
+                </p>
+              </div>
+            </li>
+          </ul>
           <!-- Horizontal Line -->
-          <div class="flex px-10 md:px-96 pt-16">
+          <div class="flex px-10 lg:px-56">
             <div class="flex-grow border-t border-white"></div>
           </div>
         </div>
-    </section>
+      </section>
 
       <!-- Text Box #1-->
       <section class="bg-eerie-black text-silver pt-10 pb-3 lg:pt-20 font-lato">
@@ -142,7 +145,7 @@
         >
           <!-- Image -->
           <div class="flex-auto sm:col-span-2 lg:col-span-1">
-            <img class="object-scale-down" src="images/office.jpg" />
+            <img class="object-scale-down" src="/images/office.jpg" />
           </div>
           <!-- Text Container -->
           <div
