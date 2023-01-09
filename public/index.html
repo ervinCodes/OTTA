@@ -15,11 +15,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet" />
     <!-- Core theme TailwindCSS-->
-    <link rel="stylesheet" href="./css/output.css" />
+    <link rel="stylesheet" href="css/output.css" />
     <!-- Core theme CSS-->
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="css/styles.css" />
     <!-- Build CSS -->
-    <link rel="stylesheet" href="./css/build.css" />
+    <link rel="stylesheet" href="css/build.css" />
   </head>
 
   <!-- If you want to change the primary color from green to something else. Change it with the tailwind.config.js in the Project Root Folder -->
@@ -76,7 +76,7 @@
     <main class="bg-black">
       <!-- Header -->
       <section
-        class="h-[650px] bg-[url('/images/header-image.jpg')] bg-cover bg-center header"
+        class="h-[650px] bg-[url('/public/images/header-image.jpg')] bg-cover bg-center header"
       >
         <!-- Flex Container -->
         <div class="flex items-end h-full lg:justify-start sm:justify-center lg:w-5/6 pl-5">
@@ -97,19 +97,42 @@
         <div class="mx-10 lg:mx-16 py-16 gap-6">
           <!-- Flex Container -->
           <ul class="flex flex-row flex-wrap text-center text-silver justify-around">
-            <li class="uppercase"><span class="text-2xl font-bold text-white">Locate</span> qualified & available talent</li>
-            <li class="uppercase"><span class="text-2xl font-bold text-white">Streamline</span> hiring process</li>
-            <li class="uppercase"><span class="text-2xl font-bold text-white">Recognize</span> a job well done</li>
-            <li class="uppercase"><span class="text-2xl font-bold text-white">Advocate</span> for competitive rates</li>
+            <li class="uppercase"><span class="text-2xl font-bold text-metallic-sunburst">Locate</span> qualified & available talent</li>
+            <li class="uppercase"><span class="text-2xl font-bold text-metallic-sunburst">Streamline</span> hiring process</li>
+            <li class="uppercase"><span class="text-2xl font-bold text-metallic-sunburst">Recognize</span> a job well done</li>
+            <li class="uppercase"><span class="text-2xl font-bold text-metallic-sunburst">Advocate</span> for competitive rates</li>
           </ul>
           <ul class="flex flex-row flex-wrap text-center text-silver justify-around">
-            <li class="uppercase"><span class="text-2xl font-bold text-white">Foster</span> equity, diversity & inclusion</li>
-            <li class="uppercase"><span class="text-2xl font-bold text-white">Demonstrate</span> respect</li>
-            <li class="uppercase"><span class="text-2xl font-bold text-white">Encourage</span> progression</li>
-            <li class="uppercase"><span class="text-2xl font-bold text-white">Promote</span> teamwork</li>
+            <li class="uppercase"><span class="text-2xl font-bold text-metallic-sunburst">Foster</span> equity, diversity & inclusion</li>
+            <li class="uppercase"><span class="text-2xl font-bold text-metallic-sunburst">Demonstrate</span> respect</li>
+            <li class="uppercase"><span class="text-2xl font-bold text-metallic-sunburst">Encourage</span> progression</li>
+            <li class="uppercase"><span class="text-2xl font-bold text-metallic-sunburst">Promote</span> teamwork</li>
           </ul>
         </div>
       </section>
+
+      
+
+      <!-- Mission Statement -->
+      <section class="bg-eerie-black text-silver pt-10 pb-3 lg:pt-20 font-lato">
+        <!-- Text Container -->
+        <div
+          class="flex flex-col text-center flex-auto sm:col-span-2 lg:col-span-1 gap-4 lg:px-80 px-14"
+        >
+          <!-- Horizontal Line -->
+          <div class="flex px-10 md:px-96 pb-16">
+            <div class="flex-grow border-t border-white"></div>
+          </div>
+          <!-- Text -->
+          <p class="text-2xl italic">
+            OTTA connects production accounting professionals with productions in need of their expertise and supports the production accounting community with their cutting-edge platform that tracks availability, performance, and celebrates success
+          </p>
+          <!-- Horizontal Line -->
+          <div class="flex px-10 md:px-96 pt-16">
+            <div class="flex-grow border-t border-white"></div>
+          </div>
+        </div>
+    </section>
 
       <!-- Text Box #1-->
       <section class="bg-eerie-black text-silver pt-10 pb-3 lg:pt-20 font-lato">
@@ -119,28 +142,19 @@
         >
           <!-- Image -->
           <div class="flex-auto sm:col-span-2 lg:col-span-1">
-            <img class="object-scale-down" src="images/stacks.jpg" />
+            <img class="object-scale-down" src="images/office.jpg" />
           </div>
           <!-- Text Container -->
           <div
             class="flex flex-col text-center flex-auto sm:col-span-2 lg:col-span-1 gap-4"
           >
             <!-- Text -->
-            <p class="text-2xl">
-              We looked at some of the most challenging issues
-              experienced in staffing such as locating, hiring,
-              managing and retaining our Production Accounting Teams and said,
+            <p class="text-xl">
+              We examined some of the most challenging issues
+              experienced in staffing Production Accounting Teams, such as locating, hiring,
+              managing and retaining them, and thought:
             </p>
-            <p class="font-bold italic text-4xl">"there's gotta be a better way"</p>
-            <!-- Button -->
-            <div class="my-16">
-              <a
-                href="#"
-                class="p-3 px-6 pt-2 bg-metallic-sunburst text-gray-100 rounded-xl baseline hover:bg-davys-grey"
-              >
-                Learn More
-              </a>
-            </div>
+            <p class="font-bold italic text-4xl text-metallic-sunburst">"there has to be a better way!"</p>
           </div>
         </div>
       </section>
@@ -156,29 +170,17 @@
             class="flex flex-col text-center flex-auto sm:col-span-2 lg:col-span-1 gap-4"
           >
             <!-- Header -->
-            <h2 class="text-4xl font-bold">
+            <h2 class="text-4xl font-bold text-metallic-sunburst">
               Introducing the OTTA way
             </h2>
             <!-- Text -->
-            <p class="text-2xl">
-                We've designed a system that automates the search for qualified
-                and available members, and a process that leads to accumulating
-                verified, reliable, and measurable data that can be used to link
-                compensation to performance
+            <p class="text-xl">
+                We've designed a game-changing system that tackels the toughest challenges head-on while streamlining the entire process.  Say good-bye to the stress and frustration of staffing and hello to a brighter, more effifient future!
             </p>
-            <!-- Button -->
-            <div class="my-16">
-              <a
-                href="#"
-                class="p-3 px-6 pt-2 bg-metallic-sunburst text-gray-100 rounded-xl baseline hover:bg-davys-grey"
-              >
-                Learn More
-              </a>
-            </div>
           </div>
           <!-- Image -->
           <div class="flex-auto sm:col-span-2 lg:col-span-1">
-            <img class="object-scale-down" src="images/automation.jpg" />
+            <img class="object-scale-down" src="images/candidate-search.jpg" />
           </div>
         </div>
       </section>
@@ -241,9 +243,9 @@
           </ul>
           <!-- Dots/bullets/indicators -->
           <div class="absolute px-5 flex top-0 left-0 h-full w-full items-end justify-center pb-10 gap-1">
-              <button id="dot" onclick="currentSlide(1)" class="bg-white p-2 rounded-full bg-opacity-25 shadow-lg hover:bg-neutral-800 active">
+              <button id="dot" onclick="currentSlide(1)" class="bg-white p-2 rounded-full bg-opacity-25 shadow-lg hover:bg-neutral-800">
               </button>
-              <button id="dot" onclick="currentSlide(2)" class="bg-white p-2 rounded-full bg-opacity-25 shadow-lg hover:bg-neutral-800">
+              <button id="dot" onclick="currentSlide(2)" class="bg-white p-2 rounded-full bg-opacity-25 shadow-lg hover:bg-neutral-800 active">
               </button>
               <button id="dot" onclick="currentSlide(3)" class="bg-white p-2 rounded-full bg-opacity-25 shadow-lg hover:bg-neutral-800">
               </button>
@@ -271,22 +273,32 @@
         >
           <!-- Image -->
           <div class="flex-auto sm:col-span-2 lg:col-span-1">
-            <img class="object-scale-down" src="images/candidate-search.jpg" />
+            <img class="object-scale-down" src="images/automation.jpg" />
           </div>
           <!-- Text Container -->
           <div
             class="flex flex-col text-center flex-auto sm:col-span-2 lg:col-span-1 gap-4"
           >
             <!-- Header -->
-            <h2 class="text-3xl font-bold"></h2>
+            <h2 class="text-4xl font-bold text-metallic-sunburst">
+              Production Accounting Professionals
+            </h2>
             <!-- Text -->
-            <p class="text-2xl">
-              <span class="font-bold">To our Employers:</span> once you've decided to utilize our services, your credentials will grant you access to our system where you submit 'Job Requests'.
-              
-              This is when OTTA's system goes to work for you - automatically pulling resumes from our proprietary software for qualified Production Accountants and Assistants that are available and match your specifications.  Then our system automatically forwards emails containing your resumes.
+            <p class="text-xl">
+              Are you tired of the tedius and time-consuming process of finding your next production?
+            </p>
+            <p class="text-xl">
+              OTTA has revolutionized the job search process with a cutting edge fully automated system that minimizes human intervention and maximizes efficiency.  Our innovative "Star Reviews" allow us to join the ranks of other industries that are commending and recognizing employee contributions.  This promotes positive outcomes and can help you connect performance to compensation.
+            </p>
+            <p class="text-xl">
+              Get a head start on the competition by signing up now.  Simply sign up and enter your resume and availability dates to try the 
+              <span class="font-bold italic text-metallic-sunburst">
+                OTTA WAY
+              </span>
+
             </p>
             <!-- Button -->
-            <div class="my-16">
+            <div class="my-2">
               <a
                 href="#"
                 class="p-3 px-6 pt-2 bg-metallic-sunburst text-gray-100 rounded-xl baseline hover:bg-davys-grey"
@@ -309,24 +321,18 @@
             class="flex flex-col text-center flex-auto sm:col-span-2 lg:col-span-1 gap-4"
           >
             <!-- Header -->
-            <h2 class="text-4xl font-bold">
-              We didn't ask ourselves,
-              <span class="font-bold italic"
-                >"how can the hiring process be improved?</span
-              >
+            <h2 class="text-4xl font-bold text-metallic-sunburst">
+              Employers - Production & Finance Executives and Department Heads:
             </h2>
             <!-- Text -->
-            <p class="text-2xl">
-              We looked at some of the most challenging issues we are
-              experiencing in Production Accounting. Like locating, hiring,
-              managing and retaining our Production Accounting Teams and asked
-              instead,
-              <span class="font-bold italic"
-                >"how can this be SOLVED?"</span
-              >
+            <p class="text-xl">
+              The world of entertainment is constantly evolving, with groundbreaking technologies and techniques emergin every day.  Despite all the innovation happening on screen, the process for hiring qualified production accounting professionals remains stuck in the past as we waste valuable time and resources on inefficient and manual hiring processes.
+            </p>
+            <p class="text-xl">
+              Look no further than OTTA! Our innovative system automates the process, providing higher operational efficiency and data-driven insights.  Our system also helps eliminate wasteful practives and minimizes public exposure of sensitive information, such as wage ranges.  With accurate and timely data from OTTA's Star Review, you may even make final hiring decisions quickly and reduce the risk of losing top candidates to other shows.
             </p>
             <!-- Button -->
-            <div class="my-16">
+            <div class="my-2">
               <a
                 href="#"
                 class="p-3 px-6 pt-2 bg-metallic-sunburst text-gray-100 rounded-xl baseline hover:bg-davys-grey"
@@ -336,9 +342,32 @@
             </div>
           </div>
           <div class="flex-auto sm:col-span-2 lg:col-span-1">
-            <img class="object-scale-down" src="images/office.jpg" />
+            <img class="object-scale-down" src="images/action.jpg" />
           </div>
         </div>
+      </section>
+
+      <!-- Text Box #5 -->
+      <section class="bg-eerie-black text-silver pt-10 pb-3 lg:pt-20 font-lato">
+          <!-- Text Container -->
+          <div
+            class="flex flex-col text-center flex-auto sm:col-span-2 lg:col-span-1 gap-4 lg:px-80 px-14"
+          >
+            <!-- Text -->
+            <p class="text-xl">
+              OTTA has taken on the challenge of disrupting the traditional hiring process in Production Accounting, which we believe is long overdue for change.
+            </p>
+            <p class="text-xl">
+              The digital transformation accelerated by the pandemic has had a major impact on our industry, and it's clear that the old ways of doing things are no longer sustainable.  Many Production Accounting departments have had to double in size just to keep up with the increased workload.
+            </p>
+            <p class="text-xl">
+              Our primary goal is to streamline the hiring process in Production Accounting, which we believe will benefit everyone involved: department heads, studios, production companies, and the talented production accounting professionals who are seeking opportunities.  By providing a central hub for talent and a more efficient way to match job openings with the right candidates, we aim to reduce the stress and frustration that has long been a part of this process.
+              <p class="font-bold italic text-2xl text-metallic-sunburst">
+                It's time for a paradigm shift , and OTTA is commited to leading the way!
+              </p>
+
+            </p>
+          </div>
       </section>
 
       <!-- Footer -->
@@ -380,4 +409,4 @@
     <!-- Javascript -->
     <script src="./js/main.js"></script>
   </body>
-  </html>
+</html>

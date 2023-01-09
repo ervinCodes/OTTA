@@ -590,9 +590,9 @@ body::before {
   margin-right: auto;
 }
 
-.my-16 {
-  margin-top: 4rem;
-  margin-bottom: 4rem;
+.my-2 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .mt-5 {
@@ -880,11 +880,6 @@ body::before {
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
-.bg-neutral-900 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(23 23 23 / var(--tw-bg-opacity));
-}
-
 .bg-eerie-black {
   --tw-bg-opacity: 1;
   background-color: rgb(24 21 23 / var(--tw-bg-opacity));
@@ -910,6 +905,11 @@ body::before {
   background-color: rgb(163 128 65 / var(--tw-bg-opacity));
 }
 
+.bg-neutral-900 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(23 23 23 / var(--tw-bg-opacity));
+}
+
 .bg-\[\#A38041\] {
   --tw-bg-opacity: 1;
   background-color: rgb(163 128 65 / var(--tw-bg-opacity));
@@ -919,40 +919,20 @@ body::before {
   --tw-bg-opacity: 0.25;
 }
 
-.bg-\[url\(\'images\/movies2\.jpg\'\)\] {
-  background-image: url('images/movies2.jpg');
-}
-
-.bg-\[url\(\'images\/set2\.jpg\'\)\] {
-  background-image: url('images/set2.jpg');
-}
-
-.bg-\[url\(\'\/public\/images\/header-image\.jpg\'\)\] {
-  background-image: url('/public/images/header-image.jpg');
-}
-
-.bg-\[url\(\'images\/clock-gray\.jpg\'\)\] {
-  background-image: url('images/clock-gray.jpg');
-}
-
-.bg-\[url\(\'\/public\/images\/memorium\.png\'\)\] {
-  background-image: url('/public/images/memorium.png');
-}
-
-.bg-\[url\(\'\/public\/images\/logo2\.png\'\)\] {
-  background-image: url('/public/images/logo2.png');
-}
-
-.bg-\[url\(\'\/images\/header-image\.jpg\'\)\] {
-  background-image: url('/images/header-image.jpg');
-}
-
 .bg-\[url\(\'\/images\/movies2\.jpg\'\)\] {
   background-image: url('/images/movies2.jpg');
 }
 
+.bg-\[url\(\'\/images\/crew-min\.jpg\'\)\] {
+  background-image: url('/images/crew-min.jpg');
+}
+
 .bg-\[url\(\'\/images\/set2\.jpg\'\)\] {
   background-image: url('/images/set2.jpg');
+}
+
+.bg-\[url\(\'\/public\/images\/header-image\.jpg\'\)\] {
+  background-image: url('/public/images/header-image.jpg');
 }
 
 .bg-\[url\(\'\/images\/clock-gray\.jpg\'\)\] {
@@ -965,18 +945,6 @@ body::before {
 
 .bg-\[url\(\'\/images\/logo2\.png\'\)\] {
   background-image: url('/images/logo2.png');
-}
-
-.bg-\[url\(\'\/public\/images\/film-crew-min\.jpg\'\)\] {
-  background-image: url('/public/images/film-crew-min.jpg');
-}
-
-.bg-\[url\(\'\/images\/film-crew-min\.jpg\'\)\] {
-  background-image: url('/images/film-crew-min.jpg');
-}
-
-.bg-\[url\(\'\/images\/crew-min\.jpg\'\)\] {
-  background-image: url('/images/crew-min.jpg');
 }
 
 .bg-cover {
@@ -1013,12 +981,12 @@ body::before {
   padding: 1.5rem;
 }
 
-.p-3 {
-  padding: 0.75rem;
-}
-
 .p-2 {
   padding: 0.5rem;
+}
+
+.p-3 {
+  padding: 0.75rem;
 }
 
 .px-4 {
@@ -1066,14 +1034,24 @@ body::before {
   padding-bottom: 4rem;
 }
 
-.py-20 {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+.px-14 {
+  padding-left: 3.5rem;
+  padding-right: 3.5rem;
 }
 
 .px-10 {
   padding-left: 2.5rem;
   padding-right: 2.5rem;
+}
+
+.py-20 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.px-96 {
+  padding-left: 24rem;
+  padding-right: 24rem;
 }
 
 .pl-5 {
@@ -1096,12 +1074,32 @@ body::before {
   padding-top: 0.5rem;
 }
 
+.pb-5 {
+  padding-bottom: 1.25rem;
+}
+
 .pt-5 {
   padding-top: 1.25rem;
 }
 
 .pb-10 {
   padding-bottom: 2.5rem;
+}
+
+.pb-20 {
+  padding-bottom: 5rem;
+}
+
+.pt-20 {
+  padding-top: 5rem;
+}
+
+.pb-16 {
+  padding-bottom: 4rem;
+}
+
+.pt-16 {
+  padding-top: 4rem;
 }
 
 .text-center {
@@ -1304,6 +1302,10 @@ body::before {
     flex-direction: row;
   }
 
+  .sm\:justify-center {
+    justify-content: center;
+  }
+
   .sm\:justify-around {
     justify-content: space-around;
   }
@@ -1341,6 +1343,11 @@ body::before {
   .md\:px-5 {
     padding-left: 1.25rem;
     padding-right: 1.25rem;
+  }
+
+  .md\:px-96 {
+    padding-left: 24rem;
+    padding-right: 24rem;
   }
 
   .md\:text-4xl {
@@ -1383,6 +1390,16 @@ body::before {
   .lg\:px-16 {
     padding-left: 4rem;
     padding-right: 4rem;
+  }
+
+  .lg\:px-80 {
+    padding-left: 20rem;
+    padding-right: 20rem;
+  }
+
+  .lg\:px-96 {
+    padding-left: 24rem;
+    padding-right: 24rem;
   }
 
   .lg\:px-56 {

@@ -30,9 +30,6 @@ function runSlideShow(n) {
     dots[slideIndex - 1].classList.add("active");
   }
 
-  // for (let i = 0; i < quotes.length; i++) {
-  //   quotes[slideIndex - 1].classList.add("quotes");
-  // }
   slideIndex++;
 }
 
