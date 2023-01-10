@@ -947,6 +947,10 @@ body::before {
   background-image: url('/images/logo2.png');
 }
 
+.bg-\[url\(\'\/images\/header-image\.jpg\'\)\] {
+  background-image: url('/images/header-image.jpg');
+}
+
 .bg-cover {
   background-size: cover;
 }
@@ -1034,9 +1038,9 @@ body::before {
   padding-bottom: 4rem;
 }
 
-.px-14 {
-  padding-left: 3.5rem;
-  padding-right: 3.5rem;
+.py-20 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 
 .px-10 {
@@ -1044,14 +1048,9 @@ body::before {
   padding-right: 2.5rem;
 }
 
-.py-20 {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-}
-
-.px-96 {
-  padding-left: 24rem;
-  padding-right: 24rem;
+.px-14 {
+  padding-left: 3.5rem;
+  padding-right: 3.5rem;
 }
 
 .pl-5 {
@@ -1074,32 +1073,12 @@ body::before {
   padding-top: 0.5rem;
 }
 
-.pb-5 {
-  padding-bottom: 1.25rem;
-}
-
 .pt-5 {
   padding-top: 1.25rem;
 }
 
 .pb-10 {
   padding-bottom: 2.5rem;
-}
-
-.pb-20 {
-  padding-bottom: 5rem;
-}
-
-.pt-20 {
-  padding-top: 5rem;
-}
-
-.pb-16 {
-  padding-bottom: 4rem;
-}
-
-.pt-16 {
-  padding-top: 4rem;
 }
 
 .text-center {
@@ -1345,11 +1324,6 @@ body::before {
     padding-right: 1.25rem;
   }
 
-  .md\:px-96 {
-    padding-left: 24rem;
-    padding-right: 24rem;
-  }
-
   .md\:text-4xl {
     font-size: 2.25rem;
     line-height: 2.5rem;
@@ -1392,19 +1366,14 @@ body::before {
     padding-right: 4rem;
   }
 
-  .lg\:px-80 {
-    padding-left: 20rem;
-    padding-right: 20rem;
-  }
-
-  .lg\:px-96 {
-    padding-left: 24rem;
-    padding-right: 24rem;
-  }
-
   .lg\:px-56 {
     padding-left: 14rem;
     padding-right: 14rem;
+  }
+
+  .lg\:px-80 {
+    padding-left: 20rem;
+    padding-right: 20rem;
   }
 
   .lg\:pt-20 {
