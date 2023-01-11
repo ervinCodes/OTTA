@@ -19,6 +19,6 @@
 
 .quotes {
   animation: slidein 8s forwards;
-  transform: translate3d(-2368px);
-  transition: transform 500ms ease 0s;
+
 }
+

@@ -675,6 +675,14 @@ body::before {
   height: 300px;
 }
 
+.h-\[200px\] {
+  height: 200px;
+}
+
+.h-\[150px\] {
+  height: 150px;
+}
+
 .min-h-screen {
   min-height: 100vh;
 }
@@ -931,8 +939,12 @@ body::before {
   background-image: url('/images/set2.jpg');
 }
 
-.bg-\[url\(\'\/public\/images\/header-image\.jpg\'\)\] {
-  background-image: url('/public/images/header-image.jpg');
+.bg-\[url\(\'\/images\/header-image\.jpg\'\)\] {
+  background-image: url('/images/header-image.jpg');
+}
+
+.bg-\[url\(\'\/images\/logo2\.png\'\)\] {
+  background-image: url('/images/logo2.png');
 }
 
 .bg-\[url\(\'\/images\/clock-gray\.jpg\'\)\] {
@@ -943,12 +955,12 @@ body::before {
   background-image: url('/images/memorium.png');
 }
 
-.bg-\[url\(\'\/images\/logo2\.png\'\)\] {
-  background-image: url('/images/logo2.png');
+.bg-\[url\(\'public\/images\/logo2\.png\'\)\] {
+  background-image: url('public/images/logo2.png');
 }
 
-.bg-\[url\(\'\/images\/header-image\.jpg\'\)\] {
-  background-image: url('/images/header-image.jpg');
+.bg-\[url\(\'\/public\/images\/logo2\.png\'\)\] {
+  background-image: url('/public/images/logo2.png');
 }
 
 .bg-cover {
@@ -1038,14 +1050,14 @@ body::before {
   padding-bottom: 4rem;
 }
 
-.py-20 {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-}
-
 .px-10 {
   padding-left: 2.5rem;
   padding-right: 2.5rem;
+}
+
+.py-20 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 
 .px-14 {
@@ -1071,6 +1083,10 @@ body::before {
 
 .pt-2 {
   padding-top: 0.5rem;
+}
+
+.pt-0 {
+  padding-top: 0px;
 }
 
 .pt-5 {
@@ -1324,6 +1340,11 @@ body::before {
     padding-right: 1.25rem;
   }
 
+  .md\:py-20 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
   .md\:text-4xl {
     font-size: 2.25rem;
     line-height: 2.5rem;
@@ -1374,6 +1395,11 @@ body::before {
   .lg\:px-80 {
     padding-left: 20rem;
     padding-right: 20rem;
+  }
+
+  .lg\:py-20 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
   }
 
   .lg\:pt-20 {
