@@ -23,8 +23,6 @@
     <link rel="stylesheet" href="./css/normalize.css" />
   </head>
 
-  <!-- If you want to change the primary color from green to something else. Change it with the tailwind.config.js in the Project Root Folder -->
-
   <body class="">
     <!-- Responsive navbar-->
     <nav
@@ -32,7 +30,6 @@
     >
       <div class="flex justify-between sm:justify-around gap-x-2 items-center">
         <!-- Link To Direct to Home Page -->
-        <!-- This can be a logo or a simple text (or both). Just write it in-between the anchor tag below-->
         <a href="index.html" class="text-2xl py-1 flex items-center">
           One Team Talent Agency
         </a>
@@ -75,25 +72,29 @@
     <main class="bg-black">
       <section
         class="h-screen items-center justify-center bg-[url('/images/clock-gray.jpg')] bg-cover bg-center header flex"
-        >
+      >
         <form action="">
           <div class="bg-white w-96 p-6 rounded shadow-lg">
             <!-- Image Container -->
-            <div class="flex items-center justify-center mb-4">
+            <div class="flex items-center justify-center mb-4 px-20 py-5">
               <!-- Image -->
-              <img src="images/logo2.png" alt="" class="h-32" />
+              <img src="images/logo.png" alt="" class="w-full h-auto" />
             </div>
             <h1 class="mb-10 font-bold text-2xl text-davys-grey">
               Member Sign-In
             </h1>
             <!-- Email -->
-            <label for="" class="text-davys-grey">Email</label>
+            <div class="pb-1 pl-1">
+              <label for="" class="text-davys-grey">Email</label>
+            </div>
             <input
               type="email"
               class="w-full py-2 bg-gray-100 text-gray-500 px-1 outline-none mb-4 rounded-xl border ring-1 ring-gray-300 focus:ring-2 focus:ring-eerie-black"
             />
             <!-- Password -->
-            <label for="" class="text-davys-grey">Password</label>
+            <div class="pb-1 pl-1">
+              <label for="" class="text-davys-grey">Password</label>
+            </div>
             <div class="relative">
               <input
                 id="password"
@@ -115,7 +116,7 @@
             <!-- Button -->
             <button
               type="submit"
-              class="bg-[#A38041] w-full text-gray-100 py-2 rounded-xl hover:bg-davys-grey"
+              class="bg-sonic-silver w-full text-gray-100 py-2 rounded-xl hover:bg-space-cadet"
             >
               Login
             </button>
@@ -126,7 +127,7 @@
             <div class="text-xs flex justify-between items-center mt-3">
               <p>Don't have an account?</p>
               <button
-                class="py-2 px-5 bg-metallic-sunburst border rounded-xl hover:bg-davys-grey text-white"
+                class="py-2 px-5 bg-sonic-silver border rounded-xl hover:bg-space-cadet text-white"
               >
                 Register
               </button>
@@ -136,17 +137,14 @@
       </section>
 
       <!-- Logo Footer -->
-      <section
-      class="
-      h-[100px] bg-[url('/images/logo.png')] bg-contain bg-center bg-no-repeat bg-eerie-black
-      "
-      >
+      <section class="bg-eerie-black">
+        <div class="sm:px-2/5 xs:px-2/6 pt-10">
+          <img src="images/logo.png" alt="Image of OTTA logo" />
+        </div>
       </section>
 
       <!-- Footer -->
-      <footer class="
-      bg-neutral-900 font-lato text-silver
-      ">
+      <footer class="bg-eerie-black font-lato text-silver">
         <!-- Flex Container -->
         <div
           class="flex flex-col justify-center items-center px-6 py-10 mx-auto gap-4"
@@ -156,18 +154,16 @@
             <ul class="flex flex-row gap-4 hover:cursor-pointer">
               <!-- Contact Link -->
               <li>
-                <a href="contact.html" class="hover:text-davys-grey">Contact</a>
+                <a href="contact.html" class="hover:text-vegas-gold">Contact</a>
               </li>
               <!-- Privacy Link -->
               <li>
-                <a href="privacy.html" class="hover:text-davys-grey">Privacy</a>
+                <a href="privacy.html" class="hover:text-vegas-gold">Privacy</a>
               </li>
             </ul>
           </div>
           <!-- Copyright -->
-          <div class="text-1xl">
-            Copyright &copy; 2022, All Rights Reserved
-          </div>
+          <div class="text-1xl">Copyright &copy; 2022, All Rights Reserved</div>
         </div>
       </footer>
     </main>

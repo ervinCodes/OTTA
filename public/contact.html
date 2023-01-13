@@ -23,8 +23,6 @@
     <link rel="stylesheet" href="./css/normalize.css" />
   </head>
 
-  <!-- If you want to change the primary color from green to something else. Change it with the tailwind.config.js in the Project Root Folder -->
-
   <body class="">
     <!-- Responsive navbar-->
     <nav
@@ -32,7 +30,6 @@
     >
       <div class="flex justify-between sm:justify-around gap-x-2 items-center">
         <!-- Link To Direct to Home Page -->
-        <!-- This can be a logo or a simple text (or both). Just write it in-between the anchor tag below-->
         <a href="index.html" class="text-2xl py-1 flex items-center">
           One Team Talent Agency
         </a>
@@ -78,7 +75,7 @@
       <div class="flex w-full min-h-screen justify-center items-center bg-[url('/images/crew-min.jpg')] bg-cover bg-center header">
         <!-- Flex Container -->
         <div
-          class="flex flex-col md:flex-row md:space-x-6 md:space-y-0 space-y-6 bg-davys-grey w-full max-w-4xl p-8 sm:p-12 rounded-xl shadow-lg text-white overflow-hidden"
+          class="flex flex-col md:flex-row md:space-x-6 md:space-y-0 space-y-6 bg-space-cadet w-full max-w-4xl p-8 sm:p-12 rounded-xl shadow-lg text-white overflow-hidden"
         >
           <!-- Left Side Container-->
           <div class="flex flex-col space-y-8 justify-between">
@@ -96,7 +93,7 @@
               <div class="inline-flex space-x-2 items-center">
                 <ion-icon
                   name="call"
-                  class="text-metallic-sunburst text-3xl"
+                  class="text-sonic-silver text-3xl"
                 ></ion-icon>
                 <a href="tel:555-123-4567">
                   <span class="text-xl">+1(555)123-4567</span>
@@ -106,17 +103,12 @@
               <div class="inline-flex space-x-2 items-center">
                 <ion-icon
                   name="mail"
-                  class="text-metallic-sunburst text-3xl"
+                  class="text-sonic-silver text-3xl"
                 ></ion-icon>
                 <a href="mailto:support@ottainc.com">
                   <span class="text-xl">support@ottainc.com</span>
                 </a>
               </div>
-              <!-- Location -->
-              <!-- <div class="inline-flex space-x-2 items-center">
-                            <ion-icon name="pin" class="text-metallic-sunburst text-3xl"></ion-icon>
-                            <span class="text-xl">12345 Street </span>
-                        </div> -->
             </div>
 
             <!-- Social Icons Container -->
@@ -125,28 +117,28 @@
               <a href="#"
                 ><ion-icon
                   name="logo-facebook"
-                  class="text-metallic-sunburst text-3xl"
+                  class="text-sonic-silver text-3xl"
                 ></ion-icon>
               </a>
               <!-- Twitter -->
               <a href="#"
                 ><ion-icon
                   name="logo-twitter"
-                  class="text-metallic-sunburst text-3xl"
+                  class="text-sonic-silver text-3xl"
                 ></ion-icon>
               </a>
               <!-- Linked IN -->
               <a href="#"
                 ><ion-icon
                   name="logo-linkedin"
-                  class="text-metallic-sunburst text-3xl"
+                  class="text-sonic-silver text-3xl"
                 ></ion-icon>
               </a>
               <!-- Instagram -->
               <a href="#"
                 ><ion-icon
                   name="logo-instagram"
-                  class="text-metallic-sunburst text-3xl"
+                  class="text-sonic-silver text-3xl"
                 ></ion-icon>
               </a>
             </div>
@@ -167,7 +159,7 @@
               <form action="" class="flex- flex-col space-y-4">
                 <!-- Name -->
                 <div>
-                  <label for="" class="text-sm">Your Name</label>
+                  <label for="" class="text-sm font-bold">Full Name</label>
 
                   <input
                     type="text"
@@ -176,7 +168,7 @@
                 </div>
                 <!-- Email -->
                 <div>
-                  <label for="" class="text-sm">Email Address</label>
+                  <label for="" class="text-sm font-bold">Email Address</label>
 
                   <input
                     type="email"
@@ -185,16 +177,27 @@
                 </div>
                 <!-- Phone -->
                 <div>
-                  <label for="" class="text-sm">Phone</label>
-
+                  <div class="flex justify-between">
+                    <label for="" class="text-sm font-bold">Phone</label>
+                    <label for="" class="text-sm">Optional</label>
+                  </div>
                   <input
                     type="email"
                     class="ring-1 ring-gray-300 w-full rounded-md px-4 py-2 mt-2 outline-none focus:ring-2 focus:ring-eerie-black bg-gray-100"
                   />
                 </div>
+                <!-- Phone -->
+                <div>
+                  <label for="" class="text-sm font-bold">Subject</label>
+
+                  <input
+                    type="text"
+                    class="ring-1 ring-gray-300 w-full rounded-md px-4 py-2 mt-2 outline-none focus:ring-2 focus:ring-eerie-black bg-gray-100"
+                  />
+                </div>
                 <!-- Message -->
                 <div>
-                  <label for="" class="text-sm">Message</label>
+                  <label for="" class="text-sm font-bold">Message</label>
 
                   <textarea
                     rows="4"
@@ -204,7 +207,7 @@
                 </div>
                 <!-- Button -->
                 <button
-                  class="inline-block self-end bg-metallic-sunburst text-gray-100 rounded-lg px-6 py-2 hover:bg-davys-grey"
+                  class="inline-block self-end bg-sonic-silver text-gray-100 rounded-lg px-6 py-2 hover:bg-space-cadet"
                 >
                   Send Message
                 </button>
@@ -215,13 +218,14 @@
       </div>
 
       <!-- Logo Footer -->
-      <section
-      class="h-[150px] bg-[url('/images/logo2.png')] bg-contain bg-center bg-no-repeat bg-eerie-black"
-      >
+      <section class="bg-eerie-black">
+        <div class="sm:px-2/5 xs:px-2/6 pt-10">
+          <img src="images/logo.png" alt="Image of OTTA logo" />
+        </div>
       </section>
 
       <!-- Footer -->
-      <footer class="bg-neutral-900 font-lato text-silver">
+      <footer class="bg-eerie-black font-lato text-silver">
         <!-- Flex Container -->
         <div
           class="flex flex-col justify-center items-center px-6 py-10 mx-auto gap-4"
@@ -231,11 +235,11 @@
             <ul class="flex flex-row gap-4 hover:cursor-pointer">
               <!-- Contact Link -->
               <li>
-                <a href="contact.html" class="hover:text-davys-grey">Contact</a>
+                <a href="contact.html" class="hover:text-vegas-gold">Contact</a>
               </li>
               <!-- Privacy Link -->
               <li>
-                <a href="privacy.html" class="hover:text-davys-grey">Privacy</a>
+                <a href="privacy.html" class="hover:text-vegas-gold">Privacy</a>
               </li>
             </ul>
           </div>

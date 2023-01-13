@@ -24,6 +24,8 @@ module.exports = {
       },
       spacing: {
         '128': '40rem',
+        '2/5': '40%',
+        '2/6': '33.333333%',
       },
       fontFamily: {
         'lato': [`'Lato', sans-serif`],

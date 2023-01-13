@@ -20,8 +20,6 @@
     <link rel="stylesheet" href="./css/normalize.css" />
   </head>
 
-  <!-- If you want to change the primary color from green to something else. Change it with the tailwind.config.js in the Project Root Folder -->
-
   <body class="">
     <!-- Responsive navbar-->
     <nav
@@ -31,7 +29,6 @@
         class="flex justify-between sm:justify-around gap-x-2 items-center"
       >
         <!-- Link To Direct to Home Page -->
-        <!-- This can be a logo or a simple text (or both). Just write it in-between the anchor tag below-->
         <a href="index.html" class="text-2xl py-1 flex items-center">
           One Team Talent Agency
         </a>
@@ -132,13 +129,14 @@
     </section>
 
     <!-- Logo Footer -->
-    <section
-    class="h-[150px] bg-[url('/images/logo2.png')] bg-contain bg-center bg-no-repeat bg-eerie-black"
-    >
+    <section class="bg-eerie-black">
+      <div class="sm:px-2/5 xs:px-2/6 pt-10">
+        <img src="images/logo.png" alt="Image of OTTA logo" />
+      </div>
     </section>
 
     <!-- Footer -->
-    <footer class="bg-neutral-900 font-lato text-silver">
+    <footer class="bg-eerie-black font-lato text-silver">
       <!-- Flex Container -->
       <div
         class="flex flex-col justify-center items-center px-6 py-10 mx-auto gap-4"
@@ -148,11 +146,11 @@
           <ul class="flex flex-row gap-4 hover:cursor-pointer">
             <!-- Contact Link -->
             <li>
-              <a href="contact.html" class="hover:text-davys-grey">Contact</a>
+              <a href="contact.html" class="hover:text-vegas-gold">Contact</a>
             </li>
             <!-- Privacy Link -->
             <li>
-              <a href="privacy.html" class="hover:text-davys-grey">Privacy</a>
+              <a href="privacy.html" class="hover:text-vegas-gold">Privacy</a>
             </li>
           </ul>
         </div>
