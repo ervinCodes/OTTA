@@ -2,13 +2,12 @@
 let slideIndex = 1;
 runSlideShow(slideIndex); // runSlideShow(1)
 
-function currentSlide(n) {
-  runSlideShow((slideIndex = n));
-}
+// function currentSlide(n) {
+//   runSlideShow((slideIndex = n));
+// }
 
 function runSlideShow(n) {
   let slides = document.querySelectorAll(".slides");
-  let dots = document.querySelectorAll("#dot");
   let quotes = document.querySelectorAll(".quotes");
   // console.log(dots);
 
@@ -23,11 +22,6 @@ function runSlideShow(n) {
   for (let i = 0; i < slides.length; i++) {
     slides[i].classList.add("hidden");
     slides[slideIndex - 1].classList.remove("hidden");
-  }
-
-  for (let i = 0; i < dots.length; i++) {
-    dots[i].classList.remove("active");
-    dots[slideIndex - 1].classList.add("active");
   }
 
   slideIndex++;

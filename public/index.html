@@ -278,13 +278,15 @@
             </li>
           </ul>
           <!-- Dots/bullets/indicators -->
-          <div class="absolute px-5 flex top-0 left-0 h-full w-full items-end justify-center pb-10 gap-1">
-              <button id="dot" onclick="currentSlide(1)" class="bg-white p-2 rounded-full bg-opacity-25 shadow-lg hover:bg-neutral-800">
+          <div class="absolute flex px-5 top-0 left-0 h-full w-full pb-10 lg:px-40 text-black">
+            <div class="my-auto w-full flex justify-between">
+              <button id="dot" onclick="currentSlide(1)" class="bg-white p-3 rounded-full bg-opacity-80 hover:bg-space-cadet shadow-lg">
+                <ion-icon name="arrow-round-back"></ion-icon>
               </button>
-              <button id="dot" onclick="currentSlide(2)" class="bg-white p-2 rounded-full bg-opacity-25 shadow-lg hover:bg-neutral-800 active">
+              <button id="dot" onclick="currentSlide(2)" class="bg-white p-3 rounded-full bg-opacity-80 hover:bg-space-cadet shadow-lg">
+                <ion-icon name="arrow-round-forward"></ion-icon>
               </button>
-              <button id="dot" onclick="currentSlide(3)" class="bg-white p-2 rounded-full bg-opacity-25 shadow-lg hover:bg-neutral-800">
-              </button>
+            </div>
           </div>
           <!-- Horizontal Line -->
           <div class="flex px-10 lg:px-56">
@@ -472,6 +474,8 @@
     <script src="./js/navbar.js"></script>
     <!-- Javascript -->
     <script src="./js/main.js"></script>
+    <!-- Icons -->
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
   </body>
 </html>
 
