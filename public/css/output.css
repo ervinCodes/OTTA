@@ -575,15 +575,6 @@ body::before {
   z-index: 10;
 }
 
-.m-12 {
-  margin: 3rem;
-}
-
-.mx-10 {
-  margin-left: 2.5rem;
-  margin-right: 2.5rem;
-}
-
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -613,6 +604,10 @@ body::before {
   margin-top: 1.25rem;
 }
 
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
 .mt-2 {
   margin-top: 0.5rem;
 }
@@ -625,12 +620,12 @@ body::before {
   margin-bottom: 2.5rem;
 }
 
-.mt-10 {
-  margin-top: 2.5rem;
-}
-
 .mt-3 {
   margin-top: 0.75rem;
+}
+
+.mb-8 {
+  margin-bottom: 2rem;
 }
 
 .inline-block {
@@ -655,10 +650,6 @@ body::before {
 
 .h-1 {
   height: 0.25rem;
-}
-
-.h-\[650px\] {
-  height: 650px;
 }
 
 .h-full {
@@ -701,8 +692,8 @@ body::before {
   width: 10rem;
 }
 
-.w-96 {
-  width: 24rem;
+.w-1\/2 {
+  width: 50%;
 }
 
 .max-w-4xl {
@@ -935,6 +926,10 @@ body::before {
   background-image: url('/images/logo2.png');
 }
 
+.bg-\[url\(\'\/public\/images\/header-image\.jpg\'\)\] {
+  background-image: url('/public/images/header-image.jpg');
+}
+
 .bg-cover {
   background-size: cover;
 }
@@ -966,10 +961,6 @@ body::before {
 
 .p-3 {
   padding: 0.75rem;
-}
-
-.p-12 {
-  padding: 3rem;
 }
 
 .px-4 {
@@ -1030,11 +1021,6 @@ body::before {
 .py-16 {
   padding-top: 4rem;
   padding-bottom: 4rem;
-}
-
-.px-12 {
-  padding-left: 3rem;
-  padding-right: 3rem;
 }
 
 .pb-1 {
@@ -1231,66 +1217,41 @@ body::before {
 }
 
 @media (min-width: 280px) {
-  .xs\:mx-7 {
-    margin-left: 1.75rem;
-    margin-right: 1.75rem;
-  }
-
   .xs\:mx-3 {
     margin-left: 0.75rem;
     margin-right: 0.75rem;
   }
 
-  .xs\:h-3\/6 {
-    height: 50%;
-  }
-
-  .xs\:h-1\/2 {
-    height: 50%;
-  }
-
-  .xs\:h-2\/6 {
-    height: 33.333333%;
-  }
-
-  .xs\:h-80 {
-    height: 20rem;
-  }
-
-  .xs\:h-96 {
-    height: 24rem;
-  }
-
-  .xs\:h-\[\] {
-    height: ;
-  }
-
-  .xs\:h-\[110px\] {
-    height: 110px;
-  }
-
-  .xs\:h-\[300px\] {
-    height: 300px;
-  }
-
-  .xs\:h-\[500px\] {
-    height: 500px;
+  .xs\:h-\[415px\] {
+    height: 415px;
   }
 
   .xs\:h-\[400px\] {
     height: 400px;
   }
 
-  .xs\:h-\[450px\] {
-    height: 450px;
+  .xs\:h-\[300px\] {
+    height: 300px;
   }
 
-  .xs\:h-\[420px\] {
-    height: 420px;
+  .xs\:h-\[350px\] {
+    height: 350px;
   }
 
-  .xs\:h-\[415px\] {
-    height: 415px;
+  .xs\:h-\[200px\] {
+    height: 200px;
+  }
+
+  .xs\:h-\[250px\] {
+    height: 250px;
+  }
+
+  .xs\:w-5\/6 {
+    width: 83.333333%;
+  }
+
+  .xs\:w-80 {
+    width: 20rem;
   }
 
   .xs\:flex-col-reverse {
@@ -1324,44 +1285,9 @@ body::before {
     padding-bottom: 4rem;
   }
 
-  .xs\:px-10 {
-    padding-left: 2.5rem;
-    padding-right: 2.5rem;
-  }
-
-  .xs\:py-8 {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-  }
-
-  .xs\:px-5 {
-    padding-left: 1.25rem;
-    padding-right: 1.25rem;
-  }
-
-  .xs\:px-3 {
-    padding-left: 0.75rem;
-    padding-right: 0.75rem;
-  }
-
   .xs\:px-4 {
     padding-left: 1rem;
     padding-right: 1rem;
-  }
-
-  .xs\:px-20 {
-    padding-left: 5rem;
-    padding-right: 5rem;
-  }
-
-  .xs\:px-128 {
-    padding-left: 40rem;
-    padding-right: 40rem;
-  }
-
-  .xs\:px-16 {
-    padding-left: 4rem;
-    padding-right: 4rem;
   }
 
   .xs\:px-14 {
@@ -1423,6 +1349,18 @@ body::before {
     height: 650px;
   }
 
+  .sm\:w-96 {
+    width: 24rem;
+  }
+
+  .sm\:w-\[200px\] {
+    width: 200px;
+  }
+
+  .sm\:w-\[500px\] {
+    width: 500px;
+  }
+
   .sm\:flex-row {
     flex-direction: row;
   }
@@ -1440,14 +1378,14 @@ body::before {
     padding-right: 40%;
   }
 
-  .sm\:py-20 {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-  }
-
   .sm\:px-10 {
     padding-left: 2.5rem;
     padding-right: 2.5rem;
+  }
+
+  .sm\:py-20 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
   }
 
   .sm\:text-4xl {
@@ -1455,14 +1393,14 @@ body::before {
     line-height: 2.5rem;
   }
 
-  .sm\:text-3xl {
-    font-size: 1.875rem;
-    line-height: 2.25rem;
-  }
-
   .sm\:text-2xl {
     font-size: 1.5rem;
     line-height: 2rem;
+  }
+
+  .sm\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
   }
 }
 
@@ -1523,6 +1461,10 @@ body::before {
 
   .lg\:w-5\/6 {
     width: 83.333333%;
+  }
+
+  .lg\:w-full {
+    width: 100%;
   }
 
   .lg\:grid-cols-2 {
