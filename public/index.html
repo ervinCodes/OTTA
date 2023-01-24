@@ -13,10 +13,6 @@
     <!-- Lato -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
-      rel="stylesheet"
-    />
     <!-- Core theme TailwindCSS-->
     <link rel="stylesheet" href="./css/output.css" />
     <!-- Core theme CSS-->
@@ -25,6 +21,8 @@
     <link rel="stylesheet" href="./css/build.css" />
     <!-- Normalize CSS/For all browsers -->
     <link rel="stylesheet" href="./css/normalize.css" />
+    <!-- Icons -->
+    <script type="module" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"></script>
   </head>
 
   <body class="">
@@ -73,10 +71,10 @@
     </nav>
 
     <!-- Page Content -->
-    <main class="bg-black">
+    <main class="">
       <!-- Header -->
       <section
-        class="2xl:h-[800px] lg:h-[650px] md:h-[500px] sm:h-[400px] xs:h-[250px] bg-[url('/images/header-image.jpg')] bg-cover bg-center header"
+        class="2xl:h-[800px] lg:h-[650px] md:h-[500px] sm:h-[400px] xs:h-[250px] bg-[url('/images/header-image.jpg')] bg-cover bg-center header bg-black"
       >
         <!-- Flex Container -->
         <div class="
@@ -202,7 +200,11 @@
         >
           <!-- Text Container -->
           <div
-            class="flex flex-col text-center flex-auto sm:col-span-2 lg:col-span-1 gap-4 xs:py-16 sm:py-20 xl:py-16"
+            class="
+            flex flex-col text-center flex-auto 
+            sm:col-span-2 lg:col-span-1 
+            gap-4 
+            xl:py-20 xs:py-16 "
           >
             <!-- Header -->
             <h2 class="xl:text-4xl lg:text-3xl sm:text-4xl xs:text-2xl font-bold text-vegas-gold">
@@ -232,69 +234,48 @@
           <div class="flex px-10 lg:px-56">
             <div class="flex-grow border-t border-white"></div>
           </div>
-          <!-- Quotes List -->
-          <ul class="xl:py-20 xs:py-16 sm:px-10 xs:px-14">
-            <!-- Quote 1 -->
-            <li id="" class="slides">
-              <div class=" flex flex-col text-center">
-                <p class="sm:text-2xl xs:text-xl italic">
-                  <span class="text-3xl font-catamaran">"</span>
-                OTTA offers ONE PLACE for ALL of Production Accounting:
-                </p>
-                <p class="text-2xl italic">Union,
-                Non-Affiliates, Non-Union or Entry-Level..</p>
-                <p class="sm:text-2xl xs:text-xl italic">WE NEED YOU ALL!!!
-                  <span class="text-3xl font-catamaran">"</span>
-                </p>
-                <p class="pt-5">-Kathy Riley</p>
+          <!-- Carousel Container -->
+          <div class="carousel-container">
+            <div class="carousel xs:px-1">
+              <div class="slider sm:py-10">
+                <div class="section flex flex-col">
+                  <p class="sm:text-2xl xs:text-sm italic">
+                    <span class="text-3xl font-catamaran">"</span>
+                  OTTA offers ONE PLACE for ALL of Production Accounting:
+                  </p>
+                  <p class="sm:text-2xl xs:text-sm italic">Union,
+                  Non-Affiliates, Non-Union or Entry-Level..</p>
+                  <p class="sm:text-2xl xs:text-sm italic">WE NEED YOU ALL!!!
+                    <span class="text-3xl font-catamaran">"</span>
+                  </p>
+                  <p class="pt-5">-Kathy Riley</p>
+                </div>
+                <div class="section">Content for Section 2</div>
+                <div class="section">Content for Section 3</div>
               </div>
-            </li>
-            <!-- Quote 2 -->
-            <li id="" class="slides hidden">
-              <div class=" flex flex-col text-center">
-                <p class="text-2xl italic">
-                  <span class="text-3xl font-catamaran">"</span>
-                Here is the second quote:
-                </p>
-                <p class="text-2xl italic">Second quote goes here</p>
-                <p class="text-2xl italic">Second quote goes here
-                  <span class="text-3xl font-catamaran">"</span>
-                </p>
-                <p class="pt-5">-Kathy Riley</p>
+              <!-- Controls -->
+              <div class="controls text-black">
+                <span class="arrow previous bg-sonic-silver xs:p-1 rounded-full hover:bg-space-cadet shadow-lg">
+                  <ion-icon name="arrow-round-back"></ion-icon>
+                </span>
+                <span class="arrow next bg-sonic-silver xs:p-1 rounded-full hover:bg-space-cadet shadow-lg">
+                  <ion-icon name="arrow-round-forward"></ion-icon>
+                </span>
               </div>
-            </li>
-            <!-- Quote 3 -->
-            <li id="" class="slides hidden">
-              <div class=" flex flex-col text-center">
-                <p class="text-2xl italic">
-                  <span class="text-3xl font-catamaran">"</span>
-                Here is the third quote:
-                </p>
-                <p class="text-2xl italic">Third quote goes here</p>
-                <p class="text-2xl italic">Third quote goes here
-                  <span class="text-3xl font-catamaran">"</span>
-                </p>
-                <p class="pt-5">-Kathy Riley</p>
-              </div>
-            </li>
-          </ul>
-          <!-- Dots/bullets/indicators -->
-          <div class="absolute flex px-5 top-0 left-0 h-full w-full pb-10 lg:px-40 text-black">
-            <div class="my-auto w-full flex justify-between">
-              <button id="dot" onclick="currentSlide(1)" class="bg-sonic-silver p-3 rounded-full hover:bg-space-cadet shadow-lg">
-                <ion-icon name="arrow-round-back"></ion-icon>
-              </button>
-              <button id="dot" onclick="currentSlide(2)" class="bg-sonic-silver p-3 rounded-full hover:bg-space-cadet shadow-lg">
-                <ion-icon name="arrow-round-forward"></ion-icon>
-              </button>
             </div>
           </div>
+            
+
+
           <!-- Horizontal Line -->
           <div class="flex px-10 lg:px-56">
             <div class="flex-grow border-t border-white"></div>
           </div>
         </div>
       </section>
+
+      
+
 
       <!-- Video -->
       <section class="font-lato grid grid-cols-1 bg-eerie-black xl:pt-0 xs:pt-16 lg:pb-0 xs:pb-16">
@@ -476,7 +457,7 @@
     <!-- Javascript -->
     <script src="./js/main.js"></script>
     <!-- Icons -->
-    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <!-- <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script> -->
   </body>
 </html>
 
