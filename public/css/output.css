@@ -642,10 +642,6 @@ body::before {
   height: 100%;
 }
 
-.h-\[1100px\] {
-  height: 1100px;
-}
-
 .h-40 {
   height: 10rem;
 }
@@ -767,11 +763,6 @@ body::before {
 
 .gap-y-5 {
   row-gap: 1.25rem;
-}
-
-.gap-x-1 {
-  -moz-column-gap: 0.25rem;
-       column-gap: 0.25rem;
 }
 
 .space-y-6 > :not([hidden]) ~ :not([hidden]) {
@@ -915,18 +906,6 @@ body::before {
 
 .bg-\[url\(\'\/images\/logo2\.png\'\)\] {
   background-image: url('/images/logo2.png');
-}
-
-.bg-\[url\(\'\/public\/images\/header-image\.jpg\'\)\] {
-  background-image: url('/public/images/header-image.jpg');
-}
-
-.bg-\[url\(\'\/pu\/images\/header-image\.jpg\'\)\] {
-  background-image: url('/pu/images/header-image.jpg');
-}
-
-.bg-\[url\(\'\/public\/images\/streaming\.jpg\'\)\] {
-  background-image: url('/public/images/streaming.jpg');
 }
 
 .bg-cover {
@@ -1093,11 +1072,6 @@ body::before {
   line-height: 1rem;
 }
 
-.text-base {
-  font-size: 1rem;
-  line-height: 1.5rem;
-}
-
 .font-bold {
   font-weight: 700;
 }
@@ -1230,6 +1204,10 @@ body::before {
     height: 250px;
   }
 
+  .xs\:h-\[1100px\] {
+    height: 1100px;
+  }
+
   .xs\:w-5\/6 {
     width: 83.333333%;
   }
@@ -1323,11 +1301,6 @@ body::before {
     font-size: 0.875rem;
     line-height: 1.25rem;
   }
-
-  .xs\:text-base {
-    font-size: 1rem;
-    line-height: 1.5rem;
-  }
 }
 
 @media (min-width: 640px) {
@@ -1397,11 +1370,6 @@ body::before {
     line-height: 2.5rem;
   }
 
-  .sm\:text-xl {
-    font-size: 1.25rem;
-    line-height: 1.75rem;
-  }
-
   .sm\:text-2xl {
     font-size: 1.5rem;
     line-height: 2rem;
@@ -1421,6 +1389,14 @@ body::before {
 
   .md\:h-\[500px\] {
     height: 500px;
+  }
+
+  .md\:h-screen {
+    height: 100vh;
+  }
+
+  .md\:min-h-screen {
+    min-height: 100vh;
   }
 
   .md\:w-80 {
@@ -1564,11 +1540,6 @@ body::before {
     font-size: 1.875rem;
     line-height: 2.25rem;
   }
-
-  .lg\:text-lg {
-    font-size: 1.125rem;
-    line-height: 1.75rem;
-  }
 }
 
 @media (min-width: 1280px) {
@@ -1595,11 +1566,6 @@ body::before {
 
   .xl\:pb-20 {
     padding-bottom: 5rem;
-  }
-
-  .xl\:text-lg {
-    font-size: 1.125rem;
-    line-height: 1.75rem;
   }
 
   .xl\:text-3xl {
