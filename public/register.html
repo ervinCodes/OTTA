@@ -21,9 +21,11 @@
     <link rel="stylesheet" href="./css/build.css" />
     <!-- Normalize CSS/For all browsers -->
     <link rel="stylesheet" href="./css/normalize.css" />
+    <!-- Icons -->
+    <script type="module" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"></script>
   </head>
 
-  <body class="">
+  <body>
     <!-- Responsive navbar-->
     <nav
       class="flex flex-col bg-white sm:flex-row flex-wrap md:items-center fixed top-0 z-20 w-full px-4 md:px-5 lg:px-16 py-2 justify-between"
@@ -193,12 +195,21 @@
             <div class="pb-1 pl-1">
                 <label for="password" class="text-davys-grey">Password</label>
             </div>
-                <input
+            <div class="relative">
+              <input
                     type="password"
                     id="password"
                     name="password"
                     class="w-full py-2 bg-gray-100 text-gray-500 px-1 outline-none mb-4 rounded-xl border ring-1 ring-gray-300 focus:ring-2 focus:ring-eerie-black"
                 />
+                <!-- Eye Icon -->
+                <ion-icon
+                id="show-password"
+                class="w-6 h-6 absolute top-1/2 right-3 -translate-y-5 hover:cursor-pointer"
+                name="eye"
+              ></ion-icon>
+            </div>
+                
             <!-- Confirm Password -->
             <div class="pb-1 pl-1">
                 <label for="password" class="text-davys-grey">Confirm Password</label>
@@ -223,7 +234,9 @@
       <!-- Logo Footer -->
       <section class="bg-eerie-black">
         <div class="sm:px-2/5 xs:px-2/6 pt-10">
-          <img src="images/logo.png" alt="Image of OTTA logo" />
+          <a href="#">
+            <img src="images/logo.png" alt="Image of OTTA logo" />
+          </a>
         </div>
       </section>
 
@@ -234,20 +247,20 @@
           class="flex flex-col justify-center items-center px-6 py-10 mx-auto gap-4"
         >
           <!-- Additional Links -->
-          <div class="">
-            <ul class="flex flex-row gap-4 hover:cursor-pointer">
+          <div>
+            <ul class="flex flex-row gap-4 hover:cursor-pointer text-vegas-gold">
               <!-- Contact Link -->
               <li>
-                <a href="contact.html" class="hover:text-vegas-gold">Contact</a>
+                <a href="contact.html" class="hover:text-sonic-silver">Contact</a>
               </li>
               <!-- Privacy Link -->
               <li>
-                <a href="privacy.html" class="hover:text-vegas-gold">Privacy</a>
+                <a href="privacy.html" class="hover:text-sonic-silver">Privacy</a>
               </li>
             </ul>
           </div>
           <!-- Copyright -->
-          <div class="text-base text-center">
+          <div class="text-sm text-center text-sonic-silver">
             <p>&copy; 2023 One Team Talent Agency, LLC. All Rights Reserved.</p>
           </div>
         </div>
@@ -257,8 +270,6 @@
     <!-- Core Navbar JS-->
     <script src="./js/navbar.js"></script>
     <!-- Javascript -->
-    <script src="./js/main.js"></script>
-    <!-- Icons -->
-    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script src="./js/showPassword.js"></script>
   </body>
 </html>
