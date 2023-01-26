@@ -1025,8 +1025,20 @@ body::before {
   padding-top: 1.25rem;
 }
 
+.pr-5 {
+  padding-right: 1.25rem;
+}
+
+.pr-10 {
+  padding-right: 2.5rem;
+}
+
 .text-center {
   text-align: center;
+}
+
+.text-right {
+  text-align: right;
 }
 
 .font-lato {
@@ -1282,6 +1294,10 @@ body::before {
     padding-bottom: 4rem;
   }
 
+  .xs\:text-center {
+    text-align: center;
+  }
+
   .xs\:text-3xl {
     font-size: 1.875rem;
     line-height: 2.25rem;
@@ -1395,10 +1411,6 @@ body::before {
     height: 100vh;
   }
 
-  .md\:min-h-screen {
-    min-height: 100vh;
-  }
-
   .md\:w-80 {
     width: 20rem;
   }
@@ -1407,8 +1419,20 @@ body::before {
     flex-direction: row;
   }
 
+  .md\:flex-wrap {
+    flex-wrap: wrap;
+  }
+
   .md\:items-center {
     align-items: center;
+  }
+
+  .md\:gap-y-1 {
+    row-gap: 0.25rem;
+  }
+
+  .md\:gap-y-5 {
+    row-gap: 1.25rem;
   }
 
   .md\:space-x-6 > :not([hidden]) ~ :not([hidden]) {
@@ -1428,9 +1452,33 @@ body::before {
     padding-right: 1.25rem;
   }
 
-  .md\:px-14 {
-    padding-left: 3.5rem;
-    padding-right: 3.5rem;
+  .md\:px-7 {
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
+  }
+
+  .md\:pr-10 {
+    padding-right: 2.5rem;
+  }
+
+  .md\:pr-12 {
+    padding-right: 3rem;
+  }
+
+  .md\:pr-16 {
+    padding-right: 4rem;
+  }
+
+  .md\:text-left {
+    text-align: left;
+  }
+
+  .md\:text-center {
+    text-align: center;
+  }
+
+  .md\:text-right {
+    text-align: right;
   }
 
   .md\:text-4xl {
@@ -1478,6 +1526,10 @@ body::before {
     flex-direction: row;
   }
 
+  .lg\:flex-col {
+    flex-direction: column;
+  }
+
   .lg\:justify-start {
     justify-content: flex-start;
   }
@@ -1485,6 +1537,11 @@ body::before {
   .lg\:px-16 {
     padding-left: 4rem;
     padding-right: 4rem;
+  }
+
+  .lg\:px-14 {
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
   }
 
   .lg\:px-56 {
@@ -1522,6 +1579,10 @@ body::before {
     padding-bottom: 0px;
   }
 
+  .lg\:pr-0 {
+    padding-right: 0px;
+  }
+
   .lg\:text-left {
     text-align: left;
   }
@@ -1543,6 +1604,14 @@ body::before {
 }
 
 @media (min-width: 1280px) {
+  .xl\:flex-row {
+    flex-direction: row;
+  }
+
+  .xl\:flex-col {
+    flex-direction: column;
+  }
+
   .xl\:gap-y-8 {
     row-gap: 2rem;
   }
@@ -1566,6 +1635,10 @@ body::before {
 
   .xl\:pb-20 {
     padding-bottom: 5rem;
+  }
+
+  .xl\:pr-0 {
+    padding-right: 0px;
   }
 
   .xl\:text-3xl {
