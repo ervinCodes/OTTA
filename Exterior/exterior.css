@@ -12,3 +12,8 @@
     @apply text-gray-200;
   }
 }
+
+@font-face {
+  font-family: GillSansMTStd;
+  src: url('../../fonts/GillSansMTStd-Medium.otf') format("opentype");
+}

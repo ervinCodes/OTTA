@@ -4,16 +4,11 @@
   "description": "",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "css": "npx tailwindcss -i ./src/input.css -o ./public/css/output.css --watch",
-    "build": "vite build"
+    "css": "npx tailwindcss -i ./Exterior/exterior.css -o ./Exterior/css/exterior.css --watch"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "tailwindcss": "^3.2.4"
-  },
-  "dependencies": {
-    "vite": "^4.0.4"
   }
 }

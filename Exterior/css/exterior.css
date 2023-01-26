@@ -1025,20 +1025,8 @@ body::before {
   padding-top: 1.25rem;
 }
 
-.pr-5 {
-  padding-right: 1.25rem;
-}
-
-.pr-10 {
-  padding-right: 2.5rem;
-}
-
 .text-center {
   text-align: center;
-}
-
-.text-right {
-  text-align: right;
 }
 
 .font-lato {
@@ -1174,6 +1162,12 @@ body::before {
 
 .duration-500 {
   transition-duration: 500ms;
+}
+
+@font-face {
+  font-family: GillSansMTStd;
+
+  src: url('../../fonts/GillSansMTStd-Medium.otf') format("opentype");
 }
 
 .hover\:cursor-pointer:hover {
@@ -1419,20 +1413,8 @@ body::before {
     flex-direction: row;
   }
 
-  .md\:flex-wrap {
-    flex-wrap: wrap;
-  }
-
   .md\:items-center {
     align-items: center;
-  }
-
-  .md\:gap-y-1 {
-    row-gap: 0.25rem;
-  }
-
-  .md\:gap-y-5 {
-    row-gap: 1.25rem;
   }
 
   .md\:space-x-6 > :not([hidden]) ~ :not([hidden]) {
@@ -1457,28 +1439,12 @@ body::before {
     padding-right: 1.75rem;
   }
 
-  .md\:pr-10 {
-    padding-right: 2.5rem;
-  }
-
-  .md\:pr-12 {
-    padding-right: 3rem;
-  }
-
   .md\:pr-16 {
     padding-right: 4rem;
   }
 
-  .md\:text-left {
-    text-align: left;
-  }
-
   .md\:text-center {
     text-align: center;
-  }
-
-  .md\:text-right {
-    text-align: right;
   }
 
   .md\:text-4xl {
@@ -1520,14 +1486,6 @@ body::before {
 
   .lg\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
-  .lg\:flex-row {
-    flex-direction: row;
-  }
-
-  .lg\:flex-col {
-    flex-direction: column;
   }
 
   .lg\:justify-start {
@@ -1579,10 +1537,6 @@ body::before {
     padding-bottom: 0px;
   }
 
-  .lg\:pr-0 {
-    padding-right: 0px;
-  }
-
   .lg\:text-left {
     text-align: left;
   }
@@ -1629,16 +1583,16 @@ body::before {
     padding-bottom: 0px;
   }
 
+  .xl\:pr-0 {
+    padding-right: 0px;
+  }
+
   .xl\:pt-0 {
     padding-top: 0px;
   }
 
   .xl\:pb-20 {
     padding-bottom: 5rem;
-  }
-
-  .xl\:pr-0 {
-    padding-right: 0px;
   }
 
   .xl\:text-3xl {
