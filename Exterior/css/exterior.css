@@ -878,9 +878,9 @@ body::before {
   border-color: rgb(255 255 255 / var(--tw-border-opacity));
 }
 
-.bg-white {
+.bg-sonic-silver {
   --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  background-color: rgb(115 115 115 / var(--tw-bg-opacity));
 }
 
 .bg-black {
@@ -903,14 +903,14 @@ body::before {
   background-color: rgb(193 191 190 / var(--tw-bg-opacity));
 }
 
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
 .bg-gray-100 {
   --tw-bg-opacity: 1;
   background-color: rgb(243 244 246 / var(--tw-bg-opacity));
-}
-
-.bg-sonic-silver {
-  --tw-bg-opacity: 1;
-  background-color: rgb(115 115 115 / var(--tw-bg-opacity));
 }
 
 .bg-\[url\(\'\/images\/streaming\.jpg\'\)\] {
@@ -1264,10 +1264,6 @@ body::before {
     height: 1100px;
   }
 
-  .xs\:w-5\/6 {
-    width: 83.333333%;
-  }
-
   .xs\:w-80 {
     width: 20rem;
   }
@@ -1374,6 +1370,11 @@ body::before {
     font-size: 1.875rem;
     line-height: 2.25rem;
   }
+
+  .xs\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
 }
 
 @media (min-width: 640px) {
@@ -1391,24 +1392,9 @@ body::before {
     margin-right: 1.25rem;
   }
 
-  .sm\:mx-20 {
-    margin-left: 5rem;
-    margin-right: 5rem;
-  }
-
-  .sm\:mx-12 {
-    margin-left: 3rem;
-    margin-right: 3rem;
-  }
-
   .sm\:mx-16 {
     margin-left: 4rem;
     margin-right: 4rem;
-  }
-
-  .sm\:mx-1 {
-    margin-left: 0.25rem;
-    margin-right: 0.25rem;
   }
 
   .sm\:mt-0 {
@@ -1425,6 +1411,10 @@ body::before {
 
   .sm\:h-\[400px\] {
     height: 400px;
+  }
+
+  .sm\:w-5\/6 {
+    width: 83.333333%;
   }
 
   .sm\:w-96 {
