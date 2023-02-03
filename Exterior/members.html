@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="./css/styles.css" />
     <!-- Build CSS -->
     <link rel="stylesheet" href="./css/build.css" />
-    <!-- Normalize CSS/For all browsers -->
+    <!-- Normalize CSS -->
     <link rel="stylesheet" href="./css/normalize.css" />
     <!-- Icons -->
     <script type="module" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"></script>
@@ -76,7 +76,7 @@
     <!-- Page Content -->
     <main class="bg-black">
       <section
-        class="h-screen items-center justify-center bg-[url('/images/clock-gray.jpg')] bg-cover bg-center header flex"
+        class="xs:h-[650px] items-center justify-center bg-[url('/images/clock-gray.jpg')] bg-cover bg-center header flex"
       >
         <form action="">
           <div class="bg-white sm:w-96 xs:w-80 p-6 rounded shadow-lg">
@@ -142,7 +142,7 @@
       </section>
 
       <!-- Logo Footer -->
-      <section>
+      <section class="bg-eerie-black">
         <div class="sm:px-2/5 xs:px-2/6 pt-10">
           <a href="#">
             <img src="images/logo.png" alt="Image of OTTA logo" />
@@ -151,21 +151,58 @@
       </section>
 
       <!-- Footer -->
-      <footer class="font-lato text-silver">
+      <footer class="font-lato text-silver bg-eerie-black">
         <!-- Flex Container -->
         <div
           class="flex flex-col justify-center items-center px-6 py-10 mx-auto gap-4"
         >
           <!-- Additional Links -->
           <div>
-            <ul class="flex flex-row gap-4 hover:cursor-pointer text-vegas-gold">
+            <ul class="flex flex-row gap-4 text-vegas-gold">
               <!-- Contact Link -->
               <li>
-                <a href="contact.html" class="hover:text-sonic-silver">Contact</a>
+                <a href="contact.html" class="hover:text-sonic-silver hover:cursor-pointer">Contact</a>
+              </li>
+              <!-- Terms of Use -->
+              <li>
+                <a href="terms-of-use.html" class="hover:text-sonic-silver hover:cursor-pointer">Terms of Use</a>
               </li>
               <!-- Privacy Link -->
               <li>
-                <a href="privacy.html" class="hover:text-sonic-silver">Privacy</a>
+                <a href="privacy.html" class="hover:text-sonic-silver hover:cursor-pointer">Privacy</a>
+              </li>
+              <!-- Faq -->
+              <li>
+                <a href="faq.html" class="hover:text-sonic-silver hover:cursor-pointer">FAQ</a>
+              </li>
+            </ul>
+          </div>
+          <!-- Socials -->
+          <div>
+            <ul class="flex flex-row gap-4">
+              <li>
+                <a href="#">
+                  <ion-icon
+                  name="logo-facebook"
+                  class="text-sonic-silver text-2xl hover:cursor-pointer"
+                ></ion-icon>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <ion-icon
+                  name="logo-instagram"
+                  class="text-sonic-silver text-2xl hover:cursor-pointer"
+                ></ion-icon>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <ion-icon
+                  name="logo-twitter"
+                  class="text-sonic-silver text-2xl hover:cursor-pointer"
+                ></ion-icon>
+                </a>
               </li>
             </ul>
           </div>

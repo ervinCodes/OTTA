@@ -670,6 +670,10 @@ body::before {
   height: 4rem;
 }
 
+.h-\[650px\] {
+  height: 650px;
+}
+
 .w-full {
   width: 100%;
 }
@@ -1264,6 +1268,14 @@ body::before {
     height: 1100px;
   }
 
+  .xs\:h-screen {
+    height: 100vh;
+  }
+
+  .xs\:h-\[650px\] {
+    height: 650px;
+  }
+
   .xs\:w-80 {
     width: 20rem;
   }
@@ -1365,16 +1377,6 @@ body::before {
     font-size: 0.875rem;
     line-height: 1.25rem;
   }
-
-  .xs\:text-3xl {
-    font-size: 1.875rem;
-    line-height: 2.25rem;
-  }
-
-  .xs\:text-4xl {
-    font-size: 2.25rem;
-    line-height: 2.5rem;
-  }
 }
 
 @media (min-width: 640px) {
@@ -1413,6 +1415,10 @@ body::before {
     height: 400px;
   }
 
+  .sm\:h-\[650px\] {
+    height: 650px;
+  }
+
   .sm\:w-5\/6 {
     width: 83.333333%;
   }
@@ -1448,14 +1454,14 @@ body::before {
     padding-bottom: 2.5rem;
   }
 
-  .sm\:text-3xl {
-    font-size: 1.875rem;
-    line-height: 2.25rem;
-  }
-
   .sm\:text-4xl {
     font-size: 2.25rem;
     line-height: 2.5rem;
+  }
+
+  .sm\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
   }
 
   .sm\:text-2xl {
@@ -1488,6 +1494,10 @@ body::before {
 
   .md\:h-screen {
     height: 100vh;
+  }
+
+  .md\:h-\[650px\] {
+    height: 650px;
   }
 
   .md\:w-80 {
@@ -1562,16 +1572,6 @@ body::before {
   .md\:text-center {
     text-align: center;
   }
-
-  .md\:text-4xl {
-    font-size: 2.25rem;
-    line-height: 2.5rem;
-  }
-
-  .md\:text-5xl {
-    font-size: 3rem;
-    line-height: 1;
-  }
 }
 
 @media (min-width: 1024px) {
@@ -1590,6 +1590,10 @@ body::before {
 
   .lg\:h-\[650px\] {
     height: 650px;
+  }
+
+  .lg\:h-\[\] {
+    height: ;
   }
 
   .lg\:w-5\/6 {
