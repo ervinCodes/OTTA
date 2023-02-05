@@ -1563,10 +1563,6 @@ body::before {
     display: grid;
   }
 
-  .lg\:h-\[650px\] {
-    height: 650px;
-  }
-
   .lg\:h-\[700px\] {
     height: 700px;
   }
@@ -1575,16 +1571,16 @@ body::before {
     height: auto;
   }
 
+  .lg\:h-\[650px\] {
+    height: 650px;
+  }
+
   .lg\:w-5\/6 {
     width: 83.333333%;
   }
 
   .lg\:w-full {
     width: 100%;
-  }
-
-  .lg\:w-1\/2 {
-    width: 50%;
   }
 
   .lg\:w-2\/3 {
@@ -1667,10 +1663,6 @@ body::before {
 @media (min-width: 1280px) {
   .xl\:h-screen {
     height: 100vh;
-  }
-
-  .xl\:h-\[800px\] {
-    height: 800px;
   }
 
   .xl\:h-\[700px\] {
