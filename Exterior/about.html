@@ -28,17 +28,21 @@
   <body>
     <!-- Responsive navbar-->
     <nav
-      class="flex flex-col bg-space-cadet text-white sm:flex-row flex-wrap md:items-center fixed top-0 z-20 w-full px-4 md:px-5 lg:px-16 py-2 justify-between"
+      class="flex flex-col bg-space-cadet text-white md:flex-row flex-wrap md:items-center fixed top-0 z-20 w-full px-4 md:px-5 lg:px-16 py-2 justify-between"
     >
-      <div class="flex justify-between sm:justify-around gap-x-2 items-center">
-        <!-- Link To Direct to Home Page -->
-        <a href="index.html" class="text-2xl py-1 flex items-center">
+      <!-- Flex Container -->
+      <div class="flex md:justify-around xs:justify-between gap-x-2 items-center">
+        <!-- Link Direct to Home Page -->
+        <div>
+          <a href="index.html" class="text-2xl py-1 flex items-center">
           One Team Talent Agency
         </a>
-
+        </div>
+        
         <!-- Hamburger -->
-        <button
-          class="sm:hidden cursor-pointer flex flex-col justify-center gap-y-1"
+        <div>
+          <button
+          class="md:hidden cursor-pointer flex flex-col justify-center gap-y-1"
           id="hamburger"
           aria-label="menu"
         >
@@ -46,29 +50,31 @@
           <div class="w-6 h-1 bar bg-black rounded-lg duration-500"></div>
           <div class="w-6 h-1 bar bg-black rounded-lg duration-500"></div>
         </button>
+        </div>
       </div>
-
+      
       <ul
-        class="hidden sm:flex justify-end items-center gap-x-7 gap-y-5 mt-5 sm:mt-0"
+        class="hidden md:flex justify-end items-center gap-x-7 gap-y-5 mt-5 sm:mt-0"
         id="links"
       >
         <li>
           <a href="index.html" class="hover:text-gray-300">Home</a>
         </li>
         <li>
-          <a href="about.html" class="hover:text-gray-300">About Us</a>
-        </li>
-        <li>
-          <a href="memoriam.html" class="hover:text-gray-300">In Memoriam</a>
-        </li>
-        <li>
           <a href="members.html" class="hover:text-gray-300">Members</a>
         </li>
+        
         <li>
           <a href="employers.html" class="hover:text-gray-300">Employers</a>
         </li>
         <li>
+          <a href="#" class="hover:text-gray-300">Credits</a>
+        </li>
+        <li>
           <a href="visions-and-values.html" class="hover:text-gray-300">Visions and Values</a>
+        </li>
+        <li>
+          <a href="about.html" class="hover:text-gray-300">About Us</a>
         </li>
       </ul>
     </nav>
@@ -77,7 +83,7 @@
     <main class="bg-eerie-black">
       <!-- Header -->
       <section
-        class="2xl:h-[800px] lg:h-[650px] md:h-[500px] sm:h-[400px] xs:h-[250px] bg-[url('/images/streaming.jpg')] bg-cover bg-center header hidden-elements"
+        class="2xl:h-[800px] lg:h-[700px] md:h-[500px] sm:h-[400px] xs:h-[250px] bg-[url('/images/streaming.jpg')] bg-cover bg-center header hidden-elements"
       >
         <!-- Flex Container -->
         <div
@@ -102,7 +108,7 @@
         text-silver font-lato 
         xl:pt-20 xs:pt-16 
         xl:pb-0
-        hidden-elements"
+        "
       >
         <!-- Flex Container -->
         <div
@@ -141,7 +147,7 @@
         text-silver font-lato 
         xl:pt-20 xs:pt-16 
         xs:pb-0
-        hidden-elements"
+        "
       >
         <!-- Flex Container -->
         <div
@@ -185,7 +191,7 @@
       <section 
         class="
         font-lato text-silver 
-        lg:pt-20 xs:pt-16 hidden-elements">
+        lg:pt-20 xs:pt-16 ">
         <!-- Flex Container -->
         <div
           class="
@@ -228,7 +234,7 @@
       <section 
         class="
         font-lato text-silver 
-        lg:pt-20 xs:pt-16 hidden-elements">
+        lg:pt-20 xs:pt-16 ">
         <!-- Flex Container -->
         <div
           class="
@@ -266,7 +272,7 @@
       </section>
 
       <!-- Logo Footer -->
-      <section class="hidden-elements">
+      <section class="">
         <div class="sm:px-2/5 xs:px-2/6 pt-10">
           <a href="#">
             <img src="images/logo.png" alt="Image of OTTA logo" />
@@ -275,7 +281,7 @@
       </section>
 
       <!-- Footer -->
-      <footer class="font-lato text-silver bg-eerie-black hidden-elements">
+      <footer class="font-lato text-silver bg-eerie-black ">
         <!-- Flex Container -->
         <div
           class="flex flex-col justify-center items-center px-6 py-10 mx-auto gap-4"
@@ -332,7 +338,7 @@
           </div>
           <!-- Copyright -->
           <div class="text-sm text-center text-sonic-silver">
-            <p>&copy; 2023 One Team Talent Agency, LLC. All Rights Reserved.</p>
+            <p>&copy; 2023 One Team Talent Agency, Inc. All Rights Reserved.</p>
           </div>
         </div>
       </footer>

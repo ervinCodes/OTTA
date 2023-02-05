@@ -576,14 +576,14 @@ body::before {
   margin-right: auto;
 }
 
-.my-0 {
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-
 .my-2 {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
+}
+
+.my-0 {
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .mt-5 {
@@ -916,8 +916,8 @@ body::before {
   background-image: url('/images/set2.jpg');
 }
 
-.bg-\[url\(\'\/images\/header-image\.jpg\'\)\] {
-  background-image: url('/images/header-image.jpg');
+.bg-\[url\(\'\/Exterior\/images\/header-image2\.jpg\'\)\] {
+  background-image: url('/Exterior/images/header-image2.jpg');
 }
 
 .bg-\[url\(\'\/images\/clock-gray\.jpg\'\)\] {
@@ -930,6 +930,10 @@ body::before {
 
 .bg-\[url\(\'\/images\/logo2\.png\'\)\] {
   background-image: url('/images/logo2.png');
+}
+
+.bg-\[url\(\'\/Exterior\/images\/header-image\.jpg\'\)\] {
+  background-image: url('/Exterior/images/header-image.jpg');
 }
 
 .bg-cover {
@@ -1018,6 +1022,11 @@ body::before {
 .px-5 {
   padding-left: 1.25rem;
   padding-right: 1.25rem;
+}
+
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .py-16 {
@@ -1385,14 +1394,6 @@ body::before {
     margin-top: 0px;
   }
 
-  .sm\:flex {
-    display: flex;
-  }
-
-  .sm\:hidden {
-    display: none;
-  }
-
   .sm\:h-\[400px\] {
     height: 400px;
   }
@@ -1403,18 +1404,6 @@ body::before {
 
   .sm\:w-96 {
     width: 24rem;
-  }
-
-  .sm\:flex-row {
-    flex-direction: row;
-  }
-
-  .sm\:justify-between {
-    justify-content: space-between;
-  }
-
-  .sm\:justify-around {
-    justify-content: space-around;
   }
 
   .sm\:p-12 {
@@ -1502,10 +1491,6 @@ body::before {
     align-items: center;
   }
 
-  .md\:justify-end {
-    justify-content: flex-end;
-  }
-
   .md\:justify-around {
     justify-content: space-around;
   }
@@ -1582,12 +1567,28 @@ body::before {
     height: 650px;
   }
 
+  .lg\:h-\[700px\] {
+    height: 700px;
+  }
+
+  .lg\:h-auto {
+    height: auto;
+  }
+
   .lg\:w-5\/6 {
     width: 83.333333%;
   }
 
   .lg\:w-full {
     width: 100%;
+  }
+
+  .lg\:w-1\/2 {
+    width: 50%;
+  }
+
+  .lg\:w-2\/3 {
+    width: 66.666667%;
   }
 
   .lg\:grid-cols-2 {
@@ -1664,6 +1665,18 @@ body::before {
 }
 
 @media (min-width: 1280px) {
+  .xl\:h-screen {
+    height: 100vh;
+  }
+
+  .xl\:h-\[800px\] {
+    height: 800px;
+  }
+
+  .xl\:h-\[700px\] {
+    height: 700px;
+  }
+
   .xl\:flex-row {
     flex-direction: row;
   }
