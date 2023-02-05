@@ -1744,6 +1744,14 @@ body::before {
     height: 800px;
   }
 
+  .\32xl\:h-\[700px\] {
+    height: 700px;
+  }
+
+  .\32xl\:h-\[750px\] {
+    height: 750px;
+  }
+
   .\32xl\:text-4xl {
     font-size: 2.25rem;
     line-height: 2.5rem;
