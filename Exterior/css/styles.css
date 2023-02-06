@@ -8,6 +8,10 @@
   transform: rotate(-45deg) translateX(-4px) translateY(-5px);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .header {
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.4);
 }
