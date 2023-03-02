@@ -22,7 +22,8 @@ module.exports = {
       },
       fontFamily: {
         'lato': [`'Lato', sans-serif`],
-        'catamaran': [`'Catamaran', sans-serif`]
+        'catamaran': [`'Catamaran', sans-serif`],
+        'gill-sans': [`'Gill Sans', sans-serif`]
       }
     },
   },
