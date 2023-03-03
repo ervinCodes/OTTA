@@ -13,7 +13,9 @@ module.exports = {
         "silver": "#C1BFBE",
         "sonic-silver": "#737373",
         "vegas-gold": "#CDAD5C",
-        "space-cadet": "#1C2646"
+        "space-cadet": "#1C2646",
+        "federal-blue": "#050542",
+        "ecru": "#C7AD68"
       },
       spacing: {
         '128': '40rem',

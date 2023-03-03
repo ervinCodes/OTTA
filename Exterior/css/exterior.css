@@ -513,6 +513,46 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.container {
+  width: 100%;
+}
+
+@media (min-width: 280px) {
+  .container {
+    max-width: 280px;
+  }
+}
+
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1536px;
+  }
+}
+
 body::before {
   display: block;
   content: "";
@@ -614,6 +654,10 @@ body::before {
   margin-bottom: 2rem;
 }
 
+.mb-16 {
+  margin-bottom: 4rem;
+}
+
 .inline-block {
   display: inline-block;
 }
@@ -648,6 +692,10 @@ body::before {
 
 .h-40 {
   height: 10rem;
+}
+
+.h-44 {
+  height: 11rem;
 }
 
 .h-\[300px\] {
@@ -852,12 +900,16 @@ body::before {
   border-width: 1px;
 }
 
+.border-t {
+  border-top-width: 1px;
+}
+
 .border-b {
   border-bottom-width: 1px;
 }
 
-.border-t {
-  border-top-width: 1px;
+.border-t-2 {
+  border-top-width: 2px;
 }
 
 .border-white {
@@ -900,9 +952,14 @@ body::before {
   background-color: rgb(115 115 115 / var(--tw-bg-opacity));
 }
 
-.bg-vegas-gold {
+.bg-federal-blue {
   --tw-bg-opacity: 1;
-  background-color: rgb(205 173 92 / var(--tw-bg-opacity));
+  background-color: rgb(5 5 66 / var(--tw-bg-opacity));
+}
+
+.bg-ecru {
+  --tw-bg-opacity: 1;
+  background-color: rgb(199 173 104 / var(--tw-bg-opacity));
 }
 
 .bg-\[url\(\'\/images\/streaming\.jpg\'\)\] {
@@ -937,12 +994,28 @@ body::before {
   background-image: url('/Exterior/images/header-image.jpg');
 }
 
+.bg-\[url\(\'\/Exterior\/images\/logo2\.png\'\)\] {
+  background-image: url('/Exterior/images/logo2.png');
+}
+
+.bg-\[url\(\'\/Exterior\/images\/logo\.png\'\)\] {
+  background-image: url('/Exterior/images/logo.png');
+}
+
+.bg-\[url\(\'\/images\/homepage\.jpg\'\)\] {
+  background-image: url('/images/homepage.jpg');
+}
+
 .bg-cover {
   background-size: cover;
 }
 
 .bg-contain {
   background-size: contain;
+}
+
+.bg-auto {
+  background-size: auto;
 }
 
 .bg-center {
@@ -953,8 +1026,27 @@ body::before {
   background-repeat: no-repeat;
 }
 
+.bg-repeat-x {
+  background-repeat: repeat-x;
+}
+
 .fill-current {
   fill: currentColor;
+}
+
+.object-contain {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.object-fill {
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+
+.object-none {
+  -o-object-fit: none;
+     object-fit: none;
 }
 
 .object-scale-down {
@@ -970,12 +1062,24 @@ body::before {
   padding: 1.5rem;
 }
 
+.p-4 {
+  padding: 1rem;
+}
+
 .p-3 {
   padding: 0.75rem;
 }
 
-.p-4 {
-  padding: 1rem;
+.p-12 {
+  padding: 3rem;
+}
+
+.p-36 {
+  padding: 9rem;
+}
+
+.p-96 {
+  padding: 24rem;
 }
 
 .px-4 {
@@ -1033,24 +1137,14 @@ body::before {
   padding-right: 1.25rem;
 }
 
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
 .py-16 {
   padding-top: 4rem;
   padding-bottom: 4rem;
-}
-
-.px-16 {
-  padding-left: 4rem;
-  padding-right: 4rem;
-}
-
-.px-8 {
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-
-.px-12 {
-  padding-left: 3rem;
-  padding-right: 3rem;
 }
 
 .pb-5 {
@@ -1073,12 +1167,20 @@ body::before {
   padding-left: 0.25rem;
 }
 
-.pt-16 {
-  padding-top: 4rem;
+.pt-12 {
+  padding-top: 3rem;
 }
 
 .pt-5 {
   padding-top: 1.25rem;
+}
+
+.pb-16 {
+  padding-bottom: 4rem;
+}
+
+.pt-16 {
+  padding-top: 4rem;
 }
 
 .pt-7 {
@@ -1099,10 +1201,6 @@ body::before {
 
 .font-gill-sans {
   font-family: 'Gill Sans', sans-serif;
-}
-
-.font-catamaran {
-  font-family: 'Catamaran', sans-serif;
 }
 
 .text-2xl {
@@ -1194,6 +1292,11 @@ body::before {
 .text-gray-500 {
   --tw-text-opacity: 1;
   color: rgb(107 114 128 / var(--tw-text-opacity));
+}
+
+.text-ecru {
+  --tw-text-opacity: 1;
+  color: rgb(199 173 104 / var(--tw-text-opacity));
 }
 
 .text-black {
@@ -1346,14 +1449,14 @@ body::before {
     padding-right: 33.333333%;
   }
 
-  .xs\:px-5 {
-    padding-left: 1.25rem;
-    padding-right: 1.25rem;
-  }
-
   .xs\:py-16 {
     padding-top: 4rem;
     padding-bottom: 4rem;
+  }
+
+  .xs\:px-5 {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
   }
 
   .xs\:px-1 {
@@ -1654,11 +1757,6 @@ body::before {
     padding-right: 4rem;
   }
 
-  .lg\:px-14 {
-    padding-left: 3.5rem;
-    padding-right: 3.5rem;
-  }
-
   .lg\:px-56 {
     padding-left: 14rem;
     padding-right: 14rem;
@@ -1667,6 +1765,16 @@ body::before {
   .lg\:px-52 {
     padding-left: 13rem;
     padding-right: 13rem;
+  }
+
+  .lg\:px-14 {
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+  }
+
+  .lg\:py-0 {
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
 
   .lg\:py-16 {
@@ -1753,21 +1861,6 @@ body::before {
     row-gap: 2rem;
   }
 
-  .xl\:gap-x-6 {
-    -moz-column-gap: 1.5rem;
-         column-gap: 1.5rem;
-  }
-
-  .xl\:gap-x-8 {
-    -moz-column-gap: 2rem;
-         column-gap: 2rem;
-  }
-
-  .xl\:gap-x-12 {
-    -moz-column-gap: 3rem;
-         column-gap: 3rem;
-  }
-
   .xl\:gap-x-14 {
     -moz-column-gap: 3.5rem;
          column-gap: 3.5rem;
@@ -1786,6 +1879,10 @@ body::before {
     padding-bottom: 0px;
   }
 
+  .xl\:pt-0 {
+    padding-top: 0px;
+  }
+
   .xl\:pr-0 {
     padding-right: 0px;
   }
@@ -1800,9 +1897,9 @@ body::before {
     line-height: 1.25rem;
   }
 
-  .xl\:text-4xl {
-    font-size: 2.25rem;
-    line-height: 2.5rem;
+  .xl\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
   }
 
   .xl\:text-2xl {
@@ -1810,14 +1907,14 @@ body::before {
     line-height: 2rem;
   }
 
+  .xl\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
   .xl\:text-base {
     font-size: 1rem;
     line-height: 1.5rem;
-  }
-
-  .xl\:text-5xl {
-    font-size: 3rem;
-    line-height: 1;
   }
 }
 
@@ -1825,11 +1922,6 @@ body::before {
   .\32xl\:mx-52 {
     margin-left: 13rem;
     margin-right: 13rem;
-  }
-
-  .\32xl\:mx-96 {
-    margin-left: 24rem;
-    margin-right: 24rem;
   }
 
   .\32xl\:h-\[800px\] {
