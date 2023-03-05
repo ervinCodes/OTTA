@@ -996,6 +996,10 @@ body::before {
      object-fit: scale-down;
 }
 
+.p-5 {
+  padding: 1.25rem;
+}
+
 .p-8 {
   padding: 2rem;
 }
@@ -1010,10 +1014,6 @@ body::before {
 
 .p-3 {
   padding: 0.75rem;
-}
-
-.p-5 {
-  padding: 1.25rem;
 }
 
 .px-4 {
@@ -1117,6 +1117,10 @@ body::before {
   padding-top: 1.75rem;
 }
 
+.pb-16 {
+  padding-bottom: 4rem;
+}
+
 .text-left {
   text-align: left;
 }
@@ -1181,16 +1185,12 @@ body::before {
   font-weight: 700;
 }
 
-.font-thin {
-  font-weight: 100;
-}
-
-.font-semibold {
-  font-weight: 600;
-}
-
 .font-medium {
   font-weight: 500;
+}
+
+.font-thin {
+  font-weight: 100;
 }
 
 .uppercase {
@@ -1451,12 +1451,12 @@ body::before {
     padding-top: 4rem;
   }
 
-  .xs\:pb-0 {
-    padding-bottom: 0px;
-  }
-
   .xs\:pb-10 {
     padding-bottom: 2.5rem;
+  }
+
+  .xs\:pb-0 {
+    padding-bottom: 0px;
   }
 
   .xs\:text-center {
@@ -1779,8 +1779,8 @@ body::before {
     padding-left: 1.25rem;
   }
 
-  .lg\:pt-20 {
-    padding-top: 5rem;
+  .lg\:pt-10 {
+    padding-top: 2.5rem;
   }
 
   .lg\:pt-12 {
@@ -1791,8 +1791,8 @@ body::before {
     padding-bottom: 0px;
   }
 
-  .lg\:pt-10 {
-    padding-top: 2.5rem;
+  .lg\:pt-20 {
+    padding-top: 5rem;
   }
 
   .lg\:text-left {
@@ -1847,6 +1847,10 @@ body::before {
     height: 550px;
   }
 
+  .xl\:h-1\/2 {
+    height: 50%;
+  }
+
   .xl\:flex-row {
     flex-direction: row;
   }
@@ -1874,6 +1878,14 @@ body::before {
     padding-bottom: 5rem;
   }
 
+  .xl\:pt-10 {
+    padding-top: 2.5rem;
+  }
+
+  .xl\:pt-0 {
+    padding-top: 0px;
+  }
+
   .xl\:pb-0 {
     padding-bottom: 0px;
   }
@@ -1882,16 +1894,8 @@ body::before {
     padding-top: 5rem;
   }
 
-  .xl\:pt-0 {
-    padding-top: 0px;
-  }
-
   .xl\:pr-0 {
     padding-right: 0px;
-  }
-
-  .xl\:pt-10 {
-    padding-top: 2.5rem;
   }
 
   .xl\:text-3xl {
@@ -1931,32 +1935,29 @@ body::before {
     margin-right: 4rem;
   }
 
-  .\32xl\:mx-20 {
-    margin-left: 5rem;
-    margin-right: 5rem;
-  }
-
-  .\32xl\:mx-52 {
-    margin-left: 13rem;
-    margin-right: 13rem;
-  }
-
-  .\32xl\:mx-12 {
-    margin-left: 3rem;
-    margin-right: 3rem;
-  }
-
-  .\32xl\:mx-14 {
-    margin-left: 3.5rem;
-    margin-right: 3.5rem;
-  }
-
   .\32xl\:h-\[800px\] {
     height: 800px;
   }
 
   .\32xl\:h-\[700px\] {
     height: 700px;
+  }
+
+  .\32xl\:h-fit {
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+
+  .\32xl\:h-1\/2 {
+    height: 50%;
+  }
+
+  .\32xl\:h-4\/6 {
+    height: 66.666667%;
+  }
+
+  .\32xl\:h-3\/6 {
+    height: 50%;
   }
 
   .\32xl\:gap-1 {
@@ -1972,19 +1973,14 @@ body::before {
     padding-top: 4rem;
   }
 
-  .\32xl\:text-4xl {
-    font-size: 2.25rem;
-    line-height: 2.5rem;
+  .\32xl\:text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
   }
 
   .\32xl\:text-2xl {
     font-size: 1.5rem;
     line-height: 2rem;
-  }
-
-  .\32xl\:text-base {
-    font-size: 1rem;
-    line-height: 1.5rem;
   }
 
   .\32xl\:text-3xl {
@@ -1997,13 +1993,13 @@ body::before {
     line-height: 1;
   }
 
+  .\32xl\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
   .\32xl\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
-  }
-
-  .\32xl\:text-6xl {
-    font-size: 3.75rem;
-    line-height: 1;
   }
 }
