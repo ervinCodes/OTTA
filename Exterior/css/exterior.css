@@ -1831,9 +1831,9 @@ body::before {
     padding-bottom: 0px;
   }
 
-  .lg\:px-14 {
-    padding-left: 3.5rem;
-    padding-right: 3.5rem;
+  .lg\:px-5 {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
   }
 
   .lg\:px-\[38\%\] {
@@ -1846,9 +1846,9 @@ body::before {
     padding-bottom: 4rem;
   }
 
-  .lg\:px-5 {
-    padding-left: 1.25rem;
-    padding-right: 1.25rem;
+  .lg\:px-14 {
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
   }
 
   .lg\:pl-5 {
