@@ -30,15 +30,23 @@
   <body>
     <!-- Responsive navbar-->
     <nav
-      class="flex flex-col bg-federal-blue md:flex-row flex-wrap md:items-center fixed top-0 z-20 w-full px-4 md:px-5 lg:px-16 py-2 justify-between"
+      class="flex flex-col bg-federal-blue flow-wrap md:flex-row  md:items-center fixed top-0 z-20 w-full px-4 md:px-5 lg:px-8 py-2 justify-between"
     >
       <!-- Flex Container -->
-      <div class="flex md:justify-around xs:justify-between gap-x-2 items-center">
+      <div class="flex md:justify-around xs:justify-between gap-x-2 items-center lg:w-2/5 md:w-4/12">
         <!-- Link Direct to Home Page -->
-        <div>
-          <a href="index.html" class="text-2xl py-1 flex items-center text-ecru">
-          ONE TEAM TALENT AGENCY
-        </a>
+        <div class="flex flex-row">
+          <div class="lg:basis-14 md:basis-9 xs:basis-11">
+            <a href="index.html">
+              <img src="images/small-logo.png" alt="">
+            </a>
+            
+          </div>
+          <div class="">
+            <a href="index.html" class="lg:text-2xl md:text-sm xs:text-xl pt-2 flex items-center text-ecru font-medium font-gill-sans">
+              ONE TEAM TALENT AGENCY
+            </a>
+          </div>
         </div>
         
         <!-- Hamburger -->
@@ -56,27 +64,27 @@
       </div>
       
       <ul
-        class="hidden md:flex justify-end items-center gap-x-7 gap-y-5 mt-5 sm:mt-0 text-silver"
+        class="hidden md:flex justify-end items-center gap-x-7 lg:gap-y-10 mt-5 sm:mt-0 text-silver font-sans lg:w-3/5 font-thin xl:text-lg lg:text-base md:text-xs"
         id="links"
       >
         <li>
-          <a href="index.html" class="hover:text-gray-300">Home</a>
+          <a href="index.html" class="hover:text-gray-300 hover:underline 2xl:pr-10 xl:pr-5">Home</a>
         </li>
         <li>
-          <a href="members.html" class="hover:text-gray-300">Members</a>
+          <a href="members.html" class="hover:text-gray-300 hover:underline 2xl:pr-10 xl:pr-5">Members</a>
         </li>
         
         <li>
-          <a href="employers.html" class="hover:text-gray-300">Employers</a>
+          <a href="employers.html" class="hover:text-gray-300 hover:underline 2xl:pr-10 xl:pr-5">Employers</a>
         </li>
         <li>
-          <a href="#" class="hover:text-gray-300">Credits</a>
+          <a href="#" class="hover:text-gray-300 hover:underline 2xl:pr-10 xl:pr-5">Credits</a>
         </li>
         <li>
-          <a href="visions-and-values.html" class="hover:text-gray-300">Visions and Values</a>
+          <a href="visions-and-values.html" class="hover:text-gray-300 hover:underline 2xl:pr-10 xl:pr-5">Visions and Values</a>
         </li>
         <li>
-          <a href="about.html" class="hover:text-gray-300">About Us</a>
+          <a href="about.html" class="hover:text-gray-300 hover:underline">About Us</a>
         </li>
       </ul>
     </nav>
@@ -108,35 +116,35 @@
       <section
         class="
         text-silver font-gill-sans 
-        xl:py-10 xs:pt-16
+        xs:py-10
         "
       >
         <!-- Flex Container -->
         <div
           class="
-          flex flex-row items-center justify-between 
-          xl:gap-y-8 xs:gap-y-16 
-          xs:gap-x-7 
-          2xl:mx-16 xl:mx-44 lg:mx-32 sm:mx-10 xs:mx-3"
+          flex lg:flex-row xs:flex-col items-center justify-between 
+          xl:gap-y-8 
+          xs:gap-4 
+          xl:mx-16 md:mx-5 xs:mx-3"
         >
           <!-- Image Container -->
-          <div class="basis-1/3 flex flex-col justify-center items-center p-5">
+          <div class="basis-1/3 flex flex-col justify-center items-center xl:p-5 lg:p-6">
             <!-- Image -->
-            <div class="flex-auto sm:col-span-2 lg:col-span-1">
+            <div class="flex-auto">
               <img class="object-fit w-full h-auto " src="images/kathy-bio.jpg" alt="Portrait photo of Kathy Riley"/>
             </div>
             <!-- Name -->
             <div class="pt-5">
               <h2 class="
-              2xl:text-6xl xl:text-3xl lg:text-2xl sm:text-3xl xs:text-2xl font-medium text-ecru">Kathy Riley</h2>
+              2xl:text-6xl xl:text-5xl sm:text-4xl xs:text-3xl font-medium text-ecru">Kathy Riley</h2>
             </div>
           </div>
           <!-- Text Container -->
           <div
-            class="basis-2/3 flex flex-col text-left sm:col-span-2 lg:col-span-1 gap-4 font-thin"
+            class="basis-2/3 flex flex-col text-left gap-4 font-thin"
           >
             <!-- Text -->
-            <p class="2xl:text-2xl xl:text-sm lg:text-[12px] md:text-base xs:text-xl">
+            <p class="2xl:text-2xl xl:text-xl md:text-base xs:text-xl">
               Kathy Riley is the Founder and CEO of One Team Talent Agency (<span class="font-bold italic text-ecru">
                 OTTA
               </span>) with over three decades of experience in Production Accounting, ranging from Entry Level to Department Head, including a stint as a Director of Production Finance for a major television studio.  Kathy has experienced first-hand the challenges faced when staffing Production Accounting departments.  In response to these challenges, Kathy founded One Team Talent Agency (
@@ -148,7 +156,7 @@
               </span> offers a range of services to serve and support the production accounting community.
           
             </p>
-            <p class="2xl:text-2xl xl:text-sm lg:text-[12px] md:text-base xs:text-xl">
+            <p class="2xl:text-2xl xl:text-xl lg:text-base md:text-base xs:text-xl">
               Throughout her career as a production accountant, Kathy specialized in 1-hr scripted, single-camera television dramas, and has worked with top studios such as ABC Signature Studios, Disney Channel, NBC-Universal, Warner Brothers Television, Sony Pictures, and 20th Century Fox.  Kathy's proven leadership and extensive experience in the industry, combined with her strong commitment to improving the staffing process, is the driving force behind establishing One Team Talent Agency, which aims to offer innovative solutions to the production accounting community.
             </p>
           </div>
@@ -160,36 +168,36 @@
         class="
         bg-white
         text-federal-blue font-gill-sans 
-        xl:pt-10 xs:pt-16
+        xs:py-10
         "
       >
         <!-- Flex Container -->
         <div
           class=" 
           flex lg:flex-row items-center xs:flex-col-reverse justify-between 
-          xl:gap-y-8 xs:gap-y-16
-          xs:gap-x-7 
-          2xl:mx-16 xl:mx-44 lg:mx-32 sm:mx-10 xs:mx-3"
+          xl:gap-y-8
+          xs:gap-4 
+          xl:mx-16 md:mx-5 xs:mx-3"
         >
           <!-- Text Container -->
           <div
-            class="basis-2/3 flex flex-col text-left sm:col-span-2 lg:col-span-1 gap-4 font-thin"
+            class="basis-2/3 flex flex-col text-left gap-4 font-thin"
           >
             <!-- Text -->
-            <p class="2xl:text-2xl xl:text-sm lg:text-[12px] md:text-base xs:text-xl">
+            <p class="2xl:text-2xl xl:text-xl md:text-base xs:text-xl">
               Jim Nicholson is the Co-Founder and Chief Information Officer of One Team Talent Agency.  With over 30 years of experience in the IT field, both in private and corporate settings, Jim brings a wealth of knowledge and expertise to the company.  In his current role as the IT Director for a major corporation based in Los Angeles, Jim is responsible for implementing various technology projects designed to enhance the efficiency and cost-effectiveness of the company's sales, service, HR, and business office functions.  Prior to that, he served as CTO at Alliance United Insurance Services, where he built the IT infrastructure for the growing company.  Throughout his career, Jim has been in charge of a wide range of IT functions, including enterprise data, user support, infrastructure, telecommunications, and information security.  Jim's leadership and experience in the field of IT will be instrumental in driving One Team Talent Agency's technology strategy forward.
             </p>
           </div>
           <!-- Image Container -->
-          <div class="basis-1/3 flex flex-col justify-center items-center p-5">
+          <div class="basis-1/3 flex flex-col justify-center items-center xl:p-5 lg:p-6">
             <!-- Image -->
-            <div class="flex-auto sm:col-span-2 lg:col-span-1">
+            <div class="flex-auto">
               <img class="object-fit w-full h-auto " src="images/jim-bio.jpg" alt="Portrait photo of Jim Nicholson"/>
             </div>
             <!-- Name -->
             <div class="pt-5">
               <h2 class="
-              2xl:text-6xl xl:text-3xl lg:text-2xl sm:text-3xl xs:text-2xl font-medium text-ecru">Jim Nicholson</h2>
+              2xl:text-6xl xl:text-5xl sm:text-4xl xs:text-3xl font-medium text-ecru">Jim Nicholson</h2>
             </div>
           </div>
         </div>
@@ -199,34 +207,34 @@
       <section 
         class="
         text-silver font-gill-sans  
-        lg:pt-10 xs:pt-16"
+        xs:py-10"
         >
         <!-- Flex Container -->
         <div
           class=" 
-          flex flex-row items-center justify-between 
-          xl:gap-y-8 xs:gap-y-16
-          xs:gap-x-7 
-          2xl:mx-16 xl:mx-44 lg:mx-32 sm:mx-10 xs:mx-3"
+          flex lg:flex-row xs:flex-col items-center justify-between 
+          xl:gap-y-8
+          xs:gap-4 
+          xl:mx-16 md:mx-5 xs:mx-3"
         >
           <!-- Image Container -->
-          <div class="basis-1/3 flex flex-col justify-center items-center p-5">
+          <div class="basis-1/3 flex flex-col justify-center items-center xl:p-5 lg:p-6">
             <!-- Image -->
-            <div class="flex-auto sm:col-span-2 lg:col-span-1">
+            <div class="flex-auto">
               <img class="object-fit w-full h-auto " src="images/meagen-bio.jpg" alt="Portrait photo of Meagen Brooks"/>
             </div>
             <!-- Name -->
             <div class="pt-5">
               <h2 class="
-              2xl:text-6xl xl:text-3xl lg:text-2xl sm:text-3xl xs:text-2xl font-medium text-ecru">Meagen Brooks</h2>
+              2xl:text-6xl xl:text-5xl sm:text-4xl xs:text-3xl font-medium text-ecru">Meagen Brooks</h2>
             </div>
           </div>
           <!-- Text Container -->
           <div
-            class="basis-2/3 flex flex-col text-left sm:col-span-2 lg:col-span-1 gap-4 font-thin"
+            class="basis-2/3 flex flex-col text-left gap-4 font-thin"
           >
             <!-- Text -->
-            <p class="2xl:text-2xl xl:text-sm lg:text-[12px] md:text-base xs:text-xl">
+            <p class="2xl:text-2xl xl:text-xl md:text-base xs:text-xl">
               Meagen Brooks is a Graphic Designer in ADG Local 800, having
               worked for television shows such as Weeds, Young Sheldon, Atypical
               and Saved By The Bell. After having completed her BS in Cinema and
@@ -249,37 +257,37 @@
         class="
         bg-white
         text-federal-blue font-gill-sans  
-        lg:pt-10 xs:pt-16"
+        xs:py-10"
         >
         <!-- Flex Container -->
         <div
           class="
           flex lg:flex-row items-center xs:flex-col-reverse justify-between  
-          xl:gap-y-8 xs:gap-y-16
-          xs:gap-x-7 
-          2xl:mx-16 xl:mx-44 lg:mx-32 sm:mx-10 xs:mx-3"
+          xl:gap-y-8 
+          xs:gap-4 
+          xl:mx-16 md:mx-5 xs:mx-3"
         >
           <!-- Text Container -->
           <div
-            class="basis-2/3 flex flex-col text-left sm:col-span-2 lg:col-span-1 gap-4 font-thin"
+            class="basis-2/3 flex flex-col text-left gap-4 font-thin"
           >
             <!-- Text -->
-            <p class="2xl:text-2xl xl:text-sm lg:text-[12px] md:text-base xs:text-xl">
+            <p class="2xl:text-2xl xl:text-xl md:text-base xs:text-xl">
               Ervin is a highly skilled web developer with four years of experience designing and building websites and applications for small to medium-sized businesses. Prior to transitioning to his career in development, he studied Kinesiology and honed his customer service and insurance industry expertise managing over 15 accounts. He even helped launch an international application that contributed significantly to his previous employer's success in South America.
 
               He has a versatile technology stack, including proficiency in HTML/CSS, Javascript, React, Node.js, and Tailwind CSS. He takes pride in his ability to craft visually stunning and responsive websites that are user-friendly and optimized for search engines. Ervin's exceptional talent lies in his ability to create logical page structures that facilitate efficient browsing for all types of devices, ensuring that the user experience is seamless and memorable.
             </p>
           </div>
           <!-- Image Container -->
-          <div class="basis-1/3 flex flex-col justify-center items-center p-5">
+          <div class="basis-1/3 flex flex-col justify-center items-center xl:p-5 lg:p-6">
             <!-- Image -->
-            <div class="flex-auto sm:col-span-2 lg:col-span-1">
+            <div class="flex-auto">
               <img class="object-fit w-full h-auto " src="images/ervin-bio.jpg" alt="Photo of Kathy Riley on roof out in the snow"/>
             </div>
             <!-- Name -->
             <div class="pt-5">
               <h2 class="
-              2xl:text-6xl xl:text-3xl lg:text-2xl sm:text-3xl xs:text-2xl font-medium text-ecru">Ervin Natareno</h2>
+              2xl:text-6xl xl:text-5xl sm:text-4xl xs:text-3xl font-medium text-ecru">Ervin Natareno</h2>
             </div>
           </div>
         </div>
@@ -298,10 +306,10 @@
       <footer class="font-gill-sans text-silver bg-federal-blue font-thin">
         <!-- Flex Container -->
         <div
-          class="flex lg:flex-row xs:flex-col justify-center items-center px-6 py-10 mx-auto gap-4" aria-label="Footer"
+          class="flex xl:flex-row xs:flex-col justify-center items-center px-6 py-10 mx-auto gap-4" aria-label="Footer"
         >
           <!-- Navigation Links -->
-          <ul class="flex flex-row gap-4 text-ecru sm:text-2xl xs:text-xl">
+          <ul class="flex flex-row gap-4 text-ecru sm:text-2xl xs:text-base">
             <!-- Contact Links -->
             <li>
               <a href="contact.html" class="hover:text-white hover:cursor-pointer">Contact</a>
@@ -321,7 +329,7 @@
             <li>
               <a href="faq.html" class="hover:text-white hover:cursor-pointer">FAQ</a>
             </li>
-            <span class="lg:visible xs:invisible">|</span>
+            <span class="xl:visible xs:invisible">|</span>
           </ul>
           <!-- Socials -->
           <ul class="flex flex-row gap-4">
@@ -363,8 +371,8 @@
           </ul>
           
           <!-- Copyright -->
-          <div class="text-center text-ecru flex flex-row sm:text-2xl xs:text-xl gap-4">
-            <span class="lg:visible xs:invisible">|</span>
+          <div class="text-center text-ecru flex flex-row sm:text-2xl xs:text-base gap-4">
+            <span class="xl:visible xs:invisible">|</span>
             <p>&copy; 2023 One Team Talent Agency, Inc. All Rights Reserved.</p>
           </div>
         </div>

@@ -30,15 +30,23 @@
   <body>
     <!-- Responsive navbar-->
     <nav
-      class="flex flex-col bg-federal-blue md:flex-row flex-wrap md:items-center fixed top-0 z-20 w-full px-4 md:px-5 lg:px-16 py-2 justify-between"
+      class="flex flex-col bg-federal-blue flow-wrap md:flex-row  md:items-center fixed top-0 z-20 w-full px-4 md:px-5 lg:px-8 py-2 justify-between"
     >
       <!-- Flex Container -->
-      <div class="flex md:justify-around xs:justify-between gap-x-2 items-center">
+      <div class="flex md:justify-around xs:justify-between gap-x-2 items-center lg:w-2/5 md:w-4/12">
         <!-- Link Direct to Home Page -->
-        <div>
-          <a href="index.html" class="text-2xl py-1 flex items-center text-ecru">
-          ONE TEAM TALENT AGENCY
-        </a>
+        <div class="flex flex-row">
+          <div class="lg:basis-14 md:basis-9 xs:basis-11">
+            <a href="index.html">
+              <img src="images/small-logo.png" alt="">
+            </a>
+            
+          </div>
+          <div class="">
+            <a href="index.html" class="lg:text-2xl md:text-sm xs:text-xl pt-2 flex items-center text-ecru font-medium font-gill-sans">
+              ONE TEAM TALENT AGENCY
+            </a>
+          </div>
         </div>
         
         <!-- Hamburger -->
@@ -56,27 +64,27 @@
       </div>
       
       <ul
-        class="hidden md:flex justify-end items-center gap-x-7 gap-y-5 mt-5 sm:mt-0 text-silver font-sans"
+        class="hidden md:flex justify-end items-center gap-x-7 lg:gap-y-10 mt-5 sm:mt-0 text-silver font-sans lg:w-3/5 font-thin xl:text-lg lg:text-base md:text-xs"
         id="links"
       >
         <li>
-          <a href="index.html" class="hover:text-gray-300">Home</a>
+          <a href="index.html" class="hover:text-gray-300 hover:underline 2xl:pr-10 xl:pr-5">Home</a>
         </li>
         <li>
-          <a href="members.html" class="hover:text-gray-300">Members</a>
+          <a href="members.html" class="hover:text-gray-300 hover:underline 2xl:pr-10 xl:pr-5">Members</a>
         </li>
         
         <li>
-          <a href="employers.html" class="hover:text-gray-300">Employers</a>
+          <a href="employers.html" class="hover:text-gray-300 hover:underline 2xl:pr-10 xl:pr-5">Employers</a>
         </li>
         <li>
-          <a href="#" class="hover:text-gray-300">Credits</a>
+          <a href="#" class="hover:text-gray-300 hover:underline 2xl:pr-10 xl:pr-5">Credits</a>
         </li>
         <li>
-          <a href="visions-and-values.html" class="hover:text-gray-300">Visions and Values</a>
+          <a href="visions-and-values.html" class="hover:text-gray-300 hover:underline 2xl:pr-10 xl:pr-5">Visions and Values</a>
         </li>
         <li>
-          <a href="about.html" class="hover:text-gray-300">About Us</a>
+          <a href="about.html" class="hover:text-gray-300 hover:underline">About Us</a>
         </li>
       </ul>
     </nav>
@@ -133,16 +141,16 @@
             <ul class="flex md:flex-row xs:flex-col md:text-center xs:text-center text-silver 2xl:gap-x-8 xl:gap-x-14 lg:gap-x-4 md:gap-x-2 justify-around">
 
               <li class="uppercase 2xl:text-3xl xl:text-2xl xs:text-xl">
-                <span class="2xl:text-5xl lg:text-4xl md:text-3xl xs:text-4xl font-bold text-ecru">Streamline
+                <span class="2xl:text-5xl lg:text-4xl md:text-3xl sm:text-4xl xs:text-3xl font-bold text-ecru">Streamline
                   
                 </span> hiring process</li>
               
               <li class="uppercase 2xl:text-3xl xl:text-2xl xs:text-xl">
-                <span class="2xl:text-5xl lg:text-4xl md:text-3xl xs:text-4xl font-bold text-ecru">Recognize
+                <span class="2xl:text-5xl lg:text-4xl md:text-3xl sm:text-4xl xs:text-3xl font-bold text-ecru">Recognize
                   
                 </span> a job well done</li>
               <li class="uppercase 2xl:text-3xl xl:text-2xl xs:text-xl">
-                <span class="2xl:text-5xl lg:text-4xl md:text-3xl xs:text-4xl font-bold text-ecru">Inspire
+                <span class="2xl:text-5xl lg:text-4xl md:text-3xl sm:text-4xl xs:text-3xl font-bold text-ecru">Inspire
                   
                 </span> Excellence</li>
             </ul>
@@ -150,7 +158,7 @@
         </div>
         <!-- Mission Statement -->
         <section
-        class="font-gill-sans text-silver "
+        class="font-gill-sans text-silver hidden-elements"
         >
         <!-- Flex Container -->
         <div class="relative">
@@ -366,7 +374,7 @@
             <div class="my-2">
               <a
                 href="visions-and-values.html"
-                class="p-4 px-10 bg-ecru text-black rounded-xl baseline hover:bg-gray-900 text-2xl"
+                class="p-4 px-10 bg-ecru text-black rounded-xl baseline hover:bg-gray-900 hover:text-white text-2xl"
               >
                 JOIN NOW
               </a>
@@ -430,7 +438,7 @@
             <div class="my-2">
               <a
                 href="visions-and-values.html"
-                class="p-4 px-10 bg-ecru text-black rounded-xl baseline hover:bg-gray-900 text-2xl"
+                class="p-4 px-10 bg-ecru text-black rounded-xl baseline hover:bg-gray-900 hover:text-white text-2xl"
               >
                 CONTACT US
               </a>
@@ -444,11 +452,11 @@
       <!-- Logo Line -->
       <section class=" bg-white">
         <!-- Flex Container -->
-        <div class="flex justify-center items-center h-44 w-full sm:px-2/5 xs:px-2/6 mx-auto">
+        <div class="flex justify-center items-center h-44 w-full lg:px-[38%] md:px-[35%] xs:px-[25%] mx-auto">
           <img src="images/logo2.png" alt="" class="object-contain">
           <img src="images/logo2.png" alt="" class="object-contain">
-          <img src="images/logo2.png" alt="" class="object-contain ">
-          <img src="images/logo2.png" alt="" class="object-contain ">
+          <img src="images/logo2.png" alt="" class="object-contain xs:hidden md:block">
+          <img src="images/logo2.png" alt="" class="object-contain xs:hidden lg:block">
         </div>
       </section>
 
@@ -468,20 +476,10 @@
             xl:py-20 lg:py-16 xs:py-16 
             lg:px-52 sm:px-10 xs:px-3"
           >
-            <!-- Text -->
-            <!-- <p class="text-xl">
-              OTTA has taken on the challenge of disrupting the traditional hiring process in Production Accounting, which we believe is long overdue for change.
-            </p>
-            <p class="text-xl">
-              The digital transformation accelerated by the pandemic has had a major impact on our industry, and it's clear that the old ways of doing things are no longer sustainable.  Many Production Accounting departments have had to double in size just to keep up with the increased workload.
-            </p>
-            <p class="text-xl">
-              Our primary goal is to streamline the hiring process in Production Accounting, which we believe will benefit everyone involved: department heads, studios, production companies, and the talented production accounting professionals who are seeking opportunities.  OTTA provides a central hub for talent and a more efficient way to match job openings with the right candidates.  We aim to reduce the stress and frustration that has long been a part of this process.
-              </p> -->
               <h1 class="text-ecru sm:text-4xl xs:text-2xl italic my-0">
                 Our Mission
               </h1>
-              <p class="2xl:text-3xl sm:text-2xl xs:text-xl italic text-silver">
+              <p class="2xl:text-3xl sm:text-2xl xs:text-xl italic text-silver font-thin">
                 
                 <span class="font-bold italic text-ecru">
                   OTTA
@@ -513,10 +511,10 @@
       <footer class="font-gill-sans text-silver bg-federal-blue font-thin">
         <!-- Flex Container -->
         <div
-          class="flex lg:flex-row xs:flex-col justify-center items-center px-6 py-10 mx-auto gap-4" aria-label="Footer"
+          class="flex xl:flex-row xs:flex-col justify-center items-center px-6 py-10 mx-auto gap-4" aria-label="Footer"
         >
           <!-- Navigation Links -->
-          <ul class="flex flex-row gap-4 text-ecru sm:text-2xl xs:text-xl">
+          <ul class="flex flex-row gap-4 text-ecru sm:text-2xl xs:text-base">
             <!-- Contact Links -->
             <li>
               <a href="contact.html" class="hover:text-white hover:cursor-pointer">Contact</a>
@@ -536,7 +534,7 @@
             <li>
               <a href="faq.html" class="hover:text-white hover:cursor-pointer">FAQ</a>
             </li>
-            <span class="lg:visible xs:invisible">|</span>
+            <span class="xl:visible xs:invisible">|</span>
           </ul>
           <!-- Socials -->
           <ul class="flex flex-row gap-4">
@@ -578,8 +576,8 @@
           </ul>
           
           <!-- Copyright -->
-          <div class="text-center text-ecru flex flex-row sm:text-2xl xs:text-xl gap-4">
-            <span class="lg:visible xs:invisible">|</span>
+          <div class="text-center text-ecru flex flex-row sm:text-2xl xs:text-base gap-4">
+            <span class="xl:visible xs:invisible">|</span>
             <p>&copy; 2023 One Team Talent Agency, Inc. All Rights Reserved.</p>
           </div>
         </div>
