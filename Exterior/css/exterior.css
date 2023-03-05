@@ -994,6 +994,10 @@ body::before {
   background-image: url('/Exterior/images/homepage.jpg');
 }
 
+.bg-\[url\(\'\/images\/header-image\.jpg\'\)\] {
+  background-image: url('/images/header-image.jpg');
+}
+
 .bg-cover {
   background-size: cover;
 }
