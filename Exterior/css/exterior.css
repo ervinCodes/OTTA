@@ -1298,6 +1298,11 @@ body::before {
   background-color: rgb(28 38 70 / var(--tw-bg-opacity));
 }
 
+.hover\:bg-sonic-silver:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(115 115 115 / var(--tw-bg-opacity));
+}
+
 .hover\:text-gray-300:hover {
   --tw-text-opacity: 1;
   color: rgb(209 213 219 / var(--tw-text-opacity));
