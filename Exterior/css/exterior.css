@@ -650,8 +650,8 @@ body::before {
   height: 10rem;
 }
 
-.h-44 {
-  height: 11rem;
+.h-64 {
+  height: 16rem;
 }
 
 .h-\[300px\] {
@@ -664,14 +664,6 @@ body::before {
 
 .h-16 {
   height: 4rem;
-}
-
-.h-60 {
-  height: 15rem;
-}
-
-.h-64 {
-  height: 16rem;
 }
 
 .w-full {
@@ -787,24 +779,32 @@ body::before {
   justify-content: space-around;
 }
 
-.gap-4 {
-  gap: 1rem;
-}
-
-.gap-8 {
-  gap: 2rem;
-}
-
-.gap-6 {
-  gap: 1.5rem;
-}
-
 .gap-3 {
   gap: 0.75rem;
 }
 
+.gap-4 {
+  gap: 1rem;
+}
+
+.gap-20 {
+  gap: 5rem;
+}
+
+.gap-80 {
+  gap: 20rem;
+}
+
+.gap-16 {
+  gap: 4rem;
+}
+
 .gap-2 {
   gap: 0.5rem;
+}
+
+.gap-24 {
+  gap: 6rem;
 }
 
 .gap-x-2 {
@@ -920,9 +920,9 @@ body::before {
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
-.bg-silver {
+.bg-ecru {
   --tw-bg-opacity: 1;
-  background-color: rgb(193 191 190 / var(--tw-bg-opacity));
+  background-color: rgb(199 173 104 / var(--tw-bg-opacity));
 }
 
 .bg-gray-100 {
@@ -933,11 +933,6 @@ body::before {
 .bg-sonic-silver {
   --tw-bg-opacity: 1;
   background-color: rgb(115 115 115 / var(--tw-bg-opacity));
-}
-
-.bg-ecru {
-  --tw-bg-opacity: 1;
-  background-color: rgb(199 173 104 / var(--tw-bg-opacity));
 }
 
 .bg-eerie-black {
@@ -962,8 +957,8 @@ body::before {
   background-image: url('/images/set2.jpg');
 }
 
-.bg-\[url\(\'\/images\/homepage\.jpg\'\)\] {
-  background-image: url('/images/homepage.jpg');
+.bg-\[url\(\'\/Exterior\/images\/homepage\.jpg\'\)\] {
+  background-image: url('/Exterior/images/homepage.jpg');
 }
 
 .bg-\[url\(\'\/Exterior\/images\/logo\.png\'\)\] {
@@ -986,16 +981,8 @@ body::before {
   background-image: url('/Exterior/images/header-image.jpg');
 }
 
-.bg-\[url\(\'Exterior\/images\/homepage\.jpg\'\)\] {
-  background-image: url('Exterior/images/homepage.jpg');
-}
-
-.bg-\[url\(\'\/Exterior\/images\/homepage\.jpg\'\)\] {
-  background-image: url('/Exterior/images/homepage.jpg');
-}
-
-.bg-\[url\(\'\/images\/header-image\.jpg\'\)\] {
-  background-image: url('/images/header-image.jpg');
+.bg-\[url\(\'\/images\/homepage\.jpg\'\)\] {
+  background-image: url('/images/homepage.jpg');
 }
 
 .bg-cover {
@@ -1040,12 +1027,12 @@ body::before {
   padding: 1.5rem;
 }
 
-.p-4 {
-  padding: 1rem;
-}
-
 .p-3 {
   padding: 0.75rem;
+}
+
+.p-4 {
+  padding: 1rem;
 }
 
 .px-4 {
@@ -1053,9 +1040,9 @@ body::before {
   padding-right: 1rem;
 }
 
-.py-2 {
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
 }
 
 .px-10 {
@@ -1071,6 +1058,11 @@ body::before {
 .py-10 {
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
+}
+
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .py-1 {
@@ -1113,11 +1105,6 @@ body::before {
   padding-bottom: 4rem;
 }
 
-.py-3 {
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
-}
-
 .pt-2 {
   padding-top: 0.5rem;
 }
@@ -1142,20 +1129,24 @@ body::before {
   padding-left: 0.25rem;
 }
 
-.pb-4 {
-  padding-bottom: 1rem;
-}
-
 .pt-16 {
   padding-top: 4rem;
+}
+
+.pb-16 {
+  padding-bottom: 4rem;
+}
+
+.pb-4 {
+  padding-bottom: 1rem;
 }
 
 .pt-7 {
   padding-top: 1.75rem;
 }
 
-.pb-16 {
-  padding-bottom: 4rem;
+.pt-4 {
+  padding-top: 1rem;
 }
 
 .text-left {
@@ -1228,14 +1219,6 @@ body::before {
 
 .font-bold {
   font-weight: 700;
-}
-
-.font-semibold {
-  font-weight: 600;
-}
-
-.font-normal {
-  font-weight: 400;
 }
 
 .uppercase {
@@ -1498,6 +1481,11 @@ body::before {
     padding-bottom: 0px;
   }
 
+  .xs\:px-1 {
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+  }
+
   .xs\:px-\[25\%\] {
     padding-left: 25%;
     padding-right: 25%;
@@ -1508,11 +1496,6 @@ body::before {
     padding-right: 0.75rem;
   }
 
-  .xs\:px-1 {
-    padding-left: 0.25rem;
-    padding-right: 0.25rem;
-  }
-
   .xs\:pt-16 {
     padding-top: 4rem;
   }
@@ -1521,16 +1504,8 @@ body::before {
     padding-bottom: 2.5rem;
   }
 
-  .xs\:pt-8 {
-    padding-top: 2rem;
-  }
-
   .xs\:pb-0 {
     padding-bottom: 0px;
-  }
-
-  .xs\:pt-1 {
-    padding-top: 0.25rem;
   }
 
   .xs\:text-center {
@@ -1615,21 +1590,6 @@ body::before {
   .sm\:px-10 {
     padding-left: 2.5rem;
     padding-right: 2.5rem;
-  }
-
-  .sm\:py-10 {
-    padding-top: 2.5rem;
-    padding-bottom: 2.5rem;
-  }
-
-  .sm\:py-5 {
-    padding-top: 1.25rem;
-    padding-bottom: 1.25rem;
-  }
-
-  .sm\:py-3 {
-    padding-top: 0.75rem;
-    padding-bottom: 0.75rem;
   }
 
   .sm\:py-1 {
@@ -1849,16 +1809,12 @@ body::before {
     width: 100%;
   }
 
-  .lg\:basis-14 {
-    flex-basis: 3.5rem;
-  }
-
   .lg\:basis-16 {
     flex-basis: 4rem;
   }
 
-  .lg\:basis-20 {
-    flex-basis: 5rem;
+  .lg\:basis-14 {
+    flex-basis: 3.5rem;
   }
 
   .lg\:grid-cols-2 {
@@ -1943,16 +1899,16 @@ body::before {
     padding-top: 3rem;
   }
 
+  .lg\:pb-16 {
+    padding-bottom: 4rem;
+  }
+
   .lg\:pb-0 {
     padding-bottom: 0px;
   }
 
   .lg\:pt-20 {
     padding-top: 5rem;
-  }
-
-  .lg\:pb-16 {
-    padding-bottom: 4rem;
   }
 
   .lg\:text-left {
