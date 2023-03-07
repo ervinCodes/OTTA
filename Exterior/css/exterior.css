@@ -787,24 +787,8 @@ body::before {
   gap: 1rem;
 }
 
-.gap-20 {
-  gap: 5rem;
-}
-
 .gap-80 {
   gap: 20rem;
-}
-
-.gap-16 {
-  gap: 4rem;
-}
-
-.gap-2 {
-  gap: 0.5rem;
-}
-
-.gap-24 {
-  gap: 6rem;
 }
 
 .gap-x-2 {
@@ -957,8 +941,8 @@ body::before {
   background-image: url('/images/set2.jpg');
 }
 
-.bg-\[url\(\'\/Exterior\/images\/homepage\.jpg\'\)\] {
-  background-image: url('/Exterior/images/homepage.jpg');
+.bg-\[url\(\'\/images\/homepage\.jpg\'\)\] {
+  background-image: url('/images/homepage.jpg');
 }
 
 .bg-\[url\(\'\/Exterior\/images\/logo\.png\'\)\] {
@@ -981,8 +965,8 @@ body::before {
   background-image: url('/Exterior/images/header-image.jpg');
 }
 
-.bg-\[url\(\'\/images\/homepage\.jpg\'\)\] {
-  background-image: url('/images/homepage.jpg');
+.bg-\[url\(\'\/Exterior\/images\/homepage\.jpg\'\)\] {
+  background-image: url('/Exterior/images/homepage.jpg');
 }
 
 .bg-cover {
@@ -1143,10 +1127,6 @@ body::before {
 
 .pt-7 {
   padding-top: 1.75rem;
-}
-
-.pt-4 {
-  padding-top: 1rem;
 }
 
 .text-left {
@@ -1418,6 +1398,10 @@ body::before {
     align-items: flex-end;
   }
 
+  .xs\:items-center {
+    align-items: center;
+  }
+
   .xs\:justify-center {
     justify-content: center;
   }
@@ -1428,6 +1412,10 @@ body::before {
 
   .xs\:gap-4 {
     gap: 1rem;
+  }
+
+  .xs\:gap-10 {
+    gap: 2.5rem;
   }
 
   .xs\:gap-y-3 {
@@ -1494,6 +1482,11 @@ body::before {
   .xs\:px-3 {
     padding-left: 0.75rem;
     padding-right: 0.75rem;
+  }
+
+  .xs\:py-4 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
   }
 
   .xs\:pt-16 {
@@ -1576,6 +1569,10 @@ body::before {
 
   .sm\:w-96 {
     width: 24rem;
+  }
+
+  .sm\:gap-10 {
+    gap: 2.5rem;
   }
 
   .sm\:p-12 {
@@ -1682,6 +1679,10 @@ body::before {
 
   .md\:justify-around {
     justify-content: space-around;
+  }
+
+  .md\:gap-80 {
+    gap: 20rem;
   }
 
   .md\:gap-x-2 {
@@ -2019,6 +2020,10 @@ body::before {
     padding-right: 0px;
   }
 
+  .xl\:pt-16 {
+    padding-top: 4rem;
+  }
+
   .xl\:text-lg {
     font-size: 1.125rem;
     line-height: 1.75rem;
@@ -2113,5 +2118,10 @@ body::before {
   .\32xl\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
+  }
+
+  .\32xl\:text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
   }
 }
