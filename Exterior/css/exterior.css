@@ -787,10 +787,6 @@ body::before {
   gap: 1rem;
 }
 
-.gap-80 {
-  gap: 20rem;
-}
-
 .gap-x-2 {
   -moz-column-gap: 0.5rem;
        column-gap: 0.5rem;
@@ -1129,6 +1125,14 @@ body::before {
   padding-top: 1.75rem;
 }
 
+.pt-8 {
+  padding-top: 2rem;
+}
+
+.pt-4 {
+  padding-top: 1rem;
+}
+
 .text-left {
   text-align: left;
 }
@@ -1394,14 +1398,6 @@ body::before {
     flex-direction: column-reverse;
   }
 
-  .xs\:items-end {
-    align-items: flex-end;
-  }
-
-  .xs\:items-center {
-    align-items: center;
-  }
-
   .xs\:justify-center {
     justify-content: center;
   }
@@ -1412,10 +1408,6 @@ body::before {
 
   .xs\:gap-4 {
     gap: 1rem;
-  }
-
-  .xs\:gap-10 {
-    gap: 2.5rem;
   }
 
   .xs\:gap-y-3 {
@@ -1464,14 +1456,14 @@ body::before {
     padding-bottom: 2rem;
   }
 
-  .xs\:py-0 {
-    padding-top: 0px;
-    padding-bottom: 0px;
-  }
-
   .xs\:px-1 {
     padding-left: 0.25rem;
     padding-right: 0.25rem;
+  }
+
+  .xs\:py-4 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
   }
 
   .xs\:px-\[25\%\] {
@@ -1482,11 +1474,6 @@ body::before {
   .xs\:px-3 {
     padding-left: 0.75rem;
     padding-right: 0.75rem;
-  }
-
-  .xs\:py-4 {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
   }
 
   .xs\:pt-16 {
@@ -1587,11 +1574,6 @@ body::before {
   .sm\:px-10 {
     padding-left: 2.5rem;
     padding-right: 2.5rem;
-  }
-
-  .sm\:py-1 {
-    padding-top: 0.25rem;
-    padding-bottom: 0.25rem;
   }
 
   .sm\:text-4xl {
@@ -1830,10 +1812,6 @@ body::before {
     justify-content: flex-start;
   }
 
-  .lg\:justify-center {
-    justify-content: center;
-  }
-
   .lg\:gap-y-10 {
     row-gap: 2.5rem;
   }
@@ -2012,16 +1990,16 @@ body::before {
     padding-bottom: 0px;
   }
 
+  .xl\:pt-16 {
+    padding-top: 4rem;
+  }
+
   .xl\:pt-20 {
     padding-top: 5rem;
   }
 
   .xl\:pr-0 {
     padding-right: 0px;
-  }
-
-  .xl\:pt-16 {
-    padding-top: 4rem;
   }
 
   .xl\:text-lg {
@@ -2049,14 +2027,14 @@ body::before {
     line-height: 2rem;
   }
 
-  .xl\:text-4xl {
-    font-size: 2.25rem;
-    line-height: 2.5rem;
-  }
-
   .xl\:text-base {
     font-size: 1rem;
     line-height: 1.5rem;
+  }
+
+  .xl\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
   }
 }
 
@@ -2065,12 +2043,16 @@ body::before {
     height: 100vh;
   }
 
-  .\32xl\:h-1\/2 {
-    height: 50%;
+  .\32xl\:h-1\/3 {
+    height: 33.333333%;
   }
 
   .\32xl\:h-\[800px\] {
     height: 800px;
+  }
+
+  .\32xl\:h-2\/5 {
+    height: 40%;
   }
 
   .\32xl\:gap-1 {
@@ -2118,10 +2100,5 @@ body::before {
   .\32xl\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
-  }
-
-  .\32xl\:text-base {
-    font-size: 1rem;
-    line-height: 1.5rem;
   }
 }
