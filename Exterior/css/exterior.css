@@ -1603,6 +1603,10 @@ body::before {
     padding: 3rem;
   }
 
+  .sm\:p-3 {
+    padding: 0.75rem;
+  }
+
   .sm\:px-2\/5 {
     padding-left: 40%;
     padding-right: 40%;
@@ -1675,6 +1679,10 @@ body::before {
 
   .md\:h-\[400px\] {
     height: 400px;
+  }
+
+  .md\:h-\[350px\] {
+    height: 350px;
   }
 
   .md\:w-4\/12 {
@@ -1833,6 +1841,14 @@ body::before {
 
   .lg\:h-\[450px\] {
     height: 450px;
+  }
+
+  .lg\:h-\[300px\] {
+    height: 300px;
+  }
+
+  .lg\:h-\[400px\] {
+    height: 400px;
   }
 
   .lg\:w-2\/5 {
