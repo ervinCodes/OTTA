@@ -910,14 +910,14 @@ body::before {
   background-color: rgb(115 115 115 / var(--tw-bg-opacity));
 }
 
-.bg-black {
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
-}
-
 .bg-eerie-black {
   --tw-bg-opacity: 1;
   background-color: rgb(24 21 23 / var(--tw-bg-opacity));
+}
+
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
 .bg-space-cadet {
@@ -939,10 +939,6 @@ body::before {
 
 .bg-\[url\(\'\/images\/homepage\.jpg\'\)\] {
   background-image: url('/images/homepage.jpg');
-}
-
-.bg-\[url\(\'\/Exterior\/images\/logo\.png\'\)\] {
-  background-image: url('/Exterior/images/logo.png');
 }
 
 .bg-\[url\(\'\/images\/clock-gray\.jpg\'\)\] {
@@ -979,10 +975,6 @@ body::before {
 
 .bg-no-repeat {
   background-repeat: no-repeat;
-}
-
-.bg-repeat-x {
-  background-repeat: repeat-x;
 }
 
 .fill-current {
@@ -1313,11 +1305,6 @@ body::before {
 .hover\:bg-space-cadet:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(28 38 70 / var(--tw-bg-opacity));
-}
-
-.hover\:bg-sonic-silver:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(115 115 115 / var(--tw-bg-opacity));
 }
 
 .hover\:text-gray-300:hover {
@@ -1928,6 +1915,11 @@ body::before {
     line-height: 1.5rem;
   }
 
+  .lg\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
   .lg\:text-lg {
     font-size: 1.125rem;
     line-height: 1.75rem;
@@ -1941,11 +1933,6 @@ body::before {
   .lg\:text-4xl {
     font-size: 2.25rem;
     line-height: 2.5rem;
-  }
-
-  .lg\:text-2xl {
-    font-size: 1.5rem;
-    line-height: 2rem;
   }
 
   .lg\:text-sm {
@@ -2020,10 +2007,6 @@ body::before {
     padding-bottom: 0px;
   }
 
-  .xl\:pt-16 {
-    padding-top: 4rem;
-  }
-
   .xl\:pt-20 {
     padding-top: 5rem;
   }
@@ -2079,6 +2062,10 @@ body::before {
 
   .\32xl\:h-\[800px\] {
     height: 800px;
+  }
+
+  .\32xl\:h-1\/2 {
+    height: 50%;
   }
 
   .\32xl\:gap-1 {
