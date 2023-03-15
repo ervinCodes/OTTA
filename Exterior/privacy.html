@@ -6,10 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>OTTA</title>
     <!-- Fonts -->
+    <!-- Gill Sans -->
+    <link href="https://fonts.cdnfonts.com/css/gill-sans" rel="stylesheet">
     <!-- Lato -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+      rel="stylesheet"
+    />
     <!-- Core theme TailwindCSS-->
     <link rel="stylesheet" href="./css/exterior.css" />
     <!-- Core theme CSS-->
@@ -25,21 +30,21 @@
   <body>
     <!-- Responsive navbar-->
     <nav
-      class="flex flex-col bg-federal-blue flow-wrap md:flex-row  md:items-center fixed top-0 z-20 w-full px-4 md:px-5 lg:px-8 py-3 justify-between"
+      class="flex flex-col bg-federal-blue md:flex-row md:items-center fixed top-0 z-20 w-full xs:px-4 md:px-5 lg:px-8 py-3 justify-between"
     >
       <!-- Flex Container -->
       <div class="flex md:justify-around xs:justify-between gap-x-2 items-center lg:w-2/5 md:w-4/12">
         <!-- Link Direct to Home Page -->
-        <div class="flex flex-row gap-3">
+        <div class="flex flex-row lg:gap-3">
           <!-- Image Logo -->
-          <div class="lg:basis-16 md:basis-9 xs:basis-11">
+          <div class="lg:basis-16 xs:basis-11">
             <a href="index.html">
               <img src="images/small-logo.png" alt="">
             </a>
           </div>
           <!-- ONE TEAM TALENT AGENCY -->
           <div class="">
-            <a href="index.html" class="xl:text-2xl lg:text-xl md:text-sm xs:text-sm pt-2 flex items-center text-ecru font-medium font-gill-sans">
+            <a href="index.html" class="xl:text-2xl lg:text-xl xs:text-sm pt-2 flex items-center text-ecru font-medium font-gill-sans">
               ONE TEAM TALENT AGENCY
             </a>
           </div>
@@ -74,7 +79,7 @@
           <a href="employers.html" class="hover:text-gray-300 hover:underline 2xl:pr-10 xl:pr-5">Employers</a>
         </li>
         <li>
-          <a href="#" class="hover:text-gray-300 hover:underline 2xl:pr-10 xl:pr-5">Credits</a>
+          <a href="credits.html" class="hover:text-gray-300 hover:underline 2xl:pr-10 xl:pr-5">Credits</a>
         </li>
         <li>
           <a href="visions-and-values.html" class="hover:text-gray-300 hover:underline 2xl:pr-10 xl:pr-5">Visions and Values</a>
@@ -86,74 +91,90 @@
     </nav>
 
     <!-- Page Content -->
-    <main class=" bg-eerie-black">
-      <!-- Logo Header -->
-      <section
-        class="h-[300px] bg-[url('/images/logo2.png')] bg-contain bg-center bg-no-repeat"
-      >
+    <main class="bg-federal-blue ">
+      <!-- Header Terms of Use -->
+      <section class="w-full">
+        <div class="flex justify-center items-center">
+          <h4 class="whitespace-nowrap xl:text-[175px] font-outline-2 font-bold text-federal-blue">PRIVACY</h4>
+        </div>
+      </section>
+      <!-- Links and Text Section -->
+      <section class="font-gill-sans mx-10">
+        <!-- Flex Container -->
+        <div class="flex flex-row">
+          <!-- Links -->
+          <div class="basis-1/12 pt-1">
+            <ul class="font-thin">
+              <li>
+                <a href="" class="text-ecru hover:text-gray-300">JOIN</a>
+              </li>
+              <li>
+                <a href="members.html" class="text-ecru hover:text-gray-300">MEMBERS</a>
+              </li>
+              <li>
+                <a href="employers.html" class="text-ecru hover:text-gray-300">EMPLOYERS</a>
+              </li>
+            </ul>
+          </div>
+          <!-- Text -->
+          <div class="font-thin px-12">
+            <h2 class="text-ecru font-bold text-3xl">
+              Privacy Policy</h2>
+            </br>
+            <h3 class="text-silver font-medium">One Team Talent Agency Inc. aka OTTA, Privacy Policy</h3>
+            </br>
+            <div class="text-silver">
+              <p>One Team Talent Agency Inc. is committed to protecting your personal information collected on our website. This Privacy Policy document describes the personal information we collect, how that information is used, and the steps we take to protect it.</p>
+              <p>We only provide services to OTTA Members and Studio/Production Members. All members are required to provide personal information when registering for membership with OTTA. This Privacy Policy will apply to all members of OTTA.</p>
+              <p>One Team Talent Agency does not store your credit card or banking information on our database. This information and financial transaction are processed by a third party (STRIPE)</p>
+            </br>
+              <h2>Privacy Policy Changes</h2>
+              <p>When we need to make changes to this Privacy Policy we will indicate the change by incrementing the version number located at the bottom of the Privacy Policy document.</p>
+            </br>
+              <h2>Personal information we collect from OTTA Members may include:</h2>
+              <p>First and Last name</p>
+              <p>Address including city and state</p>
+              <p>Phone number(s)</p>
+              <p>Job title and other related information</p>
+              <p>Previous Employment</p>
+              <p>Important employment-related dates</p>
+              <p>reviews???</p>
+            </br>
+              <h2>Personal information we collect from Studio/Production Members may include:</h2>
+              <p>First and Last name</p>
+              <p>Email address</p>
+              <p>Phone number(s)</p>
+              <p>Title</p>
+              <p>Address</p>
+              <p>Studio/Production information</p>
+            </br>
+              <h2 class="text-ecru font-bold text-3xl">How we use OTTA Members' personal information</h2>
+            </br>
+              <p>We will use the personal information provided by OTTA members to:</p>
+              <p>Provide you with our service which includes pairing your information with Studio/Productions for employment consideration based on best fit and availability dates.</p>
+              <p>Contact you via email or phone when necessary</p>
+            </br>
+              <h2>How we use Studio/Production Members' personal information</h2>
+              <p>We will use personal information provided by Studio/Production Members to:</p>
+              <p>Provide job request results.</p>
+              <p>Send you information and links to the Star Review system</p>
+              <p>Give you updates to your requests.</p>
+              <p>Contact you via email or phone when necessary</p>
+              <p>Only OTTA Members and Studio/Production Members will receive your personal information from OTTA and only when it relates to employment situations.</p>
+              <p>We may use your personal information to develop analytics about site usage, traffic patterns, the success of system functionality, etc. This will be aggregated data that does not include or expose your personal information. </p>
+            </div>
+          </div>
+        </div>
       </section>
 
-
-    <!-- Privacy Policy -->
-    <section>
-        <!-- Flex Container -->
-        <div class="text-white">
-            <!--  -->
-            <h1>Privacy Policy</h1>
-            <h2>One Team Talent Agency Inc. aka OTTA, Privacy Policy</h2>
-            <p>One Team Talent Agency Inc. is committed to protecting your personal information collected on our website. This Privacy Policy document describes the personal information we collect, how that information is used, and the steps we take to protect it.</p>
-            <p>We only provide services to OTTA Members and Studio/Production Members. All members are required to provide personal information when registering for membership with OTTA. This Privacy Policy will apply to all members of OTTA.</p>
-            <p>One Team Talent Agency does not store your credit card or banking information on our database. This information and financial transaction are processed by a third party (STRIPE)</p>
-            </br>
-
-            <h2>Privacy Policy Changes</h2>
-            <p>When we need to make changes to this Privacy Policy we will indicate the change by incrementing the version number located at the bottom of the Privacy Policy document.</p>
-            </br>
-
-            <h2>Personal information we collect from OTTA Members may include:</h2>
-            <p>First and Last name</p>
-            <p>Address including city and state</p>
-            <p>Phone number(s)</p>
-            <p>Job title and other related information</p>
-            <p>Previous Employment</p>
-            <p>Important employment-related dates</p>
-            <p>reviews???</p>
-            </br>
-
-            <h2>Personal information we collect from Studio/Production Members may include:</h2>
-            <p>First and Last name</p>
-            <p>Email address</p>
-            <p>Phone number(s)</p>
-            <p>Title</p>
-            <p>Address</p>
-            <p>Studio/Production information</p>
-            </br>
-
-            <h1>How we use OTTA Members' personal information</h1>
-            <p>We will use the personal information provided by OTTA members to:</p>
-            <p>Provide you with our service which includes pairing your information with Studio/Productions for employment consideration based on best fit and availability dates.</p>
-            <p>Contact you via email or phone when necessary</p>
-            </br>
-
-            <h2>How we use Studio/Production Members' personal information</h2>
-            <p>We will use personal information provided by Studio/Production Members to:</p>
-            <p>Provide job request results.</p>
-            <p>Send you information and links to the Star Review system</p>
-            <p>Give you updates to your requests.</p>
-            <p>Contact you via email or phone when necessary</p>
-            <p>Only OTTA Members and Studio/Production Members will receive your personal information from OTTA and only when it relates to employment situations.</p>
-            <p>We may use your personal information to develop analytics about site usage, traffic patterns, the success of system functionality, etc. This will be aggregated data that does not include or expose your personal information. </p>
+      <!-- Logo Footer -->
+      <section class="">
+        <div class="sm:px-2/5 xs:px-2/6 pt-10">
+          <a href="#">
+            <img src="images/logo.png" alt="Image of OTTA logo" />
+          </a>
         </div>
-    </section>
-
-    <!-- Logo Footer -->
-    <section>
-      <div class="sm:px-2/5 xs:px-2/6 pt-10">
-        <a href="#">
-          <img src="images/logo.png" alt="Image of OTTA logo" />
-        </a>
-      </div>
-    </section>
+      </section>
 
       <!-- Footer -->
       <footer class="font-gill-sans text-silver bg-federal-blue font-thin">
@@ -165,23 +186,23 @@
           <ul class="flex flex-row gap-4 text-ecru lg:text-2xl xs:text-base">
             <!-- Contact Links -->
             <li>
-              <a href="contact.html" class="hover:text-white hover:cursor-pointer">Contact</a>
+              <a href="contact.html" class="hover:text-gray-300 hover:cursor-pointer">Contact</a>
             </li>
             <span>|</span>
             <!-- Terms of Use -->
             <li class="text-center
             ">
-              <a href="terms-of-use.html" class="hover:text-white hover:cursor-pointer">Terms of Use</a>
+              <a href="terms-of-use.html" class="hover:text-gray-300 hover:cursor-pointer">Terms of Use</a>
             </li>
             <span>|</span>
             <!-- Privacy Link -->
             <li>
-              <a href="privacy.html" class="hover:text-white hover:cursor-pointer">Privacy</a>
+              <a href="privacy.html" class="hover:text-gray-300 hover:cursor-pointer">Privacy</a>
             </li>
             <span>|</span>
             <!-- Faq -->
             <li>
-              <a href="faq.html" class="hover:text-white hover:cursor-pointer">FAQ</a>
+              <a href="faq.html" class="hover:text-gray-300 hover:cursor-pointer">FAQ</a>
             </li>
             <span class="xl:visible xs:invisible">|</span>
           </ul>
@@ -235,5 +256,7 @@
 
     <!-- Core Navbar JS-->
     <script src="./js/navbar.js"></script>
+    <!-- Javascript -->
+    <script defer src="./js/scrollAnimation.js"></script>
   </body>
 </html>

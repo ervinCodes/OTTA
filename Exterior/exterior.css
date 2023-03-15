@@ -13,6 +13,15 @@
   }
 }
 
+@layer base {
+  .font-outline-2 {
+    -webkit-text-stroke: 2px #1A1C4E;
+  }
+  .font-outline-4 {
+    -webkit-text-stroke: 4px #1A1C4E;
+  }
+}
+
 @font-face {
   font-family: GillSansMTStd;
   src: url('../../fonts/GillSansMTStd-Medium.otf') format("opentype");

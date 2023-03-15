@@ -28,21 +28,21 @@
   <body>
     <!-- Responsive navbar-->
     <nav
-      class="flex flex-col bg-federal-blue flow-wrap md:flex-row  md:items-center fixed top-0 z-20 w-full px-4 md:px-5 lg:px-8 py-3 justify-between"
+      class="flex flex-col bg-federal-blue md:flex-row md:items-center fixed top-0 z-20 w-full xs:px-4 md:px-5 lg:px-8 py-3 justify-between"
     >
       <!-- Flex Container -->
       <div class="flex md:justify-around xs:justify-between gap-x-2 items-center lg:w-2/5 md:w-4/12">
         <!-- Link Direct to Home Page -->
-        <div class="flex flex-row gap-3">
+        <div class="flex flex-row lg:gap-3">
           <!-- Image Logo -->
-          <div class="lg:basis-16 md:basis-9 xs:basis-11">
+          <div class="lg:basis-16 xs:basis-11">
             <a href="index.html">
               <img src="images/small-logo.png" alt="">
             </a>
           </div>
           <!-- ONE TEAM TALENT AGENCY -->
           <div class="">
-            <a href="index.html" class="xl:text-2xl lg:text-xl md:text-sm xs:text-sm pt-2 flex items-center text-ecru font-medium font-gill-sans">
+            <a href="index.html" class="xl:text-2xl lg:text-xl xs:text-sm pt-2 flex items-center text-ecru font-medium font-gill-sans">
               ONE TEAM TALENT AGENCY
             </a>
           </div>
@@ -77,7 +77,7 @@
           <a href="employers.html" class="hover:text-gray-300 hover:underline 2xl:pr-10 xl:pr-5">Employers</a>
         </li>
         <li>
-          <a href="#" class="hover:text-gray-300 hover:underline 2xl:pr-10 xl:pr-5">Credits</a>
+          <a href="credits.html" class="hover:text-gray-300 hover:underline 2xl:pr-10 xl:pr-5">Credits</a>
         </li>
         <li>
           <a href="visions-and-values.html" class="hover:text-gray-300 hover:underline 2xl:pr-10 xl:pr-5">Visions and Values</a>
@@ -87,20 +87,16 @@
         </li>
       </ul>
     </nav>
+
     <!-- Page Content -->
-    <main class="bg-federal-blue">
+    <main class="bg-federal-blue xl:h-screen">
       <section
-        class="xs:h-[650px] items-center justify-center bg-[url('/images/set2.jpg')] bg-cover bg-center flex"
+        class="xs:h-[550px] items-center justify-center bg-[url('/images/cameras.jpg')] bg-cover bg-center flex"
       >
         <form action="">
-          <div class="bg-white sm:w-96 xs:w-80 p-6 rounded shadow-lg">
-            <!-- Image Container -->
-            <div class="flex items-center justify-center mb-4 px-20 py-5">
-              <!-- Image -->
-              <img src="images/logo.png" alt="" class="w-full h-auto" />
-            </div>
+          <div class="bg-white sm:w-[450px] xs:w-80 p-6 rounded shadow-lg">
             <h1 class="mb-10 font-bold text-2xl text-davys-grey">
-              Employers Sign-In
+              Executive Sign-In
             </h1>
             <!-- Email -->
             <div class="pb-1 pl-1">
@@ -108,7 +104,7 @@
             </div>
             <input
               type="email"
-              class="w-full py-2 bg-gray-100 text-gray-500 px-1 outline-none mb-4 rounded-xl border ring-1 ring-gray-300 focus:ring-2 focus:ring-eerie-black"
+              class="w-full py-2 bg-gray-100 text-gray-500 px-1 outline-none mb-4 rounded-xl border ring-1 ring-gray-600 focus:ring-2 focus:ring-eerie-black"
             />
             <!-- Password -->
             <div class="pb-1 pl-1">
@@ -118,7 +114,7 @@
               <input
                 id="password"
                 type="password"
-                class="w-full py-2 bg-gray-100 text-gray-500 px-1 outline-none mb-4 rounded-xl border ring-1 ring-gray-300 focus:ring-2 focus:ring-eerie-black"
+                class="w-full py-2 bg-gray-100 text-gray-500 px-1 outline-none mb-4 rounded-xl border ring-1 ring-gray-600 focus:ring-2 focus:ring-eerie-black"
                 name="password"
               />
               <!-- Eye Icon -->
@@ -128,10 +124,20 @@
                 name="eye"
               ></ion-icon>
             </div>
-
-            <!-- Remember Me -->
-            <input type="checkbox" class="mb-4" id="remember" />
-            <label for="remember" class="text-davys-grey">Remember Me</label>
+            <!-- Container -->
+            <div class="flex flex-row justify-between">
+              <!-- Remember Me -->
+              <div class="">
+                <input type="checkbox" class="mb-4" id="remember" />
+                <label for="remember" class="text-davys-grey">Remember Me</label>
+              </div>
+              
+              <!-- Forgot Password -->
+              <p class="text-xs border-b border-davys-grey">
+                <a href="">Forgot your password?</a>
+              </p>
+            </div>
+              
             <!-- Button -->
             <button
               type="submit"
@@ -139,15 +145,13 @@
             >
               Login
             </button>
-            <p class="mt-10 text-xs border-b py-4 border-davys-grey">
-              <a href="">Forgot your password?</a>
-            </p>
+            
 
             <div class="text-xs flex justify-between items-center mt-3">
               <p>Don't have an account?</p>
               <a
                 href="contact.html"
-                class="py-2 px-5 bg-fe border rounded-xl hover:bg-gray-900 text-white hover:cursor-pointer"
+                class="bg-federal-blue py-2 px-5 bg-fe border rounded-xl hover:bg-gray-900 text-white hover:cursor-pointer"
               >
                 Contact Us
               </a>
