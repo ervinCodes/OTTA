@@ -928,6 +928,22 @@ body::before {
   background-image: url('/images/header-image3.jpg');
 }
 
+.bg-\[url\(\'\/Exterior\/images\/office2\.jpg\'\)\] {
+  background-image: url('/Exterior/images/office2.jpg');
+}
+
+.bg-\[url\(\'\/Exterior\/images\/cameras\.jpg\'\)\] {
+  background-image: url('/Exterior/images/cameras.jpg');
+}
+
+.bg-\[url\(\'\/Exterior\/images\/cameras2\.jpg\'\)\] {
+  background-image: url('/Exterior/images/cameras2.jpg');
+}
+
+.bg-\[url\(\'\/images\/cameras2\.jpg\'\)\] {
+  background-image: url('/images/cameras2.jpg');
+}
+
 .bg-cover {
   background-size: cover;
 }
