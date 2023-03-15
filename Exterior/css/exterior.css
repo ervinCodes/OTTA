@@ -644,10 +644,6 @@ body::before {
   height: 1000px;
 }
 
-.h-16 {
-  height: 4rem;
-}
-
 .w-full {
   width: 100%;
 }
@@ -658,10 +654,6 @@ body::before {
 
 .w-1\/2 {
   width: 50%;
-}
-
-.w-16 {
-  width: 4rem;
 }
 
 .max-w-4xl {
@@ -695,22 +687,6 @@ body::before {
 .-translate-y-5 {
   --tw-translate-y: -1.25rem;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-@keyframes bounce {
-  0%, 100% {
-    transform: translateY(-25%);
-    animation-timing-function: cubic-bezier(0.8,0,1,1);
-  }
-
-  50% {
-    transform: none;
-    animation-timing-function: cubic-bezier(0,0,0.2,1);
-  }
-}
-
-.animate-bounce {
-  animation: bounce 1s infinite;
 }
 
 .cursor-pointer {
@@ -853,18 +829,9 @@ body::before {
   border-top-width: 2px;
 }
 
-.border-r-4 {
-  border-right-width: 4px;
-}
-
 .border-white {
   --tw-border-opacity: 1;
   border-color: rgb(255 255 255 / var(--tw-border-opacity));
-}
-
-.border-federal-blue {
-  --tw-border-opacity: 1;
-  border-color: rgb(5 5 66 / var(--tw-border-opacity));
 }
 
 .bg-federal-blue {
@@ -904,12 +871,12 @@ body::before {
   background-image: url('/images/credits.jpg');
 }
 
-.bg-\[url\(\'\/images\/cameras\.jpg\'\)\] {
-  background-image: url('/images/cameras.jpg');
+.bg-\[url\(\'\/images\/cameras2\.jpg\'\)\] {
+  background-image: url('/images/cameras2.jpg');
 }
 
-.bg-\[url\(\'\/images\/homepage\.jpg\'\)\] {
-  background-image: url('/images/homepage.jpg');
+.bg-\[url\(\'\/Exterior\/images\/homepage\.jpg\'\)\] {
+  background-image: url('/Exterior/images/homepage.jpg');
 }
 
 .bg-\[url\(\'\/images\/members-login\.jpg\'\)\] {
@@ -920,28 +887,20 @@ body::before {
   background-image: url('/images/clock-gray.jpg');
 }
 
-.bg-\[url\(\'\/images\/office2\.jpg\'\)\] {
-  background-image: url('/images/office2.jpg');
+.bg-\[url\(\'\/Exterior\/images\/office2\.jpg\'\)\] {
+  background-image: url('/Exterior/images/office2.jpg');
+}
+
+.bg-\[url\(\'\/images\/homepage\.jpg\'\)\] {
+  background-image: url('/images/homepage.jpg');
 }
 
 .bg-\[url\(\'\/images\/header-image3\.jpg\'\)\] {
   background-image: url('/images/header-image3.jpg');
 }
 
-.bg-\[url\(\'\/Exterior\/images\/office2\.jpg\'\)\] {
-  background-image: url('/Exterior/images/office2.jpg');
-}
-
-.bg-\[url\(\'\/Exterior\/images\/cameras\.jpg\'\)\] {
-  background-image: url('/Exterior/images/cameras.jpg');
-}
-
-.bg-\[url\(\'\/Exterior\/images\/cameras2\.jpg\'\)\] {
-  background-image: url('/Exterior/images/cameras2.jpg');
-}
-
-.bg-\[url\(\'\/images\/cameras2\.jpg\'\)\] {
-  background-image: url('/images/cameras2.jpg');
+.bg-\[url\(\'\/images\/office2\.jpg\'\)\] {
+  background-image: url('/images/office2.jpg');
 }
 
 .bg-cover {
@@ -1019,24 +978,14 @@ body::before {
   padding-bottom: 2rem;
 }
 
-.px-10 {
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
-}
-
-.px-20 {
-  padding-left: 5rem;
-  padding-right: 5rem;
-}
-
-.py-5 {
-  padding-top: 1.25rem;
-  padding-bottom: 1.25rem;
-}
-
 .py-16 {
   padding-top: 4rem;
   padding-bottom: 4rem;
+}
+
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
 }
 
 .pt-2 {
@@ -1488,8 +1437,8 @@ body::before {
     width: 450px;
   }
 
-  .sm\:w-96 {
-    width: 24rem;
+  .sm\:w-\[340px\] {
+    width: 340px;
   }
 
   .sm\:gap-10 {
@@ -1868,11 +1817,6 @@ body::before {
     line-height: 1;
   }
 
-  .xl\:text-base {
-    font-size: 1rem;
-    line-height: 1.5rem;
-  }
-
   .xl\:text-\[175px\] {
     font-size: 175px;
   }
@@ -1941,6 +1885,11 @@ body::before {
 
   .\32xl\:text-xl {
     font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
+  .\32xl\:text-lg {
+    font-size: 1.125rem;
     line-height: 1.75rem;
   }
 }
