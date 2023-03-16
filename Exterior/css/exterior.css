@@ -887,6 +887,26 @@ body::before {
   background-image: url('/images/office2.jpg');
 }
 
+.bg-\[url\(\'\/Exterior\/images\/credits\.jpg\'\)\] {
+  background-image: url('/Exterior/images/credits.jpg');
+}
+
+.bg-\[url\(\'\/Exterior\/images\/cameras2\.jpg\'\)\] {
+  background-image: url('/Exterior/images/cameras2.jpg');
+}
+
+.bg-\[url\(\'\/Exterior\/images\/financial-banner\.jpg\'\)\] {
+  background-image: url('/Exterior/images/financial-banner.jpg');
+}
+
+.bg-\[url\(\'\/Exterior\/images\/blue2\.jpg\'\)\] {
+  background-image: url('/Exterior/images/blue2.jpg');
+}
+
+.bg-\[url\(\'\/images\/blue2\.jpg\'\)\] {
+  background-image: url('/images/blue2.jpg');
+}
+
 .bg-cover {
   background-size: cover;
 }
@@ -1259,8 +1279,16 @@ body::before {
     width: 20rem;
   }
 
+  .xs\:w-full {
+    width: 100%;
+  }
+
   .xs\:basis-11 {
     flex-basis: 2.75rem;
+  }
+
+  .xs\:basis-1 {
+    flex-basis: 0.25rem;
   }
 
   .xs\:flex-col {
@@ -1347,6 +1375,11 @@ body::before {
     padding-right: 0.75rem;
   }
 
+  .xs\:py-1 {
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+  }
+
   .xs\:pt-10 {
     padding-top: 2.5rem;
   }
@@ -1386,6 +1419,11 @@ body::before {
   .xs\:text-2xl {
     font-size: 1.5rem;
     line-height: 2rem;
+  }
+
+  .xs\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
   }
 }
 
@@ -1450,6 +1488,16 @@ body::before {
     padding-right: 2.5rem;
   }
 
+  .sm\:py-16 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  .sm\:py-20 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
   .sm\:text-4xl {
     font-size: 2.25rem;
     line-height: 2.5rem;
@@ -1509,6 +1557,10 @@ body::before {
     width: 100%;
   }
 
+  .md\:basis-1\/2 {
+    flex-basis: 50%;
+  }
+
   .md\:flex-row {
     flex-direction: row;
   }
@@ -1562,6 +1614,11 @@ body::before {
     padding-right: 35%;
   }
 
+  .md\:py-28 {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+  }
+
   .md\:text-center {
     text-align: center;
   }
@@ -1574,6 +1631,11 @@ body::before {
   .md\:text-3xl {
     font-size: 1.875rem;
     line-height: 2.25rem;
+  }
+
+  .md\:text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
   }
 }
 
@@ -1677,6 +1739,11 @@ body::before {
   .lg\:px-52 {
     padding-left: 13rem;
     padding-right: 13rem;
+  }
+
+  .lg\:py-48 {
+    padding-top: 12rem;
+    padding-bottom: 12rem;
   }
 
   .lg\:pt-12 {
