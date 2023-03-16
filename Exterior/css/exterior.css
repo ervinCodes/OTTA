@@ -743,10 +743,6 @@ body::before {
        column-gap: 1.75rem;
 }
 
-.gap-y-8 {
-  row-gap: 2rem;
-}
-
 .gap-y-16 {
   row-gap: 4rem;
 }
@@ -859,8 +855,8 @@ body::before {
   background-color: rgb(115 115 115 / var(--tw-bg-opacity));
 }
 
-.bg-\[url\(\'\/Exterior\/images\/header-image3\.jpg\'\)\] {
-  background-image: url('/Exterior/images/header-image3.jpg');
+.bg-\[url\(\'\/images\/header-image3\.jpg\'\)\] {
+  background-image: url('/images/header-image3.jpg');
 }
 
 .bg-\[url\(\'\/images\/financial-banner\.jpg\'\)\] {
@@ -875,8 +871,8 @@ body::before {
   background-image: url('/images/cameras2.jpg');
 }
 
-.bg-\[url\(\'\/Exterior\/images\/homepage\.jpg\'\)\] {
-  background-image: url('/Exterior/images/homepage.jpg');
+.bg-\[url\(\'\/images\/homepage\.jpg\'\)\] {
+  background-image: url('/images/homepage.jpg');
 }
 
 .bg-\[url\(\'\/images\/members-login\.jpg\'\)\] {
@@ -885,18 +881,6 @@ body::before {
 
 .bg-\[url\(\'\/images\/clock-gray\.jpg\'\)\] {
   background-image: url('/images/clock-gray.jpg');
-}
-
-.bg-\[url\(\'\/Exterior\/images\/office2\.jpg\'\)\] {
-  background-image: url('/Exterior/images/office2.jpg');
-}
-
-.bg-\[url\(\'\/images\/homepage\.jpg\'\)\] {
-  background-image: url('/images/homepage.jpg');
-}
-
-.bg-\[url\(\'\/images\/header-image3\.jpg\'\)\] {
-  background-image: url('/images/header-image3.jpg');
 }
 
 .bg-\[url\(\'\/images\/office2\.jpg\'\)\] {
@@ -1081,11 +1065,6 @@ body::before {
   line-height: 1.25rem;
 }
 
-.text-5xl {
-  font-size: 3rem;
-  line-height: 1;
-}
-
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
@@ -1100,12 +1079,12 @@ body::before {
   font-weight: 500;
 }
 
-.font-thin {
-  font-weight: 100;
-}
-
 .font-bold {
   font-weight: 700;
+}
+
+.font-thin {
+  font-weight: 100;
 }
 
 .uppercase {
@@ -1125,9 +1104,9 @@ body::before {
   color: rgb(199 173 104 / var(--tw-text-opacity));
 }
 
-.text-silver {
+.text-white {
   --tw-text-opacity: 1;
-  color: rgb(193 191 190 / var(--tw-text-opacity));
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .text-federal-blue {
@@ -1140,6 +1119,11 @@ body::before {
   color: rgb(115 115 115 / var(--tw-text-opacity));
 }
 
+.text-silver {
+  --tw-text-opacity: 1;
+  color: rgb(193 191 190 / var(--tw-text-opacity));
+}
+
 .text-gray-600 {
   --tw-text-opacity: 1;
   color: rgb(75 85 99 / var(--tw-text-opacity));
@@ -1148,11 +1132,6 @@ body::before {
 .text-gray-100 {
   --tw-text-opacity: 1;
   color: rgb(243 244 246 / var(--tw-text-opacity));
-}
-
-.text-white {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .text-gray-500 {
@@ -1305,6 +1284,10 @@ body::before {
          column-gap: 1.75rem;
   }
 
+  .xs\:gap-y-4 {
+    row-gap: 1rem;
+  }
+
   .xs\:p-1 {
     padding: 0.25rem;
   }
@@ -1443,6 +1426,10 @@ body::before {
 
   .sm\:gap-10 {
     gap: 2.5rem;
+  }
+
+  .sm\:gap-y-8 {
+    row-gap: 2rem;
   }
 
   .sm\:p-12 {
@@ -1728,14 +1715,14 @@ body::before {
     line-height: 2rem;
   }
 
-  .lg\:text-3xl {
-    font-size: 1.875rem;
-    line-height: 2.25rem;
-  }
-
   .lg\:text-4xl {
     font-size: 2.25rem;
     line-height: 2.5rem;
+  }
+
+  .lg\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
   }
 
   .lg\:text-lg {
