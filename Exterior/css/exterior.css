@@ -604,6 +604,10 @@ body::before {
   margin-bottom: 2rem;
 }
 
+.block {
+  display: block;
+}
+
 .inline-block {
   display: inline-block;
 }
@@ -644,40 +648,8 @@ body::before {
   height: 1000px;
 }
 
-.h-96 {
-  height: 24rem;
-}
-
-.h-\[\] {
-  height: ;
-}
-
-.h-\[425px\] {
-  height: 425px;
-}
-
-.h-\[500px\] {
-  height: 500px;
-}
-
-.h-\[600px\] {
-  height: 600px;
-}
-
-.h-\[550px\] {
-  height: 550px;
-}
-
-.h-\[5750px\] {
-  height: 5750px;
-}
-
-.h-\[575px\] {
-  height: 575px;
-}
-
-.h-52 {
-  height: 13rem;
+.h-48 {
+  height: 12rem;
 }
 
 .w-full {
@@ -853,10 +825,6 @@ body::before {
   border-width: 1px;
 }
 
-.border-4 {
-  border-width: 4px;
-}
-
 .border-b {
   border-bottom-width: 1px;
 }
@@ -869,18 +837,9 @@ body::before {
   border-right-width: 4px;
 }
 
-.border-solid {
-  border-style: solid;
-}
-
 .border-white {
   --tw-border-opacity: 1;
   border-color: rgb(255 255 255 / var(--tw-border-opacity));
-}
-
-.border-federal-blue {
-  --tw-border-opacity: 1;
-  border-color: rgb(5 5 66 / var(--tw-border-opacity));
 }
 
 .border-r-federal-blue {
@@ -913,6 +872,11 @@ body::before {
   background-color: rgb(115 115 115 / var(--tw-bg-opacity));
 }
 
+.bg-red-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(239 68 68 / var(--tw-bg-opacity));
+}
+
 .bg-\[url\(\'\/images\/header-image3\.jpg\'\)\] {
   background-image: url('/images/header-image3.jpg');
 }
@@ -941,34 +905,6 @@ body::before {
   background-image: url('/images/clock-gray.jpg');
 }
 
-.bg-\[url\(\'\/images\/office2\.jpg\'\)\] {
-  background-image: url('/images/office2.jpg');
-}
-
-.bg-\[url\(\'\/Exterior\/images\/office2\.jpg\'\)\] {
-  background-image: url('/Exterior/images/office2.jpg');
-}
-
-.bg-\[url\(\'\/Exterior\/images\/members-login\.jpg\'\)\] {
-  background-image: url('/Exterior/images/members-login.jpg');
-}
-
-.bg-\[url\(\'\/Exterior\/images\/cameras2\.jpg\'\)\] {
-  background-image: url('/Exterior/images/cameras2.jpg');
-}
-
-.bg-\[url\(\'\/Exterior\/images\/group-photo-min\.jpg\'\)\] {
-  background-image: url('/Exterior/images/group-photo-min.jpg');
-}
-
-.bg-\[url\(\'\/Exterior\/images\/vis\'\)\] {
-  background-image: url('/Exterior/images/vis');
-}
-
-.bg-\[url\(\'\/Exterior\/images\/visions-and-values-header\.jpg\'\)\] {
-  background-image: url('/Exterior/images/visions-and-values-header.jpg');
-}
-
 .bg-\[url\(\'\/images\/visions-and-values-header\.jpg\'\)\] {
   background-image: url('/images/visions-and-values-header.jpg');
 }
@@ -988,6 +924,11 @@ body::before {
 .object-contain {
   -o-object-fit: contain;
      object-fit: contain;
+}
+
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .object-scale-down {
@@ -1013,9 +954,9 @@ body::before {
   padding-right: 1.5rem;
 }
 
-.py-10 {
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
+.py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
 }
 
 .px-4 {
@@ -1026,6 +967,11 @@ body::before {
 .py-2 {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+}
+
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
 }
 
 .px-1 {
@@ -1058,54 +1004,14 @@ body::before {
   padding-right: 2.5rem;
 }
 
-.px-20 {
-  padding-left: 5rem;
-  padding-right: 5rem;
-}
-
-.py-5 {
-  padding-top: 1.25rem;
-  padding-bottom: 1.25rem;
-}
-
-.py-1 {
-  padding-top: 0.25rem;
-  padding-bottom: 0.25rem;
-}
-
-.px-28 {
-  padding-left: 7rem;
-  padding-right: 7rem;
-}
-
-.px-2\/5 {
-  padding-left: 40%;
-  padding-right: 40%;
-}
-
-.px-\[33\%\] {
-  padding-left: 33%;
-  padding-right: 33%;
-}
-
-.px-\[65\%\] {
-  padding-left: 65%;
-  padding-right: 65%;
-}
-
-.px-80 {
-  padding-left: 20rem;
-  padding-right: 20rem;
-}
-
 .px-64 {
   padding-left: 16rem;
   padding-right: 16rem;
 }
 
-.px-16 {
-  padding-left: 4rem;
-  padding-right: 4rem;
+.py-1 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
 }
 
 .px-24 {
@@ -1121,8 +1027,8 @@ body::before {
   padding-top: 1.25rem;
 }
 
-.pt-10 {
-  padding-top: 2.5rem;
+.pt-6 {
+  padding-top: 1.5rem;
 }
 
 .pr-16 {
@@ -1141,6 +1047,10 @@ body::before {
   padding-top: 0.25rem;
 }
 
+.pt-10 {
+  padding-top: 2.5rem;
+}
+
 .pt-4 {
   padding-top: 1rem;
 }
@@ -1151,14 +1061,6 @@ body::before {
 
 .pb-4 {
   padding-bottom: 1rem;
-}
-
-.pt-16 {
-  padding-top: 4rem;
-}
-
-.pt-6 {
-  padding-top: 1.5rem;
 }
 
 .text-left {
@@ -1433,6 +1335,15 @@ body::before {
          column-gap: 1.75rem;
   }
 
+  .xs\:border-b-4 {
+    border-bottom-width: 4px;
+  }
+
+  .xs\:border-b-federal-blue {
+    --tw-border-opacity: 1;
+    border-bottom-color: rgb(5 5 66 / var(--tw-border-opacity));
+  }
+
   .xs\:p-1 {
     padding: 0.25rem;
   }
@@ -1487,6 +1398,11 @@ body::before {
     padding-right: 0.75rem;
   }
 
+  .xs\:px-0 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
   .xs\:pt-10 {
     padding-top: 2.5rem;
   }
@@ -1497,6 +1413,10 @@ body::before {
 
   .xs\:pb-10 {
     padding-bottom: 2.5rem;
+  }
+
+  .xs\:pb-16 {
+    padding-bottom: 4rem;
   }
 
   .xs\:text-center {
@@ -1692,6 +1612,15 @@ body::before {
     margin-bottom: calc(0px * var(--tw-space-y-reverse));
   }
 
+  .md\:border-r-4 {
+    border-right-width: 4px;
+  }
+
+  .md\:border-r-federal-blue {
+    --tw-border-opacity: 1;
+    border-right-color: rgb(5 5 66 / var(--tw-border-opacity));
+  }
+
   .md\:px-5 {
     padding-left: 1.25rem;
     padding-right: 1.25rem;
@@ -1710,6 +1639,25 @@ body::before {
   .md\:px-\[35\%\] {
     padding-left: 35%;
     padding-right: 35%;
+  }
+
+  .md\:px-8 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .md\:px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .md\:px-3 {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+
+  .md\:pb-0 {
+    padding-bottom: 0px;
   }
 
   .md\:text-center {
@@ -1839,6 +1787,16 @@ body::before {
     padding-right: 13rem;
   }
 
+  .lg\:px-16 {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+
+  .lg\:px-10 {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+
   .lg\:pt-12 {
     padding-top: 3rem;
   }
@@ -1939,6 +1897,21 @@ body::before {
   .xl\:py-20 {
     padding-top: 5rem;
     padding-bottom: 5rem;
+  }
+
+  .xl\:px-24 {
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+
+  .xl\:px-52 {
+    padding-left: 13rem;
+    padding-right: 13rem;
+  }
+
+  .xl\:px-56 {
+    padding-left: 14rem;
+    padding-right: 14rem;
   }
 
   .xl\:pr-5 {
