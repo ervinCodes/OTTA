@@ -580,6 +580,11 @@ body::before {
   margin-bottom: 0px;
 }
 
+.my-4 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
 .mt-5 {
   margin-top: 1.25rem;
 }
@@ -1247,6 +1252,11 @@ body::before {
   background-color: rgb(28 38 70 / var(--tw-bg-opacity));
 }
 
+.hover\:bg-federal-blue:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(5 5 66 / var(--tw-bg-opacity));
+}
+
 .hover\:text-gray-300:hover {
   --tw-text-opacity: 1;
   color: rgb(209 213 219 / var(--tw-text-opacity));
@@ -1318,6 +1328,10 @@ body::before {
     flex-direction: column-reverse;
   }
 
+  .xs\:items-center {
+    align-items: center;
+  }
+
   .xs\:justify-between {
     justify-content: space-between;
   }
@@ -1346,6 +1360,18 @@ body::before {
 
   .xs\:p-1 {
     padding: 0.25rem;
+  }
+
+  .xs\:p-5 {
+    padding: 1.25rem;
+  }
+
+  .xs\:p-3 {
+    padding: 0.75rem;
+  }
+
+  .xs\:p-2 {
+    padding: 0.5rem;
   }
 
   .xs\:px-4 {
@@ -1452,6 +1478,10 @@ body::before {
     font-size: 1.5rem;
     line-height: 2rem;
   }
+
+  .xs\:text-\[50px\] {
+    font-size: 50px;
+  }
 }
 
 @media (min-width: 640px) {
@@ -1505,6 +1535,14 @@ body::before {
     padding: 0.75rem;
   }
 
+  .sm\:p-5 {
+    padding: 1.25rem;
+  }
+
+  .sm\:p-10 {
+    padding: 2.5rem;
+  }
+
   .sm\:px-2\/5 {
     padding-left: 40%;
     padding-right: 40%;
@@ -1534,6 +1572,14 @@ body::before {
     font-size: 1.875rem;
     line-height: 2.25rem;
   }
+
+  .sm\:text-\[75px\] {
+    font-size: 75px;
+  }
+
+  .sm\:text-\[85px\] {
+    font-size: 85px;
+  }
 }
 
 @media (min-width: 768px) {
@@ -1545,6 +1591,11 @@ body::before {
   .md\:mx-0 {
     margin-left: 0px;
     margin-right: 0px;
+  }
+
+  .md\:mx-10 {
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
   }
 
   .md\:block {
@@ -1656,8 +1707,17 @@ body::before {
     padding-right: 0.75rem;
   }
 
+  .md\:px-12 {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
   .md\:pb-0 {
     padding-bottom: 0px;
+  }
+
+  .md\:text-left {
+    text-align: left;
   }
 
   .md\:text-center {
@@ -1677,6 +1737,22 @@ body::before {
   .md\:text-3xl {
     font-size: 1.875rem;
     line-height: 2.25rem;
+  }
+
+  .md\:text-\[100px\] {
+    font-size: 100px;
+  }
+
+  .md\:text-\[120px\] {
+    font-size: 120px;
+  }
+
+  .md\:text-\[110px\] {
+    font-size: 110px;
+  }
+
+  .md\:text-\[105px\] {
+    font-size: 105px;
   }
 }
 
@@ -1847,6 +1923,18 @@ body::before {
     font-size: 1.125rem;
     line-height: 1.75rem;
   }
+
+  .lg\:text-\[100px\] {
+    font-size: 100px;
+  }
+
+  .lg\:text-\[150px\] {
+    font-size: 150px;
+  }
+
+  .lg\:text-\[140px\] {
+    font-size: 140px;
+  }
 }
 
 @media (min-width: 1280px) {
@@ -1954,6 +2042,11 @@ body::before {
   .xl\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
+  }
+
+  .xl\:text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
   }
 }
 
