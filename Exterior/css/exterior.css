@@ -1262,6 +1262,10 @@ body::before {
     height: 16rem;
   }
 
+  .xs\:h-72 {
+    height: 18rem;
+  }
+
   .xs\:w-80 {
     width: 20rem;
   }
