@@ -9,11 +9,8 @@ module.exports = {
     },
     extend: {
       colors: {
-        "eerie-black": "#181517",
         "silver": "#C1BFBE",
         "sonic-silver": "#737373",
-        "vegas-gold": "#CDAD5C",
-        "space-cadet": "#1C2646",
         "federal-blue": "#050542",
         "ecru": "#C7AD68"
       },
@@ -26,8 +23,6 @@ module.exports = {
         '1/20': '0.05%'
       },
       fontFamily: {
-        'lato': [`'Lato', sans-serif`],
-        'catamaran': [`'Catamaran', sans-serif`],
         'gill-sans': [`'Gill Sans', sans-serif`]
       }
     },
