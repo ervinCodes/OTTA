@@ -741,13 +741,13 @@ body::before {
   row-gap: 0.25rem;
 }
 
+.gap-y-16 {
+  row-gap: 4rem;
+}
+
 .gap-x-7 {
   -moz-column-gap: 1.75rem;
        column-gap: 1.75rem;
-}
-
-.gap-y-16 {
-  row-gap: 4rem;
 }
 
 .space-y-6 > :not([hidden]) ~ :not([hidden]) {
@@ -853,28 +853,32 @@ body::before {
   background-color: rgb(199 173 104 / var(--tw-bg-opacity));
 }
 
-.bg-\[url\(\'\/images\/header-image3\.jpg\'\)\] {
-  background-image: url('/images/header-image3.jpg');
+.bg-\[url\(\'\/images\/aboutUs-background\.jpeg\'\)\] {
+  background-image: url('/images/aboutUs-background.jpeg');
 }
 
-.bg-\[url\(\'\/images\/blue2\.jpg\'\)\] {
-  background-image: url('/images/blue2.jpg');
+.bg-\[url\(\'\/images\/blue-background\.jpeg\'\)\] {
+  background-image: url('/images/blue-background.jpeg');
 }
 
-.bg-\[url\(\'\/images\/credits\.jpg\'\)\] {
-  background-image: url('/images/credits.jpg');
+.bg-\[url\(\'\/images\/credits-background\.jpeg\'\)\] {
+  background-image: url('/images/credits-background.jpeg');
 }
 
-.bg-\[url\(\'\/images\/cameras2\.jpg\'\)\] {
-  background-image: url('/images/cameras2.jpg');
+.bg-\[url\(\'\/images\/employers-background\.jpeg\'\)\] {
+  background-image: url('/images/employers-background.jpeg');
 }
 
 .bg-\[url\(\'\/images\/members-login\.jpg\'\)\] {
   background-image: url('/images/members-login.jpg');
 }
 
-.bg-\[url\(\'\/images\/homepage\.jpg\'\)\] {
-  background-image: url('/images/homepage.jpg');
+.bg-\[url\(\'\/images\/home-background\.jpeg\'\)\] {
+  background-image: url('/images/home-background.jpeg');
+}
+
+.bg-\[url\(\'\/images\/members-background\.jpeg\'\)\] {
+  background-image: url('/images/members-background.jpeg');
 }
 
 .bg-\[url\(\'\/images\/clock-gray\.jpg\'\)\] {
@@ -883,82 +887,6 @@ body::before {
 
 .bg-\[url\(\'\/images\/visions-and-values-header\.jpg\'\)\] {
   background-image: url('/images/visions-and-values-header.jpg');
-}
-
-.bg-\[url\(\'\/images\/blue\'\)\] {
-  background-image: url('/images/blue');
-}
-
-.bg-\[url\(\'\/images\/blue-background\.jpg\'\)\] {
-  background-image: url('/images/blue-background.jpg');
-}
-
-.bg-\[url\(\'\/Exterior\/images\/blue-background\.jpg\'\)\] {
-  background-image: url('/Exterior/images/blue-background.jpg');
-}
-
-.bg-\[url\(\'\/Exterior\/images\/blue-background\.jpeg\'\)\] {
-  background-image: url('/Exterior/images/blue-background.jpeg');
-}
-
-.bg-\[url\(\'\/images\/blue-background\.jpeg\'\)\] {
-  background-image: url('/images/blue-background.jpeg');
-}
-
-.bg-\[url\(\'\/images\/employers-background\.jpeg\'\)\] {
-  background-image: url('/images/employers-background.jpeg');
-}
-
-.bg-\[url\(\'\/Exterior\/images\/employers-background\.jpeg\'\)\] {
-  background-image: url('/Exterior/images/employers-background.jpeg');
-}
-
-.bg-\[url\(\'\/images\/c\'\)\] {
-  background-image: url('/images/c');
-}
-
-.bg-\[url\(\'\/images\/credits-background\.jpeg\'\)\] {
-  background-image: url('/images/credits-background.jpeg');
-}
-
-.bg-\[url\(\'\/Exterior\/images\/credits-background\.jpeg\'\)\] {
-  background-image: url('/Exterior/images/credits-background.jpeg');
-}
-
-.bg-\[url\(\'\/images\/about\'\)\] {
-  background-image: url('/images/about');
-}
-
-.bg-\[url\(\'\/images\/aboutUs-background\.jpeg\'\)\] {
-  background-image: url('/images/aboutUs-background.jpeg');
-}
-
-.bg-\[url\(\'\/Exterior\/images\/aboutUs-background\.jpeg\'\)\] {
-  background-image: url('/Exterior/images/aboutUs-background.jpeg');
-}
-
-.bg-\[url\(\'\/Exterior\/images\/homepage\.jpg\'\)\] {
-  background-image: url('/Exterior/images/homepage.jpg');
-}
-
-.bg-\[url\(\'\/Exterior\/images\/home-background\.jpeg\'\)\] {
-  background-image: url('/Exterior/images/home-background.jpeg');
-}
-
-.bg-\[url\(\'\/images\/home-background\.jpeg\'\)\] {
-  background-image: url('/images/home-background.jpeg');
-}
-
-.bg-\[url\(\'\/Exterior\/images\/members-login\.jpg\'\)\] {
-  background-image: url('/Exterior/images/members-login.jpg');
-}
-
-.bg-\[url\(\'\/Exterior\/images\/members-background\.jpeg\'\)\] {
-  background-image: url('/Exterior/images/members-background.jpeg');
-}
-
-.bg-\[url\(\'\/images\/members-background\.jpeg\'\)\] {
-  background-image: url('/images/members-background.jpeg');
 }
 
 .bg-cover {
@@ -1189,11 +1117,6 @@ body::before {
   color: rgb(115 115 115 / var(--tw-text-opacity));
 }
 
-.text-silver {
-  --tw-text-opacity: 1;
-  color: rgb(193 191 190 / var(--tw-text-opacity));
-}
-
 .text-gray-600 {
   --tw-text-opacity: 1;
   color: rgb(75 85 99 / var(--tw-text-opacity));
@@ -1352,6 +1275,11 @@ body::before {
     gap: 1rem;
   }
 
+  .xs\:gap-x-3 {
+    -moz-column-gap: 0.75rem;
+         column-gap: 0.75rem;
+  }
+
   .xs\:gap-y-4 {
     row-gap: 1rem;
   }
@@ -1359,11 +1287,6 @@ body::before {
   .xs\:gap-x-7 {
     -moz-column-gap: 1.75rem;
          column-gap: 1.75rem;
-  }
-
-  .xs\:gap-x-3 {
-    -moz-column-gap: 0.75rem;
-         column-gap: 0.75rem;
   }
 
   .xs\:p-1 {
@@ -1748,8 +1671,8 @@ body::before {
     width: 40%;
   }
 
-  .lg\:w-3\/5 {
-    width: 60%;
+  .lg\:w-4\/5 {
+    width: 80%;
   }
 
   .lg\:w-5\/6 {
@@ -1762,10 +1685,6 @@ body::before {
 
   .lg\:w-2\/3 {
     width: 66.666667%;
-  }
-
-  .lg\:w-4\/5 {
-    width: 80%;
   }
 
   .lg\:basis-16 {
@@ -1784,6 +1703,11 @@ body::before {
     gap: 0.75rem;
   }
 
+  .lg\:gap-x-7 {
+    -moz-column-gap: 1.75rem;
+         column-gap: 1.75rem;
+  }
+
   .lg\:gap-y-10 {
     row-gap: 2.5rem;
   }
@@ -1791,11 +1715,6 @@ body::before {
   .lg\:gap-x-4 {
     -moz-column-gap: 1rem;
          column-gap: 1rem;
-  }
-
-  .lg\:gap-x-7 {
-    -moz-column-gap: 1.75rem;
-         column-gap: 1.75rem;
   }
 
   .lg\:p-6 {
@@ -1856,9 +1775,14 @@ body::before {
     text-align: center;
   }
 
-  .lg\:text-xl {
-    font-size: 1.25rem;
+  .lg\:text-lg {
+    font-size: 1.125rem;
     line-height: 1.75rem;
+  }
+
+  .lg\:text-xs {
+    font-size: 0.75rem;
+    line-height: 1rem;
   }
 
   .lg\:text-5xl {
@@ -1888,16 +1812,6 @@ body::before {
   .lg\:text-3xl {
     font-size: 1.875rem;
     line-height: 2.25rem;
-  }
-
-  .lg\:text-lg {
-    font-size: 1.125rem;
-    line-height: 1.75rem;
-  }
-
-  .lg\:text-xs {
-    font-size: 0.75rem;
-    line-height: 1rem;
   }
 }
 
@@ -1961,16 +1875,12 @@ body::before {
     padding-right: 6rem;
   }
 
-  .xl\:pr-5 {
-    padding-right: 1.25rem;
+  .xl\:pr-1 {
+    padding-right: 0.25rem;
   }
 
   .xl\:pb-0 {
     padding-bottom: 0px;
-  }
-
-  .xl\:pr-1 {
-    padding-right: 0.25rem;
   }
 
   .xl\:text-2xl {
@@ -2039,9 +1949,9 @@ body::before {
     padding-top: 4rem;
   }
 
-  .\32xl\:text-lg {
-    font-size: 1.125rem;
-    line-height: 1.75rem;
+  .\32xl\:text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
   }
 
   .\32xl\:text-4xl {
@@ -2062,10 +1972,5 @@ body::before {
   .\32xl\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
-  }
-
-  .\32xl\:text-base {
-    font-size: 1rem;
-    line-height: 1.5rem;
   }
 }
