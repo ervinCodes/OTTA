@@ -1223,6 +1223,10 @@ body::before {
     margin-right: 0.75rem;
   }
 
+  .xs\:mb-10 {
+    margin-bottom: 2.5rem;
+  }
+
   .xs\:hidden {
     display: none;
   }
@@ -1396,6 +1400,11 @@ body::before {
 
   .xs\:text-\[50px\] {
     font-size: 50px;
+  }
+
+  .xs\:text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
   }
 }
 
@@ -1639,6 +1648,11 @@ body::before {
   .md\:text-\[105px\] {
     font-size: 105px;
   }
+
+  .md\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -1649,6 +1663,10 @@ body::before {
   .lg\:mx-60 {
     margin-left: 15rem;
     margin-right: 15rem;
+  }
+
+  .lg\:mb-0 {
+    margin-bottom: 0px;
   }
 
   .lg\:block {
