@@ -631,6 +631,10 @@ body::before {
   height: auto;
 }
 
+.h-16 {
+  height: 4rem;
+}
+
 .h-6 {
   height: 1.5rem;
 }
@@ -643,30 +647,6 @@ body::before {
   height: 1000px;
 }
 
-.h-24 {
-  height: 6rem;
-}
-
-.h-16 {
-  height: 4rem;
-}
-
-.h-10 {
-  height: 2.5rem;
-}
-
-.h-14 {
-  height: 3.5rem;
-}
-
-.h-20 {
-  height: 5rem;
-}
-
-.h-12 {
-  height: 3rem;
-}
-
 .w-full {
   width: 100%;
 }
@@ -675,12 +655,12 @@ body::before {
   width: 1.5rem;
 }
 
-.w-1\/2 {
-  width: 50%;
-}
-
 .w-auto {
   width: auto;
+}
+
+.w-1\/2 {
+  width: 50%;
 }
 
 .max-w-4xl {
@@ -709,10 +689,6 @@ body::before {
 
 .basis-1\/12 {
   flex-basis: 8.333333%;
-}
-
-.basis-6 {
-  flex-basis: 1.5rem;
 }
 
 .-translate-y-5 {
@@ -1339,14 +1315,14 @@ body::before {
     padding-bottom: 2.5rem;
   }
 
-  .xs\:px-2\/6 {
-    padding-left: 33.333333%;
-    padding-right: 33.333333%;
-  }
-
   .xs\:py-16 {
     padding-top: 4rem;
     padding-bottom: 4rem;
+  }
+
+  .xs\:px-2\/6 {
+    padding-left: 33.333333%;
+    padding-right: 33.333333%;
   }
 
   .xs\:px-3 {
@@ -1483,10 +1459,6 @@ body::before {
     gap: 2.5rem;
   }
 
-  .sm\:gap-4 {
-    gap: 1rem;
-  }
-
   .sm\:gap-y-8 {
     row-gap: 2rem;
   }
@@ -1499,14 +1471,14 @@ body::before {
     padding: 0.75rem;
   }
 
-  .sm\:px-2\/5 {
-    padding-left: 40%;
-    padding-right: 40%;
-  }
-
   .sm\:py-20 {
     padding-top: 5rem;
     padding-bottom: 5rem;
+  }
+
+  .sm\:px-2\/5 {
+    padding-left: 40%;
+    padding-right: 40%;
   }
 
   .sm\:px-10 {
@@ -1805,16 +1777,6 @@ body::before {
     padding-right: 2.5rem;
   }
 
-  .lg\:px-1\/2 {
-    padding-left: 50%;
-    padding-right: 50%;
-  }
-
-  .lg\:px-128 {
-    padding-left: 40rem;
-    padding-right: 40rem;
-  }
-
   .lg\:pl-5 {
     padding-left: 1.25rem;
   }
@@ -1913,6 +1875,11 @@ body::before {
     padding: 4rem;
   }
 
+  .xl\:px-1\/6 {
+    padding-left: 16.666666%;
+    padding-right: 16.666666%;
+  }
+
   .xl\:px-14 {
     padding-left: 3.5rem;
     padding-right: 3.5rem;
@@ -1921,11 +1888,6 @@ body::before {
   .xl\:px-20 {
     padding-left: 5rem;
     padding-right: 5rem;
-  }
-
-  .xl\:px-1\/2 {
-    padding-left: 50%;
-    padding-right: 50%;
   }
 
   .xl\:px-56 {
@@ -1941,11 +1903,6 @@ body::before {
   .xl\:px-24 {
     padding-left: 6rem;
     padding-right: 6rem;
-  }
-
-  .xl\:px-1\/6 {
-    padding-left: 16.666666%;
-    padding-right: 16.666666%;
   }
 
   .xl\:pr-1 {
