@@ -33,6 +33,12 @@ function goRight() {
   slider.style.transform = "translate(-33%)";
 }
 
+// function goLeft() {
+//   direction = 1;
+//   carousel.style.justifyContent = "flex-end";
+//   slider.style.transform = "translate(33%)";
+// }
+
 rightArrow.addEventListener("click", goRight);
 
 slider.addEventListener("transitionend", function () {

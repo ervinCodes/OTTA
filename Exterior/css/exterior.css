@@ -643,6 +643,30 @@ body::before {
   height: 1000px;
 }
 
+.h-24 {
+  height: 6rem;
+}
+
+.h-16 {
+  height: 4rem;
+}
+
+.h-10 {
+  height: 2.5rem;
+}
+
+.h-14 {
+  height: 3.5rem;
+}
+
+.h-20 {
+  height: 5rem;
+}
+
+.h-12 {
+  height: 3rem;
+}
+
 .w-full {
   width: 100%;
 }
@@ -653,6 +677,10 @@ body::before {
 
 .w-1\/2 {
   width: 50%;
+}
+
+.w-auto {
+  width: auto;
 }
 
 .max-w-4xl {
@@ -681,6 +709,10 @@ body::before {
 
 .basis-1\/12 {
   flex-basis: 8.333333%;
+}
+
+.basis-6 {
+  flex-basis: 1.5rem;
 }
 
 .-translate-y-5 {
@@ -1373,9 +1405,9 @@ body::before {
     line-height: 1.25rem;
   }
 
-  .xs\:text-2xl {
-    font-size: 1.5rem;
-    line-height: 2rem;
+  .xs\:text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
   }
 
   .xs\:text-3xl {
@@ -1402,9 +1434,9 @@ body::before {
     font-size: 50px;
   }
 
-  .xs\:text-lg {
-    font-size: 1.125rem;
-    line-height: 1.75rem;
+  .xs\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 }
 
@@ -1451,6 +1483,10 @@ body::before {
     gap: 2.5rem;
   }
 
+  .sm\:gap-4 {
+    gap: 1rem;
+  }
+
   .sm\:gap-y-8 {
     row-gap: 2rem;
   }
@@ -1478,6 +1514,11 @@ body::before {
     padding-right: 2.5rem;
   }
 
+  .sm\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
   .sm\:text-4xl {
     font-size: 2.25rem;
     line-height: 2.5rem;
@@ -1490,11 +1531,6 @@ body::before {
 
   .sm\:text-\[85px\] {
     font-size: 85px;
-  }
-
-  .sm\:text-3xl {
-    font-size: 1.875rem;
-    line-height: 2.25rem;
   }
 }
 
@@ -1635,6 +1671,11 @@ body::before {
     line-height: 1rem;
   }
 
+  .md\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
   .md\:text-6xl {
     font-size: 3.75rem;
     line-height: 1;
@@ -1647,11 +1688,6 @@ body::before {
 
   .md\:text-\[105px\] {
     font-size: 105px;
-  }
-
-  .md\:text-4xl {
-    font-size: 2.25rem;
-    line-height: 2.5rem;
   }
 }
 
@@ -1769,6 +1805,16 @@ body::before {
     padding-right: 2.5rem;
   }
 
+  .lg\:px-1\/2 {
+    padding-left: 50%;
+    padding-right: 50%;
+  }
+
+  .lg\:px-128 {
+    padding-left: 40rem;
+    padding-right: 40rem;
+  }
+
   .lg\:pl-5 {
     padding-left: 1.25rem;
   }
@@ -1801,11 +1847,6 @@ body::before {
   .lg\:text-xs {
     font-size: 0.75rem;
     line-height: 1rem;
-  }
-
-  .lg\:text-5xl {
-    font-size: 3rem;
-    line-height: 1;
   }
 
   .lg\:text-sm {
@@ -1843,6 +1884,10 @@ body::before {
     margin-right: 4rem;
   }
 
+  .xl\:block {
+    display: block;
+  }
+
   .xl\:h-screen {
     height: 100vh;
   }
@@ -1878,6 +1923,11 @@ body::before {
     padding-right: 5rem;
   }
 
+  .xl\:px-1\/2 {
+    padding-left: 50%;
+    padding-right: 50%;
+  }
+
   .xl\:px-56 {
     padding-left: 14rem;
     padding-right: 14rem;
@@ -1891,6 +1941,11 @@ body::before {
   .xl\:px-24 {
     padding-left: 6rem;
     padding-right: 6rem;
+  }
+
+  .xl\:px-1\/6 {
+    padding-left: 16.666666%;
+    padding-right: 16.666666%;
   }
 
   .xl\:pr-1 {
@@ -1911,6 +1966,11 @@ body::before {
     line-height: 1.5rem;
   }
 
+  .xl\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
+  }
+
   .xl\:text-3xl {
     font-size: 1.875rem;
     line-height: 2.25rem;
@@ -1919,11 +1979,6 @@ body::before {
   .xl\:text-lg {
     font-size: 1.125rem;
     line-height: 1.75rem;
-  }
-
-  .xl\:text-5xl {
-    font-size: 3rem;
-    line-height: 1;
   }
 
   .xl\:text-\[175px\] {
