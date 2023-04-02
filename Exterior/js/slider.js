@@ -17,7 +17,9 @@ function startCarousel() {
 
 startCarousel();
 
-leftArrow.addEventListener("click", function () {
+leftArrow.addEventListener("click", goLeft);
+
+function goLeft() {
   if (direction === -1) {
     slider.appendChild(slider.firstElementChild);
     direction = 1;
@@ -25,21 +27,15 @@ leftArrow.addEventListener("click", function () {
 
   carousel.style.justifyContent = "flex-end";
   slider.style.transform = "translate(33%)";
-});
+}
+
+rightArrow.addEventListener("click", goRight);
 
 function goRight() {
   direction = -1;
   carousel.style.justifyContent = "flex-start";
   slider.style.transform = "translate(-33%)";
 }
-
-// function goLeft() {
-//   direction = 1;
-//   carousel.style.justifyContent = "flex-end";
-//   slider.style.transform = "translate(33%)";
-// }
-
-rightArrow.addEventListener("click", goRight);
 
 slider.addEventListener("transitionend", function () {
   if (direction === -1) {
