@@ -9,39 +9,40 @@ let direction;
 
 function startCarousel() {
   setInterval(function () {
-    direction = -1;
-    carousel.style.justifyContent = "flex-start";
+    direction = 1;
+    carousel.style.justifyContent = "flex-end";
     // slider.style.transform = "translate(-33%)";
   }, 5000);
 }
 
 startCarousel();
 
-leftArrow.addEventListener("click", goLeft);
-
-function goLeft() {
-  if (direction === -1) {
-    slider.appendChild(slider.firstElementChild);
-    direction = 1;
-  }
-
-  carousel.style.justifyContent = "flex-end";
-  slider.style.transform = "translate(33%)";
-}
-
 rightArrow.addEventListener("click", goRight);
 
 function goRight() {
-  direction = -1;
+  if (direction === -1) {
+    slider.prepend(slider.lastElementChild);
+    direction = 1;
+  }
+
   carousel.style.justifyContent = "flex-start";
   slider.style.transform = "translate(-33%)";
 }
 
+leftArrow.addEventListener("click", goLeft);
+
+function goLeft() {
+  direction = -1;
+  carousel.style.justifyContent = "flex-end";
+  slider.style.transform = "translate(33%)";
+}
+
 slider.addEventListener("transitionend", function () {
   if (direction === -1) {
-    slider.appendChild(slider.firstElementChild);
-  } else if (direction === 1) {
     slider.prepend(slider.lastElementChild);
+    
+  } else if (direction === 1) {
+    slider.appendChild(slider.firstElementChild);
   }
 
   slider.style.transition = "none";
@@ -51,5 +52,4 @@ slider.addEventListener("transitionend", function () {
   });
 });
 
-setInterval(goRight, 10000);
-
+setInterval(goLeft, 10000);

@@ -9,40 +9,39 @@ let direction;
 
 function startCarousel() {
   setInterval(function () {
-    direction = 1;
-    carousel.style.justifyContent = "flex-end";
+    direction = -1;
+    carousel.style.justifyContent = "flex-start";
     // slider.style.transform = "translate(-33%)";
   }, 5000);
 }
 
 startCarousel();
 
-rightArrow.addEventListener("click", goRight);
-
-function goRight() {
-  if (direction === -1) {
-    slider.prepend(slider.lastElementChild);
-    direction = 1;
-  }
-
-  carousel.style.justifyContent = "flex-start";
-  slider.style.transform = "translate(-33%)";
-}
-
 leftArrow.addEventListener("click", goLeft);
 
 function goLeft() {
-  direction = -1;
+  if (direction === -1) {
+    slider.appendChild(slider.firstElementChild);
+    direction = 1;
+  }
+
   carousel.style.justifyContent = "flex-end";
   slider.style.transform = "translate(33%)";
 }
 
+rightArrow.addEventListener("click", goRight);
+
+function goRight() {
+  direction = -1;
+  carousel.style.justifyContent = "flex-start";
+  slider.style.transform = "translate(-33%)";
+}
+
 slider.addEventListener("transitionend", function () {
   if (direction === -1) {
-    slider.prepend(slider.lastElementChild);
-    
-  } else if (direction === 1) {
     slider.appendChild(slider.firstElementChild);
+  } else if (direction === 1) {
+    slider.prepend(slider.lastElementChild);
   }
 
   slider.style.transition = "none";
@@ -52,4 +51,5 @@ slider.addEventListener("transitionend", function () {
   });
 });
 
-setInterval(goLeft, 10000);
+setInterval(goRight, 10000);
+
