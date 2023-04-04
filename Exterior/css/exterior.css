@@ -1870,6 +1870,10 @@ body::before {
     height: 50%;
   }
 
+  .xl\:h-\[450px\] {
+    height: 450px;
+  }
+
   .xl\:flex-row {
     flex-direction: row;
   }
