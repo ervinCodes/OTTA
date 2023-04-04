@@ -704,10 +704,6 @@ body::before {
   list-style-type: disc;
 }
 
-.list-none {
-  list-style-type: none;
-}
-
 .flex-row {
   flex-direction: row;
 }
@@ -899,6 +895,14 @@ body::before {
 
 .bg-\[url\(\'\/images\/visions-and-values-header\.jpg\'\)\] {
   background-image: url('/images/visions-and-values-header.jpg');
+}
+
+.bg-\[url\(\'\/External\/images\/home-background\.jpeg\'\)\] {
+  background-image: url('/External/images/home-background.jpeg');
+}
+
+.bg-\[url\(\'\/Exterior\/images\/home-background\.jpeg\'\)\] {
+  background-image: url('/Exterior/images/home-background.jpeg');
 }
 
 .bg-cover {
@@ -1368,8 +1372,8 @@ body::before {
     padding-bottom: 2.5rem;
   }
 
-  .xs\:pt-10 {
-    padding-top: 2.5rem;
+  .xs\:pt-5 {
+    padding-top: 1.25rem;
   }
 
   .xs\:pt-16 {
