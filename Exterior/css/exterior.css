@@ -704,6 +704,10 @@ body::before {
   list-style-type: disc;
 }
 
+.list-none {
+  list-style-type: none;
+}
+
 .flex-row {
   flex-direction: row;
 }
@@ -1370,6 +1374,10 @@ body::before {
 
   .xs\:pt-16 {
     padding-top: 4rem;
+  }
+
+  .xs\:pt-8 {
+    padding-top: 2rem;
   }
 
   .xs\:text-center {
