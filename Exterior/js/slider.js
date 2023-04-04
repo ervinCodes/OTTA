@@ -9,10 +9,10 @@ let direction;
 
 function startCarousel() {
   setInterval(function () {
-    direction = 1;
+    direction = -1;
     carousel.style.justifyContent = "flex-end";
-    // slider.style.transform = "translate(-33%)";
-  }, 10000);
+    slider.style.transform = "translate(33%)";
+  }, 5000);
 }
 
 startCarousel();
@@ -52,4 +52,4 @@ slider.addEventListener("transitionend", function () {
   });
 });
 
-setInterval(goLeft, 10000);
+// setInterval(goLeft, 10000);
