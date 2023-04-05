@@ -877,32 +877,20 @@ body::before {
   background-image: url('/images/employers-background.jpeg');
 }
 
-.bg-\[url\(\'\/images\/members-login\.jpg\'\)\] {
-  background-image: url('/images/members-login.jpg');
+.bg-\[url\(\'\/images\/members-background\.jpeg\'\)\] {
+  background-image: url('/images/members-background.jpeg');
 }
 
 .bg-\[url\(\'\/images\/home-background\.jpeg\'\)\] {
   background-image: url('/images/home-background.jpeg');
 }
 
-.bg-\[url\(\'\/images\/members-background\.jpeg\'\)\] {
-  background-image: url('/images/members-background.jpeg');
+.bg-\[url\(\'\/Exterior\/images\/visions-and-values-background\.jpg\'\)\] {
+  background-image: url('/Exterior/images/visions-and-values-background.jpg');
 }
 
-.bg-\[url\(\'\/images\/clock-gray\.jpg\'\)\] {
-  background-image: url('/images/clock-gray.jpg');
-}
-
-.bg-\[url\(\'\/images\/visions-and-values-header\.jpg\'\)\] {
-  background-image: url('/images/visions-and-values-header.jpg');
-}
-
-.bg-\[url\(\'\/External\/images\/home-background\.jpeg\'\)\] {
-  background-image: url('/External/images/home-background.jpeg');
-}
-
-.bg-\[url\(\'\/Exterior\/images\/home-background\.jpeg\'\)\] {
-  background-image: url('/Exterior/images/home-background.jpeg');
+.bg-\[url\(\'\/images\/visions-and-values-background\.jpg\'\)\] {
+  background-image: url('/images/visions-and-values-background.jpg');
 }
 
 .bg-cover {
@@ -985,14 +973,14 @@ body::before {
   padding-bottom: 2rem;
 }
 
-.px-10 {
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
-}
-
 .py-16 {
   padding-top: 4rem;
   padding-bottom: 4rem;
+}
+
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
 }
 
 .pt-2 {
@@ -1323,11 +1311,6 @@ body::before {
     padding-right: 1rem;
   }
 
-  .xs\:py-10 {
-    padding-top: 2.5rem;
-    padding-bottom: 2.5rem;
-  }
-
   .xs\:py-16 {
     padding-top: 4rem;
     padding-bottom: 4rem;
@@ -1368,29 +1351,30 @@ body::before {
     padding-right: 25%;
   }
 
+  .xs\:py-10 {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+
   .xs\:px-0 {
     padding-left: 0px;
     padding-right: 0px;
   }
 
-  .xs\:pb-10 {
-    padding-bottom: 2.5rem;
-  }
-
-  .xs\:pt-5 {
-    padding-top: 1.25rem;
+  .xs\:pb-16 {
+    padding-bottom: 4rem;
   }
 
   .xs\:pt-16 {
     padding-top: 4rem;
   }
 
-  .xs\:pt-8 {
-    padding-top: 2rem;
+  .xs\:pb-10 {
+    padding-bottom: 2.5rem;
   }
 
-  .xs\:pb-16 {
-    padding-bottom: 4rem;
+  .xs\:pt-8 {
+    padding-top: 2rem;
   }
 
   .xs\:text-center {
@@ -1773,6 +1757,11 @@ body::before {
     padding-right: 2rem;
   }
 
+  .lg\:py-10 {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+
   .lg\:py-48 {
     padding-top: 12rem;
     padding-bottom: 12rem;
@@ -1798,13 +1787,12 @@ body::before {
     padding-right: 2.5rem;
   }
 
-  .lg\:py-10 {
-    padding-top: 2.5rem;
-    padding-bottom: 2.5rem;
-  }
-
   .lg\:pl-5 {
     padding-left: 1.25rem;
+  }
+
+  .lg\:pb-10 {
+    padding-bottom: 2.5rem;
   }
 
   .lg\:pt-12 {
@@ -1817,10 +1805,6 @@ body::before {
 
   .lg\:pb-0 {
     padding-bottom: 0px;
-  }
-
-  .lg\:pb-10 {
-    padding-bottom: 2.5rem;
   }
 
   .lg\:text-left {
@@ -1882,10 +1866,6 @@ body::before {
 
   .xl\:h-screen {
     height: 100vh;
-  }
-
-  .xl\:h-1\/2 {
-    height: 50%;
   }
 
   .xl\:h-\[450px\] {
@@ -1990,10 +1970,6 @@ body::before {
 @media (min-width: 1536px) {
   .\32xl\:h-\[700px\] {
     height: 700px;
-  }
-
-  .\32xl\:h-1\/2 {
-    height: 50%;
   }
 
   .\32xl\:gap-1 {
