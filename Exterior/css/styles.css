@@ -12,11 +12,6 @@ html {
   scroll-behavior: smooth;
 }
 
-.header {
-  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.4);
-}
-
-
 .carousel-container {
   width: 90%;
   margin: 20px auto;
