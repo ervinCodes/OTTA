@@ -856,9 +856,9 @@ body::before {
   background-color: rgb(243 244 246 / var(--tw-bg-opacity));
 }
 
-.bg-ecru {
+.bg-white-gold {
   --tw-bg-opacity: 1;
-  background-color: rgb(199 173 104 / var(--tw-bg-opacity));
+  background-color: rgb(180 159 113 / var(--tw-bg-opacity));
 }
 
 .bg-\[url\(\'\/images\/aboutUs-background\.jpeg\'\)\] {
@@ -883,10 +883,6 @@ body::before {
 
 .bg-\[url\(\'\/images\/home-background\.jpeg\'\)\] {
   background-image: url('/images/home-background.jpeg');
-}
-
-.bg-\[url\(\'\/Exterior\/images\/visions-and-values-background\.jpg\'\)\] {
-  background-image: url('/Exterior/images/visions-and-values-background.jpg');
 }
 
 .bg-\[url\(\'\/images\/visions-and-values-background\.jpg\'\)\] {
@@ -1106,9 +1102,9 @@ body::before {
   letter-spacing: 0.025em;
 }
 
-.text-ecru {
+.text-white-gold {
   --tw-text-opacity: 1;
-  color: rgb(199 173 104 / var(--tw-text-opacity));
+  color: rgb(180 159 113 / var(--tw-text-opacity));
 }
 
 .text-white {
@@ -1141,9 +1137,9 @@ body::before {
   color: rgb(107 114 128 / var(--tw-text-opacity));
 }
 
-.text-black {
+.text-dark-gold {
   --tw-text-opacity: 1;
-  color: rgb(0 0 0 / var(--tw-text-opacity));
+  color: rgb(96 85 60 / var(--tw-text-opacity));
 }
 
 .shadow-lg {

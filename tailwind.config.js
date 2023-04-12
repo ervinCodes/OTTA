@@ -9,10 +9,10 @@ module.exports = {
     },
     extend: {
       colors: {
-        "silver": "#C1BFBE",
         "sonic-silver": "#737373",
         "federal-blue": "#050542",
-        "ecru": "#C7AD68"
+        "dark-gold": "#60553C",
+        "white-gold": "#B49F71"
       },
       spacing: {
         '128': '40rem',
