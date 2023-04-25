@@ -91,3 +91,10 @@ html {
   }
 }
 
+.font-outline {
+  font-family: "Inter";
+  -webkit-text-stroke-color: #1A1C4E;
+  -webkit-text-stroke-width: 2px;
+  color: transparent;
+}
+
