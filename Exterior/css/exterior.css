@@ -1107,6 +1107,10 @@ body::before {
   font-style: italic;
 }
 
+.not-italic {
+  font-style: normal;
+}
+
 .tracking-wide {
   letter-spacing: 0.025em;
 }
