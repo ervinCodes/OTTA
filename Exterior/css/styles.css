@@ -91,14 +91,16 @@ html {
   }
 }
 
-.font-outline {
-  -webkit-text-stroke-color: #1A1C4E;
-  -webkit-text-stroke-width: 2px;
-  color: transparent;
-}
+
 
 .text-shadow {
-  text-shadow: 1px 1px 0, -1px -1px 0, 1px -1px 0,
-    -1px 1px 0, 1px 1px 0;
+  font-family: sans-serif;
+   color: #1A1C4E;
+   text-shadow:
+       1px 1px 0 #050542,
+     -1px -1px 0 #050542,  
+      1px -1px 0 #050542,
+      -1px 1px 0 #050542,
+       1px 1px 0 #050542;
 }
 
