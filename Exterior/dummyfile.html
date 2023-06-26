@@ -1,83 +1,603 @@
+<html lang="en" class="">
+  <head>
+    <meta charset="utf-8" />
+    <style data-styles="">
+      ion-icon {
+        visibility: hidden;
+      }
+      .hydrated {
+        visibility: inherit;
+      }
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>About Us - OneTeam</title>
+
+    <link href="/Exterior/css/exterior.css" rel="stylesheet" />
+
+    <script src="https://js.stripe.com/v3/"></script>
+
+    <!-- Fonts -->
+    <!-- Gill Sans -->
+    <link href="https://fonts.cdnfonts.com/css/gill-sans" rel="stylesheet" />
+    <!-- Core theme TailwindCSS-->
+    <!-- Core theme CSS-->
+    <link rel="stylesheet" href="/Exterior/css/styles.css" />
+    <!-- Build CSS -->
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" href="/Exterior/css/normalize.css" />
+    <!-- Icons -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"
+    ></script>
+
+    <style type="text/css">
+      @font-face {
+        font-weight: 400;
+        font-style: normal;
+        font-family: circular;
+
+        src: url("chrome-extension://liecbddmkiiihnedobmlmillhodjkdmb/fonts/CircularXXWeb-Book.woff2")
+          format("woff2");
+      }
+
+      @font-face {
+        font-weight: 700;
+        font-style: normal;
+        font-family: circular;
+
+        src: url("chrome-extension://liecbddmkiiihnedobmlmillhodjkdmb/fonts/CircularXXWeb-Bold.woff2")
+          format("woff2");
+      }
+    </style>
+  </head>
+  <body data-new-gr-c-s-check-loaded="14.1110.0" data-gr-ext-installed="">
+    <!-- Navbar -->
+    <nav
+      class="flex flex-col bg-federal-blue md:flex-row md:items-center fixed top-0 z-20 w-full xs:px-4 md:px-5 lg:px-8 py-3 justify-between"
+    >
+      <!-- Flex Container -->
+      <div
+        class="flex md:justify-around xs:justify-between gap-x-2 items-center lg:w-2/5 md:w-4/12"
+      >
+        <!-- Link Direct to Home Page -->
+        <div class="flex flex-row lg:gap-3">
+          <!-- Image Logo -->
+          <div class="lg:basis-16 xs:basis-11">
+            <a href="/Home">
+              <img src="/Exterior/images/navbar-logo.png" alt=" OTTA logo" />
+            </a>
+          </div>
+          <!-- ONE TEAM TALENT AGENCY -->
+          <div class="flex justify-center items-center">
+            <a
+              href="/Home"
+              class="xl:text-2xl lg:text-lg xs:text-sm pt-2 flex items-center text-white-gold font-medium font-gill-sans"
+            >
+              ONE TEAM TALENT AGENCY
+            </a>
+          </div>
+        </div>
+
+        <!-- Hamburger -->
+        <div>
+          <button
+            class="md:hidden cursor-pointer flex flex-col justify-center gap-y-1"
+            id="hamburger"
+            aria-label="menu"
+          >
+            <div class="w-6 h-1 bar bg-white rounded-lg duration-500"></div>
+            <div class="w-6 h-1 bar bg-white rounded-lg duration-500"></div>
+            <div class="w-6 h-1 bar bg-white rounded-lg duration-500"></div>
+          </button>
+        </div>
+      </div>
+      <!-- Links -->
+      <ul
+        class="hidden md:flex justify-end items-center lg:gap-x-7 xs:gap-x-3 lg:gap-y-10 mt-5 sm:mt-0 text-white font-sans lg:w-4/5 2xl:text-base xl:text-base lg:text-xs md:text-xs font-bold"
+        id="links"
+      >
+        <li>
+          <a
+            href="/Home"
+            class="hover:text-sonic-silver hover:underline 2xl:pr-10 xl:pr-1"
+            >Home</a
+          >
+        </li>
+        <li>
+          <a
+            href="/MembersSignIn"
+            class="hover:text-sonic-silver hover:underline 2xl:pr-10 xl:pr-1"
+            >Members</a
+          >
+        </li>
+        <li>
+          <a
+            href="/StudioSignIn"
+            class="hover:text-sonic-silver hover:underline 2xl:pr-10 xl:pr-1"
+            >Employers</a
+          >
+        </li>
+        <li>
+          <a
+            href="/Credits"
+            class="hover:text-sonic-silver hover:underline 2xl:pr-10 xl:pr-1"
+            >Credits</a
+          >
+        </li>
+        <li>
+          <a
+            href="/Bio"
+            class="hover:text-sonic-silver hover:underline 2xl:pr-10 xl:pr-1"
+            >Visions and Values</a
+          >
+        </li>
+        <li>
+          <a
+            href="/AboutUs"
+            class="hover:text-sonic-silver hover:underline 2xl:pr-10 xl:pr-1"
+            >About Us</a
+          >
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Page Content -->
+    <main class="bg-federal-blue">
+      <!-- Header Container -->
+      <div>
+        <!-- Header Section -->
+        <section
+          class="2xl:h-[700px] lg:h-[600px] md:h-[400px] sm:h-[300px] xs:h-[250px] bg-[url('/Exterior/images/aboutUs-background.jpeg')] bg-cover bg-center"
+        ></section>
+
+        <!-- Meet the Players Section -->
+        <div
+          class="flex items-end h-full lg:justify-start xs:justify-center lg:w-5/6 lg:pl-5 hidden-elements mt-10 lg:mb-0 xs:mb-10 show-elements"
+        >
+          <div
+            class="xl:text-5xl md:text-4xl sm:text-3xl xs:text-lg pb-5 lg:text-left text-white-gold text-center font-bold italic drop-shadow-lg font-gill-sans"
+          >
+            <p>One Team Talent Agency - Meet The Players:</p>
+          </div>
+        </div>
+
+        <!-- Bio #1-->
+        <section class="text-white font-gill-sans lg:pb-10 xs:pb-16">
+          <!-- Flex Container -->
+          <div
+            class="flex lg:flex-row xs:flex-col items-center justify-between xl:gap-y-8 xs:gap-4 xl:mx-16 md:mx-5 xs:mx-3"
+          >
+            <!-- Image Container -->
+            <div
+              class="basis-1/3 flex flex-col justify-center items-center xl:p-16 lg:p-6"
+            >
+              <!-- Image -->
+              <div class="flex-auto">
+                <img
+                  class="object-fit w-full h-auto"
+                  src="/Exterior/images/kathys-bio-pic.jpeg"
+                  alt="Portrait photo of Kathy Riley"
+                />
+              </div>
+              <!-- Name -->
+              <div class="pt-5">
+                <h2
+                  class="2xl:text-4xl xl:text-3xl sm:text-4xl xs:text-3xl font-medium text-white-gold"
+                >
+                  Kathy Riley
+                </h2>
+              </div>
+            </div>
+            <!-- Text Container -->
+            <div class="basis-2/3 flex flex-col text-left gap-4 font-thin">
+              <!-- Text -->
+              <p class="xl:text-lg lg:text-sm xs:text-xl">
+                Kathy Riley is the Founder and CEO of One Team Talent Agency (
+                OTTA ) with over three decades of experience in Production
+                Accounting, ranging from Entry Level to Department Head,
+                including a stint as a Director of Production Finance for a
+                major television studio. Kathy has experienced first-hand the
+                challenges faced when staffing Production Accounting
+                departments. In response to these challenges, Kathy founded One
+                Team Talent Agency with Jim Nicholson. Together they created a
+                system designed to automate and update the process of staffing
+                Production Accounting Teams in film and television.
+                Additionally, OTTA offers a range of services to serve and
+                support the production accounting community.
+              </p>
+              <p class="xl:text-lg lg:text-sm xs:text-xl">
+                Throughout her career as a production accountant, Kathy
+                specialized in <span class="font-sans">1</span> hour scripted,
+                single-camera television dramas, and has worked with top studios
+                such as ABC Signature Studios, Disney Channel, NBC-Universal,
+                Warner Brothers Television, Sony Pictures, and 21st Century Fox.
+                Kathy's proven leadership and extensive experience in the
+                industry, combined with her strong commitment to improving the
+                staffing process, is the driving force behind One Team Talent
+                Agency, which aims to offer innovative solutions to the
+                production accounting community.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <!-- Bio #2 -->
+        <section
+          class="bg-white text-federal-blue font-gill-sans lg:py-10 xs:py-16"
+        >
+          <!-- Flex Container -->
+          <div
+            class="flex lg:flex-row items-center xs:flex-col-reverse justify-between xl:gap-y-8 xs:gap-4 xl:mx-16 md:mx-5 xs:mx-3"
+          >
+            <!-- Text Container -->
+            <div class="basis-2/3 flex flex-col text-left gap-4 font-thin">
+              <!-- Text -->
+              <p class="xl:text-lg lg:text-sm xs:text-xl">
+                Jim Nicholson is the Co-Founder and Chief Information Officer of
+                One Team Talent Agency. With over 30 years of experience in the
+                IT field, both in private and corporate settings, Jim brings a
+                wealth of knowledge and expertise to the company. In his current
+                role as the IT Director for a major corporation based in Los
+                Angeles, Jim is responsible for implementing various technology
+                projects designed to enhance the efficiency and
+                cost-effectiveness of the company's sales, service, HR, and
+                business office functions. Prior to that, he served as CTO at
+                Alliance United Insurance Services, where he built the IT
+                infrastructure for the growing company. Throughout his career,
+                Jim has been in charge of a wide range of IT functions,
+                including enterprise data, user support, infrastructure,
+                telecommunications, and information security. Jim's leadership
+                and experience in the field of IT will be instrumental in
+                driving One Team Talent Agency's technology strategy forward.
+              </p>
+            </div>
+            <!-- Image Container -->
+            <div
+              class="basis-1/3 flex flex-col justify-center items-center xl:p-16 lg:p-6"
+            >
+              <!-- Image -->
+              <div class="flex-auto">
+                <img
+                  class="object-fit w-full h-auto"
+                  src="/Exterior/images/jims-bio-pic.jpeg"
+                  alt="Portrait photo of Jim Nicholson"
+                />
+              </div>
+              <!-- Name -->
+              <div class="pt-5">
+                <h2
+                  class="2xl:text-4xl xl:text-3xl sm:text-4xl xs:text-3xl font-medium text-white-gold"
+                >
+                  Jim Nicholson
+                </h2>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Bio #3 -->
+        <section class="text-white font-gill-sans lg:py-10 xs:py-16">
+          <!-- Flex Container -->
+          <div
+            class="flex lg:flex-row xs:flex-col items-center justify-between xl:gap-y-8 xs:gap-4 xl:mx-16 md:mx-5 xs:mx-3"
+          >
+            <!-- Image Container -->
+            <div
+              class="basis-1/3 flex flex-col justify-center items-center xl:p-16 lg:p-6"
+            >
+              <!-- Image -->
+              <div class="flex-auto">
+                <img
+                  class="object-fit w-full h-auto"
+                  src="/Exterior/images/meagens-bio-pic.jpeg"
+                  alt="Portrait photo of Meagen Brooks"
+                />
+              </div>
+              <!-- Name -->
+              <div class="pt-5">
+                <h2
+                  class="2xl:text-4xl xl:text-3xl sm:text-4xl xs:text-3xl font-medium text-white-gold"
+                >
+                  Meagen Brooks
+                </h2>
+              </div>
+            </div>
+            <!-- Text Container -->
+            <div class="basis-2/3 flex flex-col text-left gap-4 font-thin">
+              <!-- Text -->
+              <p class="xl:text-lg lg:text-sm xs:text-xl">
+                Meagen Brooks is a graphic designer at ADG Local 800, who has
+                worked on television shows such as Weeds, Young Sheldon,
+                Atypical, and Saved by the Bell. After completing her Bachelor
+                of Science in Cinema and Photography at Ithaca College, she
+                moved to Los Angeles to pursue her artistic endeavors in both
+                the art and film worlds. Meagen is well-versed in Adobe Creative
+                Suite, including Photoshop, Illustrator, and InDesign, as well
+                as having working knowledge of Vectorworks and Sketchup Pro.
+                Additionally, she is proficient in neon sign design and
+                fabrication. She has been nominated for two Art Director's Guild
+                Awards for her graphic design work in television and owns and
+                operates her own graphic design company, Flying Dinosaur
+                Designs, LLC, which services multiple industries.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <!-- Bio #4 -->
+        <section
+          class="bg-white text-federal-blue font-gill-sans lg:py-10 xs:py-16"
+        >
+          <!-- Flex Container -->
+          <div
+            class="flex lg:flex-row items-center xs:flex-col-reverse justify-between xl:gap-y-8 xs:gap-4 xl:mx-16 md:mx-5 xs:mx-3"
+          >
+            <!-- Text Container -->
+            <div class="basis-2/3 flex flex-col text-left gap-4 font-thin">
+              <!-- Text -->
+              <p class="xl:text-lg lg:text-sm xs:text-xl">
+                Ervin is an accomplished web developer with over four years of
+                experience designing and building websites and applications for
+                small to medium-sized businesses. Prior to transitioning to his
+                career in development, he studied Kinesiology and honed his
+                expertise in customer service and the insurance industry by
+                managing over 15 accounts. Ervin even played a key role in
+                launching an international application that contributed
+                significantly to his previous employer's success in South
+                America. Ervin's versatile technology stack includes proficiency
+                in HTML/CSS, Javascript, React, Node.js, and Tailwind CSS. He
+                takes pride in crafting visually stunning and responsive
+                websites that are user-friendly and optimized for search
+                engines. Ervin's exceptional talent lies in creating logical
+                page structures that facilitate efficient browsing for all types
+                of devices, ensuring a seamless and memorable user experience.
+              </p>
+            </div>
+            <!-- Image Container -->
+            <div
+              class="basis-1/3 flex flex-col justify-center items-center xl:p-16 lg:p-6"
+            >
+              <!-- Image -->
+              <div class="flex-auto">
+                <img
+                  class="object-fit w-full h-auto"
+                  src="/Exterior/images/ervin-bio-pic.jpg"
+                  alt="Portrait photo of Ervin Natareno"
+                />
+              </div>
+              <!-- Name -->
+              <div class="pt-5">
+                <h2
+                  class="2xl:text-4xl xl:text-3xl sm:text-4xl xs:text-3xl font-medium text-white-gold"
+                >
+                  Ervin Natareno
+                </h2>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
       <!-- Footer -->
       <footer class="font-gill-sans text-white bg-federal-blue font-thin">
         <!-- Footer Logo Image -->
-        <!-- <div class="xl:px-1/6 sm:px-2/5 xs:px-2/6 pt-6"> -->
-        <div class="pt-6"></div>
+        <div class="pt-6">
           <a href="#" class="flex justify-center items-center">
-            <img src="images/logo.png" alt="Image of OTTA logo" class="h-16 w-auto"/>
+            <img
+              src="/Exterior/images/footer-logo.png"
+              alt="OTTA logo"
+              class="h-16 w-auto"
+            />
           </a>
         </div>
         <!-- Flex Container -->
         <div
-          class="flex xl:flex-row xs:flex-col justify-center items-center px-6 py-5 mx-auto gap-4" aria-label="Footer"
+          class="flex xl:flex-row xs:flex-col justify-center items-center px-6 py-5 mx-auto gap-4"
+          aria-label="Footer"
         >
           <!-- Navigation Links -->
-          <ul class="flex flex-row gap-4 text-ecru lg:text-2xl xs:text-base">
+          <ul
+            class="flex flex-row gap-4 text-white-gold lg:text-2xl xs:text-base text-center"
+          >
             <!-- Contact Links -->
             <li>
-              <a href="contact.html" class="hover:text-sonic-silver hover:cursor-pointer">Contact</a>
+              <a
+                href="/Contact"
+                class="hover:text-sonic-silver hover:cursor-pointer"
+                >Contact</a
+              >
             </li>
             <span>|</span>
             <!-- Terms of Use -->
-            <li class="text-center
-            ">
-              <a href="terms-of-use.html" class="hover:text-sonic-silver hover:cursor-pointer">Terms of Use</a>
+            <li class="text-center">
+              <a
+                href="/Terms"
+                class="hover:text-sonic-silver hover:cursor-pointer"
+                >Terms of Use</a
+              >
             </li>
             <span>|</span>
             <!-- Privacy Link -->
             <li>
-              <a href="privacy.html" class="hover:text-sonic-silver hover:cursor-pointer">Privacy</a>
+              <a
+                href="/Privacy"
+                class="hover:text-sonic-silver hover:cursor-pointer"
+                >Privacy</a
+              >
             </li>
             <span>|</span>
             <!-- Faq -->
             <li>
-              <a href="faq.html" class="hover:text-sonic-silver hover:cursor-pointer">FAQ</a>
+              <a
+                href="/Industry"
+                class="hover:text-sonic-silver hover:cursor-pointer"
+                >FAQ</a
+              >
             </li>
-            <span class="xl:visible xs:invisible">|</span>
+            <span class="xl:block xs:hidden">|</span>
           </ul>
           <!-- Socials -->
           <ul class="flex flex-row gap-4">
             <!-- Facebook -->
             <li>
-              <svg
-              class="w-6 h-6 text-sonic-silver fill-current hover:cursor-pointer"
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 24 24"
-              aria-hidden="true">
-                <path
-                  d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"
-                />
-            </svg>
+              <a href="#" aria-label="Facebook">
+                <svg
+                  class="w-6 h-6 text-sonic-silver fill-current hover:cursor-pointer"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  aria-hidden="true"
+                >
+                  <path
+                    d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"
+                  ></path>
+                </svg>
               </a>
             </li>
             <!-- Instagram -->
             <li>
-              <a href="#">
-                <svg class="h-6 w-6 text-sonic-silver fill-current hover:cursor-pointer" viewBox="0 0 24 24" aria-hidden="true">
-                  <path fill-rule="evenodd" d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z" clip-rule="evenodd"></path>
+              <a href="#" aria-label="Instagram">
+                <svg
+                  class="h-6 w-6 text-sonic-silver fill-current hover:cursor-pointer"
+                  viewBox="0 0 24 24"
+                  aria-hidden="true"
+                  role="img"
+                  alt="image"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z"
+                    clip-rule="evenodd"
+                  ></path>
                 </svg>
               </a>
             </li>
             <!-- Twitter -->
             <li>
-              <a href="#">
+              <a href="#" aria-label="twitter">
                 <svg
-                class="w-6 h-6 text-sonic-silver fill-current hover:cursor-pointer"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                aria-hidden="true">
+                  class="w-6 h-6 text-sonic-silver fill-current hover:cursor-pointer"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  aria-hidden="true"
+                >
                   <path
                     d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"
-                  />
-              </svg>
+                  ></path>
+                </svg>
               </a>
             </li>
           </ul>
-          
+
           <!-- Copyright -->
-          <div class="text-center text-ecru flex flex-row lg:text-2xl xs:text-base gap-4">
-            <span class="xl:visible xs:invisible">|</span>
-            <p>&copy; 2023 One Team Talent Agency, Inc. All Rights Reserved.</p>
+          <div
+            class="text-center text-white-gold flex flex-row lg:text-2xl xs:text-base gap-4"
+          >
+            <span class="xl:block xs:hidden">|</span>
+            <p>© 2023 One Team Talent Agency, Inc. All Rights Reserved.</p>
           </div>
         </div>
       </footer>
+    </main>
+
+    <!-- Core Navbar JS-->
+    <script src="/js/navbar.js"></script>
+    <!-- Javascript -->
+    <script src="/Exterior/javascript/slider.js"></script>
+    <!-- <script src="./js/sliderLeft.js"></script> -->
+    <script defer="" src="/Exterior/javascript/scrollAnimation.js"></script>
+
+    <script src="/Exterior/lib/jquery/dist/jquery.min.js"></script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/cleave.js/1.6.0/cleave.min.js"
+      integrity="sha512-KaIyHb30iXTXfGyI9cyKFUIRSSuekJt6/vqXtyQKhQP6ozZEGY8nOtRS6fExqE4+RbYHus2yGyYg1BrqxzV6YA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/cleave.js/1.6.0/addons/cleave-phone.us.js"
+      integrity="sha512-sYKXH+IAMtg7mVursFAH+Xu1mIvmSqTd8LTEhKdRmvJhtX2IKUFpkZBZ9pigORvIR6Nt5klEF/P+psiJRa6crQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script type="text/javascript">
+      window.payment = {
+        stripePublishableKey: "pk_test_M558ukVeN29mu1E0b5RIfOBQ00rHAql6sp",
+      };
+    </script>
+
+    <script src="/js/payment.js"></script>
+    <iframe
+      name="__privateStripeController4181"
+      frameborder="0"
+      allowtransparency="true"
+      scrolling="no"
+      role="presentation"
+      allow="payment *"
+      src="https://js.stripe.com/v3/controller-d30bd59bbbac6fb883d774d0ae284cb1.html#apiKey=pk_test_M558ukVeN29mu1E0b5RIfOBQ00rHAql6sp&amp;stripeJsId=3b719f31-f05c-4199-a032-f0a2c48dc226&amp;stripeJsLoadTime=1684882447570&amp;referrer=https%3A%2F%2Fotta.azurewebsites.net%2FAboutUs&amp;controllerId=__privateStripeController4181"
+      aria-hidden="true"
+      tabindex="-1"
+      style="
+        border: none !important;
+        margin: 0px !important;
+        padding: 0px !important;
+        width: 1px !important;
+        min-width: 100% !important;
+        overflow: hidden !important;
+        display: block !important;
+        visibility: hidden !important;
+        position: fixed !important;
+        height: 1px !important;
+        pointer-events: none !important;
+        user-select: none !important;
+      "
+    ></iframe>
+
+    <iframe
+      name="__privateStripeMetricsController4180"
+      frameborder="0"
+      allowtransparency="true"
+      scrolling="no"
+      role="presentation"
+      allow="payment *"
+      src="https://js.stripe.com/v3/m-outer-93afeeb17bc37e711759584dbfc50d47.html#url=https%3A%2F%2Fotta.azurewebsites.net%2FAboutUs&amp;title=About%20Us%20-%20OneTeam&amp;referrer=https%3A%2F%2Fotta.azurewebsites.net%2FContact&amp;muid=d6d73b29-9840-4f06-9821-35982aa5a0159c9ba4&amp;sid=0dd144f7-a40b-4ff6-8a15-943cf1bfad21b6a71f&amp;version=6&amp;preview=false"
+      aria-hidden="true"
+      tabindex="-1"
+      style="
+        border: none !important;
+        margin: 0px !important;
+        padding: 0px !important;
+        width: 1px !important;
+        min-width: 100% !important;
+        overflow: hidden !important;
+        display: block !important;
+        visibility: hidden !important;
+        position: fixed !important;
+        height: 1px !important;
+        pointer-events: none !important;
+        user-select: none !important;
+      "
+    ></iframe
+    ><scribe-shadow
+      id="crxjs-ext"
+      style="
+        position: fixed;
+        width: 0px;
+        height: 0px;
+        top: 0px;
+        left: 0px;
+        z-index: 2147483647;
+        overflow: visible;
+      "
+    ></scribe-shadow>
+    <div id="loom-companion-mv3" ext-id="liecbddmkiiihnedobmlmillhodjkdmb">
+      <section id="shadow-host-companion"></section>
+    </div>
+  </body>
+  <grammarly-desktop-integration
+    data-grammarly-shadow-root="true"
+  ></grammarly-desktop-integration>
+</html>

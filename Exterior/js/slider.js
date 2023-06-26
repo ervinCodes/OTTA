@@ -12,7 +12,7 @@ function startCarousel() {
     direction = -1;
     carousel.style.justifyContent = "flex-end";
     slider.style.transform = "translate(33%)";
-  }, 7000);
+  }, 5000);
 }
 
 startCarousel();
