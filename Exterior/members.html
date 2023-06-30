@@ -117,12 +117,12 @@
         >
         <form action="">
           <div class="bg-white sm:w-[450px] xs:w-80 p-6 rounded shadow-lg">
-            <h1 class="mb-10 font-bold text-2xl text-davys-grey">
+            <h1 class="mb-10 font-bold text-2xl ">
               Member Sign-In
             </h1>
             <!-- Email -->
             <div class="pb-1 pl-1">
-              <label for="" class="text-davys-grey">Email</label>
+              <label for="" class="">Email</label>
             </div>
             <input
               type="email"
@@ -130,7 +130,7 @@
             />
             <!-- Password -->
             <div class="pb-1 pl-1">
-              <label for="" class="text-davys-grey">Password</label>
+              <label for="" class="">Password</label>
             </div>
             <div class="relative">
               <input
@@ -146,20 +146,19 @@
                 name="eye"
               ></ion-icon>
             </div>
-
             <!-- Container -->
             <div class="flex flex-row justify-between mb-4">
               <!-- Remember Me -->
               <div class="flex justify-center items-center gap-1">
-                <input type="checkbox" id="remember" />
-                <label for="remember" class="text-davys-grey"
-                  >Remember Me</label
-                >
+                <input type="checkbox" data-val="true" data-val-required="The Remember me? field is required." id="Input_RememberMe" name="Input.RememberMe" value="true">
+      
+                <label for="Input_RememberMe">Remember Me</label>
               </div>
-
+    
+      
               <!-- Forgot Password -->
               <p class="text-xs border-b border-davys-grey">
-                <a href="forgot-password.html">Forgot your password?</a>
+                <a href="/ForgotPasword">Forgot your password?</a>
               </p>
             </div>
             <!-- Button -->
