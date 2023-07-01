@@ -744,14 +744,6 @@ body::before {
   gap: 1rem;
 }
 
-.gap-2 {
-  gap: 0.5rem;
-}
-
-.gap-6 {
-  gap: 1.5rem;
-}
-
 .gap-1 {
   gap: 0.25rem;
 }
@@ -904,10 +896,6 @@ body::before {
 
 .bg-\[url\(\'\/images\/home-background\.jpeg\'\)\] {
   background-image: url('/images/home-background.jpeg');
-}
-
-.bg-\[url\(\'\/Exterior\/images\/members-background\.jpeg\'\)\] {
-  background-image: url('/Exterior/images/members-background.jpeg');
 }
 
 .bg-\[url\(\'\/images\/visions-and-values-background\.jpg\'\)\] {
