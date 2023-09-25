@@ -595,12 +595,16 @@ body::before {
   margin-bottom: 1rem;
 }
 
-.mt-3 {
-  margin-top: 0.75rem;
-}
-
 .mb-8 {
   margin-bottom: 2rem;
+}
+
+.mt-6 {
+  margin-top: 1.5rem;
+}
+
+.mt-3 {
+  margin-top: 0.75rem;
 }
 
 .block {
@@ -643,12 +647,24 @@ body::before {
   height: 1.5rem;
 }
 
+.h-\[950px\] {
+  height: 950px;
+}
+
 .h-64 {
   height: 16rem;
 }
 
-.h-\[1000px\] {
-  height: 1000px;
+.h-\[1250px\] {
+  height: 1250px;
+}
+
+.h-\[1500px\] {
+  height: 1500px;
+}
+
+.h-\[1400px\] {
+  height: 1400px;
 }
 
 .w-full {
@@ -840,6 +856,11 @@ body::before {
   border-top-width: 2px;
 }
 
+.border-federal-blue {
+  --tw-border-opacity: 1;
+  border-color: rgb(5 5 66 / var(--tw-border-opacity));
+}
+
 .border-dark-gold {
   --tw-border-opacity: 1;
   border-color: rgb(96 85 60 / var(--tw-border-opacity));
@@ -878,12 +899,16 @@ body::before {
   background-image: url('/images/blue-background.jpeg');
 }
 
-.bg-\[url\(\'\/images\/credits-background\.jpeg\'\)\] {
-  background-image: url('/images/credits-background.jpeg');
+.bg-\[url\(\'\/Exterior\/images\/credits-background\.jpeg\'\)\] {
+  background-image: url('/Exterior/images/credits-background.jpeg');
 }
 
 .bg-\[url\(\'\/Exterior\/images\/aboutUs-background\.jpeg\'\)\] {
   background-image: url('/Exterior/images/aboutUs-background.jpeg');
+}
+
+.bg-\[url\(\'\/Exterior\/images\/employers-background\.jpeg\'\)\] {
+  background-image: url('/Exterior/images/employers-background.jpeg');
 }
 
 .bg-\[url\(\'\/images\/employers-background\.jpeg\'\)\] {
@@ -896,6 +921,10 @@ body::before {
 
 .bg-\[url\(\'\/images\/home-background\.jpeg\'\)\] {
   background-image: url('/images/home-background.jpeg');
+}
+
+.bg-\[url\(\'\/Exterior\/images\/members-background\.jpeg\'\)\] {
+  background-image: url('/Exterior/images/members-background.jpeg');
 }
 
 .bg-\[url\(\'\/images\/visions-and-values-background\.jpg\'\)\] {
@@ -1081,6 +1110,11 @@ body::before {
   line-height: 1.25rem;
 }
 
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
@@ -1101,6 +1135,14 @@ body::before {
 
 .font-thin {
   font-weight: 100;
+}
+
+.font-extrabold {
+  font-weight: 800;
+}
+
+.font-semibold {
+  font-weight: 600;
 }
 
 .uppercase {
@@ -1148,6 +1190,11 @@ body::before {
 .text-gray-500 {
   --tw-text-opacity: 1;
   color: rgb(107 114 128 / var(--tw-text-opacity));
+}
+
+.text-blue-600 {
+  --tw-text-opacity: 1;
+  color: rgb(37 99 235 / var(--tw-text-opacity));
 }
 
 .text-dark-gold {
@@ -1206,19 +1253,24 @@ body::before {
   background-color: rgb(17 24 39 / var(--tw-bg-opacity));
 }
 
+.hover\:bg-gray-100:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(243 244 246 / var(--tw-bg-opacity));
+}
+
 .hover\:text-sonic-silver:hover {
   --tw-text-opacity: 1;
   color: rgb(115 115 115 / var(--tw-text-opacity));
 }
 
-.hover\:text-gray-300:hover {
-  --tw-text-opacity: 1;
-  color: rgb(209 213 219 / var(--tw-text-opacity));
-}
-
 .hover\:text-white:hover {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.hover\:text-gray-300:hover {
+  --tw-text-opacity: 1;
+  color: rgb(209 213 219 / var(--tw-text-opacity));
 }
 
 .hover\:underline:hover {
@@ -1481,10 +1533,6 @@ body::before {
     width: 450px;
   }
 
-  .sm\:w-\[340px\] {
-    width: 340px;
-  }
-
   .sm\:gap-10 {
     gap: 2.5rem;
   }
@@ -1706,6 +1754,10 @@ body::before {
     height: 600px;
   }
 
+  .lg\:h-\[300px\] {
+    height: 300px;
+  }
+
   .lg\:h-\[400px\] {
     height: 400px;
   }
@@ -1782,11 +1834,6 @@ body::before {
     padding-bottom: 2.5rem;
   }
 
-  .lg\:py-48 {
-    padding-top: 12rem;
-    padding-bottom: 12rem;
-  }
-
   .lg\:px-5 {
     padding-left: 1.25rem;
     padding-right: 1.25rem;
@@ -1813,6 +1860,10 @@ body::before {
 
   .lg\:pb-10 {
     padding-bottom: 2.5rem;
+  }
+
+  .lg\:pb-40 {
+    padding-bottom: 10rem;
   }
 
   .lg\:pt-12 {
@@ -1858,6 +1909,11 @@ body::before {
   .lg\:text-4xl {
     font-size: 2.25rem;
     line-height: 2.5rem;
+  }
+
+  .lg\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
   }
 
   .lg\:text-3xl {

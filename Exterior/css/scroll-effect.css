@@ -1,0 +1,69 @@
+.scroll-container {
+    width: 75%;
+    border: 3px solid black;
+    border-radius: 5px;
+    height: 275px;
+    overflow: hidden;
+  }
+  
+  .scroll-text {
+    height: 100%;
+    text-align: center;
+    
+    /* animation properties */
+    -moz-transform: translateY(100%);
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+    
+    -moz-animation: my-animation 10s linear infinite;
+    -webkit-animation: my-animation 10s linear infinite;
+    animation: my-animation 10s linear infinite;
+  }
+  
+  /* for Firefox */
+  @-moz-keyframes my-animation {
+    from { -moz-transform: translateY(100%); }
+    to { -moz-transform: translateY(-100%); }
+  }
+  
+  /* for Chrome */
+  @-webkit-keyframes my-animation {
+    from { -webkit-transform: translateY(100%); }
+    to { -webkit-transform: translateY(-100%); }
+  }
+  
+  @keyframes my-animation {
+    from {
+      -moz-transform: translateY(100%);
+      -webkit-transform: translateY(100%);
+      transform: translateY(100%);
+    }
+    to {
+      -moz-transform: translateY(-100%);
+      -webkit-transform: translateY(-100%);
+      transform: translateY(-200%);
+    }
+  }
+
+
+  /* For XS screens */
+@media (max-width: 639px) {
+    .scroll-container {
+        width: 100%;
+        height: 100px;
+  }
+}
+
+/* For SM screens */
+@media (min-width: 640px) and (max-width: 767px) {
+    .scroll-container {
+        height: 125px;
+  }
+}
+
+/* For MD screens */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .scroll-container {
+        height: 150px;
+  }
+}
