@@ -659,12 +659,20 @@ body::before {
   height: 1250px;
 }
 
-.h-\[1500px\] {
-  height: 1500px;
-}
-
 .h-\[1400px\] {
   height: 1400px;
+}
+
+.h-\[750px\] {
+  height: 750px;
+}
+
+.h-\[850px\] {
+  height: 850px;
+}
+
+.h-\[800px\] {
+  height: 800px;
 }
 
 .w-full {
@@ -1065,6 +1073,14 @@ body::before {
   padding-bottom: 4rem;
 }
 
+.pt-10 {
+  padding-top: 2.5rem;
+}
+
+.pt-3 {
+  padding-top: 0.75rem;
+}
+
 .text-left {
   text-align: left;
 }
@@ -1123,6 +1139,11 @@ body::before {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
+}
+
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 
 .font-medium {
