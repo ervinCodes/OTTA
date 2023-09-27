@@ -647,8 +647,8 @@ body::before {
   height: 1.5rem;
 }
 
-.h-\[950px\] {
-  height: 950px;
+.h-\[800px\] {
+  height: 800px;
 }
 
 .h-64 {
@@ -661,18 +661,6 @@ body::before {
 
 .h-\[1400px\] {
   height: 1400px;
-}
-
-.h-\[750px\] {
-  height: 750px;
-}
-
-.h-\[850px\] {
-  height: 850px;
-}
-
-.h-\[800px\] {
-  height: 800px;
 }
 
 .w-full {
@@ -862,11 +850,6 @@ body::before {
 
 .border-t-2 {
   border-top-width: 2px;
-}
-
-.border-federal-blue {
-  --tw-border-opacity: 1;
-  border-color: rgb(5 5 66 / var(--tw-border-opacity));
 }
 
 .border-dark-gold {
@@ -1073,14 +1056,6 @@ body::before {
   padding-bottom: 4rem;
 }
 
-.pt-10 {
-  padding-top: 2.5rem;
-}
-
-.pt-3 {
-  padding-top: 0.75rem;
-}
-
 .text-left {
   text-align: left;
 }
@@ -1139,11 +1114,6 @@ body::before {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
-}
-
-.text-base {
-  font-size: 1rem;
-  line-height: 1.5rem;
 }
 
 .font-medium {
@@ -1272,11 +1242,6 @@ body::before {
 .hover\:bg-gray-900:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(17 24 39 / var(--tw-bg-opacity));
-}
-
-.hover\:bg-gray-100:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(243 244 246 / var(--tw-bg-opacity));
 }
 
 .hover\:text-sonic-silver:hover {
