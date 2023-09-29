@@ -1,8 +1,6 @@
 .scroll-container {
     width: 75%;
-    border: 3px solid black;
-    border-radius: 5px;
-    height: 275px;
+    height: 325px;
     overflow: hidden;
   }
   
@@ -15,9 +13,9 @@
     -webkit-transform: translateY(100%);
     transform: translateY(100%);
     
-    -moz-animation: my-animation 10s linear infinite;
-    -webkit-animation: my-animation 10s linear infinite;
-    animation: my-animation 10s linear infinite;
+    -moz-animation: my-animation 20s linear infinite;
+    -webkit-animation: my-animation 20s linear infinite;
+    animation: my-animation 20s linear infinite;
   }
   
   /* for Firefox */
@@ -41,7 +39,7 @@
     to {
       -moz-transform: translateY(-100%);
       -webkit-transform: translateY(-100%);
-      transform: translateY(-200%);
+      transform: translateY(-300%);
     }
   }
 

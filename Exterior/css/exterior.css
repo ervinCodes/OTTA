@@ -547,12 +547,28 @@ body::before {
   right: 0.75rem;
 }
 
+.bottom-0 {
+  bottom: 0px;
+}
+
+.left-0 {
+  left: 0px;
+}
+
+.right-0 {
+  right: 0px;
+}
+
 .z-20 {
   z-index: 20;
 }
 
 .z-10 {
   z-index: 10;
+}
+
+.m-auto {
+  margin: auto;
 }
 
 .mx-auto {
@@ -661,6 +677,10 @@ body::before {
 
 .h-\[1400px\] {
   height: 1400px;
+}
+
+.max-h-full {
+  max-height: 100%;
 }
 
 .w-full {
@@ -910,8 +930,8 @@ body::before {
   background-image: url('/images/members-background.jpeg');
 }
 
-.bg-\[url\(\'\/images\/home-background\.jpeg\'\)\] {
-  background-image: url('/images/home-background.jpeg');
+.bg-\[url\(\'\/Exterior\/images\/home-background\.jpeg\'\)\] {
+  background-image: url('/Exterior/images/home-background.jpeg');
 }
 
 .bg-\[url\(\'\/Exterior\/images\/members-background\.jpeg\'\)\] {
@@ -997,6 +1017,11 @@ body::before {
   padding-right: 1.25rem;
 }
 
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
 .py-8 {
   padding-top: 2rem;
   padding-bottom: 2rem;
@@ -1046,6 +1071,10 @@ body::before {
 
 .pt-4 {
   padding-top: 1rem;
+}
+
+.pb-2 {
+  padding-bottom: 0.5rem;
 }
 
 .pb-4 {
@@ -1558,6 +1587,11 @@ body::before {
   .sm\:text-2xl {
     font-size: 1.5rem;
     line-height: 2rem;
+  }
+
+  .sm\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
   }
 }
 
