@@ -679,10 +679,6 @@ body::before {
   height: 1400px;
 }
 
-.max-h-full {
-  max-height: 100%;
-}
-
 .w-full {
   width: 100%;
 }
@@ -787,10 +783,6 @@ body::before {
 
 .gap-y-1 {
   row-gap: 0.25rem;
-}
-
-.gap-y-16 {
-  row-gap: 4rem;
 }
 
 .gap-x-7 {
@@ -910,8 +902,8 @@ body::before {
   background-image: url('/images/blue-background.jpeg');
 }
 
-.bg-\[url\(\'\/Exterior\/images\/credits-background\.jpeg\'\)\] {
-  background-image: url('/Exterior/images/credits-background.jpeg');
+.bg-\[url\(\'\/images\/credits-background\.jpeg\'\)\] {
+  background-image: url('/images/credits-background.jpeg');
 }
 
 .bg-\[url\(\'\/Exterior\/images\/aboutUs-background\.jpeg\'\)\] {
@@ -940,10 +932,6 @@ body::before {
 
 .bg-\[url\(\'\/images\/visions-and-values-background\.jpg\'\)\] {
   background-image: url('/images/visions-and-values-background.jpg');
-}
-
-.bg-\[url\(\'\/images\/credits-background\.jpeg\'\)\] {
-  background-image: url('/images/credits-background.jpeg');
 }
 
 .bg-cover {
@@ -1006,11 +994,6 @@ body::before {
   padding-bottom: 0.5rem;
 }
 
-.py-10 {
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
-}
-
 .px-1 {
   padding-left: 0.25rem;
   padding-right: 0.25rem;
@@ -1041,6 +1024,11 @@ body::before {
   padding-right: 2.5rem;
 }
 
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
 .pt-2 {
   padding-top: 0.5rem;
 }
@@ -1055,10 +1043,6 @@ body::before {
 
 .pt-6 {
   padding-top: 1.5rem;
-}
-
-.pr-16 {
-  padding-right: 4rem;
 }
 
 .pb-1 {
@@ -1097,10 +1081,6 @@ body::before {
   text-align: center;
 }
 
-.text-end {
-  text-align: end;
-}
-
 .font-gill-sans {
   font-family: 'Gill Sans', sans-serif;
 }
@@ -1134,14 +1114,14 @@ body::before {
   line-height: 1.25rem;
 }
 
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
-}
-
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 
 .text-xs {
@@ -1390,10 +1370,6 @@ body::before {
          column-gap: 0.75rem;
   }
 
-  .xs\:gap-y-4 {
-    row-gap: 1rem;
-  }
-
   .xs\:gap-x-7 {
     -moz-column-gap: 1.75rem;
          column-gap: 1.75rem;
@@ -1556,10 +1532,6 @@ body::before {
     gap: 2.5rem;
   }
 
-  .sm\:gap-y-8 {
-    row-gap: 2rem;
-  }
-
   .sm\:p-12 {
     padding: 3rem;
   }
@@ -1591,11 +1563,6 @@ body::before {
   .sm\:text-2xl {
     font-size: 1.5rem;
     line-height: 2rem;
-  }
-
-  .sm\:text-xl {
-    font-size: 1.25rem;
-    line-height: 1.75rem;
   }
 }
 
@@ -1930,11 +1897,6 @@ body::before {
     line-height: 2rem;
   }
 
-  .lg\:text-4xl {
-    font-size: 2.25rem;
-    line-height: 2.5rem;
-  }
-
   .lg\:text-5xl {
     font-size: 3rem;
     line-height: 1;
@@ -1943,6 +1905,11 @@ body::before {
   .lg\:text-3xl {
     font-size: 1.875rem;
     line-height: 2.25rem;
+  }
+
+  .lg\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
   }
 }
 
