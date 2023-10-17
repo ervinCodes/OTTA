@@ -679,6 +679,10 @@ body::before {
   height: 1400px;
 }
 
+.h-\[900px\] {
+  height: 900px;
+}
+
 .w-full {
   width: 100%;
 }
