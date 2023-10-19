@@ -683,6 +683,14 @@ body::before {
   height: 900px;
 }
 
+.h-\[px\] {
+  height: px;
+}
+
+.h-\[750px\] {
+  height: 750px;
+}
+
 .w-full {
   width: 100%;
 }
@@ -936,6 +944,14 @@ body::before {
 
 .bg-\[url\(\'\/images\/visions-and-values-background\.jpg\'\)\] {
   background-image: url('/images/visions-and-values-background.jpg');
+}
+
+.bg-\[url\(\'Interior\/images\/members-background\.jpeg\'\)\] {
+  background-image: url('Interior/images/members-background.jpeg');
+}
+
+.bg-\[url\(\'Exterior\/images\/members-background\.jpeg\'\)\] {
+  background-image: url('Exterior/images/members-background.jpeg');
 }
 
 .bg-cover {
