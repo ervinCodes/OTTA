@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="./css/normalize.css" />
   </head>
 
-  <body>
+  <body class="bg-federal-blue">
     <!-- Navbar -->
     <nav
       class="flex flex-col bg-federal-blue md:flex-row md:items-center fixed top-0 z-20 w-full xs:px-4 md:px-5 lg:px-8 py-3 justify-between"
@@ -111,215 +111,25 @@
 
     <!-- Page Content -->
     <main class="bg-federal-blue">
-      <section
-        class="h-[1400px] items-center justify-center bg-[url('/images/members-background.jpeg')] bg-cover bg-center flex flex-col"
-      >
-        <form action="">
-          <div class="bg-white sm:w-[450px] xs:w-80 p-6 rounded shadow-lg">
-            <h1 class="mb-10 font-bold text-2xl text-davys-grey">Register</h1>
-            <!-- Email -->
-            <div class="pb-1 pl-1">
-              <label for="" class="text-davys-grey">Email*</label>
-            </div>
-            <input
-            required
-              type="email"
-              class="w-full py-2 bg-gray-100 text-gray-500 px-1 outline-none mb-4 rounded-xl border ring-1 ring-gray-300 focus:ring-2 focus:ring-eerie-black" 
-            />
-            <!-- Full Name -->
-            <div class="pb-1 pl-1">
-              <label for="" class="text-davys-grey">Full Name*</label>
-            </div>
-            <div>
-              <input
-              required
-                type="text"
-                class="w-full py-2 bg-gray-100 text-gray-500 px-1 outline-none mb-4 rounded-xl border ring-1 ring-gray-300 focus:ring-2 focus:ring-eerie-black"
-              />
-            </div>
-            <!-- Telephone # -->
-            <div class="pb-1 pl-1">
-              <label for="phone" class="text-davys-grey">Phone* </label>
-            </div>
-            <div>
-              <input
-              required
-                type="tel"
-                id="phone"
-                name="phone"
-                pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
-                class="w-full py-2 bg-gray-100 text-gray-500 px-1 outline-none mb-4 rounded-xl border ring-1 ring-gray-300 focus:ring-2 focus:ring-eerie-black"
-              />
-            </div>
+      <div class="xl:h-max">
+        <section
+        class="xs:h-[750px] items-center justify-center bg-[url('/Exterior/images/members-background.jpeg')] bg-cover bg-center flex"
+        >
 
-            <!-- Birthday -->
-            <div class="pb-1 pl-1">
-              <label for="shirts" class="text-davys-grey">Birthday*</label>
-            </div>
-            <!-- Birthday Container -->
-            <div class="flex flex-row gap-4">
-              <!-- Month -->
-              <select
-              required
-                class="w-1/2 py-2 bg-gray-100 text-gray-500 px-1 outline-none mb-4 rounded-xl border ring-1 ring-gray-300 focus:ring-2 focus:ring-eerie-black"
-              >
-                <option value="january">January</option>
-                <option value="february">February</option>
-                <option value="march">March</option>
-                <option value="april">April</option>
-                <option value="may">May</option>
-                <option value="june">June</option>
-                <option value="july">July</option>
-                <option value="august">August</option>
-                <option value="september">September</option>
-                <option value="october">October</option>
-                <option value="november">November</option>
-                <option value="december">December</option>
-              </select>
-              <!-- Day -->
-              <select
-                class="w-1/2 py-2 bg-gray-100 text-gray-500 px-1 outline-none mb-4 rounded-xl border ring-1 ring-gray-300 focus:ring-2 focus:ring-eerie-black"
-              >
-                <option value="">1</option>
-                <option value="">2</option>
-                <option value="">3</option>
-                <option value="">4</option>
-                <option value="">5</option>
-                <option value="">6</option>
-                <option value="">7</option>
-                <option value="">8</option>
-                <option value="">9</option>
-                <option value="">10</option>
-                <option value="">11</option>
-                <option value="">12</option>
-                <option value="">13</option>
-                <option value="">14</option>
-                <option value="">15</option>
-                <option value="">16</option>
-                <option value="">17</option>
-                <option value="">18</option>
-                <option value="">19</option>
-                <option value="">20</option>
-                <option value="">21</option>
-                <option value="">22</option>
-                <option value="">23</option>
-                <option value="">24</option>
-                <option value="">25</option>
-                <option value="">26</option>
-                <option value="">27</option>
-                <option value="">28</option>
-                <option value="">29</option>
-                <option value="">30</option>
-                <option value="">31</option>
-              </select>
-            </div>
-            <!-- Street Address -->
-            <div class="pb-1 pl-1">
-              <label for="address" class="text-davys-grey">Street Address* </label>
-            </div>
-            <div>
-              <input
-              required
-                type=""
-                id="address"
-                name="address"
-                class="w-full py-2 bg-gray-100 text-gray-500 px-1 outline-none mb-4 rounded-xl border ring-1 ring-gray-300 focus:ring-2 focus:ring-eerie-black"
-              />
-            </div>
-            <!-- City -->
-            <div class="pb-1 pl-1">
-              <label for="city" class="text-davys-grey">City* </label>
-            </div>
-            <div>
-              <input
-              required
-                type=""
-                id="city"
-                name="city"
-                class="w-full py-2 bg-gray-100 text-gray-500 px-1 outline-none mb-4 rounded-xl border ring-1 ring-gray-300 focus:ring-2 focus:ring-eerie-black"
-              />
-            </div>
-            <!-- State -->
-            <div class="pb-1 pl-1">
-              <label for="state" class="text-davys-grey">State* </label>
-            </div>
-            <div>
-              <input
-              required
-                type=""
-                id="state"
-                name="state"
-                class="w-full py-2 bg-gray-100 text-gray-500 px-1 outline-none mb-4 rounded-xl border ring-1 ring-gray-300 focus:ring-2 focus:ring-eerie-black"
-              />
-            </div>
-            <!-- Zip Code -->
-            <div class="pb-1 pl-1">
-              <label for="zip" class="text-davys-grey">Zip Code* </label>
-            </div>
-            <div>
-              <input
-              required
-                type=""
-                id="zip"
-                name="zip"
-                class="w-full py-2 bg-gray-100 text-gray-500 px-1 outline-none mb-4 rounded-xl border ring-1 ring-gray-300 focus:ring-2 focus:ring-eerie-black"
-              />
-            </div>
-            <!-- Password -->
-            <div class="pb-1 pl-1">
-              <label for="password" class="text-davys-grey">Password*</label>
-            </div>
-            <div class="relative">
-              <input
-              required
-                type="password"
-                id="password"
-                name="password"
-                class="w-full py-2 bg-gray-100 text-gray-500 px-1 outline-none mb-4 rounded-xl border ring-1 ring-gray-300 focus:ring-2 focus:ring-eerie-black"
-              />
-            </div>
-
-            <!-- Confirm Password -->
-            <div class="pb-1 pl-1">
-              <label for="password" class="text-davys-grey"
-                >Confirm Password*</label
-              >
-            </div>
-            <input
-            required
-              type="password"
-              id="password"
-              name="password"
-              class="w-full py-2 bg-gray-100 text-gray-500 px-1 outline-none mb-8 rounded-xl border ring-1 ring-gray-300 focus:ring-2 focus:ring-eerie-black"
-            />
-
-            <!-- T.O.S Acceptance -->
-            <div>
-              <div>Please read our Terms of Use and Privacy Policy carefully.  By proceeding, you acknowledge that you have read and agreed to the following terms.</div>
-              <div class="flex flex-row mt-6 items-center">
-                <input type="checkbox" required>
-                <div class="pl-1">I have read and agreed to the 
-                  <a href="privacy.html" class="text-blue-600 font-semibold">Terms of Use</a>
-                </div>
-              </div>
-              <div class="flex flex-row pt-1">
-                <input type="checkbox" required>
-                <div class="pl-1">I have read and agreed to the 
-                  <a href="terms-of-use.html" class="text-blue-600 font-semibold">Privacy Policy</a>
-                </div>
-              </div>
-            </div>
-            <!-- Button -->
-            <button
-            type="submit"
-            class="bg-federal-blue w-full text-white py-2 rounded-xl hover:bg-gray-900 mt-5"
+          <div class="sm:w-[450px] xs:w-80 p-12  flex justify-center flex-col items-center font-gill-sans  text-center">
+            <!-- <div class="font-bold text-lg sm:text-2xl">Register Confirmation</div>
+            <div class="pt-3 text-lg font-thin">Please check your email to confirm your account.</div> -->
+            <a
+            href="#employers"
+            class="sm:p-3 xs:p-1 sm:px-10 xs:px-5 bg-white-gold text-dark-gold rounded-xl baseline hover:bg-gray-900 hover:text-white sm:text-2xl xs:text-base flex flex-col border border-dark-gold focus:ring-dark-gold"
           >
-            Register
-            </button>
+            Complete Registration
+          </a>
           </div>
-        </form>
 
       </section>
+      </div>
+
 
       <!-- Footer -->
       <footer class="font-gill-sans text-white bg-federal-blue font-thin">
@@ -429,5 +239,7 @@
 
     <!-- Core Navbar JS-->
     <script src="./js/navbar.js"></script>
+    <!-- Javascript -->
+    <script src="./js/showPassword.js"></script>
   </body>
 </html>
