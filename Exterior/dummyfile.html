@@ -1,58 +1,24 @@
-<html lang="en" class="">
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <style data-styles="">
-      ion-icon {
-        visibility: hidden;
-      }
-      .hydrated {
-        visibility: inherit;
-      }
-    </style>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <title>About Us - OneTeam</title>
-
-    <link href="/Exterior/css/exterior.css" rel="stylesheet" />
-
-    <script src="https://js.stripe.com/v3/"></script>
-
+    <title>OTTA</title>
     <!-- Fonts -->
     <!-- Gill Sans -->
     <link href="https://fonts.cdnfonts.com/css/gill-sans" rel="stylesheet" />
     <!-- Core theme TailwindCSS-->
+    <link rel="stylesheet" href="./css/exterior.css" />
     <!-- Core theme CSS-->
-    <link rel="stylesheet" href="/Exterior/css/styles.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
     <!-- Build CSS -->
+    <link rel="stylesheet" href="./css/build.css" />
     <!-- Normalize CSS -->
-    <link rel="stylesheet" href="/Exterior/css/normalize.css" />
-    <!-- Icons -->
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"
-    ></script>
-
-    <style type="text/css">
-      @font-face {
-        font-weight: 400;
-        font-style: normal;
-        font-family: circular;
-
-        src: url("chrome-extension://liecbddmkiiihnedobmlmillhodjkdmb/fonts/CircularXXWeb-Book.woff2")
-          format("woff2");
-      }
-
-      @font-face {
-        font-weight: 700;
-        font-style: normal;
-        font-family: circular;
-
-        src: url("chrome-extension://liecbddmkiiihnedobmlmillhodjkdmb/fonts/CircularXXWeb-Bold.woff2")
-          format("woff2");
-      }
-    </style>
+    <link rel="stylesheet" href="./css/normalize.css" />
   </head>
-  <body data-new-gr-c-s-check-loaded="14.1110.0" data-gr-ext-installed="">
+
+  <body>
     <!-- Navbar -->
     <nav
       class="flex flex-col bg-federal-blue md:flex-row md:items-center fixed top-0 z-20 w-full xs:px-4 md:px-5 lg:px-8 py-3 justify-between"
@@ -65,14 +31,14 @@
         <div class="flex flex-row lg:gap-3">
           <!-- Image Logo -->
           <div class="lg:basis-16 xs:basis-11">
-            <a href="/Home">
-              <img src="/Exterior/images/navbar-logo.png" alt=" OTTA logo" />
+            <a href="index.html">
+              <img src="images/navbar-logo.png" alt="OTTA logo" />
             </a>
           </div>
           <!-- ONE TEAM TALENT AGENCY -->
           <div class="flex justify-center items-center">
             <a
-              href="/Home"
+              href="index.html"
               class="xl:text-2xl lg:text-lg xs:text-sm pt-2 flex items-center text-white-gold font-medium font-gill-sans"
             >
               ONE TEAM TALENT AGENCY
@@ -100,42 +66,42 @@
       >
         <li>
           <a
-            href="/Home"
+            href="index.html"
             class="hover:text-sonic-silver hover:underline 2xl:pr-10 xl:pr-1"
             >Home</a
           >
         </li>
         <li>
           <a
-            href="/MembersSignIn"
+            href="members.html"
             class="hover:text-sonic-silver hover:underline 2xl:pr-10 xl:pr-1"
             >Members</a
           >
         </li>
         <li>
           <a
-            href="/StudioSignIn"
+            href="employers.html"
             class="hover:text-sonic-silver hover:underline 2xl:pr-10 xl:pr-1"
             >Employers</a
           >
         </li>
         <li>
           <a
-            href="/Credits"
+            href="credits.html"
             class="hover:text-sonic-silver hover:underline 2xl:pr-10 xl:pr-1"
             >Credits</a
           >
         </li>
         <li>
           <a
-            href="/Bio"
+            href="visions-and-values.html"
             class="hover:text-sonic-silver hover:underline 2xl:pr-10 xl:pr-1"
             >Visions and Values</a
           >
         </li>
         <li>
           <a
-            href="/AboutUs"
+            href="about.html"
             class="hover:text-sonic-silver hover:underline 2xl:pr-10 xl:pr-1"
             >About Us</a
           >
@@ -146,237 +112,312 @@
     <!-- Page Content -->
     <main class="bg-federal-blue">
       <!-- Header Container -->
-      <div>
-        <!-- Header Section -->
+      <div class="xl:h-full">
         <section
-          class="2xl:h-[700px] lg:h-[600px] md:h-[400px] sm:h-[300px] xs:h-[250px] bg-[url('/Exterior/images/aboutUs-background.jpeg')] bg-cover bg-center"
-        ></section>
-
-        <!-- Meet the Players Section -->
-        <div
-          class="flex items-end h-full lg:justify-start xs:justify-center lg:w-5/6 lg:pl-5 hidden-elements mt-10 lg:mb-0 xs:mb-10 show-elements"
+          class="h-[1250px] items-center justify-center bg-[url('/Exterior/images/members-background.jpeg')] bg-cover bg-center flex"
         >
-          <div
-            class="xl:text-5xl md:text-4xl sm:text-3xl xs:text-lg pb-5 lg:text-left text-white-gold text-center font-bold italic drop-shadow-lg font-gill-sans"
+          <form
+            id="account"
+            method="post"
+            action="/Register"
+            novalidate="novalidate"
           >
-            <p>One Team Talent Agency - Meet The Players:</p>
-          </div>
-        </div>
-
-        <!-- Bio #1-->
-        <section class="text-white font-gill-sans lg:pb-10 xs:pb-16">
-          <!-- Flex Container -->
-          <div
-            class="flex lg:flex-row xs:flex-col items-center justify-between xl:gap-y-8 xs:gap-4 xl:mx-16 md:mx-5 xs:mx-3"
-          >
-            <!-- Image Container -->
-            <div
-              class="basis-1/3 flex flex-col justify-center items-center xl:p-16 lg:p-6"
-            >
-              <!-- Image -->
-              <div class="flex-auto">
-                <img
-                  class="object-fit w-full h-auto"
-                  src="/Exterior/images/kathys-bio-pic.jpeg"
-                  alt="Portrait photo of Kathy Riley"
+            <div class="bg-white sm:w-[450px] xs:w-80 p-6 rounded shadow-lg">
+              <h1 class="mb-10 font-bold text-2xl text-davys-grey">Register</h1>
+              <!-- Email -->
+              <div class="pb-1 pl-1">
+                <label id="email" class="text-davys-grey" for="Input_Email"
+                  >Email</label
+                >
+              </div>
+              <input
+                type="email"
+                class="w-full py-2 bg-gray-100 text-gray-500 px-1 outline-none mb-4 rounded-xl border ring-1 ring-gray-300 focus:ring-2 focus:ring-eerie-black"
+                data-val="true"
+                data-val-email="The Email field is not a valid e-mail address."
+                data-val-required="The Email field is required."
+                id="Input_Email"
+                name="Input.Email"
+                value=""
+                
+              />
+              <!-- Full Name -->
+              <div class="pb-1 pl-1">
+                <label class="text-davys-grey" for="Input_FullName"
+                  >Full Name</label
+                >
+              </div>
+              <div>
+                <input
+                  type="text"
+                  class="w-full py-2 bg-gray-100 text-gray-500 px-1 outline-none mb-4 rounded-xl border ring-1 ring-gray-300 focus:ring-2 focus:ring-eerie-black"
+                  data-val="true"
+                  data-val-required="The Full name field is required."
+                  id="Input_FullName"
+                  name="Input.FullName"
+                  value=""
                 />
               </div>
-              <!-- Name -->
-              <div class="pt-5">
-                <h2
-                  class="2xl:text-4xl xl:text-3xl sm:text-4xl xs:text-3xl font-medium text-white-gold"
-                >
-                  Kathy Riley
-                </h2>
+              <!-- Telephone # -->
+              <div class="pb-1 pl-1">
+                <label class="text-davys-grey" for="Input_Phone">Phone </label>
               </div>
-            </div>
-            <!-- Text Container -->
-            <div class="basis-2/3 flex flex-col text-left gap-4 font-thin">
-              <!-- Text -->
-              <p class="xl:text-lg lg:text-sm xs:text-xl">
-                Kathy Riley is the Founder and CEO of One Team Talent Agency (
-                OTTA ) with over three decades of experience in Production
-                Accounting, ranging from Entry Level to Department Head,
-                including a stint as a Director of Production Finance for a
-                major television studio. Kathy has experienced first-hand the
-                challenges faced when staffing Production Accounting
-                departments. In response to these challenges, Kathy founded One
-                Team Talent Agency with Jim Nicholson. Together they created a
-                system designed to automate and update the process of staffing
-                Production Accounting Teams in film and television.
-                Additionally, OTTA offers a range of services to serve and
-                support the production accounting community.
-              </p>
-              <p class="xl:text-lg lg:text-sm xs:text-xl">
-                Throughout her career as a production accountant, Kathy
-                specialized in <span class="font-sans">1</span> hour scripted,
-                single-camera television dramas, and has worked with top studios
-                such as ABC Signature Studios, Disney Channel, NBC-Universal,
-                Warner Brothers Television, Sony Pictures, and 21st Century Fox.
-                Kathy's proven leadership and extensive experience in the
-                industry, combined with her strong commitment to improving the
-                staffing process, is the driving force behind One Team Talent
-                Agency, which aims to offer innovative solutions to the
-                production accounting community.
-              </p>
-            </div>
-          </div>
-        </section>
-
-        <!-- Bio #2 -->
-        <section
-          class="bg-white text-federal-blue font-gill-sans lg:py-10 xs:py-16"
-        >
-          <!-- Flex Container -->
-          <div
-            class="flex lg:flex-row items-center xs:flex-col-reverse justify-between xl:gap-y-8 xs:gap-4 xl:mx-16 md:mx-5 xs:mx-3"
-          >
-            <!-- Text Container -->
-            <div class="basis-2/3 flex flex-col text-left gap-4 font-thin">
-              <!-- Text -->
-              <p class="xl:text-lg lg:text-sm xs:text-xl">
-                Jim Nicholson is the Co-Founder and Chief Information Officer of
-                One Team Talent Agency. With over 30 years of experience in the
-                IT field, both in private and corporate settings, Jim brings a
-                wealth of knowledge and expertise to the company. In his current
-                role as the IT Director for a major corporation based in Los
-                Angeles, Jim is responsible for implementing various technology
-                projects designed to enhance the efficiency and
-                cost-effectiveness of the company's sales, service, HR, and
-                business office functions. Prior to that, he served as CTO at
-                Alliance United Insurance Services, where he built the IT
-                infrastructure for the growing company. Throughout his career,
-                Jim has been in charge of a wide range of IT functions,
-                including enterprise data, user support, infrastructure,
-                telecommunications, and information security. Jim's leadership
-                and experience in the field of IT will be instrumental in
-                driving One Team Talent Agency's technology strategy forward.
-              </p>
-            </div>
-            <!-- Image Container -->
-            <div
-              class="basis-1/3 flex flex-col justify-center items-center xl:p-16 lg:p-6"
-            >
-              <!-- Image -->
-              <div class="flex-auto">
-                <img
-                  class="object-fit w-full h-auto"
-                  src="/Exterior/images/jims-bio-pic.jpeg"
-                  alt="Portrait photo of Jim Nicholson"
+              <div>
+                <input
+                  id="phone"
+                  type="text"
+                  required=""
+                  class="w-full py-2 bg-gray-100 text-gray-500 px-1 outline-none mb-4 rounded-xl border ring-1 ring-gray-300 focus:ring-2 focus:ring-eerie-black"
+                  data-val="true"
+                  data-val-required="The Phone field is required."
+                  name="Input.Phone"
+                  value=""
                 />
               </div>
-              <!-- Name -->
-              <div class="pt-5">
-                <h2
-                  class="2xl:text-4xl xl:text-3xl sm:text-4xl xs:text-3xl font-medium text-white-gold"
-                >
-                  Jim Nicholson
-                </h2>
-              </div>
-            </div>
-          </div>
-        </section>
 
-        <!-- Bio #3 -->
-        <section class="text-white font-gill-sans lg:py-10 xs:py-16">
-          <!-- Flex Container -->
-          <div
-            class="flex lg:flex-row xs:flex-col items-center justify-between xl:gap-y-8 xs:gap-4 xl:mx-16 md:mx-5 xs:mx-3"
-          >
-            <!-- Image Container -->
-            <div
-              class="basis-1/3 flex flex-col justify-center items-center xl:p-16 lg:p-6"
-            >
-              <!-- Image -->
-              <div class="flex-auto">
-                <img
-                  class="object-fit w-full h-auto"
-                  src="/Exterior/images/meagens-bio-pic.jpeg"
-                  alt="Portrait photo of Meagen Brooks"
+              <!-- Birthday -->
+              <div class="pb-1 pl-1">
+                <label for="shirts" class="text-davys-grey">Birthday</label>
+              </div>
+              <!-- Birthday Container -->
+              <div class="flex flex-row gap-4">
+                <select
+                  autocomplete="none"
+                  class="w-1/2 py-2 bg-gray-100 text-gray-500 px-1 outline-none mb-4 rounded-xl border ring-1 ring-gray-300 focus:ring-2 focus:ring-eerie-black"
+                  data-val="true"
+                  data-val-required="The BirthMonth field is required."
+                  id="Input_BirthMonth"
+                  name="Input.BirthMonth"
+                >
+                  <option value=""></option>
+                  <option value="1">January</option>
+                  <option value="2">February</option>
+                  <option value="3">March</option>
+                  <option value="4">April</option>
+                  <option value="5">May</option>
+                  <option value="6">June</option>
+                  <option value="7">July</option>
+                  <option value="8">August</option>
+                  <option value="9">September</option>
+                  <option value="10">October</option>
+                  <option value="11">November</option>
+                  <option value="12">December</option>
+                </select>
+
+                <!-- Month -->
+
+                <select
+                  autocomplete="none"
+                  class="w-1/2 py-2 bg-gray-100 text-gray-500 px-1 outline-none mb-4 rounded-xl border ring-1 ring-gray-300 focus:ring-2 focus:ring-eerie-black"
+                  data-val="true"
+                  data-val-required="The BirthDay field is required."
+                  id="Input_BirthDay"
+                  name="Input.BirthDay"
+                >
+                  <option value=""></option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="10">10</option>
+                  <option value="11">11</option>
+                  <option value="12">12</option>
+                  <option value="13">13</option>
+                  <option value="14">14</option>
+                  <option value="15">15</option>
+                  <option value="16">16</option>
+                  <option value="17">17</option>
+                  <option value="18">18</option>
+                  <option value="19">19</option>
+                  <option value="20">20</option>
+                  <option value="21">21</option>
+                  <option value="22">22</option>
+                  <option value="23">23</option>
+                  <option value="24">24</option>
+                  <option value="25">25</option>
+                  <option value="26">26</option>
+                  <option value="27">27</option>
+                  <option value="28">28</option>
+                  <option value="29">29</option>
+                  <option value="30">30</option>
+                  <option value="31">31</option>
+                </select>
+
+                <!-- Day -->
+              </div>
+
+              <!-- Street Address -->
+              <div class="pb-1 pl-1">
+                <label for="address" class="text-davys-grey"
+                  >Street Address*
+                </label>
+              </div>
+              <div>
+                <input
+                  required=""
+                  type=""
+                  id="address"
+                  class="w-full py-2 outline-none bg-gray-100 text-gray-500 px-1 mb-4 rounded-xl border ring-1 ring-gray-300 focus:ring-2 focus:ring-eerie-black"
+                  data-val="true"
+                  data-val-required="The Address1 field is required."
+                  name="Input.Address1"
+                  value=""
                 />
               </div>
-              <!-- Name -->
-              <div class="pt-5">
-                <h2
-                  class="2xl:text-4xl xl:text-3xl sm:text-4xl xs:text-3xl font-medium text-white-gold"
-                >
-                  Meagen Brooks
-                </h2>
+              <!-- City -->
+              <div class="pb-1 pl-1">
+                <label for="city" class="text-davys-grey">City* </label>
               </div>
-            </div>
-            <!-- Text Container -->
-            <div class="basis-2/3 flex flex-col text-left gap-4 font-thin">
-              <!-- Text -->
-              <p class="xl:text-lg lg:text-sm xs:text-xl">
-                Meagen Brooks is a graphic designer at ADG Local 800, who has
-                worked on television shows such as Weeds, Young Sheldon,
-                Atypical, and Saved by the Bell. After completing her Bachelor
-                of Science in Cinema and Photography at Ithaca College, she
-                moved to Los Angeles to pursue her artistic endeavors in both
-                the art and film worlds. Meagen is well-versed in Adobe Creative
-                Suite, including Photoshop, Illustrator, and InDesign, as well
-                as having working knowledge of Vectorworks and Sketchup Pro.
-                Additionally, she is proficient in neon sign design and
-                fabrication. She has been nominated for two Art Director's Guild
-                Awards for her graphic design work in television and owns and
-                operates her own graphic design company, Flying Dinosaur
-                Designs, LLC, which services multiple industries.
-              </p>
-            </div>
-          </div>
-        </section>
-
-        <!-- Bio #4 -->
-        <section
-          class="bg-white text-federal-blue font-gill-sans lg:py-10 xs:py-16"
-        >
-          <!-- Flex Container -->
-          <div
-            class="flex lg:flex-row items-center xs:flex-col-reverse justify-between xl:gap-y-8 xs:gap-4 xl:mx-16 md:mx-5 xs:mx-3"
-          >
-            <!-- Text Container -->
-            <div class="basis-2/3 flex flex-col text-left gap-4 font-thin">
-              <!-- Text -->
-              <p class="xl:text-lg lg:text-sm xs:text-xl">
-                Ervin is an accomplished web developer with over four years of
-                experience designing and building websites and applications for
-                small to medium-sized businesses. Prior to transitioning to his
-                career in development, he studied Kinesiology and honed his
-                expertise in customer service and the insurance industry by
-                managing over 15 accounts. Ervin even played a key role in
-                launching an international application that contributed
-                significantly to his previous employer's success in South
-                America. Ervin's versatile technology stack includes proficiency
-                in HTML/CSS, Javascript, React, Node.js, and Tailwind CSS. He
-                takes pride in crafting visually stunning and responsive
-                websites that are user-friendly and optimized for search
-                engines. Ervin's exceptional talent lies in creating logical
-                page structures that facilitate efficient browsing for all types
-                of devices, ensuring a seamless and memorable user experience.
-              </p>
-            </div>
-            <!-- Image Container -->
-            <div
-              class="basis-1/3 flex flex-col justify-center items-center xl:p-16 lg:p-6"
-            >
-              <!-- Image -->
-              <div class="flex-auto">
-                <img
-                  class="object-fit w-full h-auto"
-                  src="/Exterior/images/ervin-bio-pic.jpg"
-                  alt="Portrait photo of Ervin Natareno"
+              <div>
+                <input
+                  required=""
+                  type=""
+                  id="city"
+                  class="w-full py-2 bg-gray-100 text-gray-500 px-1 outline-none mb-4 rounded-xl border ring-1 ring-gray-300 focus:ring-2 focus:ring-eerie-black"
+                  data-val="true"
+                  data-val-required="The City field is required."
+                  name="Input.City"
+                  value=""
                 />
               </div>
-              <!-- Name -->
-              <div class="pt-5">
-                <h2
-                  class="2xl:text-4xl xl:text-3xl sm:text-4xl xs:text-3xl font-medium text-white-gold"
-                >
-                  Ervin Natareno
-                </h2>
+              <!-- State -->
+              <div class="pb-1 pl-1">
+                <label for="state" class="text-davys-grey">State* </label>
               </div>
+              <div>
+                <input
+                  required=""
+                  type=""
+                  id="state"
+                  class="w-full py-2 bg-gray-100 text-gray-500 px-1 outline-none mb-4 rounded-xl border ring-1 ring-gray-300 focus:ring-2 focus:ring-eerie-black"
+                  data-val="true"
+                  data-val-required="The State field is required."
+                  name="Input.State"
+                  value=""
+                />
+              </div>
+              <!-- Zip Code -->
+              <div class="pb-1 pl-1">
+                <label for="zip" class="text-davys-grey">Zip Code* </label>
+              </div>
+              <div>
+                <input
+                  required=""
+                  type=""
+                  id="zip"
+                  class="w-full py-2 bg-gray-100 text-gray-500 px-1 outline-none mb-4 rounded-xl border ring-1 ring-gray-300 focus:ring-2 focus:ring-eerie-black"
+                  data-val="true"
+                  data-val-required="The Zip field is required."
+                  name="Input.Zip"
+                  value=""
+                />
+              </div>
+
+              <!-- Password -->
+              <div class="pb-1 pl-1">
+                <label class="text-davys-grey" for="Input_Password"
+                  >Password</label
+                >
+              </div>
+              <div class="relative">
+                <input
+                  type="password"
+                  class="w-full py-2 bg-gray-100 text-gray-500 px-1 outline-none mb-4 rounded-xl border ring-1 ring-gray-300 focus:ring-2 focus:ring-eerie-black"
+                  data-val="true"
+                  data-val-length="The Password must be at least 6 and at max 100 characters long."
+                  data-val-length-max="100"
+                  data-val-length-min="6"
+                  data-val-required="The Password field is required."
+                  id="Input_Password"
+                  maxlength="100"
+                  name="Input.Password"
+                />
+              </div>
+
+              <!-- Confirm Password -->
+              <div class="pb-1 pl-1">
+                <label class="text-davys-grey" for="Input_PasswordConfirmation"
+                  >Confirm Password</label
+                >
+              </div>
+              <input
+                type="password"
+                class="w-full py-2 bg-gray-100 text-gray-500 px-1 outline-none mb-8 rounded-xl border ring-1 ring-gray-300 focus:ring-2 focus:ring-eerie-black"
+                data-val="true"
+                data-val-equalto="The password and confirmation password do not match."
+                data-val-equalto-other="*.Password"
+                id="Input_PasswordConfirmation"
+                name="Input.PasswordConfirmation"
+              />
+
+              <!-- T.O.S Acceptance -->
+              <div>
+                <div>
+                  Please read our Terms of Use and Privacy Policy carefully. By
+                  proceeding, you acknowledge that you have read and agreed to
+                  the following terms.
+                </div>
+                <div class="flex flex-row mt-6 items-center">
+                  <input
+                    type="checkbox"
+                    required=""
+                    data-val="true"
+                    data-val-required="The TermsAccepted field is required."
+                    id="Input_TermsAccepted"
+                    name="Input.TermsAccepted"
+                    value="true"
+                  />
+                  <div class="pl-1">
+                    I have read and agreed to the
+                    <a href="privacy.html" class="text-blue-600 font-semibold"
+                      >Terms of Use</a
+                    >
+                  </div>
+                </div>
+                <div class="flex flex-row pt-1">
+                  <input
+                    type="checkbox"
+                    required=""
+                    data-val="true"
+                    data-val-required="The PrivacyAccepted field is required."
+                    id="Input_PrivacyAccepted"
+                    name="Input.PrivacyAccepted"
+                    value="true"
+                  />
+                  <div class="pl-1">
+                    I have read and agreed to the
+                    <a
+                      href="terms-of-use.html"
+                      class="text-blue-600 font-semibold"
+                      >Privacy Policy</a
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <!-- Button -->
+              <button
+                type="submit"
+                class="bg-federal-blue w-full text-gray-100 py-2 rounded-xl hover:bg-gray-900 mt-5"
+              >
+                Register
+              </button>
             </div>
-          </div>
+            <input
+              name="__RequestVerificationToken"
+              type="hidden"
+              value="CfDJ8MUi2mf3Qe5Ak0mLpCpBql8UP_KBsi6c2JuaYnefjy0xpiF1pQKsbDdqFnRgNOQ3us3eIwdSqrZgoixZ1u80nus3bJ2i2Q7Q8fV3C7qD4pNzjoXUDIff1HFADq4u8xw4dxejc9hvSP9CHeGXhE06eFc"
+            /><input
+              name="Input.TermsAccepted"
+              type="hidden"
+              value="false"
+            /><input name="Input.PrivacyAccepted" type="hidden" value="false" />
+          </form>
         </section>
       </div>
 
@@ -474,20 +515,7 @@
               </a>
             </li>
             <!-- Twitter -->
-            <li>
-              <a href="#" aria-label="twitter">
-                <svg
-                  class="w-6 h-6 text-sonic-silver fill-current hover:cursor-pointer"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 24 24"
-                  aria-hidden="true"
-                >
-                  <path
-                    d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"
-                  ></path>
-                </svg>
-              </a>
-            </li>
+            <li></li>
           </ul>
 
           <!-- Copyright -->
@@ -502,102 +530,6 @@
     </main>
 
     <!-- Core Navbar JS-->
-    <script src="/js/navbar.js"></script>
-    <!-- Javascript -->
-    <script src="/Exterior/javascript/slider.js"></script>
-    <!-- <script src="./js/sliderLeft.js"></script> -->
-    <script defer="" src="/Exterior/javascript/scrollAnimation.js"></script>
-
-    <script src="/Exterior/lib/jquery/dist/jquery.min.js"></script>
-
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/cleave.js/1.6.0/cleave.min.js"
-      integrity="sha512-KaIyHb30iXTXfGyI9cyKFUIRSSuekJt6/vqXtyQKhQP6ozZEGY8nOtRS6fExqE4+RbYHus2yGyYg1BrqxzV6YA=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/cleave.js/1.6.0/addons/cleave-phone.us.js"
-      integrity="sha512-sYKXH+IAMtg7mVursFAH+Xu1mIvmSqTd8LTEhKdRmvJhtX2IKUFpkZBZ9pigORvIR6Nt5klEF/P+psiJRa6crQ=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
-
-    <script type="text/javascript">
-      window.payment = {
-        stripePublishableKey: "pk_test_M558ukVeN29mu1E0b5RIfOBQ00rHAql6sp",
-      };
-    </script>
-
-    <script src="/js/payment.js"></script>
-    <iframe
-      name="__privateStripeController4181"
-      frameborder="0"
-      allowtransparency="true"
-      scrolling="no"
-      role="presentation"
-      allow="payment *"
-      src="https://js.stripe.com/v3/controller-d30bd59bbbac6fb883d774d0ae284cb1.html#apiKey=pk_test_M558ukVeN29mu1E0b5RIfOBQ00rHAql6sp&amp;stripeJsId=3b719f31-f05c-4199-a032-f0a2c48dc226&amp;stripeJsLoadTime=1684882447570&amp;referrer=https%3A%2F%2Fotta.azurewebsites.net%2FAboutUs&amp;controllerId=__privateStripeController4181"
-      aria-hidden="true"
-      tabindex="-1"
-      style="
-        border: none !important;
-        margin: 0px !important;
-        padding: 0px !important;
-        width: 1px !important;
-        min-width: 100% !important;
-        overflow: hidden !important;
-        display: block !important;
-        visibility: hidden !important;
-        position: fixed !important;
-        height: 1px !important;
-        pointer-events: none !important;
-        user-select: none !important;
-      "
-    ></iframe>
-
-    <iframe
-      name="__privateStripeMetricsController4180"
-      frameborder="0"
-      allowtransparency="true"
-      scrolling="no"
-      role="presentation"
-      allow="payment *"
-      src="https://js.stripe.com/v3/m-outer-93afeeb17bc37e711759584dbfc50d47.html#url=https%3A%2F%2Fotta.azurewebsites.net%2FAboutUs&amp;title=About%20Us%20-%20OneTeam&amp;referrer=https%3A%2F%2Fotta.azurewebsites.net%2FContact&amp;muid=d6d73b29-9840-4f06-9821-35982aa5a0159c9ba4&amp;sid=0dd144f7-a40b-4ff6-8a15-943cf1bfad21b6a71f&amp;version=6&amp;preview=false"
-      aria-hidden="true"
-      tabindex="-1"
-      style="
-        border: none !important;
-        margin: 0px !important;
-        padding: 0px !important;
-        width: 1px !important;
-        min-width: 100% !important;
-        overflow: hidden !important;
-        display: block !important;
-        visibility: hidden !important;
-        position: fixed !important;
-        height: 1px !important;
-        pointer-events: none !important;
-        user-select: none !important;
-      "
-    ></iframe
-    ><scribe-shadow
-      id="crxjs-ext"
-      style="
-        position: fixed;
-        width: 0px;
-        height: 0px;
-        top: 0px;
-        left: 0px;
-        z-index: 2147483647;
-        overflow: visible;
-      "
-    ></scribe-shadow>
-    <div id="loom-companion-mv3" ext-id="liecbddmkiiihnedobmlmillhodjkdmb">
-      <section id="shadow-host-companion"></section>
-    </div>
+    <script src="./js/navbar.js"></script>
   </body>
-  <grammarly-desktop-integration
-    data-grammarly-shadow-root="true"
-  ></grammarly-desktop-integration>
 </html>
