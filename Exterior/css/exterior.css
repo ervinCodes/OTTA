@@ -679,6 +679,14 @@ body::before {
   height: 750px;
 }
 
+.h-\[1350px\] {
+  height: 1350px;
+}
+
+.h-\[950px\] {
+  height: 950px;
+}
+
 .w-full {
   width: 100%;
 }
@@ -932,6 +940,10 @@ body::before {
 
 .bg-\[url\(\'\/images\/visions-and-values-background\.jpg\'\)\] {
   background-image: url('/images/visions-and-values-background.jpg');
+}
+
+.bg-\[url\(\'\/Exterior\/images\/employer\'\)\] {
+  background-image: url('/Exterior/images/employer');
 }
 
 .bg-cover {
