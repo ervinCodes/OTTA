@@ -563,10 +563,6 @@ body::before {
   z-index: 10;
 }
 
-.z-50 {
-  z-index: 50;
-}
-
 .m-auto {
   margin: auto;
 }
@@ -623,6 +619,10 @@ body::before {
   margin-top: 0.75rem;
 }
 
+.mt-\[6rem\] {
+  margin-top: 6rem;
+}
+
 .inline-block {
   display: inline-block;
 }
@@ -663,6 +663,10 @@ body::before {
   height: 1250px;
 }
 
+.h-\[950px\] {
+  height: 950px;
+}
+
 .h-\[800px\] {
   height: 800px;
 }
@@ -671,20 +675,12 @@ body::before {
   height: 16rem;
 }
 
-.h-\[900px\] {
-  height: 900px;
-}
-
-.h-\[750px\] {
-  height: 750px;
-}
-
 .h-\[1350px\] {
   height: 1350px;
 }
 
-.h-\[950px\] {
-  height: 950px;
+.h-\[750px\] {
+  height: 750px;
 }
 
 .w-full {
@@ -942,8 +938,8 @@ body::before {
   background-image: url('/images/visions-and-values-background.jpg');
 }
 
-.bg-\[url\(\'\/Exterior\/images\/employer\'\)\] {
-  background-image: url('/Exterior/images/employer');
+.bg-\[url\(\'\/Exterior\/images\/credits-background\.jpeg\'\)\] {
+  background-image: url('/Exterior/images/credits-background.jpeg');
 }
 
 .bg-cover {
@@ -1091,6 +1087,18 @@ body::before {
 
 .pb-16 {
   padding-bottom: 4rem;
+}
+
+.pb-0 {
+  padding-bottom: 0px;
+}
+
+.pt-7 {
+  padding-top: 1.75rem;
+}
+
+.pt-8 {
+  padding-top: 2rem;
 }
 
 .text-left {
@@ -1566,6 +1574,10 @@ body::before {
     padding-right: 2.5rem;
   }
 
+  .sm\:pt-8 {
+    padding-top: 2rem;
+  }
+
   .sm\:text-3xl {
     font-size: 1.875rem;
     line-height: 2.25rem;
@@ -1708,6 +1720,10 @@ body::before {
 
   .md\:pb-0 {
     padding-bottom: 0px;
+  }
+
+  .md\:pt-10 {
+    padding-top: 2.5rem;
   }
 
   .md\:text-left {
@@ -1885,6 +1901,10 @@ body::before {
     padding-bottom: 0px;
   }
 
+  .lg\:pt-10 {
+    padding-top: 2.5rem;
+  }
+
   .lg\:text-left {
     text-align: left;
   }
@@ -2006,6 +2026,18 @@ body::before {
     padding-bottom: 0px;
   }
 
+  .xl\:pt-10 {
+    padding-top: 2.5rem;
+  }
+
+  .xl\:pt-12 {
+    padding-top: 3rem;
+  }
+
+  .xl\:pt-14 {
+    padding-top: 3.5rem;
+  }
+
   .xl\:text-2xl {
     font-size: 1.5rem;
     line-height: 2rem;
@@ -2040,11 +2072,48 @@ body::before {
     font-size: 1.25rem;
     line-height: 1.75rem;
   }
+
+  .xl\:text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+
+  .xl\:text-\[55px\] {
+    font-size: 55px;
+  }
 }
 
 @media (min-width: 1536px) {
+  .\32xl\:flex {
+    display: flex;
+  }
+
   .\32xl\:h-\[700px\] {
     height: 700px;
+  }
+
+  .\32xl\:h-\[800px\] {
+    height: 800px;
+  }
+
+  .\32xl\:h-\[600px\] {
+    height: 600px;
+  }
+
+  .\32xl\:h-\[500px\] {
+    height: 500px;
+  }
+
+  .\32xl\:h-\[550px\] {
+    height: 550px;
+  }
+
+  .\32xl\:h-\[650px\] {
+    height: 650px;
+  }
+
+  .\32xl\:h-\[0px\] {
+    height: 0px;
   }
 
   .\32xl\:gap-1 {
@@ -2062,6 +2131,38 @@ body::before {
 
   .\32xl\:pt-16 {
     padding-top: 4rem;
+  }
+
+  .\32xl\:pt-10 {
+    padding-top: 2.5rem;
+  }
+
+  .\32xl\:pb-20 {
+    padding-bottom: 5rem;
+  }
+
+  .\32xl\:pb-10 {
+    padding-bottom: 2.5rem;
+  }
+
+  .\32xl\:pb-0 {
+    padding-bottom: 0px;
+  }
+
+  .\32xl\:pt-20 {
+    padding-top: 5rem;
+  }
+
+  .\32xl\:pt-3 {
+    padding-top: 0.75rem;
+  }
+
+  .\32xl\:pt-5 {
+    padding-top: 1.25rem;
+  }
+
+  .\32xl\:pt-12 {
+    padding-top: 3rem;
   }
 
   .\32xl\:text-base {
@@ -2087,5 +2188,33 @@ body::before {
   .\32xl\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
+  }
+
+  .\32xl\:text-\[60px\] {
+    font-size: 60px;
+  }
+
+  .\32xl\:text-\[70px\] {
+    font-size: 70px;
+  }
+
+  .\32xl\:text-\[55px\] {
+    font-size: 55px;
+  }
+
+  .\32xl\:text-\[85px\] {
+    font-size: 85px;
+  }
+
+  .\32xl\:text-\[90px\] {
+    font-size: 90px;
+  }
+
+  .\32xl\:font-bold {
+    font-weight: 700;
+  }
+
+  .first-line\:2xl\:pb-10::first-line {
+    padding-bottom: 2.5rem;
   }
 }
