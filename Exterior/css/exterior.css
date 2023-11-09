@@ -934,6 +934,10 @@ body::before {
   background-image: url('/images/visions-and-values-background.jpg');
 }
 
+.bg-\[url\(\'\/images\/credits-background\.jpeg\'\)\] {
+  background-image: url('/images/credits-background.jpeg');
+}
+
 .bg-cover {
   background-size: cover;
 }
