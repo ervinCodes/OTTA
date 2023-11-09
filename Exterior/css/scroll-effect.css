@@ -13,9 +13,9 @@
     -webkit-transform: translateY(100%);
     transform: translateY(100%);
     
-    -moz-animation: my-animation 20s linear infinite;
-    -webkit-animation: my-animation 20s linear infinite;
-    animation: my-animation 20s linear infinite;
+    -moz-animation: my-animation 50s linear infinite;
+    -webkit-animation: my-animation 50s linear infinite;
+    animation: my-animation 50s linear infinite;
   }
   
   /* for Firefox */
@@ -39,7 +39,7 @@
     to {
       -moz-transform: translateY(-100%);
       -webkit-transform: translateY(-100%);
-      transform: translateY(-300%);
+      transform: translateY(-350%);
     }
   }
 
@@ -64,23 +64,140 @@
     .scroll-container {
         height: 255px;
   }
+  .scroll-text {
+    /* animation properties */
+    -moz-transform: translateY(100%);
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+    
+    -moz-animation: my-animation 50s linear infinite;
+    -webkit-animation: my-animation 50s linear infinite;
+    animation: my-animation 50s linear infinite;
+  }
+  
+  /* for Firefox */
+  @-moz-keyframes my-animation {
+    from { -moz-transform: translateY(100%); }
+    to { -moz-transform: translateY(-100%); }
+  }
+  
+  /* for Chrome */
+  @-webkit-keyframes my-animation {
+    from { -webkit-transform: translateY(100%); }
+    to { -webkit-transform: translateY(-100%); }
+  }
+  
+  @keyframes my-animation {
+    from {
+      -moz-transform: translateY(100%);
+      -webkit-transform: translateY(100%);
+      transform: translateY(100%);
+    }
+    to {
+      -moz-transform: translateY(-100%);
+      -webkit-transform: translateY(-100%);
+      transform: translateY(-250%);
+    }
+  }
 }
+
+
+
+
 
 /* For LG screens */
 @media (min-width: 1024px) and (max-width: 1279px) {
     .scroll-container {
         height: 395px;
   }
+  .scroll-text {
+    /* animation properties */
+    -moz-transform: translateY(100%);
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+    
+    -moz-animation: my-animation 50s linear infinite;
+    -webkit-animation: my-animation 50s linear infinite;
+    animation: my-animation 50s linear infinite;
+  }
+  
+  /* for Firefox */
+  @-moz-keyframes my-animation {
+    from { -moz-transform: translateY(100%); }
+    to { -moz-transform: translateY(-100%); }
+  }
+  
+  /* for Chrome */
+  @-webkit-keyframes my-animation {
+    from { -webkit-transform: translateY(100%); }
+    to { -webkit-transform: translateY(-100%); }
+  }
+  
+  @keyframes my-animation {
+    from {
+      -moz-transform: translateY(100%);
+      -webkit-transform: translateY(100%);
+      transform: translateY(100%);
+    }
+    to {
+      -moz-transform: translateY(-100%);
+      -webkit-transform: translateY(-100%);
+      transform: translateY(-250%);
+    }
+  }
 }
+
+
+
+
 
 /* For XL screens */
 @media (min-width: 1280px) and (max-width: 1536px) {
     .scroll-container {
         height: 385px;
   }
+  .scroll-text {
+    /* animation properties */
+    -moz-transform: translateY(100%);
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+    
+    -moz-animation: my-animation 80s linear infinite;
+    -webkit-animation: my-animation 80s linear infinite;
+    animation: my-animation 80s linear infinite;
+  }
+  
+  /* for Firefox */
+  @-moz-keyframes my-animation {
+    from { -moz-transform: translateY(100%); }
+    to { -moz-transform: translateY(-100%); }
+  }
+  
+  /* for Chrome */
+  @-webkit-keyframes my-animation {
+    from { -webkit-transform: translateY(100%); }
+    to { -webkit-transform: translateY(-100%); }
+  }
+  
+  @keyframes my-animation {
+    from {
+      -moz-transform: translateY(100%);
+      -webkit-transform: translateY(100%);
+      transform: translateY(100%);
+    }
+    to {
+      -moz-transform: translateY(-100%);
+      -webkit-transform: translateY(-100%);
+      transform: translateY(-400%);
+    }
+  }
 }
 
-/* For XL screens */
+
+
+
+
+/* For 2XL screens */
 @media (min-width: 1537px) {
     .scroll-container {
         height: 455px;
@@ -91,9 +208,9 @@
     -webkit-transform: translateY(100%);
     transform: translateY(100%);
     
-    -moz-animation: my-animation 30s linear infinite;
-    -webkit-animation: my-animation 30s linear infinite;
-    animation: my-animation 30s linear infinite;
+    -moz-animation: my-animation 50s linear infinite;
+    -webkit-animation: my-animation 50s linear infinite;
+    animation: my-animation 50s linear infinite;
   }
   
   /* for Firefox */
