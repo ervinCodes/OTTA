@@ -768,10 +768,6 @@ body::before {
   justify-content: space-between;
 }
 
-.justify-around {
-  justify-content: space-around;
-}
-
 .justify-evenly {
   justify-content: space-evenly;
 }
@@ -914,8 +910,8 @@ body::before {
   background-image: url('/images/blue-background.jpeg');
 }
 
-.bg-\[url\(\'\/Exterior\/images\/credits-background\.jpeg\'\)\] {
-  background-image: url('/Exterior/images/credits-background.jpeg');
+.bg-\[url\(\'\/images\/credits-background\.jpeg\'\)\] {
+  background-image: url('/images/credits-background.jpeg');
 }
 
 .bg-\[url\(\'\/Exterior\/images\/members-background\.jpeg\'\)\] {
@@ -940,10 +936,6 @@ body::before {
 
 .bg-\[url\(\'\/images\/visions-and-values-background\.jpg\'\)\] {
   background-image: url('/images/visions-and-values-background.jpg');
-}
-
-.bg-\[url\(\'\/images\/credits-background\.jpeg\'\)\] {
-  background-image: url('/images/credits-background.jpeg');
 }
 
 .bg-cover {
@@ -1906,6 +1898,10 @@ body::before {
     line-height: 2rem;
   }
 
+  .lg\:text-\[60px\] {
+    font-size: 60px;
+  }
+
   .lg\:text-5xl {
     font-size: 3rem;
     line-height: 1;
@@ -1919,10 +1915,6 @@ body::before {
   .lg\:text-4xl {
     font-size: 2.25rem;
     line-height: 2.5rem;
-  }
-
-  .lg\:text-\[60px\] {
-    font-size: 60px;
   }
 }
 
@@ -2032,6 +2024,10 @@ body::before {
     line-height: 1.75rem;
   }
 
+  .xl\:text-\[70px\] {
+    font-size: 70px;
+  }
+
   .xl\:text-4xl {
     font-size: 2.25rem;
     line-height: 2.5rem;
@@ -2040,10 +2036,6 @@ body::before {
   .xl\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
-  }
-
-  .xl\:text-\[70px\] {
-    font-size: 70px;
   }
 }
 
@@ -2087,6 +2079,14 @@ body::before {
     font-size: 90px;
   }
 
+  .\32xl\:text-\[75px\] {
+    font-size: 75px;
+  }
+
+  .\32xl\:text-\[65px\] {
+    font-size: 65px;
+  }
+
   .\32xl\:text-3xl {
     font-size: 1.875rem;
     line-height: 2.25rem;
@@ -2100,33 +2100,5 @@ body::before {
   .\32xl\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
-  }
-
-  .\32xl\:text-\[40px\] {
-    font-size: 40px;
-  }
-
-  .\32xl\:text-\[60px\] {
-    font-size: 60px;
-  }
-
-  .\32xl\:text-\[70px\] {
-    font-size: 70px;
-  }
-
-  .\32xl\:text-\[65px\] {
-    font-size: 65px;
-  }
-
-  .\32xl\:text-\[75px\] {
-    font-size: 75px;
-  }
-
-  .\32xl\:text-\[\] {
-    color: ;
-  }
-
-  .\32xl\:text-\[40\] {
-    color: 40;
   }
 }
