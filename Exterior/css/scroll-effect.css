@@ -13,9 +13,9 @@
     -webkit-transform: translateY(100%);
     transform: translateY(100%);
     
-    -moz-animation: my-animation 50s linear infinite;
-    -webkit-animation: my-animation 50s linear infinite;
-    animation: my-animation 50s linear infinite;
+    -moz-animation: my-animation 70s linear infinite;
+    -webkit-animation: my-animation 70s linear infinite;
+    animation: my-animation 70s linear infinite;
   }
   
   /* for Firefox */
@@ -39,7 +39,7 @@
     to {
       -moz-transform: translateY(-100%);
       -webkit-transform: translateY(-100%);
-      transform: translateY(-350%);
+      transform: translateY(-650%);
     }
   }
 
@@ -49,6 +49,44 @@
     .scroll-container {
         width: 100%;
         height: 155px;
+  }
+  .scroll-text {
+    height: 100%;
+    text-align: center;
+    
+    /* animation properties */
+    -moz-transform: translateY(100%);
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+    
+    -moz-animation: my-animation 70s linear infinite;
+    -webkit-animation: my-animation 70s linear infinite;
+    animation: my-animation 70s linear infinite;
+  }
+  
+  /* for Firefox */
+  @-moz-keyframes my-animation {
+    from { -moz-transform: translateY(100%); }
+    to { -moz-transform: translateY(-100%); }
+  }
+  
+  /* for Chrome */
+  @-webkit-keyframes my-animation {
+    from { -webkit-transform: translateY(100%); }
+    to { -webkit-transform: translateY(-100%); }
+  }
+  
+  @keyframes my-animation {
+    from {
+      -moz-transform: translateY(100%);
+      -webkit-transform: translateY(100%);
+      transform: translateY(100%);
+    }
+    to {
+      -moz-transform: translateY(-100%);
+      -webkit-transform: translateY(-100%);
+      transform: translateY(-750%);
+    }
   }
 }
 
@@ -70,9 +108,9 @@
     -webkit-transform: translateY(100%);
     transform: translateY(100%);
     
-    -moz-animation: my-animation 50s linear infinite;
-    -webkit-animation: my-animation 50s linear infinite;
-    animation: my-animation 50s linear infinite;
+    -moz-animation: my-animation 70s linear infinite;
+    -webkit-animation: my-animation 70s linear infinite;
+    animation: my-animation 70s linear infinite;
   }
   
   /* for Firefox */
@@ -96,7 +134,7 @@
     to {
       -moz-transform: translateY(-100%);
       -webkit-transform: translateY(-100%);
-      transform: translateY(-250%);
+      transform: translateY(-600%);
     }
   }
 }
@@ -116,9 +154,9 @@
     -webkit-transform: translateY(100%);
     transform: translateY(100%);
     
-    -moz-animation: my-animation 50s linear infinite;
-    -webkit-animation: my-animation 50s linear infinite;
-    animation: my-animation 50s linear infinite;
+    -moz-animation: my-animation 80s linear infinite;
+    -webkit-animation: my-animation 80s linear infinite;
+    animation: my-animation 80s linear infinite;
   }
   
   /* for Firefox */
@@ -142,7 +180,7 @@
     to {
       -moz-transform: translateY(-100%);
       -webkit-transform: translateY(-100%);
-      transform: translateY(-250%);
+      transform: translateY(-400%);
     }
   }
 }

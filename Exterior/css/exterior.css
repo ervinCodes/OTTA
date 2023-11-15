@@ -768,6 +768,14 @@ body::before {
   justify-content: space-between;
 }
 
+.justify-around {
+  justify-content: space-around;
+}
+
+.justify-evenly {
+  justify-content: space-evenly;
+}
+
 .gap-4 {
   gap: 1rem;
 }
@@ -932,10 +940,6 @@ body::before {
 
 .bg-\[url\(\'\/images\/visions-and-values-background\.jpg\'\)\] {
   background-image: url('/images/visions-and-values-background.jpg');
-}
-
-.bg-\[url\(\'\/images\/credits-background\.jpeg\'\)\] {
-  background-image: url('/images/credits-background.jpeg');
 }
 
 .bg-cover {
@@ -1721,14 +1725,14 @@ body::before {
     line-height: 2.5rem;
   }
 
-  .md\:text-3xl {
-    font-size: 1.875rem;
-    line-height: 2.25rem;
-  }
-
   .md\:text-5xl {
     font-size: 3rem;
     line-height: 1;
+  }
+
+  .md\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
   }
 }
 
@@ -1913,9 +1917,8 @@ body::before {
     line-height: 2.5rem;
   }
 
-  .lg\:text-xl {
-    font-size: 1.25rem;
-    line-height: 1.75rem;
+  .lg\:text-\[60px\] {
+    font-size: 60px;
   }
 }
 
@@ -2034,6 +2037,10 @@ body::before {
     font-size: 1.25rem;
     line-height: 1.75rem;
   }
+
+  .xl\:text-\[70px\] {
+    font-size: 70px;
+  }
 }
 
 @media (min-width: 1536px) {
@@ -2062,10 +2069,6 @@ body::before {
     padding-top: 2.5rem;
   }
 
-  .\32xl\:pt-12 {
-    padding-top: 3rem;
-  }
-
   .\32xl\:text-base {
     font-size: 1rem;
     line-height: 1.5rem;
@@ -2078,10 +2081,6 @@ body::before {
 
   .\32xl\:text-\[90px\] {
     font-size: 90px;
-  }
-
-  .\32xl\:text-\[70px\] {
-    font-size: 70px;
   }
 
   .\32xl\:text-3xl {
@@ -2097,5 +2096,33 @@ body::before {
   .\32xl\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
+  }
+
+  .\32xl\:text-\[40px\] {
+    font-size: 40px;
+  }
+
+  .\32xl\:text-\[60px\] {
+    font-size: 60px;
+  }
+
+  .\32xl\:text-\[70px\] {
+    font-size: 70px;
+  }
+
+  .\32xl\:text-\[65px\] {
+    font-size: 65px;
+  }
+
+  .\32xl\:text-\[75px\] {
+    font-size: 75px;
+  }
+
+  .\32xl\:text-\[\] {
+    color: ;
+  }
+
+  .\32xl\:text-\[40\] {
+    color: 40;
   }
 }
