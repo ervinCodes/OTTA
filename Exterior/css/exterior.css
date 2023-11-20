@@ -663,8 +663,8 @@ body::before {
   height: 950px;
 }
 
-.h-\[800px\] {
-  height: 800px;
+.h-\[850px\] {
+  height: 850px;
 }
 
 .h-64 {
@@ -673,10 +673,6 @@ body::before {
 
 .h-\[1350px\] {
   height: 1350px;
-}
-
-.h-\[750px\] {
-  height: 750px;
 }
 
 .w-full {
@@ -1305,7 +1301,7 @@ body::before {
   border-width: 2px;
   border-color: #60553C;
   color: #050542;
-  background-color: #B49F71;
+  background-color: #ffffff;
 }
 
 input::-moz-placeholder {
@@ -1463,6 +1459,10 @@ input::placeholder {
     height: 750px;
   }
 
+  .xs\:h-\[850px\] {
+    height: 850px;
+  }
+
   .xs\:h-20 {
     height: 5rem;
   }
@@ -1481,10 +1481,6 @@ input::placeholder {
 
   .xs\:h-72 {
     height: 18rem;
-  }
-
-  .xs\:h-\[850px\] {
-    height: 850px;
   }
 
   .xs\:w-80 {
