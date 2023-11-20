@@ -868,6 +868,18 @@ body::before {
   border-top-width: 2px;
 }
 
+.border-b-2 {
+  border-bottom-width: 2px;
+}
+
+.border-b-4 {
+  border-bottom-width: 4px;
+}
+
+.border-b-\[1px\] {
+  border-bottom-width: 1px;
+}
+
 .border-dark-gold {
   --tw-border-opacity: 1;
   border-color: rgb(96 85 60 / var(--tw-border-opacity));
@@ -876,6 +888,11 @@ body::before {
 .border-white {
   --tw-border-opacity: 1;
   border-color: rgb(255 255 255 / var(--tw-border-opacity));
+}
+
+.border-black {
+  --tw-border-opacity: 1;
+  border-color: rgb(0 0 0 / var(--tw-border-opacity));
 }
 
 .bg-federal-blue {
@@ -932,6 +949,10 @@ body::before {
 
 .bg-\[url\(\'\/images\/visions-and-values-background\.jpg\'\)\] {
   background-image: url('/images/visions-and-values-background.jpg');
+}
+
+.bg-\[url\(\'\/images\/credits-background\.jpeg\'\)\] {
+  background-image: url('/images/credits-background.jpeg');
 }
 
 .bg-cover {
@@ -1087,6 +1108,10 @@ body::before {
 
 .pb-16 {
   padding-bottom: 4rem;
+}
+
+.pt-12 {
+  padding-top: 3rem;
 }
 
 .text-left {
@@ -1481,6 +1506,14 @@ input::placeholder {
 
   .xs\:h-72 {
     height: 18rem;
+  }
+
+  .xs\:h-\[650px\] {
+    height: 650px;
+  }
+
+  .xs\:h-\[500px\] {
+    height: 500px;
   }
 
   .xs\:w-80 {
@@ -1894,6 +1927,14 @@ input::placeholder {
 
   .lg\:h-28 {
     height: 7rem;
+  }
+
+  .lg\:h-\[850px\] {
+    height: 850px;
+  }
+
+  .lg\:h-\[750px\] {
+    height: 750px;
   }
 
   .lg\:w-2\/5 {
