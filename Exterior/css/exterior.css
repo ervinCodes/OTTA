@@ -910,8 +910,8 @@ body::before {
   background-image: url('/images/blue-background.jpeg');
 }
 
-.bg-\[url\(\'\/images\/credits-background\.jpeg\'\)\] {
-  background-image: url('/images/credits-background.jpeg');
+.bg-\[url\(\'\/Exterior\/images\/credits-background\.jpeg\'\)\] {
+  background-image: url('/Exterior/images/credits-background.jpeg');
 }
 
 .bg-\[url\(\'\/Exterior\/images\/members-background\.jpeg\'\)\] {
@@ -1268,6 +1268,136 @@ body::before {
   src: url('../../fonts/GillSansMTStd-Medium.otf') format("opentype");
 }
 
+.k-input {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-width: 0;
+  box-sizing: border-box;
+  border-width: 1px;
+  border-style: solid;
+  outline: 0;
+  font-family: inherit;
+  font-size: 14px;
+  line-height: 1.42857143;
+  font-weight: 400;
+  text-align: start;
+  box-shadow: none;
+  display: inline-flex;
+  justify-content: center;
+  flex-flow: row nowrap;
+  align-items: stretch;
+  vertical-align: middle;
+  position: relative;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-appearance: none;
+}
+
+.k-combobox {
+}
+
+.k-combobox-clearable {
+}
+
+.k-input-solid {
+  border-style: solid;
+  border-width: 2px;
+  border-color: #60553C;
+  color: #050542;
+  background-color: #B49F71;
+}
+
+input::-moz-placeholder {
+  color: #050542;
+  opacity: 1;
+}
+
+input::placeholder {
+  color: #050542;
+  opacity: 1;
+}
+
+.k-input-md {
+  font-size: 14px;
+  line-height: 1.42857143;
+}
+
+.k-rounded-md {
+  border-radius: 6px;
+}
+
+.k-input-inner {
+  padding: 4px 8px;
+  width: 100%;
+  border: 0;
+  outline: 0;
+  color: inherit;
+  background: 0 0;
+  font: inherit;
+  flex: 1;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-appearance: none;
+}
+
+.k-input-button {
+  padding: 4px 4px;
+  width: calc(1.42857143em + 8px);
+  border-width: 0;
+  border-inline-start-width: 1px;
+  flex: none;
+  aspect-ratio: auto;
+  box-shadow: none;
+}
+
+.k-button {
+  box-sizing: border-box;
+  border-width: 1px;
+  border-style: solid;
+  color: #60553C;
+  background: 0 0;
+  font-family: inherit;
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+       user-select: none;
+  cursor: pointer;
+  outline: 0;
+  -webkit-appearance: none;
+  position: relative;
+  transition: color .2s ease-in-out;
+}
+
+.k-button-md {
+  padding: 4px 8px;
+  font-size: 14px;
+  line-height: 1.42857143;
+}
+
+.k-button-solid {
+}
+
+.k-button-solid-base {
+  border-color: rgba(0,0,0,.08);
+  color: #60553C;
+  background-color: #60553C;
+  background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,.02));
+}
+
+.k-icon-button {
+  gap: 0;
+}
+
 .hover\:cursor-pointer:hover {
   cursor: pointer;
 }
@@ -1351,6 +1481,10 @@ body::before {
 
   .xs\:h-72 {
     height: 18rem;
+  }
+
+  .xs\:h-\[850px\] {
+    height: 850px;
   }
 
   .xs\:w-80 {
