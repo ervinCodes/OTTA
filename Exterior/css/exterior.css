@@ -776,16 +776,20 @@ body::before {
   justify-content: space-between;
 }
 
-.justify-evenly {
-  justify-content: space-evenly;
-}
-
 .gap-4 {
   gap: 1rem;
 }
 
+.gap-6 {
+  gap: 1.5rem;
+}
+
 .gap-1 {
   gap: 0.25rem;
+}
+
+.gap-3 {
+  gap: 0.75rem;
 }
 
 .gap-x-2 {
@@ -872,21 +876,12 @@ body::before {
   border-width: 1px;
 }
 
-.border-b-\[1px\] {
-  border-bottom-width: 1px;
-}
-
 .border-b {
   border-bottom-width: 1px;
 }
 
 .border-t-2 {
   border-top-width: 2px;
-}
-
-.border-black {
-  --tw-border-opacity: 1;
-  border-color: rgb(0 0 0 / var(--tw-border-opacity));
 }
 
 .border-dark-gold {
@@ -927,8 +922,8 @@ body::before {
   background-image: url('/images/blue-background.jpeg');
 }
 
-.bg-\[url\(\'\/images\/credits-background\.jpeg\'\)\] {
-  background-image: url('/images/credits-background.jpeg');
+.bg-\[url\(\'\/Exterior\/images\/credits-background\.jpeg\'\)\] {
+  background-image: url('/Exterior/images/credits-background.jpeg');
 }
 
 .bg-\[url\(\'\/Exterior\/images\/members-background\.jpeg\'\)\] {
@@ -1078,10 +1073,6 @@ body::before {
   padding-top: 1.75rem;
 }
 
-.pt-12 {
-  padding-top: 3rem;
-}
-
 .pb-1 {
   padding-bottom: 0.25rem;
 }
@@ -1114,24 +1105,12 @@ body::before {
   padding-bottom: 4rem;
 }
 
-.pl-5 {
-  padding-left: 1.25rem;
-}
-
-.pl-10 {
-  padding-left: 2.5rem;
-}
-
-.pl-20 {
-  padding-left: 5rem;
+.pl-8 {
+  padding-left: 2rem;
 }
 
 .pl-16 {
   padding-left: 4rem;
-}
-
-.pl-8 {
-  padding-left: 2rem;
 }
 
 .text-left {
@@ -1140,6 +1119,10 @@ body::before {
 
 .text-center {
   text-align: center;
+}
+
+.text-right {
+  text-align: right;
 }
 
 .font-gill-sans {
@@ -1188,6 +1171,11 @@ body::before {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
+}
+
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 
 .font-medium {
@@ -1504,10 +1492,6 @@ input::placeholder {
     height: 1100px;
   }
 
-  .xs\:h-\[650px\] {
-    height: 650px;
-  }
-
   .xs\:h-\[750px\] {
     height: 750px;
   }
@@ -1757,6 +1741,11 @@ input::placeholder {
     font-size: 1.5rem;
     line-height: 2rem;
   }
+
+  .sm\:text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
 }
 
 @media (min-width: 768px) {
@@ -1795,6 +1784,10 @@ input::placeholder {
     height: auto;
   }
 
+  .md\:h-\[450px\] {
+    height: 450px;
+  }
+
   .md\:h-\[350px\] {
     height: 350px;
   }
@@ -1825,6 +1818,10 @@ input::placeholder {
 
   .md\:gap-80 {
     gap: 20rem;
+  }
+
+  .md\:gap-6 {
+    gap: 1.5rem;
   }
 
   .md\:gap-x-2 {
@@ -1913,6 +1910,11 @@ input::placeholder {
     font-size: 1.875rem;
     line-height: 2.25rem;
   }
+
+  .md\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -1951,6 +1953,22 @@ input::placeholder {
 
   .lg\:h-28 {
     height: 7rem;
+  }
+
+  .lg\:h-\[450px\] {
+    height: 450px;
+  }
+
+  .lg\:h-\[\] {
+    height: ;
+  }
+
+  .lg\:h-\[650p\] {
+    height: 650p;
+  }
+
+  .lg\:h-\[650px\] {
+    height: 650px;
   }
 
   .lg\:w-2\/5 {
@@ -2132,6 +2150,10 @@ input::placeholder {
     height: 450px;
   }
 
+  .xl\:h-\[750px\] {
+    height: 750px;
+  }
+
   .xl\:flex-row {
     flex-direction: row;
   }
@@ -2262,26 +2284,14 @@ input::placeholder {
     line-height: 2.5rem;
   }
 
-  .\32xl\:text-\[90px\] {
-    font-size: 90px;
-  }
-
-  .\32xl\:text-\[75px\] {
-    font-size: 75px;
-  }
-
-  .\32xl\:text-\[65px\] {
-    font-size: 65px;
+  .\32xl\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
   }
 
   .\32xl\:text-3xl {
     font-size: 1.875rem;
     line-height: 2.25rem;
-  }
-
-  .\32xl\:text-5xl {
-    font-size: 3rem;
-    line-height: 1;
   }
 
   .\32xl\:text-xl {

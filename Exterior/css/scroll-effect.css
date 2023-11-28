@@ -13,9 +13,9 @@
     -webkit-transform: translateY(100%);
     transform: translateY(100%);
     
-    -moz-animation: my-animation 70s linear infinite;
-    -webkit-animation: my-animation 70s linear infinite;
-    animation: my-animation 70s linear infinite;
+    -moz-animation: my-animation 50s linear infinite;
+    -webkit-animation: my-animation 50s linear infinite;
+    animation: my-animation 50s linear infinite;
   }
   
   /* for Firefox */
@@ -39,7 +39,7 @@
     to {
       -moz-transform: translateY(-100%);
       -webkit-transform: translateY(-100%);
-      transform: translateY(-650%);
+      transform: translateY(-300%);
     }
   }
 
@@ -59,9 +59,9 @@
     -webkit-transform: translateY(100%);
     transform: translateY(100%);
     
-    -moz-animation: my-animation 70s linear infinite;
-    -webkit-animation: my-animation 70s linear infinite;
-    animation: my-animation 70s linear infinite;
+    -moz-animation: my-animation 60s linear infinite;
+    -webkit-animation: my-animation 60s linear infinite;
+    animation: my-animation 60s linear infinite;
   }
   
   /* for Firefox */
@@ -85,7 +85,7 @@
     to {
       -moz-transform: translateY(-100%);
       -webkit-transform: translateY(-100%);
-      transform: translateY(-750%);
+      transform: translateY(-500%);
     }
   }
 }
@@ -94,6 +94,44 @@
 @media (min-width: 640px) and (max-width: 767px) {
     .scroll-container {
         height: 195px;
+  }
+  .scroll-text {
+    height: 100%;
+    text-align: center;
+    
+    /* animation properties */
+    -moz-transform: translateY(100%);
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+    
+    -moz-animation: my-animation 60s linear infinite;
+    -webkit-animation: my-animation 60s linear infinite;
+    animation: my-animation 60s linear infinite;
+  }
+  
+  /* for Firefox */
+  @-moz-keyframes my-animation {
+    from { -moz-transform: translateY(100%); }
+    to { -moz-transform: translateY(-100%); }
+  }
+  
+  /* for Chrome */
+  @-webkit-keyframes my-animation {
+    from { -webkit-transform: translateY(100%); }
+    to { -webkit-transform: translateY(-100%); }
+  }
+  
+  @keyframes my-animation {
+    from {
+      -moz-transform: translateY(100%);
+      -webkit-transform: translateY(100%);
+      transform: translateY(100%);
+    }
+    to {
+      -moz-transform: translateY(-100%);
+      -webkit-transform: translateY(-100%);
+      transform: translateY(-400%);
+    }
   }
 }
 
@@ -108,55 +146,9 @@
     -webkit-transform: translateY(100%);
     transform: translateY(100%);
     
-    -moz-animation: my-animation 70s linear infinite;
-    -webkit-animation: my-animation 70s linear infinite;
-    animation: my-animation 70s linear infinite;
-  }
-  
-  /* for Firefox */
-  @-moz-keyframes my-animation {
-    from { -moz-transform: translateY(100%); }
-    to { -moz-transform: translateY(-100%); }
-  }
-  
-  /* for Chrome */
-  @-webkit-keyframes my-animation {
-    from { -webkit-transform: translateY(100%); }
-    to { -webkit-transform: translateY(-100%); }
-  }
-  
-  @keyframes my-animation {
-    from {
-      -moz-transform: translateY(100%);
-      -webkit-transform: translateY(100%);
-      transform: translateY(100%);
-    }
-    to {
-      -moz-transform: translateY(-100%);
-      -webkit-transform: translateY(-100%);
-      transform: translateY(-600%);
-    }
-  }
-}
-
-
-
-
-
-/* For LG screens */
-@media (min-width: 1024px) and (max-width: 1279px) {
-    .scroll-container {
-        height: 395px;
-  }
-  .scroll-text {
-    /* animation properties */
-    -moz-transform: translateY(100%);
-    -webkit-transform: translateY(100%);
-    transform: translateY(100%);
-    
-    -moz-animation: my-animation 80s linear infinite;
-    -webkit-animation: my-animation 80s linear infinite;
-    animation: my-animation 80s linear infinite;
+    -moz-animation: my-animation 60s linear infinite;
+    -webkit-animation: my-animation 60s linear infinite;
+    animation: my-animation 60s linear infinite;
   }
   
   /* for Firefox */
@@ -187,6 +179,49 @@
 
 
 
+
+
+/* For LG screens */
+@media (min-width: 1024px) and (max-width: 1279px) {
+    .scroll-container {
+        height: 395px;
+  }
+  .scroll-text {
+    /* animation properties */
+    -moz-transform: translateY(100%);
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+    
+    -moz-animation: my-animation 60s linear infinite;
+    -webkit-animation: my-animation 60s linear infinite;
+    animation: my-animation 60s linear infinite;
+  }
+  
+  /* for Firefox */
+  @-moz-keyframes my-animation {
+    from { -moz-transform: translateY(100%); }
+    to { -moz-transform: translateY(-100%); }
+  }
+  
+  /* for Chrome */
+  @-webkit-keyframes my-animation {
+    from { -webkit-transform: translateY(100%); }
+    to { -webkit-transform: translateY(-100%); }
+  }
+  
+  @keyframes my-animation {
+    from {
+      -moz-transform: translateY(100%);
+      -webkit-transform: translateY(100%);
+      transform: translateY(100%);
+    }
+    to {
+      -moz-transform: translateY(-100%);
+      -webkit-transform: translateY(-100%);
+      transform: translateY(-250%);
+    }
+  }
+}
 
 
 /* For XL screens */
@@ -226,13 +261,10 @@
     to {
       -moz-transform: translateY(-100%);
       -webkit-transform: translateY(-100%);
-      transform: translateY(-400%);
+      transform: translateY(-300%);
     }
   }
 }
-
-
-
 
 
 /* For 2XL screens */
@@ -272,7 +304,7 @@
     to {
       -moz-transform: translateY(-100%);
       -webkit-transform: translateY(-100%);
-      transform: translateY(-500%);
+      transform: translateY(-250%);
     }
   }
 }
