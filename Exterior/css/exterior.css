@@ -780,16 +780,12 @@ body::before {
   gap: 1rem;
 }
 
-.gap-6 {
-  gap: 1.5rem;
+.gap-3 {
+  gap: 0.75rem;
 }
 
 .gap-1 {
   gap: 0.25rem;
-}
-
-.gap-3 {
-  gap: 0.75rem;
 }
 
 .gap-x-2 {
@@ -922,8 +918,8 @@ body::before {
   background-image: url('/images/blue-background.jpeg');
 }
 
-.bg-\[url\(\'\/Exterior\/images\/credits-background\.jpeg\'\)\] {
-  background-image: url('/Exterior/images/credits-background.jpeg');
+.bg-\[url\(\'\/images\/credits-background\.jpeg\'\)\] {
+  background-image: url('/images/credits-background.jpeg');
 }
 
 .bg-\[url\(\'\/Exterior\/images\/members-background\.jpeg\'\)\] {
@@ -948,10 +944,6 @@ body::before {
 
 .bg-\[url\(\'\/images\/visions-and-values-background\.jpg\'\)\] {
   background-image: url('/images/visions-and-values-background.jpg');
-}
-
-.bg-\[url\(\'\/images\/credits-background\.jpeg\'\)\] {
-  background-image: url('/images/credits-background.jpeg');
 }
 
 .bg-cover {
@@ -1162,6 +1154,11 @@ body::before {
   line-height: 1.25rem;
 }
 
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
@@ -1175,11 +1172,6 @@ body::before {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
-}
-
-.text-base {
-  font-size: 1rem;
-  line-height: 1.5rem;
 }
 
 .font-medium {
@@ -1741,14 +1733,14 @@ input::placeholder {
     line-height: 2.5rem;
   }
 
-  .sm\:text-2xl {
-    font-size: 1.5rem;
-    line-height: 2rem;
-  }
-
   .sm\:text-lg {
     font-size: 1.125rem;
     line-height: 1.75rem;
+  }
+
+  .sm\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 }
 
@@ -1820,12 +1812,12 @@ input::placeholder {
     justify-content: space-around;
   }
 
-  .md\:gap-80 {
-    gap: 20rem;
-  }
-
   .md\:gap-6 {
     gap: 1.5rem;
+  }
+
+  .md\:gap-80 {
+    gap: 20rem;
   }
 
   .md\:gap-x-2 {
@@ -1910,14 +1902,14 @@ input::placeholder {
     line-height: 1;
   }
 
-  .md\:text-3xl {
-    font-size: 1.875rem;
-    line-height: 2.25rem;
-  }
-
   .md\:text-2xl {
     font-size: 1.5rem;
     line-height: 2rem;
+  }
+
+  .md\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
   }
 }
 
@@ -1943,8 +1935,8 @@ input::placeholder {
     height: 600px;
   }
 
-  .lg\:h-\[750px\] {
-    height: 750px;
+  .lg\:h-\[650px\] {
+    height: 650px;
   }
 
   .lg\:h-\[400px\] {
@@ -1957,22 +1949,6 @@ input::placeholder {
 
   .lg\:h-28 {
     height: 7rem;
-  }
-
-  .lg\:h-\[450px\] {
-    height: 450px;
-  }
-
-  .lg\:h-\[\] {
-    height: ;
-  }
-
-  .lg\:h-\[650p\] {
-    height: 650p;
-  }
-
-  .lg\:h-\[650px\] {
-    height: 650px;
   }
 
   .lg\:w-2\/5 {
@@ -2137,6 +2113,10 @@ input::placeholder {
     display: block;
   }
 
+  .xl\:h-\[750px\] {
+    height: 750px;
+  }
+
   .xl\:h-full {
     height: 100%;
   }
@@ -2152,10 +2132,6 @@ input::placeholder {
 
   .xl\:h-\[450px\] {
     height: 450px;
-  }
-
-  .xl\:h-\[750px\] {
-    height: 750px;
   }
 
   .xl\:flex-row {
@@ -2288,14 +2264,14 @@ input::placeholder {
     line-height: 2.5rem;
   }
 
-  .\32xl\:text-5xl {
-    font-size: 3rem;
-    line-height: 1;
-  }
-
   .\32xl\:text-3xl {
     font-size: 1.875rem;
     line-height: 2.25rem;
+  }
+
+  .\32xl\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
   }
 
   .\32xl\:text-xl {
