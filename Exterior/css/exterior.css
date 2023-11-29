@@ -2083,10 +2083,6 @@ input::placeholder {
     line-height: 2rem;
   }
 
-  .lg\:text-\[60px\] {
-    font-size: 60px;
-  }
-
   .lg\:text-5xl {
     font-size: 3rem;
     line-height: 1;
@@ -2211,10 +2207,6 @@ input::placeholder {
   .xl\:text-lg {
     font-size: 1.125rem;
     line-height: 1.75rem;
-  }
-
-  .xl\:text-\[70px\] {
-    font-size: 70px;
   }
 
   .xl\:text-4xl {
