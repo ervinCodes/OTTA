@@ -744,6 +744,10 @@ body::before {
   list-style-type: decimal;
 }
 
+.list-none {
+  list-style-type: none;
+}
+
 .flex-row {
   flex-direction: row;
 }
