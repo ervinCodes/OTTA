@@ -740,12 +740,12 @@ body::before {
   list-style-type: disc;
 }
 
-.list-decimal {
-  list-style-type: decimal;
-}
-
 .list-none {
   list-style-type: none;
+}
+
+.list-decimal {
+  list-style-type: decimal;
 }
 
 .flex-row {
@@ -950,6 +950,10 @@ body::before {
   background-image: url('/images/visions-and-values-background.jpg');
 }
 
+.bg-\[url\(\'\/Exterior\/images\/credits-background\.jpeg\'\)\] {
+  background-image: url('/Exterior/images/credits-background.jpeg');
+}
+
 .bg-cover {
   background-size: cover;
 }
@@ -1047,6 +1051,11 @@ body::before {
 .py-10 {
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
+}
+
+.py-6 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
 .pt-2 {
@@ -1325,12 +1334,6 @@ body::before {
   overflow: hidden;
   text-overflow: ellipsis;
   -webkit-appearance: none;
-}
-
-.k-combobox {
-}
-
-.k-combobox-clearable {
 }
 
 .k-input-solid {
