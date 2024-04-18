@@ -926,32 +926,20 @@ body::before {
   background-image: url('/images/credits-background.jpeg');
 }
 
-.bg-\[url\(\'\/Exterior\/images\/members-background\.jpeg\'\)\] {
-  background-image: url('/Exterior/images/members-background.jpeg');
-}
-
-.bg-\[url\(\'\/Exterior\/images\/employers-background\.jpeg\'\)\] {
-  background-image: url('/Exterior/images/employers-background.jpeg');
+.bg-\[url\(\'\/images\/members-background\.jpeg\'\)\] {
+  background-image: url('/images/members-background.jpeg');
 }
 
 .bg-\[url\(\'\/images\/employers-background\.jpeg\'\)\] {
   background-image: url('/images/employers-background.jpeg');
 }
 
-.bg-\[url\(\'\/images\/members-background\.jpeg\'\)\] {
-  background-image: url('/images/members-background.jpeg');
-}
-
-.bg-\[url\(\'\/Exterior\/images\/home-background\.jpeg\'\)\] {
-  background-image: url('/Exterior/images/home-background.jpeg');
+.bg-\[url\(\'\/images\/home-background\.jpeg\'\)\] {
+  background-image: url('/images/home-background.jpeg');
 }
 
 .bg-\[url\(\'\/images\/visions-and-values-background\.jpg\'\)\] {
   background-image: url('/images/visions-and-values-background.jpg');
-}
-
-.bg-\[url\(\'\/Exterior\/images\/credits-background\.jpeg\'\)\] {
-  background-image: url('/Exterior/images/credits-background.jpeg');
 }
 
 .bg-cover {
@@ -1018,6 +1006,11 @@ body::before {
   padding-bottom: 0.5rem;
 }
 
+.py-6 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
 .px-1 {
   padding-left: 0.25rem;
   padding-right: 0.25rem;
@@ -1051,11 +1044,6 @@ body::before {
 .py-10 {
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
-}
-
-.py-6 {
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
 }
 
 .pt-2 {
