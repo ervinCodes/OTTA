@@ -563,6 +563,10 @@ body::before {
   z-index: 10;
 }
 
+.z-50 {
+  z-index: 50;
+}
+
 .m-auto {
   margin: auto;
 }
@@ -934,12 +938,24 @@ body::before {
   background-image: url('/images/employers-background.jpeg');
 }
 
+.bg-\[url\(\'\/Exterior\/images\/members-background\.jpeg\'\)\] {
+  background-image: url('/Exterior/images/members-background.jpeg');
+}
+
 .bg-\[url\(\'\/images\/home-background\.jpeg\'\)\] {
   background-image: url('/images/home-background.jpeg');
 }
 
 .bg-\[url\(\'\/images\/visions-and-values-background\.jpg\'\)\] {
   background-image: url('/images/visions-and-values-background.jpg');
+}
+
+.bg-\[url\(\'\/Exterior\/images\/home-background\.jpeg\'\)\] {
+  background-image: url('/Exterior/images/home-background.jpeg');
+}
+
+.bg-\[url\(\'\/Exterior\/images\/credits-background\.jpeg\'\)\] {
+  background-image: url('/Exterior/images/credits-background.jpeg');
 }
 
 .bg-cover {
@@ -1250,6 +1266,16 @@ body::before {
 .text-dark-gold {
   --tw-text-opacity: 1;
   color: rgb(96 85 60 / var(--tw-text-opacity));
+}
+
+.text-red-600 {
+  --tw-text-opacity: 1;
+  color: rgb(220 38 38 / var(--tw-text-opacity));
+}
+
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
 .underline {
@@ -1714,6 +1740,16 @@ input::placeholder {
     padding-right: 2.5rem;
   }
 
+  .sm\:px-20 {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+  .sm\:px-32 {
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
+
   .sm\:pt-8 {
     padding-top: 2rem;
   }
@@ -2028,6 +2064,16 @@ input::placeholder {
   .lg\:px-10 {
     padding-left: 2.5rem;
     padding-right: 2.5rem;
+  }
+
+  .lg\:px-32 {
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
+
+  .lg\:px-20 {
+    padding-left: 5rem;
+    padding-right: 5rem;
   }
 
   .lg\:pl-5 {
