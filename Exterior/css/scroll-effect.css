@@ -235,9 +235,9 @@
     -webkit-transform: translateY(100%);
     transform: translateY(100%);
     
-    -moz-animation: my-animation 150s linear infinite;
-    -webkit-animation: my-animation 150s linear infinite;
-    animation: my-animation 150s linear infinite;
+    -moz-animation: my-animation 80s linear infinite;
+    -webkit-animation: my-animation 80s linear infinite;
+    animation: my-animation 80s linear infinite;
   }
   
   /* for Firefox */
@@ -261,7 +261,7 @@
     to {
       -moz-transform: translateY(-100%);
       -webkit-transform: translateY(-100%);
-      transform: translateY(-250%);
+      transform: translateY(-300%);
     }
   }
 }
@@ -278,9 +278,9 @@
     -webkit-transform: translateY(100%);
     transform: translateY(100%);
     
-    -moz-animation: my-animation 300s linear infinite;
-    -webkit-animation: my-animation 300s linear infinite;
-    animation: my-animation 300s linear infinite;
+    -moz-animation: my-animation 80s linear infinite;
+    -webkit-animation: my-animation 80s linear infinite;
+    animation: my-animation 80s linear infinite;
   }
   
   /* for Firefox */
@@ -304,7 +304,7 @@
     to {
       -moz-transform: translateY(-100%);
       -webkit-transform: translateY(-100%);
-      transform: translateY(-250%);
+      transform: translateY(-300%);
     }
   }
 }
