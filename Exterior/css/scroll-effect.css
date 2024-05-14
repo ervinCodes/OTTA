@@ -278,9 +278,9 @@
     -webkit-transform: translateY(100%);
     transform: translateY(100%);
     
-    -moz-animation: my-animation 80s linear infinite;
-    -webkit-animation: my-animation 80s linear infinite;
-    animation: my-animation 80s linear infinite;
+    -moz-animation: my-animation 60s linear infinite;
+    -webkit-animation: my-animation 60s linear infinite;
+    animation: my-animation 60s linear infinite;
   }
   
   /* for Firefox */
