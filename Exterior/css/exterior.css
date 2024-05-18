@@ -1721,6 +1721,10 @@ input::placeholder {
     height: 12rem;
   }
 
+  .sm\:h-\[500px\] {
+    height: 500px;
+  }
+
   .sm\:w-5\/6 {
     width: 83.333333%;
   }
