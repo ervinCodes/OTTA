@@ -772,10 +772,6 @@ body::before {
   align-items: center;
 }
 
-.justify-start {
-  justify-content: flex-start;
-}
-
 .justify-end {
   justify-content: flex-end;
 }
@@ -952,10 +948,6 @@ body::before {
 
 .bg-\[url\(\'\/images\/visions-and-values-background\.jpg\'\)\] {
   background-image: url('/images/visions-and-values-background.jpg');
-}
-
-.bg-\[url\(\'\/Exterior\/images\/home-background\.jpeg\'\)\] {
-  background-image: url('/Exterior/images/home-background.jpeg');
 }
 
 .bg-cover {
@@ -1136,10 +1128,6 @@ body::before {
 
 .text-right {
   text-align: right;
-}
-
-.text-start {
-  text-align: start;
 }
 
 .font-gill-sans {
@@ -1515,8 +1503,8 @@ input::placeholder {
     height: 5rem;
   }
 
-  .xs\:h-\[400px\] {
-    height: 400px;
+  .xs\:h-\[550px\] {
+    height: 550px;
   }
 
   .xs\:h-14 {
@@ -1529,18 +1517,6 @@ input::placeholder {
 
   .xs\:h-72 {
     height: 18rem;
-  }
-
-  .xs\:h-\[500px\] {
-    height: 500px;
-  }
-
-  .xs\:h-\[600px\] {
-    height: 600px;
-  }
-
-  .xs\:h-\[550px\] {
-    height: 550px;
   }
 
   .xs\:w-80 {
@@ -1713,16 +1689,16 @@ input::placeholder {
     height: 10rem;
   }
 
+  .sm\:h-\[500px\] {
+    height: 500px;
+  }
+
   .sm\:h-14 {
     height: 3.5rem;
   }
 
   .sm\:h-48 {
     height: 12rem;
-  }
-
-  .sm\:h-\[500px\] {
-    height: 500px;
   }
 
   .sm\:w-5\/6 {
@@ -2047,9 +2023,9 @@ input::placeholder {
     padding-bottom: 2.5rem;
   }
 
-  .lg\:px-20 {
-    padding-left: 5rem;
-    padding-right: 5rem;
+  .lg\:px-10 {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
   }
 
   .lg\:px-5 {
@@ -2065,16 +2041,6 @@ input::placeholder {
   .lg\:px-\[38\%\] {
     padding-left: 38%;
     padding-right: 38%;
-  }
-
-  .lg\:px-10 {
-    padding-left: 2.5rem;
-    padding-right: 2.5rem;
-  }
-
-  .lg\:px-16 {
-    padding-left: 4rem;
-    padding-right: 4rem;
   }
 
   .lg\:pl-5 {
