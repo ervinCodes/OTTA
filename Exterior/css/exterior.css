@@ -950,6 +950,10 @@ body::before {
   background-image: url('/images/visions-and-values-background.jpg');
 }
 
+.bg-\[url\(\'\/Exterior\/images\/employers-background\.jpeg\'\)\] {
+  background-image: url('/Exterior/images/employers-background.jpeg');
+}
+
 .bg-cover {
   background-size: cover;
 }
@@ -1591,6 +1595,11 @@ input::placeholder {
     padding-bottom: 1rem;
   }
 
+  .xs\:px-10 {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+
   .xs\:py-8 {
     padding-top: 2rem;
     padding-bottom: 2rem;
@@ -1609,16 +1618,6 @@ input::placeholder {
   .xs\:px-0 {
     padding-left: 0px;
     padding-right: 0px;
-  }
-
-  .xs\:px-10 {
-    padding-left: 2.5rem;
-    padding-right: 2.5rem;
-  }
-
-  .xs\:px-12 {
-    padding-left: 3rem;
-    padding-right: 3rem;
   }
 
   .xs\:pb-16 {
@@ -1739,16 +1738,6 @@ input::placeholder {
   .sm\:px-8 {
     padding-left: 2rem;
     padding-right: 2rem;
-  }
-
-  .sm\:px-12 {
-    padding-left: 3rem;
-    padding-right: 3rem;
-  }
-
-  .sm\:px-14 {
-    padding-left: 3.5rem;
-    padding-right: 3.5rem;
   }
 
   .sm\:px-16 {
@@ -2058,6 +2047,11 @@ input::placeholder {
     padding-right: 1.25rem;
   }
 
+  .lg\:px-\[85px\] {
+    padding-left: 85px;
+    padding-right: 85px;
+  }
+
   .lg\:py-0 {
     padding-top: 0px;
     padding-bottom: 0px;
@@ -2066,26 +2060,6 @@ input::placeholder {
   .lg\:px-\[38\%\] {
     padding-left: 38%;
     padding-right: 38%;
-  }
-
-  .lg\:px-20 {
-    padding-left: 5rem;
-    padding-right: 5rem;
-  }
-
-  .lg\:px-28 {
-    padding-left: 7rem;
-    padding-right: 7rem;
-  }
-
-  .lg\:px-24 {
-    padding-left: 6rem;
-    padding-right: 6rem;
-  }
-
-  .lg\:px-\[85px\] {
-    padding-left: 85px;
-    padding-right: 85px;
   }
 
   .lg\:pl-5 {
