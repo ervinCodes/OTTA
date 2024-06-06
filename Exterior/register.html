@@ -311,6 +311,7 @@
             </div>
             <!-- Button -->
             <button
+            id="registerBtn"
             type="submit"
             class="bg-federal-blue w-full text-white py-2 rounded-xl hover:bg-gray-900 mt-5"
           >
@@ -320,6 +321,31 @@
         </form>
 
       </section>
+
+      <!-- Modal -->
+      <div id="userAgreementModal" class="fixed inset-0 bg-gray-900 bg-opacity-50 flex items-center justify-center hidden">
+        <div class="bg-white rounded-lg overflow-hidden shadow-lg max-w-md w-full">
+            <div class="flex justify-between items-center p-4 border-b">
+                <h2 class="text-xl font-semibold">User Agreement</h2>
+                <span class="cursor-pointer text-gray-600" id="closeModal">&times;</span>
+            </div>
+            <div id="termsContent" class="p-4 overflow-y-scroll h-64 border-b">
+                <h5 class="font-semibold mb-2">Terms of Use</h5>
+                <p class="text-sm mb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum elementum elit nec turpis consectetur, sed tincidunt lorem efficitur. Nullam in feugiat eros. Integer pulvinar vitae felis at malesuada. In hac habitasse platea dictumst. Nullam sed ligula a justo volutpat tincidunt. Duis ultricies lectus id urna sollicitudin, ac commodo velit fermentum. Nam vestibulum lacus sed ex fermentum, non placerat orci lobortis. Vivamus vehicula dui eget lorem sodales, nec tincidunt nisi dignissim. Ut ut ultricies lorem, et dictum massa.</p>
+                <p class="text-sm mb-2">Nam facilisis velit at nibh varius, at scelerisque odio tristique. Mauris ac ipsum vel velit dignissim consequat et a urna. Suspendisse potenti. Curabitur at metus at nisl egestas consequat sit amet non sapien. In hac habitasse platea dictumst. Ut fringilla dui et lorem varius, et venenatis nunc tristique. Sed id cursus sem. Curabitur sit amet velit nec dui tempor consequat. Donec malesuada, tortor sit amet tristique tincidunt, justo risus tristique nulla, vel tempus lorem ligula ac magna. Integer et purus magna.</p>
+                <p class="text-sm mb-2">Proin id lacus vel mauris viverra ullamcorper nec vel lacus. Donec porttitor, libero vel lacinia tincidunt, orci nisl aliquet lacus, ac facilisis lacus felis vel magna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer blandit dui et feugiat fermentum. Morbi sed justo in nulla aliquet vestibulum. Proin fringilla gravida purus, eget dignissim nisi iaculis vel. Etiam nec diam arcu. Phasellus id orci eu nisl malesuada scelerisque sit amet in augue. Fusce cursus metus non tincidunt sagittis.</p>
+                <p class="text-sm mb-2">Quisque ac justo eu metus tristique vestibulum. Suspendisse ac lacinia sem. Etiam dapibus augue nec nisi venenatis, id scelerisque magna hendrerit. Integer at ante magna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus aliquet purus nec felis laoreet tempor. Nulla facilisi. Sed euismod sagittis risus vel euismod. Proin hendrerit arcu ut ligula pharetra, et suscipit eros lacinia.</p>
+                <p class="text-sm">Nullam ullamcorper gravida tellus, in ultrices arcu egestas quis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Fusce sed lorem vitae urna sodales consectetur. Integer vitae magna id velit pellentesque consectetur sit amet sit amet nunc. Nulla at risus ut libero cursus finibus. Nulla facilisi. Phasellus commodo felis a est fermentum convallis. Sed vel ante et nulla malesuada laoreet.</p>
+            </div>
+            <div class="p-4 flex justify-between items-center">
+                <div class="flex items-center">
+                    <input type="checkbox" id="agreeCheck" class="mr-2" disabled>
+                    <label for="agreeCheck" class="text-sm">I agree to the terms and conditions</label>
+                </div>
+                <button id="acceptBtn" class="bg-[#050542] text-white px-4 py-2 rounded" disabled>Accept</button>
+            </div>
+        </div>
+    </div>
 
       <!-- Footer -->
       <footer class="font-gill-sans text-white bg-federal-blue font-thin">
@@ -429,5 +455,6 @@
 
     <!-- Core Navbar JS-->
     <script src="./js/navbar.js"></script>
+    <script src="./js/openModal.js"></script>
   </body>
 </html>
