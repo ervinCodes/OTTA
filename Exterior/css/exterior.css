@@ -638,6 +638,10 @@ body::before {
   margin-bottom: 0.5rem;
 }
 
+.ml-4 {
+  margin-left: 1rem;
+}
+
 .mt-4 {
   margin-top: 1rem;
 }
@@ -648,10 +652,6 @@ body::before {
 
 .mr-2 {
   margin-right: 0.5rem;
-}
-
-.ml-4 {
-  margin-left: 1rem;
 }
 
 .block {
