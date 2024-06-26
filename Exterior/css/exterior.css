@@ -654,6 +654,10 @@ body::before {
   margin-right: 0.5rem;
 }
 
+.mr-8 {
+  margin-right: 2rem;
+}
+
 .block {
   display: block;
 }
@@ -785,10 +789,6 @@ body::before {
 
 .cursor-pointer {
   cursor: pointer;
-}
-
-.list-inside {
-  list-style-position: inside;
 }
 
 .list-disc {
@@ -1204,10 +1204,6 @@ body::before {
 
 .pl-8 {
   padding-left: 2rem;
-}
-
-.pl-16 {
-  padding-left: 4rem;
 }
 
 .text-left {
