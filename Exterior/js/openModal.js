@@ -5,7 +5,7 @@ const termsContent = document.getElementById('termsContent');
 const agreeCheck = document.getElementById('agreeCheck');
 const acceptBtn = document.getElementById('acceptBtn');
 
-// Register button hides on click
+// Unhides the modal when the register button is clicked
 btn.onclick = function () {
     modal.classList.remove("hidden");
     document.body.classList.add("no-scroll");
@@ -14,14 +14,14 @@ btn.onclick = function () {
 // Close modal 
 closeModalBtn.onclick = function () {
     modal.classList.add("hidden");
-    document.body.classList.remove("no-scroll");
+    // document.body.classList.remove("no-scroll");
 }
 
 // If click occurs outside of modal, it will close
 window.onclick = function (event) {
     if (event.target === modal) {
         modal.classList.add("hidden");
-        document.body.classList.remove("no-scroll");
+        // document.body.classList.remove("no-scroll");
     }
 }
 

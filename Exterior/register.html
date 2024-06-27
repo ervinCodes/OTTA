@@ -294,7 +294,7 @@
             />
 
             <!-- T.O.S Acceptance -->
-            <div>
+            <!-- <div>
               <div>Please read our Terms of Use and Privacy Policy carefully.  By proceeding, you acknowledge that you have read and agreed to the following terms.</div>
               <div class="flex flex-row mt-6 items-center">
                 <input type="checkbox" required>
@@ -308,7 +308,7 @@
                   <a href="terms-of-use.html" class="text-blue-600 font-semibold">Privacy Policy</a>
                 </div>
               </div>
-            </div>
+            </div> -->
             <!-- Button -->
             <button
             id="registerBtn"
@@ -322,30 +322,628 @@
 
       </section>
 
-      <!-- Modal -->
+      <!-- Terms of Use Modal -->
       <div id="userAgreementModal" class="fixed inset-0 bg-gray-900 bg-opacity-50 flex items-center justify-center hidden">
         <div class="bg-white rounded-lg overflow-hidden shadow-lg max-w-md w-full">
             <div class="flex justify-between items-center p-4 border-b">
-                <h2 class="text-xl font-semibold">User Agreement</h2>
+                <h2 class="text-xl font-semibold">Terms of Use & Privacy Policy</h2>
                 <span class="cursor-pointer text-gray-600" id="closeModal">&times;</span>
             </div>
             <div id="termsContent" class="p-4 overflow-y-scroll h-64 border-b">
-                <h5 class="font-semibold mb-2">Terms of Use</h5>
-                <p class="text-sm mb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum elementum elit nec turpis consectetur, sed tincidunt lorem efficitur. Nullam in feugiat eros. Integer pulvinar vitae felis at malesuada. In hac habitasse platea dictumst. Nullam sed ligula a justo volutpat tincidunt. Duis ultricies lectus id urna sollicitudin, ac commodo velit fermentum. Nam vestibulum lacus sed ex fermentum, non placerat orci lobortis. Vivamus vehicula dui eget lorem sodales, nec tincidunt nisi dignissim. Ut ut ultricies lorem, et dictum massa.</p>
-                <p class="text-sm mb-2">Nam facilisis velit at nibh varius, at scelerisque odio tristique. Mauris ac ipsum vel velit dignissim consequat et a urna. Suspendisse potenti. Curabitur at metus at nisl egestas consequat sit amet non sapien. In hac habitasse platea dictumst. Ut fringilla dui et lorem varius, et venenatis nunc tristique. Sed id cursus sem. Curabitur sit amet velit nec dui tempor consequat. Donec malesuada, tortor sit amet tristique tincidunt, justo risus tristique nulla, vel tempus lorem ligula ac magna. Integer et purus magna.</p>
-                <p class="text-sm mb-2">Proin id lacus vel mauris viverra ullamcorper nec vel lacus. Donec porttitor, libero vel lacinia tincidunt, orci nisl aliquet lacus, ac facilisis lacus felis vel magna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer blandit dui et feugiat fermentum. Morbi sed justo in nulla aliquet vestibulum. Proin fringilla gravida purus, eget dignissim nisi iaculis vel. Etiam nec diam arcu. Phasellus id orci eu nisl malesuada scelerisque sit amet in augue. Fusce cursus metus non tincidunt sagittis.</p>
-                <p class="text-sm mb-2">Quisque ac justo eu metus tristique vestibulum. Suspendisse ac lacinia sem. Etiam dapibus augue nec nisi venenatis, id scelerisque magna hendrerit. Integer at ante magna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus aliquet purus nec felis laoreet tempor. Nulla facilisi. Sed euismod sagittis risus vel euismod. Proin hendrerit arcu ut ligula pharetra, et suscipit eros lacinia.</p>
-                <p class="text-sm">Nullam ullamcorper gravida tellus, in ultrices arcu egestas quis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Fusce sed lorem vitae urna sodales consectetur. Integer vitae magna id velit pellentesque consectetur sit amet sit amet nunc. Nulla at risus ut libero cursus finibus. Nulla facilisi. Phasellus commodo felis a est fermentum convallis. Sed vel ante et nulla malesuada laoreet.</p>
-            </div>
-            <div class="p-4 flex justify-between items-center">
+              <div class="font-thin px-1">
+                  <!-- Terms of Use -->
+                  <h3 class="text-2xl font-bold mb-8">Terms of Use</h3>
+                  <p class="mb-4">These Terms of Use are entered into
+                  by and between you and One Team Talent Agency, Inc., and/or its affiliates,
+                  related entities, divisions, subsidiaries, or parent companies (collectively, “OTTA”,
+                  “we”, “our” or “us”). OTTA includes our website, <a href="https://www.ottainc.com" target="_blank">https://www.ottainc.com</a>,
+                  and all services offered through the website and may include other methods of
+                  accessing OTTA's services (collectively, the “Site”).</p>
+                  <p class="mb-8">The following terms and conditions, together with any documents they expressly incorporate by reference, (the “Terms of Use”), govern your access to and use of the Site, including any content, functionality and services offered on or through the Site as well as to your voluntary choice to submit information through the Site.</p>
+                    <!-- Acceptance of Terms of Use -->
+                  <p class="underline font-semibold mb-4  text-xl">Acceptance of the Terms of Use</p>
+    
+                  <p class="mb-4">Please read the Terms of Use carefully before you start to use the Site. <span class="font-bold">By using the Site you accept and agree to be bound and abide by these Terms of Use and our Privacy Policy, found at <a href="https://www.ottainc.com/privacy" target="_blank" class="text-blue-600 underline">https://www.ottainc.com/privacy </a>incorporated herein by reference.</span> If you do not want to agree to these Terms of Use or the Privacy Policy, you must not access or use the Site.</p>
+                  <p class="font-bold mb-4">THESE TERMS OF USE INCLUDE A CLASS ACTION WAIVER AND REQUIRE BINDING ARBITRATION ON AN INDIVIDUAL BASIS TO RESOLVE DISPUTES AND LIMIT THE REMEDIES AVAILABLE TO YOU IN THE EVENT OF CERTAIN DISPUTES.</p>
+                  <p class="font-bold mb-4">THESE TERMS ARE SUBJECT TO CHANGE AS DESCRIBED BELOW. IF YOU DO NOT AGREE TO THESE TERMS (OR ANY PORTION OF THESE TERMS), INCLUDING THE MANDATORY ARBITRATION PROVISION AND CLASS ACTION WAIVER, YOU MAY NOT USE THE SITE OR SERVICES AND MUST IMMEDIATELY TERMINATE YOUR USE OF THE SITE AND SERVICES.</p>
+                  <p class="mb-8">This Site is offered and available only to users who are of at least 18 years of age and reside in the United States or any of its territories. By using this Site, you represent and warrant that you are at least 18 years of age and meet all of the foregoing eligibility requirements. If you do not meet all of these requirements, you must not access or use the Site.</p>
+    
+                  <!-- Changes to the Terms of Use -->
+                   <p class="mb-4  text-xl font-semibold">1. Changes to the Terms of Use</p>
+                   <p class="mb-4">We may revise and update these Terms of Use from time to time in our sole discretion. All changes are effective immediately when we post them and apply to all access to and use of the Site by you after the change is posted to the Site. However, any changes to the dispute resolution provisions set forth in the “Arbitration” section below will not apply to any disputes for which the parties have actual notice on or prior to the date the change is posted on the Site.</p>
+                   <p class="mb-8">Your continued use of the Site following the posting of revised Terms of Use means that you accept and agree to the changes. You are expected to check this page each time you access this Site, so you are aware of any changes, as they are binding on you.</p>
+    
+                   <!-- Account Registration and Services -->
+                   <p class="mb-4  text-xl font-semibold">2. Account Registration and Services</p>
+                   <p class="italic font-bold mb-4">Our Services</p>
+                   <p class="mb-4">OTTA operates as a referral service, facilitating connections between job seekers and potential employment opportunities and reporting on industry trends. <span class="font-bold">OTTA does not function as an employer in any capacity.</span> All decisions regarding hiring are the sole, exclusive responsibility of the hiring entity. OTTA explicitly disclaims any involvement or responsibility for employment, hiring, or salary determinations made by or about you or any other individual, even if OTTA's services are used for job submission or communication relating to employment, hiring, or salary decisions. OTTA further explicitly disclaims any responsibility or liability whatsoever for the behavior or conduct of any employee hired by an employer, both at present and in perpetuity.</p>
+                   <p class="mb-4">By accepting these Terms of Use, you agree that OTTA has no responsibility or liability for decisions involving employment, hiring, or salary decisions.</p>
+    
+                   <p class="italic font-bold mb-4">Accessing Our Site</p>
+                   <p class="mb-4">We reserve the right to withdraw or amend this Site, and any service or material we provide on the Site, in our sole discretion without notice. We will not be liable if for any reason all or any part of the Site is unavailable at any time or for any period. We may restrict access to some parts of the Site to Registered Users.</p>
+                   <p class="mb-4">Registered Users are responsible for:</p>
+                   <ul class="list-disc mb-4 ml-8">
+                    <li>Making all arrangements necessary to have access to the Site.</li>
+                    <li>Ensuring that all persons who access the Site through their internet connection are aware of these Terms of Use and comply with them.</li>
+                   </ul>
+                   <p class="mb-4">To access some services, including but not limited to employment referrals, you may be asked to provide certain information and/or registration details. It is a condition of your use of the Site that all the information you provide on the Site is correct, current, and complete. You agree that all information you provide on this Site and/or to register with this Site is governed by our Privacy Policy at <a href="https://www.ottainc.com/privacy" class="text-blue-600 underline">https://www.ottainc.com/privacy</a> and you consent to all actions we take with respect to your information consistent with our Privacy Policy.</p>
+                   <p class="mb-4 italic font-bold">Use of our Site; Confidentiality; Unauthorized Use</p>
+                   <p class="mb-4">If you use our Site, you are responsible for maintaining the confidentiality of your account password and for preventing unauthorized use of your account. You acknowledge that your account is personal to you and agree not to provide any other person with access to this Site or portions of it using your username, password, or other security information. You agree to accept all responsibility for activities that occur using your account or password. You may not assign or otherwise transfer your account to any other person, entity, or service.</p>
+                   <p class="mb-4">You agree to notify us immediately of any unauthorized access to or use of your username or password or any other breach of security. You also agree to ensure that you exit from your account at the end of each session. You should use particular caution when accessing your account from a public or shared computer so that others are not able to view or record your password or other personal information.</p>
+                   <p class="mb-4">You acknowledge that OTTA is not responsible for third-party access to your account that results from theft or misappropriation of your account. OTTA reserves the right to refuse or cancel service, terminate accounts, remove, or edit content in our sole discretion. Immediately notify OTTA of any unauthorized use of your account. Failure to abide by this obligation constitutes a breach of these Terms, which may result in immediate termination of your account.</p>
+    
+                   <p class="mb-4 italic font-bold">Users</p>
+                   <p class="mb-4">In creating an account or accessing OTTA's services, you are joining a group of users, each of whom may participate in the Site differently or with a different goal. Those who have not registered may still access certain parts of our Site, such as to view public pages or public information. Registered and non-registered users are referred collectively as “Users.” Users of our Site include, but are not limited to:</p>
+                   <ul class="mb-4 list-disc ml-8">
+                    <li>Production Accounting Professionals for every level found in Production Accounting Departments.</li>
+                    <li>Production Finance Executives, Production Executives, Producers, and others in need of our services within the film and television industry.</li>
+                   </ul>
+    
+                   <p class="mb-4 italic font-bold">Employment Referrals for Registered Users through our Site</p>
+                   <p class="mb-4">OTTA's primary mission is to streamline the Production Accounting staffing process in film and television. Registered Users' use of the Site involves participation in a streamlined staffing process that uses OTTA's proprietary software to facilitate their ability to obtain employment.</p>
+                   <p class="mb-4">By using our Site as a Registered User, you agree as follows:</p>
+                   <ul class="mb-4 ml-8 list-disc">
+                    <li>To create a profile in “Resume of Qualifications” listing your credits or job experience for entry-level personnel.</li>
+                    <li>You understand there are “required fields” designed to collect necessary information to facilitate entertainment industry staffing for Employers with a signed OTTA SAAS Agreement in place. You must fill out all of those fields in order for OTTA to facilitate connections between potential employees and potential employers.</li>
+                    <li>Your registration approval is contingent on the completion of the information required under “My Account,” your “Resume of Qualifications,” and completing the “Availability Status” section.</li>
+                    <li>Once registered and approved, you agree to update the “Change Availability” area in the Member Dashboard where you find your “Current Status”: Working [Yes/No], Production Company/Show Name with Start Date, and your anticipated Stop Date.</li>
+                    <li>OTTA automated emails remind you to update your availability date(s) when applicable, as the system uses those dates to automatically begin sharing your information with Employers seeking candidates matching your availability and qualifications.</li>
+                    <li>OTTA's system will automatically update your resume on every OTTA-related show.</li>
+                    <li>OTTA Resumes will display your contact information so you can be contacted by industry executives and producers for potential employment.</li>
+                    <li>You grant OTTA permission to forward your Resume of Qualifications to Employers with positions matching your availability and qualifications.</li>
+                   </ul>
+                 
+                   <p class="mb-4 font-bold">OTTA makes no guarantee, promise, or commitment that you will obtain employment as a result of being a Registered User or by using this Site.</p>
+    
+                   <p class="italic mb-4 font-bold">Account Cancellation</p>
+                   <p class="mb-8">You may cancel your OTTA Account at any time by submitting an email request to admin@ottainc.com. OTTA Admin will confirm your request before canceling your OTTA Account. Administrative fees you have paid are not refundable. Upon cancellation of your OTTA Account, and unless prohibited by law, we may: (1) retain your information and content; (2) continue to use your information for research purposes; and (3) retain, use, and continue to show information about your use of OTTA's Services.</p>
+    
+                   <!-- Payments and Fees -->
+                   <p class="mb-4  text-xl font-semibold">3. Payment and Fees</p>
+    
+                   <p class="italic font-bold mb-4">Payments</p>
+                   <p class="mb-4">Payments can be made via any of the following credit cards: Visa, Mastercard, American Express, or Discover. All credit cards must be issued by a U.S. bank. Your rights as a cardholder are governed exclusively by your card issuer agreement, and not by OTTA or its Terms of Use.</p>
+                   <p class="mb-4">All payments made by credit card are handled by a third-party payment processor (Stripe) that we have retained to process payments via our Site. You will provide all card information directly to Stripe, not to OTTA. Your payment, use of your payment, and transaction information will be subject to the terms of use and privacy policies of Stripe and your payment card issuer. You can review Stripe's privacy policy at <a href="https://stripe.com/privacy" target="_blank" class="text-blue-600 underline">https://stripe.com/privacy</a>. OTTA is not responsible for the actions or errors of Stripe, or any security breaches suffered by such entity, and you agree to hold us harmless from any and all claims related to Stripe or your payment card information. The obligation to hold OTTA harmless does not apply to the extent of OTTA's own negligence, recklessness, or intentional conduct.</p>
+                   <p class="mb-4">If you identify a discrepancy on your payment card statement, you agree to notify us within 90 days of the identified discrepancy appearing on your credit card statement. Otherwise, such discrepancy will be deemed waived. If we do not receive payment from your payment card issuer or its agent, you agree to our demand to pay all amounts due. We will not be responsible for any unauthorized amounts billed to your payment card by a third party.</p>
+    
+                   <p class="italic font-bold mb-4">Fees</p>
+                   <p class="mb-4">You acknowledge that OTTA reserves the right to charge ANNUAL administrative fees effective on your anniversary date; as such, these fees will not be prorated nor refunded. OTTA will provide you with advance notice of fees, including any change in the amount of such fees. If you do not pay the fee ahead of your renewal date, OTTA will suspend your account. If fees are not paid within 90 days of suspension, your account will be cancelled and we may retain and use your information consistent with the “Account Cancellation” section above.</p>
+                   <p class="mb-4">If OTTA suspends or terminates your account or access to OTTA's Site because you have breached these Terms of Use, you will not be entitled to a refund of any unused portion of such fees or other payments.</p>
+    
+                   <p class="mb-4  text-xl font-semibold">4. Prohibited User Conduct</p>
+                   <p class="mb-4">As a User of our Site, you are prohibited from the following conduct:</p>
+                   <ul class="mb-4 ml-8 list-disc">
+                    <li>Violating the Terms of Use, or assisting any other person in violating the Terms of Use.</li>
+                    <li>Using OTTA's Site or your account for any and all illegal or unlawful purposes, including any violation of any applicable federal, state, local, or international law or regulation (including, without limitation, any laws regarding the export of data or software to and from the US or other countries).</li>
+                    <li>Exploiting, harming, or intending to exploit or harm minors in any way.</li>
+                    <li>Abusing, harassing, threatening, impersonating, or intimidating others.</li>
+                    <li>Posting, uploading, or otherwise distributing or posting links to any content that is unlawful, defamatory, libelous, inaccurate, or that you do not have all necessary rights to transmit, or that OTTA or a reasonable person could deem to be objectionable, profane, indecent, pornographic, harassing, threatening, hateful, or otherwise inappropriate as determined by OTTA in its sole discretion.</li>
+                    <li>Impersonating or pretending to be anyone else while using the Site, including (but not limited to):</li>
+                    <ul class="list-disc ml-8">
+                      <li>impersonating or attempting to impersonate OTTA, an OTTA employee, another user, or any other person or entity (including, without limitation, by using e-mail addresses or screen names associated with any of the foregoing); or</li>
+                      <li>pretending that you represent another person, organization, or entity that you have not been authorized by that person, organization, or entity to represent through this Site.</li>
+                    </ul>
+                    <li>Bypassing any measures, we may use to prevent or restrict access to the Site.</li>
+                    <li>Sharing, selling, or otherwise transferring the access granted to you to OTTA's Site through your account, including information regarding your OTTA's account login information, or password, or otherwise permitting any other person to access OTTA's Site using your information, login, or password.</li>
+                    <li>Reproducing, distributing, publicly displaying, or performing, modifying, making derivative works of, redistributing, sublicensing, renting, publishing, selling, assigning, leasing, marketing, transferring, or otherwise making available to others, in whole or part, OTTA's services, content, code, or program.</li>
+                    <li>Performing any fraudulent activity using or in connection with OTTA's Site, including impersonating any person or entity, claiming false affiliations, accessing the accounts or passwords of others without permission, or falsifying your age, date of birth, or contact information.</li>
+                    <li>Making unsolicited offers, advertising, directing spam or other unsolicited communications to other Users, or conducting your contests or promotions using OTTA's Services.</li>
+                    <li>Attempting to collect personal information about Users or third parties without their consent.</li>
+                    <li>Interfering with the operation of OTTA's Site or any User's enjoyment thereof, including (but not limited to):</li>
+                    <ul class="list-disc ml-8">
+                      <li>using the Site in any manner that could disable, overburden, damage, or impair the site or interfere with any other party's use of the Site, including their ability to engage in real time activities through the Site;</li>
+                      <li>using any robot, spider or other automatic device, process or means to access the Site for any purpose, including monitoring or copying any of the material on the Site;</li>
+                      <li>using any manual process to monitor or copy any of the material on the Site or for any other unauthorized purpose without our prior written consent;</li>
+                      <li>using any device, software or routine that interferes with the proper working of the Site;</li>
+                      <li>introducing any viruses, trojan horses, worms, logic bombs or other material which is malicious or technologically harmful.</li>
+                      <li>uploading or otherwise disseminating viruses, adware, spyware, worms, or other malicious software or code;</li>
+                      <li>attempting to gain unauthorized access to, interfere with, damage, or disrupt any parts of the Site, the server on which the Site is stored, or any server, computer or database connected to the Site.</li>
+                      <li>attacking the Site via a denial-of-service attack or a distributed denial-of-service attack; or</li>
+                      <li>otherwise attempting to interfere with the proper working of the Site.</li>
+                    </ul>
+                   </ul>
+                   <!-- 5. Intellectual Property Rights -->
+                   <p class="mb-4  text-xl font-semibold">5. Intellectual Property Rights; Artificial Intelligence Restrictions</p>
+                   <p class="italics mb-4 font-bold">Intellectual Property</p>
+                   <p class="mb-4">The Site and its entire contents, features and functionality (including but not limited to all information, software, text, displays, images, video and audio, and the design, selection, and arrangement thereof), are owned by OTTA, its licensors, or other providers of such material and are protected by United States and international copyright, trademark, patent, trade secret, and other intellectual property or proprietary rights laws.</p>
+                   <p class="mb-4">These Terms of Use permit you to use the Site for your personal, non-commercial use only. You must not reproduce, distribute, modify, create derivative works of, publicly display, publicly perform, republish, download, store, or transmit any of the material on our Site.</p>
+                   <p class="mb-4">You must not:</p>
+                   <ul class="list-disc mb-4 ml-8">
+                    <li>Modify copies of any materials from this site.</li>
+                    <li>Use any illustrations, photographs, video or audio sequences, or any graphics separately from the accompanying text.</li>
+                    <li>Delete or alter any copyright, trademark, or other proprietary rights notices from copies of materials from this site.</li>
+                   </ul>
+                   <p class="mb-4">You must not access or use for any commercial purposes any part of the Site or any services or materials available through the Site.</p>
+                   <p class="mb-4">If you print, copy, modify, download, or otherwise use or provide any other person with access to any part of the Site in breach of the Terms of Use, your right to use the Site will cease immediately and you must, at our option, return or destroy any copies of the materials you have made. No right, title, or interest in or to the Site or any content on the Site is transferred to you, and all rights not expressly granted are reserved by the Company. Any use of the Site not expressly permitted by these Terms of Use is a breach of these Terms of Use and may violate copyright, trademark, and other laws.</p>
+                   <p class="italics mb-4 font-bold">No License</p>
+                   <p class="mb-4">Without the approval of OTTA or of its relevant licensor in writing, no license or other right to the use of the contents on the Site is granted either explicitly or implicitly or in any other way. Any unauthorized use of the materials is strictly prohibited and will be subject to civil and criminal prosecution by OTTA.</p>
+                   <p class="mb-4">The viewing, printing or downloading of any graphic, form, document or other content from the Site grants you only a limited, nonexclusive and nontransferable license for use solely by you for your own personal use and not for republication, distribution, assignment, sublicense, sale, preparation of derivative works or other use. No part of any graphic, form, document or other content may be reproduced in any form or incorporated into any information system, electronic or mechanical, other than for your personal use (but not for resale or redistribution). Any unauthorized use of the Site and their contents terminates the license granted hereby.</p>
+    
+                   <p class="italics mb-4 font-bold">Trademarks</p>
+                   <p class="mb-4">OTTA's name, logo and all related names, logos, product and service names, designs and slogans are trademarks of OTTA or its affiliates or licensors. You must not use such marks without the prior written permission of OTTA. All other names, logos, product and service names, designs and slogans on this Site are the trademarks of their respective owners.</p>
+    
+                   <p class="italics mb-4 font-bold">Artificial Intelligence Restrictions</p>
+                   <p class="mb-4">“Artificial Intelligence” or “AI” refers to any automated system, software, or technology capable of accessing and interacting with our website in a manner that simulates human behavior or conducts automated actions. By use of OTTA's Site, you agree to not provide access to our Site to any Artificial Intelligence. OTTA reserves the right to use technical means, including but not limited to, IP blocking, CAPTCHA tests, or other security measures to detect and restrict access by Artificial Intelligence. Any unauthorized access by an Artificial Intelligence system may result in immediate termination of your access to our Site, legal action, or both.</p>
+                   <p class="mb-4">Exception: This restriction does not apply to search engine bots or web crawlers used by recognized search engines for indexing and displaying our Site's content in search results.</p>
+    
+                   <!-- 6. General Terms -->
+                   <p class="mb-4  text-xl font-semibold">6. General Terms</p>
+    
+                   <p class="italics mb-4 font-bold">Reliance on Information Posted</p>
+                   <p class="mb-4">The information presented on or through the Site is made available solely for general information purposes. We do not warrant the accuracy, completeness, or usefulness of this information. Any reliance you place on such information is strictly at your own risk. We disclaim all liability and responsibility arising from any reliance placed on such materials by you or any other visitor to the Site, or by anyone who may be informed of any of its contents.</p>
+                   <p class="mb-4">This Site may contain links to third-party Sites that OTTA does not control. OTTA is not responsible for the content in any of those third-party Sites. OTTA makes no representations about whether it is safe to visit those Sites or the accuracy of the information they contain. If you choose to visit any of these third-party Sites, use or rely on the information they contain, or purchase any products or services through them, you do so at your own risk. OTTA does not implicitly endorse third-party sites hyperlinked to or from this Site.</p>
+    
+                   <p class="italics mb-4 font-bold">Legal Compliance</p>
+                   <p class="mb-4">You may not use OTTA's Site for employment, in a manner that does not comply with applicable local, national, and international laws, rules, and regulations, including laws relating to:</p>
+                   <ul class="list-disc mb-4 ml-8">
+                    <li>Labor and employment, equal employment opportunity and employment eligibility requirements.</li>
+                    <li>Data privacy, data access, and use.</li>
+                    <li>You will not use OTTA's Site to promote any opportunity that does not represent a bona fide employment opportunity.</li>
+                   </ul>
+    
+                   <p class="italics mb-4 font-bold">Assumption of Risk</p>
+                   <p class="mb-4">You acknowledge there are risks resulting from your use of OTTA's Site, including the risks related to interacting with strangers or people acting under false pretenses. You are responsible for using caution and common sense.</p>
+    
+                   <p class="italics mb-4 font-bold">Deletion of Account Information</p>
+                   <p class="mb-4">If you cancel your OTTA account or if your account is terminated for any reason, all of your account information, including any saved resume data and any information stored in connection with your use of the OTTA Site may be deleted.</p>
+    
+                   <p class="italics mb-4 font-bold">Linking to the Site and Social Media Features</p>
+                   <p class="mb-4">You may link content on this Site to your social media, provided you do so in a way that is fair and legal and does not damage our reputation or take advantage of it, but you must not establish a link in such a way as to suggest any form of association, approval, or endorsement on our part without our express written consent.</p>
+                   <p class="mb-4">This Site may provide certain social media features that enable you to:</p>
+                   <ul class="list-disc mb-4 ml-8">
+                    <li>Link content on this Site to your own social media, including but not limited to Facebook, Twitter, LinkedIn, Reddit, Tumbler, and Pinterest.</li>
+                    <li>Send e-mails or other communications with certain content, or links to certain content, on this Site.</li>
+                   </ul>
+                   <p class="mb-4">You may use these features solely as they are provided by us, and solely with respect to the content they are displayed with and otherwise in accordance with any additional terms and conditions we provide with respect to such features. Subject to the foregoing, you must not:</p>
+                   <ul class="list-disc mb-4 ml-8">
+                    <li>Establish a link from any Site that is not owned by you.</li>
+                    <li>Cause the Site or portions of it to be displayed, or appear to be displayed by, for example, framing, deep linking or in-line linking, on any other site.</li>
+                    <li>Link to any part of the Site other than the homepage.</li>
+                    <li>Otherwise take any action with respect to the materials on this Site that is inconsistent with any other provision of these Terms of Use.</li>
+                   </ul>
+                   <p class="mb-4">You agree to cooperate with us in causing any unauthorized framing or linking immediately to cease. We reserve the right to withdraw linking permission without notice. We may disable all or any social media features and any links at any time without notice in our discretion.</p>
+    
+                   <p class="italics mb-4 font-bold">Links from the Site</p>
+                   <p class="mb-4">If the Site contains links to other sites and resources provided by third parties, these links are provided for your convenience only. This includes links contained in advertisements, including banner advertisements and sponsored links. We have no control over the contents of those sites or resources and accept no responsibility for them or for any loss or damage that may arise from your use of them. If you decide to access any of the third-party Sites linked to this Site, you do so entirely at your own risk and subject to the terms and conditions of use for such Sites.</p>
+    
+                   <p class="italics mb-4 font-bold">Geographic Restrictions</p>
+                   <p class="mb-4">The owner of the Site is based in the state of California in the United States. We provide this Site for use only by persons located in the United States. OTTA does not target, market to, or offer its products or services to customers outside the United States. You agree not to submit your personally identifiable information through the Site if you reside outside the United States. We make no claims that the Site or any of its content is accessible or appropriate outside of the United States. Access to the Site may not be legal by certain persons or in certain countries. If you access the Site from outside the United States, you do so on your own initiative and are responsible for compliance with local laws.</p>
+    
+                   <p class="italics mb-4 font-bold">Assignment</p>
+                   <p class="mb-4">If OTTA sells its assets to, or is acquired by another company, or if OTTA merges with another company, you, by using this Site, authorize OTTA to assign the personally identifiable information you provided to OTTA or that OTTA collected while you used this Site.</p>
+    
+                   <p class="italics mb-4 font-bold">Consent to Electronic Communications</p>
+                   <p class="mb-4">You consent to receive electronic communications and you agree that all agreements, notices, disclosures, and other communications that we provide to you electronically via email satisfy any legal requirement that such communications be in writing.</p>
+    
+                   <!-- 7. Disclaimer of Warranties -->
+                   <p class="mb-4  text-xl font-semibold">7. Disclaimer of Warranties</p>
+    
+                   <p class="mb-4">You understand that we cannot and do not guarantee or warrant that files available for downloading from the internet or the Site will be free of viruses or other destructive code. You are responsible for implementing sufficient procedures and checkpoints to satisfy your particular requirements for anti-virus protection and accuracy of data input and output, and for maintaining a means external to our site for any reconstruction of any lost data. WE WILL NOT BE LIABLE FOR ANY LOSS OR DAMAGE CAUSED BY A DISTRIBUTED DENIAL-OF-SERVICE ATTACK, VIRUSES OR OTHER TECHNOLOGICALLY HARMFUL MATERIAL THAT MAY INFECT YOUR COMPUTER EQUIPMENT, COMPUTER PROGRAMS, DATA OR OTHER PROPRIETARY MATERIAL DUE TO YOUR USE OF THE SITE OR ANY SERVICES OR ITEMS OBTAINED THROUGH THE SITE OR TO YOUR DOWNLOADING OF ANY MATERIAL POSTED ON IT, OR ON ANY SITE LINKED TO IT.</p>
+                   <p class="mb-4">YOUR USE OF THE SITE, ITS CONTENT, AND ANY SERVICES OR ITEMS OBTAINED THROUGH THE SITE IS AT YOUR OWN RISK. THE SITE, ITS CONTENT, AND ANY SERVICES OR ITEMS OBTAINED THROUGH THE SITE ARE PROVIDED ON AN "AS IS" AND "AS AVAILABLE" BASIS, WITHOUT ANY WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED. NEITHER OTTA NOR ANY PERSON ASSOCIATED WITH OTTA MAKES ANY WARRANTY OR REPRESENTATION WITH RESPECT TO THE COMPLETENESS, SECURITY, RELIABILITY, QUALITY, ACCURACY OR AVAILABILITY OF THE SITE. WITHOUT LIMITING THE FOREGOING, NEITHER OTTA NOR ANYONE ASSOCIATED WITH OTTA REPRESENTS OR WARRANTS THAT THE SITE, ITS CONTENT OR ANY SERVICES OR ITEMS OBTAINED THROUGH THE SITE WILL BE ACCURATE, RELIABLE, ERROR-FREE OR UNINTERRUPTED, THAT DEFECTS WILL BE CORRECTED, THAT OUR SITE OR THE SERVER THAT MAKES IT AVAILABLE ARE FREE OF VIRUSES OR OTHER HARMFUL COMPONENTS OR THAT THE SITE OR ANY SERVICES OR ITEMS OBTAINED THROUGH THE SITE WILL OTHERWISE MEET YOUR NEEDS OR EXPECTATIONS.</p>
+                   <p class="mb-4">OTTA HEREBY DISCLAIMS ALL WARRANTIES OF ANY KIND, WHETHER EXPRESS OR IMPLIED, STATUTORY OR OTHERWISE, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF MERCHANTABILITY, NON-INFRINGEMENT AND FITNESS FOR PARTICULAR PURPOSE.</p>
+                   <p class="mb-4">THE FOREGOING DOES NOT AFFECT ANY WARRANTIES WHICH CANNOT BE EXCLUDED OR LIMITED UNDER APPLICABLE LAW.</p>
+                   <p class="mb-4">Furthermore, OTTA makes no representations, warranties, or guarantees regarding OTTA's services, including as to:</p>
+                   <ul class="list-disc mb-4 ml-8">
+                    <li>The effectiveness of OTTA's services in meeting your employment needs or objectives.</li>
+                    <li>The ability of any User of OTTA's Site to offer employment opportunities or to fill any such employment opportunities such User has submitted through OTTA's Site.</li>
+                    <li>Any roles, jobs, resumes, data, or information conveyed to you through OTTA's Site.</li>
+                    <li>The truthfulness, accuracy, legality, completeness, timeliness, or reliability of any information transmitted through OTTA's Site.</li>
+                    <li>That your use of our service will be uninterrupted, timely, secure, or error-free.</li>
+                   </ul>
+                   <p class="mb-4">OTTA does not pre-screen or approve in advance a User's use of OTTA's Site or other third-party content and does not investigate or monitor the quality, safety, or other legality of such uses of OTTA's Site or other third-party content.</p>
+                   <p class="mb-4">While OTTA reserves the right in its sole discretion to remove or modify any information available on the Site, OTTA does not assume any obligation to do so and to the extent permitted by law, disclaims any liability for failing to take any such action.</p>
+    
+                   <!-- 8. Limitation on Liability -->
+                   <p class="mb-4  text-xl font-semibold">8. Limitation on Liability</p>
+    
+                   <p class="mb-4">IN NO EVENT WILL OTTA, ITS AFFILIATES, LICENSORS, AND SERVICE PROVIDERS, AND THEIR RESPECTIVE OFFICERS, MANAGERS, DIRECTORS, OWNERS, EMPLOYEES, CONSULTANTS, CONTRACTORS, AGENTS, LICENSORS, SUPPLIERS, DESIGNEES, SUCCESSORS, AND ASSIGNS BE LIABLE FOR DAMAGES OF ANY KIND, UNDER ANY LEGAL THEORY, INCLUDING ANY DIRECT, INDIRECT, SPECIAL, INCIDENTAL, CONSEQUENTIAL OR PUNITIVE DAMAGES, INCLUDING BUT NOT LIMITED TO, PERSONAL INJURY, PAIN AND SUFFERING, EMOTIONAL DISTRESS, LOSS OF REVENUE, LOSS OF PROFITS, LOSS OF BUSINESS OR ANTICIPATED SAVINGS, LOSS OF USE, LOSS OF GOODWILL, LOSS OF DATA, AND WHETHER CAUSED BY TORT (INCLUDING NEGLIGENCE), BREACH OF CONTRACT, PRODUCT LIABILITY, STATUTORY VIOLATIONS OR OTHERWISE, EVEN IF FORESEEABLE, ARISING OUT OF OR IN CONNECTION WITH (A) YOUR USE, OR INABILITY TO USE, THE SITE, ANY SITES LINKED TO IT, ANY CONTENT ON THE SITE OR SUCH OTHER SITES OR ANY SERVICES OR ITEMS OBTAINED THROUGH THE SITE OR SUCH OTHER SITES, (B) ANY LOSS OR DAMAGE CAUSED BY ANY RELIANCE ON, OR ANY DELAYS, INACCURACIES, ERRORS OR OMISSIONS IN, ANY INFORMATION ACCESSED ON OR THROUGH THE SITE, (C) ANY TRANSACTION ENTERED INTO THROUGH OR FROM THE SITE, (D) YOUR INABILITY TO USE THE SITE FOR WHATEVER REASON, INCLUDING, BUT NOT LIMITED TO, COMMUNICATIONS FAILURE OR ANY OTHER FAILURE WITH TRANSMISSION OR DELIVERY OF ANY INFORMATION ACCESSED ON OR THOUGH THE SITE, (E) THE DELETION, CORRECTION, DESTRUCTION, DAMAGE, LOSS OR FAILURE TO STORE ANY INFORMATION, (F) THE USE OF ANY PRODUCTS OR SERVICES OBTAINED ON OR THROUGH THE SITE, (G) UNAUTHORIZED ACCESS TO THE SITE AND UNAUTHORIZED ALTERATION TO TRANSMISSIONS OR DATA, (H) STATEMENTS OR CONDUCT OF ANY THIRD PARTY ON THE SITE, OR (I) ANY OTHER MATTER RELATING TO THE SITE.</p>
+                   <p class="mb-4">THE FOREGOING DOES NOT AFFECT ANY LIABILITY WHICH CANNOT BE EXCLUDED OR LIMITED UNDER APPLICABLE LAW.</p>
+    
+                   <!-- 9. Indemnification -->
+                   <p class="mb-4  text-xl font-semibold">9. Indemnification</p>
+    
+                   <p class="mb-4">YOU AGREE TO INDEMNIFY, DEFEND, AND HOLD HARMLESS OTTA, ITS AFFILIATES, LICENSORS, AND SERVICE PROVIDERS, AND THEIR RESPECTIVE OFFICERS, MANAGERS, DIRECTORS, OWNERS, EMPLOYEES, CONSULTANTS, CONTRACTORS, AGENTS, LICENSORS, SUPPLIERS, DESIGNEES, SUCCESSORS, AND ASSIGNS AGAINST ANY AND ALL LOSS, INJURY, DEATH, DAMAGE, LIABILITY, CLAIM, DEFICIENCY, ACTION, JUDGMENT, INTEREST, AWARD, PENALTY, FINE, COST OR EXPENSE, INCLUDING REASONABLE ATTORNEY AND PROFESSIONAL FEES AND COSTS, AND THE COST OF ENFORCING ANY RIGHT TO INDEMNIFICATION HEREUNDER AND THE COST OF PURSUING ANY INSURANCE PROVIDERS ARISING OUT OF OR RELATED TO THE USE OF OTTA'S SERVICES, VIOLATION OF THE TERMS OF USE, OR THE INFRINGEMENT BY YOU OF ANY INTELLECTUAL PROPERTY, OR VIOLATION OF ANY RIGHT OF ANY PERSON OR ENTITY BY YOU OR ANY THIRD PARTY USING YOUR INFORMATION, LOGIN, OR PASSWORD.</p>
+    
+                   <!-- 10. Choice of Law and Forum -->
+                   <p class="mb-4  text-xl font-semibold">10. Choice of Law and Forum</p>
+    
+                   <p class="mb-4">By using this Site, you agree that the laws of the United States and the laws of the State of California govern these Terms of Use and any claim or dispute you may bring against OTTA. You also agree that any arbitration arising from these Terms of Use will be held in accordance with the Federal Arbitration Act.</p>
+                   <p class="mb-4">Subject to the Dispute Resolution procedure stated below, any legal suit, arbitration, action or proceeding arising out of, or related to, these Terms of Use or Privacy Policy, or your use of the Site shall be instituted exclusively in the County of Los Angeles, California, in the federal courts of the United States or the courts of the State of California, or before California arbitrators. If a Court or arbitrator finds this forum selection clause unenforceable, the forum shall revert to the user's county of residence.</p>
+    
+                   <!-- 11. Arbitration and Dispute Resolution -->
+                   <p class="mb-4  text-xl font-semibold">11. Arbitration and Dispute Resolution</p>
+    
+                   <p class="mb-4">By using this Site, you agree to try to settle any dispute with OTTA arising from or related to your use or access of this Site by sending a letter describing the basis for the dispute and allowing OTTA at least 30 days to respond after OTTA will have received your letter. If you want to send such a letter to OTTA, send it to dispute@ottainc.com. OTTA will respond to you at the address OTTA has on file for you.</p>
+                   <p class="mb-4">The parties will cooperate and attempt in good faith to resolve any dispute or claim arising out of or relating to this Agreement or the construction, interpretation, performance, breach, termination, enforceability, or validity thereof, or arising out of or relating to your use of or access to the Site.</p>
+                   <p class="mb-4">You and OTTA agree to attempt to resolve the dispute under the terms described in the preceding paragraph before you or OTTA will commence any litigation or file a claim against the other party.</p>
+                   <p class="mb-4">By using this Site, you unconditionally agree that any dispute which cannot otherwise be resolved as provided above after the parties have negotiated the resolution of the dispute for at least fifteen (15) business days will be decided entirely by binding arbitration on an individual basis, which means you and OTTA waive the right for a judge or jury to decide such claims and means that you may not proceed in a class, collective, or consolidated capacity. Your rights and OTTA's rights during the arbitration process may be more limited than the rights you or OTTA would have in civil trial or appellate courts. The Federal Arbitration Act and federal arbitration law apply to this agreement.</p>
+                   <p class="mb-4">To begin an arbitration proceeding, you may send a letter requesting arbitration and describing your claim to our registered agent. You agree that the arbitration will be conducted by Judicial Arbitration and Mediation Services (“JAMS”), jamsadr.com, 1.800.352.5267, in the State of California and the parties will mutually agree to a single arbitrator located in Los Angeles County, California. You agree that the arbitration will be conducted pursuant to the JAMS Streamlined Arbitration Rules & Procedures, which can be located at <a href="https://www.jamsadr.com/rules-streamlined-arbitration/" target="_blank" class="text-blue-600 underline">https://www.jamsadr.com/rules-streamlined-arbitration/</a>. In the event that there is a conflict between the JAMS Streamlined Arbitration Rules & Procedures and the arbitration provisions in this Section of the Terms of Use, the Terms of Use will govern. You can contact JAMS to find out more information on how to commence an arbitration proceeding. Payment of all filing, administration and arbitrator fees will be governed by JAMS' applicable rules. You and OTTA also agree the arbitrator will have exclusive authority to resolve any dispute arising from the interpretation, applicability, enforceability, or formation of these Terms of Use.</p>
+                   <p class="mb-4">The arbitrator shall have the same authority as a state or federal court would have to issue subpoenas to third parties for production of documents and for depositions, in addition to subpoenas to appear at any arbitration hearing. In any arbitration proceeding under these Terms of Use, all California rules of pleading (including the right of demurrer), all rules of evidence, all rights to resolution of the dispute by means of motions for summary judgment, judgment on the pleadings, and judgment under Code of Civil Procedure Section 631.8 shall apply and be observed, unless the parties agree otherwise. The arbitrator shall have the immunity of a judicial officer from civil liability when acting in the capacity of an arbitrator, which immunity supplements any other existing immunity. The arbitrator's award(s) shall include the arbitrator's written reasoned opinion. Resolution of all disputes shall be based solely upon the law governing the claims and defenses pleaded, and the arbitrator may not invoke any basis (including but not limited to, notions of “just cause”) other than such controlling law.</p>
+                   <p class="mb-4">We each agree to bring any dispute in arbitration on an individual basis only, and not on a class, consolidated, representative or collective action basis. If for any reason a claim proceeds in court rather than in arbitration, we each waive any right to a jury trial or to participate in a class action against the other. In addition, we both agree that we each may bring suit in court to enjoin infringement or other misuse of intellectual property rights. No arbitrator shall have the authority under this Agreement to order any such class or collective action. Any dispute regarding the validity, scope, or enforceability of this Agreement, or concerning the arbitrability of a particular claim, shall be resolved by a court, not by the arbitrator. You agree to waive any substantive or procedural rights that you may have to bring or participate in an action brought on a class or collective basis.</p>
+                   <p class="mb-4">The arbitral award will be final and binding. The parties waive any right to appeal the arbitral award, to the extent a right to appeal may be lawfully waived.</p>
+                   <p class="mb-4">Each party will bear its own fees, costs and expenses of the arbitration, and its own legal expenses, attorneys' fees, and costs of all experts and witnesses, provided, however, that the arbitrator may award arbitration costs, including legal, auditing, and other fees to the prevailing party in the arbitration proceeding if the party prevails on a claim based on a statute or contract that provides for award of such attorneys' fees and costs to the prevailing party.</p>
+                   <p class="mb-4">Each party retains the right to seek judicial assistance: (a) to compel arbitration; (b) to obtain interim measures of protection prior to or pending arbitration; (c) to seek injunctive relief in the courts of any jurisdiction as may be necessary and appropriate to protect the unauthorized disclosure of its proprietary or Confidential Information; or (d) to enforce any decision of the arbitrator, including the final award.</p>
+                   <p class="mb-4">The arbitration proceedings contemplated by this subsection will be as confidential and private as permitted by applicable law. To that end, the parties will not disclose the existence, content or results of any proceedings conducted in accordance with this Section, and materials submitted in connection with such proceedings will not be admissible in any other proceeding, provided, however, that this confidentiality provision will not prevent a petition to vacate or enforce an arbitral award, and will not bar disclosures required by any laws or regulations.</p>
+                   <p class="mb-4">THIS SECTION LIMITS CERTAIN RIGHTS, INCLUDING THE RIGHT TO MAINTAIN A COURT ACTION, THE RIGHT TO A JURY TRIAL, THE RIGHT TO PARTICIPATE IN ANY FORM OF CLASS OR REPRESENTATIVE CLAIM, THE RIGHT TO ENGAGE IN DISCOVERY EXCEPT AS PROVIDED IN JAMS RULES, AND THE RIGHT TO CERTAIN REMEDIES AND FORMS OF RELIEF. OTHER RIGHTS THAT YOU OR OTTA WOULD HAVE IN COURT ALSO MAY NOT BE AVAILABLE IN ARBITRATION.</p>
+    
+                   <!-- 12. Waiver and Severability -->
+                   <p class="mb-4  text-xl font-semibold">12. Waiver and Severability</p>
+    
+                   <p class="mb-4">No waiver by OTTA of any term or condition set forth in these Terms of Use shall be deemed a further or continuing waiver of such term or condition or a waiver of any other term or condition, and any failure of OTTA to assert a right or provision under these Terms of Use shall not constitute a waiver of such right or provision.</p>
+                   <p class="mb-4">If any provision of these Terms of Use is held by a court or other tribunal of competent jurisdiction to be invalid, illegal, or unenforceable for any reason, such provision shall be eliminated or limited to the minimum extent such that the remaining provisions of the Terms of Use will continue in full force and effect.</p>
+    
+                   <!-- 13. Violation of These Terms and Remedies -->
+                   <p class="mb-4  text-xl font-semibold">13. Violation of These Terms and Remedies</p>
+    
+                   <p class="mb-4">By using this Site, you unconditionally agree that OTTA may terminate and/or block your access to the Site at its sole discretion and without prior notice. You also unconditionally agree that any threatened or actual violation by you of these Terms of Use constitutes an unlawful and unfair business practice. You agree that any threatened or actual violation by you will cause unquantifiable and irreparable harm to OTTA for which monetary damages would be inadequate and consent to OTTA's obtaining any injunctive or equitable relief that OTTA deems necessary or appropriate. These remedies are in addition to any other remedies that OTTA may have at law or in equity.</p>
+    
+                   <!-- 14. Entire Agreement -->
+                   <p class="mb-4  text-xl font-semibold">14. Entire Agreement</p>
+    
+                   <p class="mb-4">These Terms of Use and our Privacy Policy, along with the OTTA SAAS Agreement (if applicable to you or your business), constitute the entire agreement between you and OTTA with respect to the Site and supersede all prior and contemporaneous understandings, agreements, representations, and warranties, both written and oral, with respect to the Site.</p>
+    
+                   <!-- 15. Your Comments and Concerns -->
+                   <p class="mb-4  text-xl font-semibold">15. Your Comments and Concerns</p>
+    
+                   <p class="mb-4">This Site is operated by One Team Talent Agency, Inc.</p>
+                   <p class="mb-8">All other feedback, comments, requests for technical support and other communications relating to the Site should be sent to support@ottainc.com or mailed to One Team Talent Agency, Inc., 19241 Kinzie Street, Northridge, California 91324.</p>
+
+                   <!-- Privacy Policy -->
+                   <div class="font-thin p-1 ">
+                    <h3 class="font-bold text-2xl">
+                      Online Privacy Policy</h3>
+
+          
+                  <p class="mb-8">
+                      <h2 class="text-2xl font-semibold mb-4 ">Scope and Definitions</h2>
+                      <p class="mb-2">One Team Talent Agency, Inc. (the <span class="font-semibold">“Company”</span> or <span class="font-semibold">“we”</span>) has developed this Privacy Policy out of respect for the privacy of our customers, visitors to our website, and consumers. This Privacy Policy describes the personal data we collect, use, and disclose about consumers who visit or interact with the Company's website, visit any of our offices, stores, facilities or locations, purchase or inquire about any of our products or services, contract with us to provide services, or otherwise interact or do business with us.</p>
+                      <p class="mb-2">Whenever you visit our website, we will collect some information from you automatically simply by you visiting and navigating through this site, and some voluntarily when you submit information using a form on the website, enroll in or subscribe to our newsletter or marketing communications, request information, or use any of the other interactive portions of our website. Through this website, we will collect information that can identify you and/or your activity.</p>
+                      <p class="mb-2">Additionally, whenever you communicate, interact, or do business with us, whether online or at any of our physical locations or facilities, we will collect personal data from you or about you in the course of our interaction or dealings with you.</p>
+                      <p id="collection-of-personal-data" class="mb-2">The meaning of “personal data” may be defined based on your state of residence: in this policy, it means any information that can reasonably be used to identify an individual.</p>
+                      <p class="mb-2">This Privacy Policy does <span class="font-semibold underline">not</span> apply to any individual acting in a commercial or employment context, unless the personal data is collected through this website.</p>
+                  </p>
+          
+                  <p class="mb-8 ">
+                      <h2 class="text-2xl font-semibold mb-4 ">Collection of Personal Data and Sensitive Personal Data</h2>
+                      <p class="mb-4">Based on your specific transactions and interactions with us or our website, we will or may collect, and we have in the last 12 months collected, the following categories of personal data about you. For each category of personal data, the categories of third parties and service providers to whom we may disclose and have in the last 12 months disclosed the personal data are referenced below. The examples provided for each category are not intended to be an exhaustive list or an indication of all specific pieces of information we collect from or about you in each category, but rather the examples are to provide you a meaningful understanding of the types of personal data that may be collected within each category.</p>
+                      <div class="overflow-x-auto text-federal-blue">
+                        <table class="min-w-full bg-white">
+                            <thead class="bg-gray-200">
+                                <tr>
+                                    <th class="w-1/3 py-2">Category</th>
+                                    <th class="w-1/3 py-2">Examples</th>
+                                    <th class="w-1/3 py-2">We May Disclose and Have Disclosed in Last 12 Months To</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="border-b">
+                                    <td class="py-2">Personal Identifiers</td>
+                                    <td class="py-2">Name, alias, date of birth.</td>
+                                    <td class="py-2">
+                                      <ul class="list-disc ml-4">
+                                        <li>Financial institutions</li>
+                                        <li>Transaction support vendors (e.g., payment processors)</li>
+                                        <li>Corporate customers (meaning an entity as opposed to a natural person that purchases any of our products or services)</li>
+                                        <li>Other users of our Services</li>
+                                        <li>Social media platforms</li>
+                                      </ul>
+                                    </td>
+                                </tr>
+                                <tr class="border-b">
+                                    <td class="py-2">Contact Information</td>
+                                    <td class="py-2">Home, postal or mailing address, email address, cell phone number.</td>
+                                    <td class="py-2">
+                                      <ul class="list-disc ml-4">
+                                        <li>Corporate customers (meaning an entity, as opposed to a natural person, that purchases any of our products or services)</li>
+                                        <li>Other users of our Services</li>
+                                    </ul>
+                                    </td>
+                                </tr>
+                                <tr class="border-b">
+                                    <td class="py-2">Account Information</td>
+                                    <td class="py-2">Username and password for Company accounts and systems, and any required security or access code, password, security questions, or credentials allowing access to your Company accounts.</td>
+                                    <td class="py-2">
+                                      <ul class="list-disc ml-4">
+                                        <li>Not Disclosed</li>
+                                      </ul>
+                                    </td>
+                                </tr>
+                                <tr class="border-b">
+                                    <td class="py-2">Commercial or Transactional Data</td>
+                                    <td class="py-2">Information regarding products or services provided, purchasing history.</td>
+                                    <td class="py-2">
+                                      <ul class="list-disc ml-4">
+                                        <li>Corporate customers (meaning an entity, as opposed to a natural person, that purchases any of our products or services)</li>
+                                        <li>Other users of our Services</li>
+                                    </ul>
+                                    </td>
+                                </tr>
+                                <tr class="border-b">
+                                    <td class="py-2">Travel Information</td>
+                                    <td class="py-2">Information regarding where users are willing to travel</td>
+                                    <td class="py-2">
+                                      <ul class="list-disc ml-4">
+                                        <li>Corporate customers (meaning an entity, as opposed to a natural person, that purchases any of our products or services)</li>
+                                        <li>Other users of our Services</li>
+                                      </ul>
+                                    </td>
+                                </tr>
+                                <tr class="border-b">
+                                    <td class="py-2">Pictures, videos or posts on social media</td>
+                                    <td class="py-2">Your image or pictures of you taken on our premises or at our events or that you share with us via social media</td>
+                                    <td class="py-2">
+                                      <ul class="list-disc ml-4">
+                                        <li>Social media platforms</li>
+                                      </ul>
+                                    </td>
+                                </tr>
+                                <tr class="border-b">
+                                    <td class="py-2">Mobile Device Data</td>
+                                    <td class="py-2">Information collected when you navigate, access or use any of our websites via mobile device, including cell phone number.</td>
+                                    <td class="py-2">
+                                      <ul class="list-disc ml-4">
+                                        Transaction support vendors (e.g., payment processors)
+                                      </ul>
+                                    </td>
+                                </tr>
+                                <tr class="border-b">
+                                    <td class="py-2">Online Portal Access and Usage Information</td>
+                                    <td class="py-2">Username and password, account history, usage history, file access logs, security clearance level, and any information submitted through the account.</td>
+                                    <td class="py-2">
+                                      <ul class="list-disc ml-4">
+                                        <li>Not Disclosed</li>
+                                      </ul>
+                                    </td>
+                                </tr>
+                                <tr class="border-b">
+                                    <td class="py-2">Employment and Education History</td>
+                                    <td class="py-2">Information contained in production accounting professionals' resumes regarding educational history, union affiliation, software experience, and production credits; information regarding geographic locations production accounting professionals are willing to work and their availability for work; information in transcripts or records of degrees, vocational certifications obtained; and information regarding prior job experience, positions held, and when permitted by applicable law your salary history or expectations.</td>
+                                    <td class="py-2">
+                                      <ul class="list-disc ml-4">
+                                        <li>Corporate customers (meaning an entity, as opposed to a natural person, that purchases any of our products or services)</li>
+                                        <li>Other users of our Services</li>
+                                      </ul>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <p class="mt-4">Personal data does not include:</p>
+                    <ul class="list-disc pl-8">
+                      <li id="categories-of-sensitive-personal-data" class="mt-4">Publicly available information; or</li>
+                      <li>Deidentified data.</li>
+                    </ul>
+                    
+                  </p>
+          
+                  <p class="mb-8">
+                      <h2 id="sources-of-personal-data" class="text-2xl font-semibold mb-4  ">Categories of Sensitive Personal Data Collected or Processed</h2>
+                      <p>We do not collect any Sensitive Personal Data from or about consumers.</p>
+                  </p>
+          
+                  <p class="mb-8">
+                      <h2 class="text-2xl font-semibold mb-4 ">We may collect your personal data from the following sources:</h2>
+                      <ul class="list-disc pl-8">
+                        <li>You, the consumer, when you visit the Company's website and voluntarily submit personal data through forms on the website or social media, when you visit any of our physical locations, when you purchase or inquire about any of our products or services</li>
+                        <li>Corporate customers (meaning an entity, as opposed to a natural person, that purchases any of our products or services)</li>
+                        <li id="business-purposes">Other users of our Services</li>
+                        <li>Company systems, networks, software applications, and databases you log into or use in the course of interacting with our website, or otherwise interacting with us in any other capacity, including from vendors the Company engages to manage or host such systems, networks, applications or databases</li>
+                      </ul>
+                  </p>
+          
+                  <p class="mb-8">
+                      <h2 class="text-2xl font-semibold mb-4 ">We may collect and disclose your personal data for any of the following business purposes:</h2>
+                      <ol class="list-decimal pl-8">
+                        <li>To fulfill or meet the purpose for which you provided the information.</li>
+                        <li>To facilitate production accounting professionals to find jobs with those seeking their services in the film and television industry. The Company is an information gathering and referral service.</li>
+                        <li>To match production accounting professionals with employer job requests.</li>
+                        <li>To track positions that production accounting professionals found through the Company.</li>
+                        <li>To process, complete, and maintain records on transactions.</li>
+                        <li>To maintain records of when consumers decline a service.</li>
+                        <li>Marketing and sales activities.</li>
+                        <li>To process customer payments.</li>
+                        <li>To respond to consumer inquiries, including requests for information, customer support online, and phone calls.</li>
+                        <li>To contact you by email, telephone calls, mail, SMS, or other equivalent forms of communication regarding updates or informative communications related to the functionalities, services, or other information you requested or asked the Company to provide to you.</li>
+                        <li>To improve user experience on our website.</li>
+                        <li>To detect security incidents.</li>
+                        <li>To debug, identify, and repair errors that impair existing intended functionality of our website.</li>
+                        <li>To protect against malicious or illegal activity and prosecute those responsible.</li>
+                        <li>To verify and respond to consumer requests.</li>
+                        <li id="retention-of-personal-data">To prevent identity theft.</li>
+                      </ol>
+                      <p class="mt-2 font-semibold">We do <span class="underline">NOT</span> and will not sell your personal data in exchange for monetary or other valuable consideration.</p>
+                  </p>
+          
+                  <p class="mb-8">
+                      <h2 class="text-2xl font-semibold mb-4 ">Retention of Personal Data</h2>
+                      <p id="third-party-vendors">We will retain each category of personal data in accordance with our established data retention schedule. In deciding how long to retain each category of personal data that we collect, we consider many criteria, including, but not limited to: the business purposes for which the personal data was collected; relevant federal, state and local recordkeeping laws; applicable statute of limitations for claims to which the information may be relevant; and legal preservation of evidence obligations. We apply our data retention procedures on an annual basis to determine if the business purposes for collecting the personal data, and legal reasons for retaining the personal data, have both expired. If so, we will purge the information in a secure manner.</p>
+                  </p>
+          
+                  <p class="mb-8">
+                      <h2 class="text-2xl font-semibold mb-4 ">Third Party Vendors</h2>
+                      <p>We may use other companies and individuals to perform certain functions on our behalf. Examples include administering e-mail services and running special promotions. Such parties only have access to the personal data needed to perform these functions and may not use or store the information for any other purpose.</p>
+        
+                      <p id="business-transfers">All payments made by credit card are handled by Stripe, a third-party payment processor that we have retained to process payments via our website. You will provide all card information directly to Stripe, not to the Company. Your payment, use of your payment, and transaction information will be subject to the terms of use and privacy policies of Stripe and your payment card issuer. You can review Stripe's privacy policy at <a class="underline text-blue-600" href="https://stripe.com/privacy" target="_blank">https://stripe.com/privacy</a>.</p>
+                      
+                  </p>
+          
+                  <p class="mb-8">
+                      <h2 class="text-2xl font-semibold mb-4 ">Business Transfers</h2>
+                      <p id="compliance-with-law">In the event we sell or transfer a particular portion of its business assets, information of consumers, contractors and applicants may be one of the business assets transferred as part of the transaction. If substantially all of our assets are acquired, personal data of consumers may be transferred as part of the acquisition.</p>
+                  </p>
+          
+                  <p class="mb-8">
+                      <h2 id="cookies" class="text-2xl font-semibold mb-4 ">Compliance with Law and Safety</h2>
+                      <p>We may disclose specific personal and/or sensitive personal data based on a good faith belief that such disclosure is necessary to comply with or conform to the law or that such disclosure is necessary to protect our employees or the public.</p>
+                  </p>
+          
+                  <p class="mb-8">
+                      <h2 class="text-2xl font-semibold mb-4 ">Use of Cookies, Pixels, and Other Tracking Technologies</h2>
+                      <div class="prose">
+                        <p class="mt-4">Our website may store or retrieve information on your browser, mostly in the form of cookies. A cookie is a small piece of data (text file) that a website – when visited by a user – places on the user's device to remember information about the user, such as the user's language preference or login information.</p>
+                        <p class="mt-4">This type of cookie is set by us and is referred to as a “first-party cookies.” Our website uses first-party cookies primarily to make the website work as you expect it to. For example, we use the information we collect through first-party cookies to allow you to navigate between pages efficiently, analyze how well our website is performing, and understand the content that you spent the most time reviewing.</p>
+                        <p class="mt-4">We also incorporate cookies and similar technologies, such as pixels, tags, and web beacons, from outside our website's domain (“third-party cookies”). Third-party cookies gather information to enable our vendors to provide a range of services to us.</p>
+                        <p class="mt-4">Below is a detailed list of the categories of first- and third-party cookies we use on our website.</p>
+                    
+                        <p class="mt-4"><strong class="underline">How we use cookies</strong></p>
+                        <p class="mt-4">We make use of cookies under the following circumstances and for the following reasons:</p>
+                        <ul class="list-none ml-8 mt-4">
+                            <li><span>&#8658;</span> Provide you with services available through the website and to enable you to use some of its features</li>
+                            <li><span>&#8658;</span> Authenticate users and prevent fraudulent use of user accounts</li>
+                            <li><span>&#8658;</span> Identify if users have accepted the use of cookies on the website</li>
+                            <li><span>&#8658;</span> Understand and save visitor preferences for future visits, such as remembering your login details or language preference, to provide you with a more personal experience, or to avoid you having to re-enter your preferences every time you use the website</li>
+                        </ul>
+                    
+                        <p class="mt-4"><strong class="underline">Essential Cookies</strong></p>
+                    
+                        <p class="mt-4">Essential cookies are necessary for the website to function properly and cannot be switched off in our systems. They are usually only set in response to a site visitor's request for services, such as a visitor setting their privacy preferences, logging in, or filling in forms. You can set your browser to block or alert you about these cookies, but blocking these cookies will prevent the website from working correctly or might prevent the Website from working at all.</p>
+                    
+                        <p class="mt-4"><strong class="underline">Non-Essential Cookies</strong></p>
+                    
+                        <p class="mt-4">Non-Essential cookies are not essential to the website functionality but serve some other unique purpose in three subcategories:</p>
+                    
+                        <ol class="list-decimal ml-8 mt-4">
+                            <li><strong>“Performance” cookies</strong> (sometimes referred to as static cookies) collect information about the user's behavior on the website without collecting personal data, for example:
+                                <ul class="list-disc ml-8 mt-4">
+                                    <li>Pages the user visits.</li>
+                                    <li>Ads the user views.</li>
+                                    <li>Ads or site features that the user clicks.</li>
+                                </ul>
+                            </li>
+                            <li class="mt-4"><strong>“Functional” cookies</strong> (sometimes called preference cookies) track and remember the user's preferences and past choices on the website to provide a personalized user experience. For example, functional cookies can collect:
+                                <ul class="list-disc ml-8 mt-4">
+                                    <li>Usernames</li>
+                                    <li>Passwords</li>
+                                    <li>Regions</li>
+                                </ul>
+                            </li>
+                        </ol>
+                    
+                        <p class="mt-4"><strong class="underline">Cookie Management</strong></p>
+                    
+                        <p class="mt-4">You can control and manage cookies associated with your browser. If you are interested in controlling and managing cookies from your browser including any set by our Website, please refer to <a href="http://www.allaboutcookies.org/manage-cookies/index.html" class="underline text-blue-600" target="_blank">http://www.allaboutcookies.org/manage-cookies/index.html</a> for information on different ways to configure your browser's cookie settings.</p>
+                    
+                        <p class="mt-4">If you want to clear all cookies left behind by the websites you have visited, here are links where you can download three third-party programs that clean out tracking cookies.</p>
+                          <ul class="list-disc ml-8">
+                            <li class="mt-4"><a href="http://www.lavasoftusa.com/products/ad-aware_se_personal.php" class="underline text-blue-600" target="_blank">http://www.lavasoftusa.com/products/ad-aware_se_personal.php</a></li>
+                            <li class="mt-4"><a href="http://www.spybot.info/en/download/index.html" class="underline text-blue-600" target="_blank">http://www.spybot.info/en/download/index.html</a></li>
+                            <li class="mt-4"><a href="http://www.webroot.com/consumer/products/spysweeper/" class="underline text-blue-600" target="_blank">http://www.webroot.com/consumer/products/spysweeper/</a></li>
+                          </ul>
+                        
+                        <p class="mt-4">You may delete cookies from your web browser at any time or block cookies on your equipment, but this may affect the functioning of or even block the website. You can prevent saving of cookies (disable and delete them) by changing your browser settings accordingly at any time. It is possible that some functions will not be available on our website when use of cookies is deactivated. Check the settings of your browser. Below you can find some guidance:</p>
+                          <ul class="mt-4 list-disc ml-8">
+                            <li class="mt-4"><a href="https://support.apple.com/guide/safari/manage-cookies-sfri11471/mac" class="underline text-blue-600">Safari</a> </li>
+                            <li><a href="https://help.opera.com/en/latest/web-preferences/#cookies" class="underline text-blue-600">Opera</a></li>
+                            <li><a href="https://support.microsoft.com/en-us/topic/how-to-delete-cookie-files-in-internet-explorer-bca9446f-d873-78de-77ba-d42645fa52fc" class="underline text-blue-600">Internet Explorer</a></li>
+                            <li><a href="https://support.google.com/chrome/answer/95647?hl=en" class="underline text-blue-600">Google Chrome</a></li>
+                            <li id="external-links"><a href="https://support.mozilla.org/en-US/kb/cookies-information-websites-store-on-your-computer#w_cookie-settings" class="underline text-blue-600">Mozilla</a></li>
+                          </ul>
+                        
+                    
+                        <p class="mt-4">Do Not Track (DNT) is a privacy preference that users can set if they do not want web services to collect information about their online activity. We do not respond to DNT signals.</p>
+                    </div>
+                    
+                  </p>
+          
+                  <p class="mb-8">
+                      <h2 class="text-2xl font-semibold mb-4 ">External Links</h2>
+                      <p id="passwords">Our website contains links to other sites. We are not responsible for the privacy practices or the content of such websites. To help ensure the protection of your privacy, we recommend that you review the Privacy Policy of any site you visit via a link from our website.</p>
+                  </p>
+          
+                  <p class="mb-8">
+                      <h2 class="text-2xl font-semibold mb-4 ">Passwords</h2>
+                      <p id="children-under-18">The personal data record created through your registration with our website can only be accessed with the unique password associated with that record. To protect the integrity of the information contained in this record, you should not disclose or otherwise reveal your password to third parties.</p>
+                  </p>
+          
+                  <p class="mb-8">
+                      <h2 id="protecting-information" class="text-2xl font-semibold mb-4 ">Children Under the Age of 18</h2>
+                      <p>This website is not intended for children under the age of 18. If we become aware that a person under the age of 18 has submitted their personal data to us, we will delete it.</p>
+                  </p>
+          
+                  <p class="mb-8">
+                      <h2 class="text-2xl font-semibold mb-4 ">How We Protect the Information that We Collect</h2>
+                      <p>The protection of the data that we collect about visitors to this website is of the utmost importance to us and we take every reasonable measure to ensure that protection, including:</p>
+                      <ul class="list-disc ml-8 mt-4">
+                        <li id="international-visitors" class="mt-4">We use commercially reasonable tools and techniques to protect against unauthorized access to our systems.</li>
+                        <li>We restrict access to personal data to those who need such access in the course of their duties for us.</li>
+                      </ul>
+                  </p>
+          
+                  <p class="mb-8">
+                      <h2 class="text-2xl font-semibold mb-4 ">International Visitors</h2>
+                      <p id="texas-data-privacy">We do not target, market to, or offer our products or services to consumers outside of the United States. You agree not to submit your personally identifiable information through the website if you reside outside the United States. If we become aware that a person residing inside the European Economic Area, European Union, Great Britain, or Switzerland has submitted their personal data to us, we will delete it.</p>
+                  </p>
+          
+                  <p class="mb-8">
+                      <h2 class="text-2xl font-semibold mb-4 ">Rights under the Texas Data Privacy and Security Act</h2>
+                      <p>This section of the Privacy Policy applies only to Texas residents who are natural persons. If you are a Texas resident, you have the following rights under the Texas Data Privacy and Security Act (TDPSA):</p>
+                      <ol class="list-decimal pl-8 mt-4">
+                          <li><span class="underline">Right to Know.</span> The right to confirm whether we are processing your personal data and to access the personal data.</li>
+                          <li><span class="underline">Right to Correct.</span> The right to request that we correct inaccuracies in your personal data, taking into account the nature of the personal data and purposes of the processing of the personal data.</li>
+                          <li><span class="underline">Right to Delete.</span> The right to request that we delete personal data provided by or obtained about you.</li>
+                          <li><span class="underline">Right to Port Your Data.</span> If maintained in a digital format, you have the right to obtain a copy of your personal data that you previously provided to us in a portable and, to the extent technically feasible, readily usable format.</li>
+                          <li><span class="underline">Right to Opt-Out.</span> The right to opt-out of the processing of your personal data for purposes of targeted advertising, sale of personal data, or profiling in furtherance of a decision that produces a legal or similarly significant effect.</li>
+                      </ol>
+                      <p class="mt-4">You can submit any of the above types of consumer requests through any of the options below:</p>
+                      <ul class="mt-4 ml-8 list-decimal">
+                        <li>Submit an online request via email sent to <a class="text-blue-600" href="mailto:privacy@ottainc.com">privacy@ottainc.com</a>; or</li>
+                        <li>Call our privacy toll-free line at <a class="text-blue-600" href="tel:855-851-6882">855-851-6882</a></li>
+                      </ul>
+                      <p class="mt-4"><strong class="underline">How We Will Verify That it is Really You Submitting the Request</strong></p>
+        
+                      <p class="mt-4">If you are a Texas resident, when you submit a request through one of the methods provided above, we will ask you to provide some information in order to verify your identity and respond to your request. Specifically, we will ask you to verify information that can be used to link your identity to particular records in our possession, which depends on the nature of your relationship and interaction with us. We will comply with your request regarding the Right to Opt-Out made by your authorized agent, including a technological measure, if we are able to verify, with commercially reasonable effort, your identity and the authorized agent's authority to act on your behalf.</p>
+                  
+                      <p class="mt-4"><strong class="underline">Responding to Your Request</strong></p>
+                  
+                      <p class="mt-4">Upon receiving a verifiable request from a Texas resident, we will respond within 45 calendar days after receipt of your request. If we require more time, we may extend the response period once by an additional 45 days when reasonably necessary, taking into account the complexity and number of your requests. We will inform you of any extension within the initial 45-day response period, along with the reason for the extension.</p>
+                  
+                      <p class="mt-4">If we decline to act regarding your request, we will inform you of our decision, justification for declining to take action, and instructions on how to appeal our decision within the 45th day after receipt of your request.</p>
+                  
+                      <p class="mt-4">We will provide information in response to your request free of charge at least twice annually. We do not charge a fee to process or respond to your verifiable request unless it is manifestly unfounded, excessive, or repetitive, in which case we may charge you a reasonable fee to cover the administrative costs of complying with your request. If we determine that the request warrants a fee, we will tell you why we made that decision and provide you with a cost estimate before completing your request or decline to act on your request without payment of the fee. We also reserve the right to decline to act on a request that is manifestly unfounded, excess, or repetitive.</p>
+                  
+                      <p class="mt-4"><strong class="underline">Appeal of Our Decision Regarding Your Request</strong></p>
+                  
+                      <p id="consent-to-terms" class="mt-4">In the event we refuse to act in response to your request, we will provide you with information regarding our appeal process. We will inform you in writing of any action taken or not taken in response to an appeal no later than the 60th day after receipt of your appeal, including our written explanation of the reason or reasons for our decision. If we deny your appeal, we will provide you with information regarding the online mechanism by which you may contact the Texas Attorney General to submit a complaint.</p>
+                  </p>
+          
+                  <p class="mb-8">
+                      <h2 id="changes-to-policy" class="text-2xl font-semibold mb-4 ">Consent to Terms and Conditions</h2>
+                      <p>By using this website, you consent to all terms and conditions expressed in our <a class="underline text-blue-600" href="terms-of-use.html">Terms of Use</a> and this Privacy Policy.</p>
+                  </p>
+          
+                  <p class="mb-8">
+                      <h2 class="text-2xl font-semibold mb-4 ">Changes to our Privacy Policy</h2>
+                      <p id="consumers-with-disabilities">As our services evolve and we perceive the need or desirability of using information collected in other ways, we may from time to time amend this Privacy Policy. We encourage you to check our website frequently to see the
+                      current Privacy Policy in effect and any changes that may have been made to them. If we make material changes to this Privacy Policy, we will post the revised Privacy Policy and the revised effective date on this website. Please check back here periodically or contact us at the address listed at the end of this Privacy Policy</p>
+                  </p>
+          
+                  <p class="mb-8">
+                      <h2 id="questions-about-policy" class="text-2xl font-semibold mb-4 ">Consumers With Disabilities</h2>
+                      <p>This policy is in a form that is accessible to consumers with disabilities.</p>
+                  </p>
+          
+                  <p class="mb-4">
+                      <h2 class="text-2xl font-semibold mb-4 ">Questions About the Policy</h2>
+                      <p>This website is owned and operated by One Team Talent Agency, Inc. If you have any questions about this Privacy Policy, please contact us at</p>
+                      <p>Email: <a href="mailto:privacy@ottainc.com" class="text-blue-600 hover:underline">privacy@ottainc.com</a></p>
+                      <p>Phone: <a href="tel:+18558516882" class="text-blue-600 hover:underline">855-851-6882</a></p>
+                      <p class="mt-4 italic font-semibold">**This policy was last updated June <span>___</span> 2024.</p>
+                  </p>
+                  </div>
+              </div>
+              </div>
+              <!-- Agree checkbox and Submit button -->
+              <div class="p-4 flex justify-between items-center">
                 <div class="flex items-center">
                     <input type="checkbox" id="agreeCheck" class="mr-2" disabled>
                     <label for="agreeCheck" class="text-sm">I agree to the terms and conditions</label>
                 </div>
-                <button id="acceptBtn" class="bg-[#050542] text-white px-4 py-2 rounded" disabled>Accept</button>
+                <button id="acceptBtn" class="bg-[#050542] text-white px-4 py-2 rounded" disabled>Submit</button>
             </div>
         </div>
-    </div>
+            
+      </div>
+
 
       <!-- Footer -->
       <footer class="font-gill-sans text-white bg-federal-blue font-thin">
