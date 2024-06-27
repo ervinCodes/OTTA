@@ -582,10 +582,6 @@ body::before {
   margin: auto;
 }
 
-.m-8 {
-  margin: 2rem;
-}
-
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -656,10 +652,6 @@ body::before {
 
 .mr-2 {
   margin-right: 0.5rem;
-}
-
-.mr-8 {
-  margin-right: 2rem;
 }
 
 .block {
