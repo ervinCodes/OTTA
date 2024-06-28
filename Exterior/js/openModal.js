@@ -2,7 +2,9 @@ const modal = document.getElementById("userAgreementModal");
 const btn = document.getElementById("registerBtn");
 const closeModalBtn = document.getElementById("closeModal");
 const termsContent = document.getElementById('termsContent');
-const agreeCheck = document.getElementById('agreeCheck');
+const privacyContent = document.getElementById('privacyContent');
+const termsCheck = document.getElementById('termsCheck');
+const privacyCheck = document.getElementById('privacyCheck');
 const acceptBtn = document.getElementById('acceptBtn');
 
 // Unhides the modal when the register button is clicked
@@ -25,14 +27,21 @@ window.onclick = function (event) {
     }
 }
 
-// This determines whether the user has scrolled to the very bottom
+// This determines whether the user has scrolled to the very bottom on the Terms of Use
 termsContent.addEventListener('scroll', () => {
     if (termsContent.scrollTop + termsContent.clientHeight >= termsContent.scrollHeight) {
-        agreeCheck.disabled = false;
+        termsCheck.disabled = false;
+    }
+});
+
+// This determines whether the user has scrolled to the very bottom on the Privacy Policy
+privacyContent.addEventListener('scroll', () => {
+    if (privacyContent.scrollTop + privacyContent.clientHeight >= privacyContent.scrollHeight) {
+        privacyCheck.disabled = false;
     }
 });
 
 // Checkbox click determines state of the 
-agreeCheck.addEventListener('change', function () {
+termsCheck.addEventListener('change', function () {
     acceptBtn.disabled = !this.checked;
 });
