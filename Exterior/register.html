@@ -323,14 +323,20 @@
       </section>
 
       <!-- Modal -->
-      <div id="userAgreementModal" class="fixed inset-0 bg-gray-900 bg-opacity-50 flex items-center justify-center hidden p-5">
+      <div id="userAgreementModal" class="fixed inset-0 bg-gray-900 bg-opacity-50 flex items-center justify-center hidden p-5 z-50">
         <div class="bg-white rounded-lg overflow-hidden shadow-lg w-[1000px]">
+          <div class="flex flex-col">
             <div class="flex justify-between items-center p-4 border-b">
                 <h2 class="text-xl font-semibold">User Agreements</h2>
                 <span class="cursor-pointer text-gray-600" id="closeModal">&times;</span>
             </div>
+            <div class="p-4">
+              <p>Before you proceed, please take a moment to scroll down and review both of our User Agreements. When you are ready, you can agree by checking the boxes below.  Once both boxes are checked, you can click the “Submit” button to finalize your registration.</p>
+            </div>
+          </div>
+            
             <!-- Terms of Use Agreement -->
-            <div id="termsContent" class="p-4 overflow-y-scroll h-64 border-b mb-8">
+            <div id="termsContent" class="p-4 overflow-y-scroll h-56 border-y mb-8">
               <div class="font-thin px-1">
                   <!-- Terms of Use -->
                   <h3 class="text-2xl font-bold mb-8 underline">Terms of Use</h3>
@@ -595,7 +601,7 @@
               </div>
             </div>
             <!-- Privacy Policy Agreement -->
-            <div id="privacyContent" class="p-4 overflow-y-scroll h-64 border-y">
+            <div id="privacyContent" class="p-4 overflow-y-scroll h-56 border-y">
               <div class="font-thin px-1">
                 <div class="font-thin p-1">
                   <h1 class="text-2xl font-bold mb-8 underline">
