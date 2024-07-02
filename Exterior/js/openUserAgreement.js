@@ -8,6 +8,9 @@ const privacyCheck = document.getElementById('privacyCheck');
 const termsAndPrivacyCheck = document.getElementById('termsAndPrivacyCheck');
 const acceptBtn = document.getElementById('acceptBtn');
 
+privacyCheck.disabled = true;
+termsCheck.disabled = true;
+
 
 // This determines whether the user has scrolled to the very bottom on the Privacy Policy
 privacyContent.addEventListener('scroll', () => {
