@@ -9,32 +9,45 @@ const acceptBtn = document.getElementById('acceptBtn');
 
 privacyCheck.disabled = true;
 termsCheck.disabled = true;
+acceptBtn.disabled = true;
+
+let termsScrolledToBottom = false;
+let privacyScrolledToBottom = false;
 
 // Unhides the modal when the register button is clicked
 btn.onclick = function () {
     modal.classList.remove("hidden");
-}
+};
 
 // Close modal 
 closeModalBtn.onclick = function () {
     modal.classList.add("hidden");
     // document.body.classList.remove("no-scroll");
-}
+};
 
+function checkScrollCompletion() {
+    termsScrolledToBottom = termsContent.scrollTop + termsContent.clientHeight >= termsContent.scrollHeight;
+    privacyScrolledToBottom = privacyContent.scrollTop + privacyContent.clientHeight >= privacyContent.scrollHeight;
 
-// This determines whether the user has scrolled to the very bottom on the Terms of Use
-termsContent.addEventListener('scroll', () => {
-    if (termsContent.scrollTop + termsContent.clientHeight >= termsContent.scrollHeight) {
+    console.log(`Terms scrolled to bottom: ${termsScrolledToBottom}`);
+    console.log(`Privacy scrolled to bottom: ${privacyScrolledToBottom}`);
+
+    if (termsScrolledToBottom) {
         termsCheck.disabled = false;
     }
-});
 
-// This determines whether the user has scrolled to the very bottom on the Privacy Policy
-privacyContent.addEventListener('scroll', () => {
-    if (privacyContent.scrollTop + privacyContent.clientHeight >= privacyContent.scrollHeight) {
+    if (privacyScrolledToBottom) {
         privacyCheck.disabled = false;
     }
-});
+
+    updateAcceptBtnState();
+}
+
+// This determines whether the user has scrolled to the very bottom on the Terms of Use
+termsContent.addEventListener('scroll', checkScrollCompletion);
+
+// This determines whether the user has scrolled to the very bottom on the Privacy Policy
+privacyContent.addEventListener('scroll', checkScrollCompletion);
 
 // Function to check if both checkboxes are checked
 function updateAcceptBtnState() {
