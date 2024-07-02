@@ -7,6 +7,9 @@ const termsCheck = document.getElementById('termsCheck');
 const privacyCheck = document.getElementById('privacyCheck');
 const acceptBtn = document.getElementById('acceptBtn');
 
+privacyCheck.disabled = true;
+termsCheck.disabled = true;
+
 // Unhides the modal when the register button is clicked
 btn.onclick = function () {
     modal.classList.remove("hidden");
