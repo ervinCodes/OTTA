@@ -3,33 +3,22 @@ const btn = document.getElementById("registerBtn");
 const closeModalBtn = document.getElementById("closeModal");
 const termsContent = document.getElementById('termsContent');
 const privacyContent = document.getElementById('privacyContent');
-const termsCheck = document.getElementById('termsCheck');
-const privacyCheck = document.getElementById('privacyCheck');
+const termsAndPrivacyCheck = document.getElementById('termsAndPrivacyCheck');
 const acceptBtn = document.getElementById('acceptBtn');
 
-// Unhides the modal when the register button is clicked
-btn.onclick = function () {
-    modal.classList.remove("hidden");
-}
 
-// Close modal 
-closeModalBtn.onclick = function () {
-    modal.classList.add("hidden");
-    // document.body.classList.remove("no-scroll");
-}
+// This determines whether the user has scrolled to the very bottom on the Privacy Policy
+privacyContent.addEventListener('scroll', () => {
+    if (privacyContent.scrollTop + privacyContent.clientHeight >= privacyContent.scrollHeight) {
+        privacyCheck.disabled = false;
+    }
+});
 
 
 // This determines whether the user has scrolled to the very bottom on the Terms of Use
 termsContent.addEventListener('scroll', () => {
     if (termsContent.scrollTop + termsContent.clientHeight >= termsContent.scrollHeight) {
         termsCheck.disabled = false;
-    }
-});
-
-// This determines whether the user has scrolled to the very bottom on the Privacy Policy
-privacyContent.addEventListener('scroll', () => {
-    if (privacyContent.scrollTop + privacyContent.clientHeight >= privacyContent.scrollHeight) {
-        privacyCheck.disabled = false;
     }
 });
 

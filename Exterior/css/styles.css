@@ -102,6 +102,13 @@ html {
        1px 1px 0 #050542;
 }
 
-/* .no-scroll {
-  overflow: hidden;
-} */
+
+#privacyContent {
+  height: 14rem; 
+  overflow-y: auto; 
+}
+
+#termsContent {
+  height: 14rem; 
+  overflow-y: auto;
+}

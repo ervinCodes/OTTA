@@ -968,6 +968,11 @@ body::before {
   border-color: rgb(255 255 255 / var(--tw-border-opacity));
 }
 
+.border-black {
+  --tw-border-opacity: 1;
+  border-color: rgb(0 0 0 / var(--tw-border-opacity));
+}
+
 .bg-federal-blue {
   --tw-bg-opacity: 1;
   background-color: rgb(5 5 66 / var(--tw-bg-opacity));
@@ -1077,20 +1082,20 @@ body::before {
   padding: 3rem;
 }
 
-.p-5 {
-  padding: 1.25rem;
-}
-
 .p-4 {
   padding: 1rem;
+}
+
+.p-2 {
+  padding: 0.5rem;
 }
 
 .p-1 {
   padding: 0.25rem;
 }
 
-.p-2 {
-  padding: 0.5rem;
+.p-5 {
+  padding: 1.25rem;
 }
 
 .py-3 {
@@ -1141,6 +1146,16 @@ body::before {
 .py-8 {
   padding-top: 2rem;
   padding-bottom: 2rem;
+}
+
+.py-20 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.py-28 {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
 }
 
 .py-16 {
@@ -1220,6 +1235,10 @@ body::before {
 
 .pb-8 {
   padding-bottom: 2rem;
+}
+
+.pt-10 {
+  padding-top: 2.5rem;
 }
 
 .text-left {
@@ -1830,6 +1849,12 @@ input::placeholder {
     gap: 2.5rem;
   }
 
+  .sm\:truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
   .sm\:p-12 {
     padding: 3rem;
   }
@@ -1976,6 +2001,11 @@ input::placeholder {
     border-right-color: rgb(5 5 66 / var(--tw-border-opacity));
   }
 
+  .md\:bg-federal-blue {
+    --tw-bg-opacity: 1;
+    background-color: rgb(5 5 66 / var(--tw-bg-opacity));
+  }
+
   .md\:px-5 {
     padding-left: 1.25rem;
     padding-right: 1.25rem;
@@ -1999,6 +2029,11 @@ input::placeholder {
   .md\:px-3 {
     padding-left: 0.75rem;
     padding-right: 0.75rem;
+  }
+
+  .md\:px-10 {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
   }
 
   .md\:pt-10 {
@@ -2174,6 +2209,11 @@ input::placeholder {
     padding-right: 38%;
   }
 
+  .lg\:px-40 {
+    padding-left: 10rem;
+    padding-right: 10rem;
+  }
+
   .lg\:pl-5 {
     padding-left: 1.25rem;
   }
@@ -2309,6 +2349,11 @@ input::placeholder {
   .xl\:px-24 {
     padding-left: 6rem;
     padding-right: 6rem;
+  }
+
+  .xl\:px-60 {
+    padding-left: 15rem;
+    padding-right: 15rem;
   }
 
   .xl\:pr-1 {
