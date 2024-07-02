@@ -3,6 +3,8 @@ const btn = document.getElementById("registerBtn");
 const closeModalBtn = document.getElementById("closeModal");
 const termsContent = document.getElementById('termsContent');
 const privacyContent = document.getElementById('privacyContent');
+const termsCheck = document.getElementById('termsCheck');
+const privacyCheck = document.getElementById('privacyCheck');
 const termsAndPrivacyCheck = document.getElementById('termsAndPrivacyCheck');
 const acceptBtn = document.getElementById('acceptBtn');
 
