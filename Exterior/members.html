@@ -16,6 +16,13 @@
     <link rel="stylesheet" href="./css/build.css" />
     <!-- Normalize CSS -->
     <link rel="stylesheet" href="./css/normalize.css" />
+    <!-- Font Awesome Icons -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-..."
+    crossorigin="anonymous"
+    />
   </head>
 
   <body class="bg-federal-blue">
@@ -152,9 +159,12 @@
               <div class="flex justify-center items-center gap-1">
                 <input type="checkbox" data-val="true" data-val-required="The Remember me? field is required." id="Input_RememberMe" name="Input.RememberMe" value="true">
       
-                <label for="Input_RememberMe">Remember Me</label>
+                <label for="Input_RememberMe" class="md:text-base text-xs">Remember Me</label>
               </div>
-    
+              <div>
+                
+                <i class="fa-regular fa-eye"></i>
+              </div>
       
               <!-- Forgot Password -->
               <p class="text-xs border-b border-davys-grey">
@@ -294,5 +304,6 @@
     <script src="./js/navbar.js"></script>
     <!-- Javascript -->
     <script src="./js/showPassword.js"></script>
+    <script src="https://kit.fontawesome.com/38adb5a98c.js" crossorigin="anonymous"></script>
   </body>
 </html>

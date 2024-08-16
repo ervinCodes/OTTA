@@ -726,6 +726,18 @@ body::before {
   height: 14rem;
 }
 
+.h-\[\] {
+  height: ;
+}
+
+.h-\[100px\] {
+  height: 100px;
+}
+
+.h-\[200px\] {
+  height: 200px;
+}
+
 .w-full {
   width: 100%;
 }
@@ -748,6 +760,18 @@ body::before {
 
 .w-\[1000px\] {
   width: 1000px;
+}
+
+.w-\[800px\] {
+  width: 800px;
+}
+
+.w-\[200px\] {
+  width: 200px;
+}
+
+.w-\[300px\] {
+  width: 300px;
 }
 
 .min-w-full {
@@ -1035,8 +1059,8 @@ body::before {
   background-image: url('/Exterior/images/members-background.jpeg');
 }
 
-.bg-\[url\(\'\/images\/home-background\.jpeg\'\)\] {
-  background-image: url('/images/home-background.jpeg');
+.bg-\[url\(\'\/Exterior\/images\/home-background\.jpeg\'\)\] {
+  background-image: url('/Exterior/images/home-background.jpeg');
 }
 
 .bg-\[url\(\'\/images\/visions-and-values-background\.jpg\'\)\] {
@@ -1626,8 +1650,8 @@ input::placeholder {
     height: 5rem;
   }
 
-  .xs\:h-\[550px\] {
-    height: 550px;
+  .xs\:h-\[650px\] {
+    height: 650px;
   }
 
   .xs\:h-14 {
@@ -1833,6 +1857,10 @@ input::placeholder {
     height: 12rem;
   }
 
+  .sm\:h-\[450px\] {
+    height: 450px;
+  }
+
   .sm\:w-5\/6 {
     width: 83.333333%;
   }
@@ -1943,10 +1971,6 @@ input::placeholder {
     height: 450px;
   }
 
-  .md\:h-\[350px\] {
-    height: 350px;
-  }
-
   .md\:h-20 {
     height: 5rem;
   }
@@ -1957,6 +1981,10 @@ input::placeholder {
 
   .md\:w-full {
     width: 100%;
+  }
+
+  .md\:w-\[560px\] {
+    width: 560px;
   }
 
   .md\:flex-row {
@@ -2075,6 +2103,11 @@ input::placeholder {
   .md\:text-3xl {
     font-size: 1.875rem;
     line-height: 2.25rem;
+  }
+
+  .md\:text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
   }
 }
 
@@ -2307,6 +2340,10 @@ input::placeholder {
 
   .xl\:h-\[450px\] {
     height: 450px;
+  }
+
+  .xl\:w-\[800px\] {
+    width: 800px;
   }
 
   .xl\:flex-row {
