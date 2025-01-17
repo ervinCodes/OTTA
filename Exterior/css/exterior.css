@@ -654,6 +654,10 @@ body::before {
   margin-right: 0.5rem;
 }
 
+.mb-9 {
+  margin-bottom: 2.25rem;
+}
+
 .block {
   display: block;
 }
@@ -853,6 +857,14 @@ body::before {
 
 .gap-1 {
   gap: 0.25rem;
+}
+
+.gap-10 {
+  gap: 2.5rem;
+}
+
+.gap-12 {
+  gap: 3rem;
 }
 
 .gap-x-2 {
@@ -1247,6 +1259,10 @@ body::before {
 
 .pt-10 {
   padding-top: 2.5rem;
+}
+
+.pb-12 {
+  padding-bottom: 3rem;
 }
 
 .text-left {
