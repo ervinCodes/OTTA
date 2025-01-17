@@ -1043,16 +1043,12 @@ body::before {
   background-image: url('/Exterior/images/members-background.jpeg');
 }
 
-.bg-\[url\(\'\/Exterior\/images\/home-background\.jpeg\'\)\] {
-  background-image: url('/Exterior/images/home-background.jpeg');
+.bg-\[url\(\'\/images\/home-background\.jpeg\'\)\] {
+  background-image: url('/images/home-background.jpeg');
 }
 
 .bg-\[url\(\'\/images\/visions-and-values-background\.jpg\'\)\] {
   background-image: url('/images/visions-and-values-background.jpg');
-}
-
-.bg-\[url\(\'\/images\/home-background\.jpeg\'\)\] {
-  background-image: url('/images/home-background.jpeg');
 }
 
 .bg-cover {
