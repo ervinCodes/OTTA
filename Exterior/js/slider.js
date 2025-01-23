@@ -1,6 +1,5 @@
 const slider = document.querySelector(".slider");
 const carousel = document.querySelector(".carousel");
-
 const leftArrow = document.querySelector(".previous");
 const rightArrow = document.querySelector(".next");
 console.log(rightArrow);

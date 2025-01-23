@@ -634,6 +634,10 @@ body::before {
   margin-top: 0.75rem;
 }
 
+.mt-7 {
+  margin-top: 1.75rem;
+}
+
 .mb-2 {
   margin-bottom: 0.5rem;
 }
@@ -654,8 +658,24 @@ body::before {
   margin-right: 0.5rem;
 }
 
-.mb-9 {
-  margin-bottom: 2.25rem;
+.mb-7 {
+  margin-bottom: 1.75rem;
+}
+
+.mb-5 {
+  margin-bottom: 1.25rem;
+}
+
+.mb-1 {
+  margin-bottom: 0.25rem;
+}
+
+.mt-1 {
+  margin-top: 0.25rem;
+}
+
+.mb-3 {
+  margin-bottom: 0.75rem;
 }
 
 .block {
@@ -859,14 +879,6 @@ body::before {
   gap: 0.25rem;
 }
 
-.gap-10 {
-  gap: 2.5rem;
-}
-
-.gap-12 {
-  gap: 3rem;
-}
-
 .gap-x-2 {
   -moz-column-gap: 0.5rem;
        column-gap: 0.5rem;
@@ -909,6 +921,12 @@ body::before {
   --tw-space-y-reverse: 0;
   margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(1rem * var(--tw-space-y-reverse));
+}
+
+.space-y-3 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0.75rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(0.75rem * var(--tw-space-y-reverse));
 }
 
 .space-y-2 > :not([hidden]) ~ :not([hidden]) {
@@ -1055,8 +1073,8 @@ body::before {
   background-image: url('/Exterior/images/members-background.jpeg');
 }
 
-.bg-\[url\(\'\/images\/home-background\.jpeg\'\)\] {
-  background-image: url('/images/home-background.jpeg');
+.bg-\[url\(\'\/Exterior\/images\/home-background\.jpeg\'\)\] {
+  background-image: url('/Exterior/images/home-background.jpeg');
 }
 
 .bg-\[url\(\'\/images\/visions-and-values-background\.jpg\'\)\] {
@@ -1259,10 +1277,6 @@ body::before {
 
 .pt-10 {
   padding-top: 2.5rem;
-}
-
-.pb-12 {
-  padding-bottom: 3rem;
 }
 
 .text-left {
