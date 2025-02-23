@@ -763,18 +763,6 @@ body::before {
   max-width: 56rem;
 }
 
-.max-w-\[calc\(100\%\/4\)\] {
-  max-width: calc(100% / 4);
-}
-
-.max-w-\[calc\(90\%\/4\)\] {
-  max-width: calc(90% / 4);
-}
-
-.max-w-\[calc\(96\%\/4\)\] {
-  max-width: calc(96% / 4);
-}
-
 .max-w-\[calc\(98\%\/4\)\] {
   max-width: calc(98% / 4);
 }
@@ -876,10 +864,6 @@ body::before {
   gap: 0.25rem;
 }
 
-.gap-6 {
-  gap: 1.5rem;
-}
-
 .gap-8 {
   gap: 2rem;
 }
@@ -896,11 +880,6 @@ body::before {
 .gap-x-7 {
   -moz-column-gap: 1.75rem;
        column-gap: 1.75rem;
-}
-
-.gap-x-6 {
-  -moz-column-gap: 1.5rem;
-       column-gap: 1.5rem;
 }
 
 .space-y-6 > :not([hidden]) ~ :not([hidden]) {
@@ -1083,16 +1062,12 @@ body::before {
   background-image: url('/Exterior/images/members-background.jpeg');
 }
 
-.bg-\[url\(\'\/Exterior\/images\/home-background\.jpeg\'\)\] {
-  background-image: url('/Exterior/images/home-background.jpeg');
+.bg-\[url\(\'\/images\/home-background\.jpeg\'\)\] {
+  background-image: url('/images/home-background.jpeg');
 }
 
 .bg-\[url\(\'\/images\/visions-and-values-background\.jpg\'\)\] {
   background-image: url('/images/visions-and-values-background.jpg');
-}
-
-.bg-\[url\(\'\/images\/home-background\.jpeg\'\)\] {
-  background-image: url('/images/home-background.jpeg');
 }
 
 .bg-cover {
@@ -1195,6 +1170,11 @@ body::before {
   padding-bottom: 2rem;
 }
 
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
 .py-20 {
   padding-top: 5rem;
   padding-bottom: 5rem;
@@ -1218,11 +1198,6 @@ body::before {
 .py-16 {
   padding-top: 4rem;
   padding-bottom: 4rem;
-}
-
-.px-10 {
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
 }
 
 .pt-2 {
@@ -1686,8 +1661,8 @@ input::placeholder {
     height: 5rem;
   }
 
-  .xs\:h-\[650px\] {
-    height: 650px;
+  .xs\:h-\[475px\] {
+    height: 475px;
   }
 
   .xs\:h-14 {
@@ -1700,26 +1675,6 @@ input::placeholder {
 
   .xs\:h-72 {
     height: 18rem;
-  }
-
-  .xs\:h-\[450px\] {
-    height: 450px;
-  }
-
-  .xs\:h-\[500px\] {
-    height: 500px;
-  }
-
-  .xs\:h-\[400px\] {
-    height: 400px;
-  }
-
-  .xs\:h-\[475px\] {
-    height: 475px;
-  }
-
-  .xs\:h-\[425px\] {
-    height: 425px;
   }
 
   .xs\:w-80 {
@@ -1905,8 +1860,8 @@ input::placeholder {
     height: 10rem;
   }
 
-  .sm\:h-\[500px\] {
-    height: 500px;
+  .sm\:h-\[450px\] {
+    height: 450px;
   }
 
   .sm\:h-14 {
@@ -1915,10 +1870,6 @@ input::placeholder {
 
   .sm\:h-48 {
     height: 12rem;
-  }
-
-  .sm\:h-\[450px\] {
-    height: 450px;
   }
 
   .sm\:w-5\/6 {
@@ -1970,11 +1921,6 @@ input::placeholder {
     padding-right: 4rem;
   }
 
-  .sm\:px-5 {
-    padding-left: 1.25rem;
-    padding-right: 1.25rem;
-  }
-
   .sm\:pt-8 {
     padding-top: 2rem;
   }
@@ -2016,10 +1962,6 @@ input::placeholder {
     margin-right: 0px;
   }
 
-  .md\:block {
-    display: block;
-  }
-
   .md\:flex {
     display: flex;
   }
@@ -2040,12 +1982,12 @@ input::placeholder {
     height: 450px;
   }
 
-  .md\:h-20 {
-    height: 5rem;
-  }
-
   .md\:h-\[375px\] {
     height: 375px;
+  }
+
+  .md\:h-20 {
+    height: 5rem;
   }
 
   .md\:w-4\/12 {
@@ -2054,10 +1996,6 @@ input::placeholder {
 
   .md\:w-full {
     width: 100%;
-  }
-
-  .md\:max-w-\[calc\(98\%\/4\)\] {
-    max-width: calc(98% / 4);
   }
 
   .md\:flex-row {
@@ -2237,14 +2175,6 @@ input::placeholder {
     width: 800px;
   }
 
-  .lg\:max-w-\[calc\(96\%\/4\)\] {
-    max-width: calc(96% / 4);
-  }
-
-  .lg\:max-w-\[calc\(98\%\/4\)\] {
-    max-width: calc(98% / 4);
-  }
-
   .lg\:basis-16 {
     flex-basis: 4rem;
   }
@@ -2299,6 +2229,11 @@ input::placeholder {
     padding-right: 1.25rem;
   }
 
+  .lg\:px-64 {
+    padding-left: 16rem;
+    padding-right: 16rem;
+  }
+
   .lg\:px-\[85px\] {
     padding-left: 85px;
     padding-right: 85px;
@@ -2309,19 +2244,14 @@ input::placeholder {
     padding-bottom: 0px;
   }
 
-  .lg\:px-40 {
-    padding-left: 10rem;
-    padding-right: 10rem;
-  }
-
   .lg\:px-16 {
     padding-left: 4rem;
     padding-right: 4rem;
   }
 
-  .lg\:px-64 {
-    padding-left: 16rem;
-    padding-right: 16rem;
+  .lg\:px-40 {
+    padding-left: 10rem;
+    padding-right: 10rem;
   }
 
   .lg\:pl-5 {
