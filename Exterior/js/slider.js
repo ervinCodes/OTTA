@@ -14,7 +14,7 @@ function startCarousel() {
   }, 8000);
 }
 
-startCarousel();
+// startCarousel();
 
 rightArrow.addEventListener("click", goRight);
 
