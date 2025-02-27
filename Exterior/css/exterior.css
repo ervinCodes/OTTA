@@ -735,6 +735,22 @@ body::before {
   height: 14rem;
 }
 
+.h-2 {
+  height: 0.5rem;
+}
+
+.h-3 {
+  height: 0.75rem;
+}
+
+.h-5 {
+  height: 1.25rem;
+}
+
+.h-4 {
+  height: 1rem;
+}
+
 .w-full {
   width: 100%;
 }
@@ -872,16 +888,12 @@ body::before {
   gap: 0.25rem;
 }
 
-.gap-8 {
-  gap: 2rem;
-}
-
 .gap-6 {
   gap: 1.5rem;
 }
 
-.gap-2 {
-  gap: 0.5rem;
+.gap-8 {
+  gap: 2rem;
 }
 
 .gap-x-2 {
@@ -1078,16 +1090,12 @@ body::before {
   background-image: url('/Exterior/images/members-background.jpeg');
 }
 
-.bg-\[url\(\'Exterior\/images\/home-background\.jpeg\'\)\] {
-  background-image: url('Exterior/images/home-background.jpeg');
+.bg-\[url\(\'\/images\/home-background\.jpeg\'\)\] {
+  background-image: url('/images/home-background.jpeg');
 }
 
 .bg-\[url\(\'\/images\/visions-and-values-background\.jpg\'\)\] {
   background-image: url('/images/visions-and-values-background.jpg');
-}
-
-.bg-\[url\(\'\/images\/home-background\.jpeg\'\)\] {
-  background-image: url('/images/home-background.jpeg');
 }
 
 .bg-cover {
@@ -1896,6 +1904,14 @@ input::placeholder {
     height: 12rem;
   }
 
+  .sm\:h-5 {
+    height: 1.25rem;
+  }
+
+  .sm\:h-7 {
+    height: 1.75rem;
+  }
+
   .sm\:w-5\/6 {
     width: 83.333333%;
   }
@@ -1968,6 +1984,11 @@ input::placeholder {
     font-size: 1.5rem;
     line-height: 2rem;
   }
+
+  .sm\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
 }
 
 @media (min-width: 768px) {
@@ -1984,6 +2005,16 @@ input::placeholder {
   .md\:mx-0 {
     margin-left: 0px;
     margin-right: 0px;
+  }
+
+  .md\:mx-36 {
+    margin-left: 9rem;
+    margin-right: 9rem;
+  }
+
+  .md\:mx-8 {
+    margin-left: 2rem;
+    margin-right: 2rem;
   }
 
   .md\:flex {
@@ -2139,6 +2170,21 @@ input::placeholder {
     font-size: 1rem;
     line-height: 1.5rem;
   }
+
+  .md\:text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+
+  .md\:text-sm {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+
+  .md\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -2149,6 +2195,11 @@ input::placeholder {
   .lg\:mx-60 {
     margin-left: 15rem;
     margin-right: 15rem;
+  }
+
+  .lg\:mx-36 {
+    margin-left: 9rem;
+    margin-right: 9rem;
   }
 
   .lg\:mb-0 {
@@ -2177,6 +2228,14 @@ input::placeholder {
 
   .lg\:h-28 {
     height: 7rem;
+  }
+
+  .lg\:h-6 {
+    height: 1.5rem;
+  }
+
+  .lg\:h-7 {
+    height: 1.75rem;
   }
 
   .lg\:w-2\/5 {
@@ -2340,12 +2399,22 @@ input::placeholder {
     font-size: 2.25rem;
     line-height: 2.5rem;
   }
+
+  .lg\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
 }
 
 @media (min-width: 1280px) {
   .xl\:mx-16 {
     margin-left: 4rem;
     margin-right: 4rem;
+  }
+
+  .xl\:mx-36 {
+    margin-left: 9rem;
+    margin-right: 9rem;
   }
 
   .xl\:block {
@@ -2371,6 +2440,18 @@ input::placeholder {
 
   .xl\:h-\[450px\] {
     height: 450px;
+  }
+
+  .xl\:h-9 {
+    height: 2.25rem;
+  }
+
+  .xl\:h-10 {
+    height: 2.5rem;
+  }
+
+  .xl\:h-8 {
+    height: 2rem;
   }
 
   .xl\:flex-row {
@@ -2473,6 +2554,14 @@ input::placeholder {
     height: 700px;
   }
 
+  .\32xl\:h-10 {
+    height: 2.5rem;
+  }
+
+  .\32xl\:h-11 {
+    height: 2.75rem;
+  }
+
   .\32xl\:gap-1 {
     gap: 0.25rem;
   }
@@ -2512,5 +2601,10 @@ input::placeholder {
   .\32xl\:text-5xl {
     font-size: 3rem;
     line-height: 1;
+  }
+
+  .\32xl\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 }

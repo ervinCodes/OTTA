@@ -2,7 +2,7 @@ const slider = document.querySelector(".slider");
 const carousel = document.querySelector(".carousel");
 const leftArrow = document.querySelector(".previous");
 const rightArrow = document.querySelector(".next");
-console.log(rightArrow);
+// console.log(rightArrow);
 
 let direction;
 
@@ -11,7 +11,7 @@ function startCarousel() {
     direction = -1;
     carousel.style.justifyContent = "flex-end";
     slider.style.transform = "translate(25%)";
-  }, 8000);
+  }, 15000);
 }
 
 startCarousel();
