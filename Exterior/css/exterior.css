@@ -715,6 +715,14 @@ body::before {
   height: 200px;
 }
 
+.h-10 {
+  height: 2.5rem;
+}
+
+.h-9 {
+  height: 2.25rem;
+}
+
 .h-64 {
   height: 16rem;
 }
@@ -725,14 +733,6 @@ body::before {
 
 .h-56 {
   height: 14rem;
-}
-
-.h-10 {
-  height: 2.5rem;
-}
-
-.h-9 {
-  height: 2.25rem;
 }
 
 .w-full {
@@ -1078,6 +1078,10 @@ body::before {
   background-image: url('/images/visions-and-values-background.jpg');
 }
 
+.bg-\[url\(\'\/images\/home-background\.jpeg\'\)\] {
+  background-image: url('/images/home-background.jpeg');
+}
+
 .bg-cover {
   background-size: cover;
 }
@@ -1260,6 +1264,10 @@ body::before {
   padding-bottom: 0.5rem;
 }
 
+.pb-6 {
+  padding-bottom: 1.5rem;
+}
+
 .pb-4 {
   padding-bottom: 1rem;
 }
@@ -1282,14 +1290,6 @@ body::before {
 
 .pt-10 {
   padding-top: 2.5rem;
-}
-
-.pb-10 {
-  padding-bottom: 2.5rem;
-}
-
-.pb-6 {
-  padding-bottom: 1.5rem;
 }
 
 .text-left {
