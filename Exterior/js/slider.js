@@ -10,7 +10,7 @@ function startCarousel() {
   setInterval(function () {
     direction = -1;
     carousel.style.justifyContent = "flex-end";
-    slider.style.transform = "translate(33%)";
+    slider.style.transform = "translate(25%)";
   }, 8000);
 }
 
@@ -25,7 +25,7 @@ function goRight() {
   }
 
   carousel.style.justifyContent = "flex-start";
-  slider.style.transform = "translate(-33%)";
+  slider.style.transform = "translate(-25%)";
 }
 
 leftArrow.addEventListener("click", goLeft);
@@ -33,7 +33,7 @@ leftArrow.addEventListener("click", goLeft);
 function goLeft() {
   direction = -1;
   carousel.style.justifyContent = "flex-end";
-  slider.style.transform = "translate(33%)";
+  slider.style.transform = "translate(25%)";
 }
 
 slider.addEventListener("transitionend", function () {

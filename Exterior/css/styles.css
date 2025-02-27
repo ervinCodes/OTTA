@@ -29,14 +29,14 @@ html {
 .slider {
   height: 100%;
   display: flex;
-  width: 300%;
+  width: 400%;
   transition: all 0.5s;
   flex-shrink: 0;
 }
 
 .slider .section {
   width: 20%;
-  flex-basis: 33%;
+  flex-basis: 25%;
   flex-shrink: 0;
   flex: 1;
   display: flex;
